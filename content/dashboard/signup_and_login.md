@@ -1,21 +1,21 @@
 ## Signing up
 
-This is how you sign up.
+If you don't already have a dobt.co account, create one from the [https://dashboard.dobt.co/sign_in](sign in page). Simply click "I need to create an account" and fill out the basic form.
 
-## Logging in
+## Signing in
 
-This is how you login.
+If you already have a dobt.co account, you can sign in from the [https://dashboard.dobt.co/sign_in](sign in page).
 
 ## Forgot password
 
-Here's what you do if you forgot your password.
+If you forgot your password, simply click the question mark on the right side of where you would normally enter your password.
 
 ---
 
 ## My password isn't working
 
-Here's why your password might not be working.
+If your password isn't working, make sure your email address is entered correctly and double check that caps lock is off. If it still isn't working, click the [#Forgot-password](Forgot your password button).
 
 ## I'm having trouble resetting my password
 
-Here's why you might not have received a reset password email from us.
+If you tried to reset your password but still have not received the reset email, confirm that you sent it to the correct email address and that it didn't get caught in a spam filter. If you still haven't received the reset email after some time has passed, [contact-page](contact us)
