@@ -29,11 +29,9 @@ None, currently. Let's just write our content as well-structured markdown, and w
 
 ## Format
 
-I'd like to copy [Wufoo's format](http://help.wufoo.com/articles/en_US/SurveyMonkeyArticleType/Login) as much as possible. Each article (page) in the knowledge base will have sections and FAQs. The sections are boring, cut-and-dry "here's how to use X". The FAQs are more specific questions that we can answer. (Our existing support requests will determine what makes it into the FAQs.)
+I'd like to copy [Wufoo's format](http://help.wufoo.com/articles/en_US/SurveyMonkeyArticleType/Login) as much as possible. Each article (page) in the knowledge base will have sections and FAQs. The sections are boring, cut-and-dry "here's how to use X". The FAQs are more specific questions that we can answer. (Our existing support requests will determine what makes it into the FAQs.) Sections and FAQs will be separated by a `---` in the markdown file.
 
 The directory structure will be as follows:
 
 `[App Name]/[Section]/[Article].md`
-
-See [signup_and_login.md](/dobtco/knowledge_base/blob/master/content/dashboard/signup_and_login.md) for an example of this format. Note the `---` that separates sections & FAQs.
 
