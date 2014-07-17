@@ -35,3 +35,5 @@ The directory structure will be as follows:
 
 `[App Name]/[Section]/[Article].md`
 
+See [signup_and_login.md](/dobtco/knowledge_base/blob/master/content/dashboard/signup_and_login.md) for an example of this format. Note the `---` that separates sections & FAQs.
+
