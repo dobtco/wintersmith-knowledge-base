@@ -1,10 +1,10 @@
 ## Signing up...
 
-### ...From within an organization
+### From an existing organization
 
 If you don't already have a dobt.co account, you'll need to ask an administrator from your organization to invite you. Once they do, you'll be able to create an account by accepting the invite and filling out the basic form.
 
-### ...And creating a new organization
+### With a new organization
 
 If you aren't part of an existing organization, you'll need to [sign up as a new organization](https://dashboard.dobt.co/organizations/new).
 
