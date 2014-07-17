@@ -14,8 +14,10 @@ If you forgot your password, simply click the question mark on the right side of
 
 ## My password isn't working
 
-If your password isn't working, make sure your email address is entered correctly and double check that caps lock is off. If it still isn't working, click the [Forgot your password button](#Forgot-password).
+If your password isn't working, make sure that you're loging in under the correct email address and double check that caps lock is off. If it still isn't working, click the [Forgot your password button](#Forgot-password) to reset your password.
+
+![screenshot](images/screenshot_forgot_password.png)
 
 ## I'm having trouble resetting my password
 
-If you tried to reset your password but still have not received the reset email, confirm that you sent it to the correct email address and that it didn't get caught in a spam filter. If you still haven't received the reset email after some time has passed, [contact us](contact-page)
+If you tried to reset your password but still have not received the reset email, confirm that you sent it to the correct email address and that it didn't get caught in a spam filter. If you still haven't received the reset email after some time has passed, try contacting an administrator from your organization. If you still can't login, [contact us](contact-page).
