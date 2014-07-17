@@ -35,3 +35,8 @@ The directory structure will be as follows:
 
 `[App Name]/[Section]/[Article].md`
 
+or for simple apps:
+
+`[App Name]/[Article].md`
+
+
