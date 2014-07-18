@@ -14,4 +14,4 @@ Select the "Custom" type to create a custom project without a template. Custom p
 
 ## Demo projects
 
-If you just want to see a demo project, click the "create an example project" link at the bottom of the "Create project" pop-up. Demo projects are a good way to get a feel for how a project works in Screendoor, and also include sample responses that you can play around with.
+If you just want to see a demo project, click the "create an example project" link at the bottom of the "Create project" pop-up. Demo projects are a good way to get a feel for how a project works in Screendoor, and also include sample responses that you can play around with. Note that demo projects will be automatically deleted after 30 days. 
