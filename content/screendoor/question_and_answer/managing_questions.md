@@ -14,4 +14,4 @@ You can destroy a question by selecting it from the table of questions on the "Q
 
 # Answering questions
 
-To answer a question, select the question from the table of questions on the "Q&A" page. Enter your answer, select whether or not you'd like this question to be displayed publicly, and then click the "Post answer" button. You can always go back and change your answers simply by selecting the appropriate question and editing the answer text on the question page. You can also remove an answer by clicking the "Remove answer" button on the question page.
+To answer a question, select the question from the table of questions on the "Q&A" page. Enter your answer, select whether or not you'd like this question/answer to be displayed publicly, and then click the "Post answer" button. You can always go back and change your answers simply by selecting the appropriate question and editing the answer text on the question page. You can also remove an answer by clicking the "Remove answer" button on the question page.
