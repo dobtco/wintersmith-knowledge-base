@@ -6,11 +6,11 @@ If you are an administrator in your organization, you will be able to add users 
 
 ## Managing user permissions
 
-When you add a user, you can choose the appropriate permission level for that user with the "Permission level" dropdown. However, you can also change an existing user's permission level. Just select the user you would like to manage from the "Users" section of the dashboard and then select the appropriate permission level from the dropdown on the user page.
+When you add a user, you can choose the appropriate permission level for that user with the "Permission level" dropdown on the "invite user" page. However, you can also change an existing user's permission level. Just select the user you would like to manage from the "Users" section of the dashboard and then select the appropriate permission level from the dropdown on the user page.
 
 ## Resetting a user's password
 
-To reset a user's password, just click the "Get password reset link" link from the user page. You can copy the provided link, send it to the user, or paste it into your browser to begin the password reset process.
+To reset a user's password, click the "Get password reset link" link from the user page. You can copy the provided link, send it to the user, or paste it into your browser to begin the password reset process.
 
 ![reset password](images/screenshot_reset_password.png)
 
