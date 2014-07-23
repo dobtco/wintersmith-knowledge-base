@@ -5,3 +5,5 @@
 - Log In and Sign In are used in different places (e.g. dobt.co/screendoor and dobt.co).
 
 - Project search does not seem to work. E.g. https://screendoor.dobt.co/account/projects?q=hiring
+
+- I managed to get an app stuck at the "Enabling" stage, even though it seems installed. https://www.dropbox.com/s/g0gac1oy9csv9dz/Screenshot%202014-07-23%2010.48.52.png
