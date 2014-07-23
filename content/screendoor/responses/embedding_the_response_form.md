@@ -6,6 +6,7 @@ Screendoor allows you to embed the response form for your project in your own we
 
 Note that to use the embed code, you must allow responses from unregistered users, which you can do by clicking "Edit project," selecting "Responses" from the "Project checklist," and unchecking the "Require responders to be registered on Screendoor" box. Also, you must make your project live before you can receive responses.
 
-Here is an example of a simple embedded response form for a live project:
+<!-- Here is an example of a simple embedded response form for a live project:
 
 <iframe id='frame' width='500px' height='600px' src='http://screendoor.dobt.co/embedded/projects/318/responses/new' frameborder='0' marginheight='0' marginwidth='0'></iframe>
+-->
