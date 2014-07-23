@@ -7,3 +7,5 @@
 - Project search does not seem to work. E.g. https://screendoor.dobt.co/account/projects?q=hiring
 
 - I managed to get an app stuck at the "Enabling" stage, even though it seems installed. https://www.dropbox.com/s/g0gac1oy9csv9dz/Screenshot%202014-07-23%2010.48.52.png
+
+- Should be a space after the number of responses in the "Allow edits" notification. https://www.dropbox.com/s/a9g90y5km32sbjk/Screenshot%202014-07-23%2012.33.01.png
