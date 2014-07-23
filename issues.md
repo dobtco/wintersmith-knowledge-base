@@ -9,3 +9,5 @@
 - I managed to get an app stuck at the "Enabling" stage, even though it seems installed. https://www.dropbox.com/s/g0gac1oy9csv9dz/Screenshot%202014-07-23%2010.48.52.png
 
 - Should be a space after the number of responses in the "Allow edits" notification. https://www.dropbox.com/s/a9g90y5km32sbjk/Screenshot%202014-07-23%2012.33.01.png
+
+- Alert user that they must make their project live before embedding it. Otherwise we just get a "project not found" error.
