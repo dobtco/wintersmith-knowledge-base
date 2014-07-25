@@ -1,6 +1,8 @@
 ## Sending messages
 
-Screendoor makes it easy to batch-send messages to your responders. If you'd like to send a message to all your responders, just click "Write message" under the "More" dropdown above the "Responses" table. Make sure the "All" checkbox is selected, and then click the "Craft your message" button. Enter a reply-to email, a subject, and a body for your message. You can also insert a variety of useful responder-specific variables (for example, the responder's name) by clicking the "Insert variable" link and selecting the variable you would like to insert. After you have written your message, click the "Preview" to make sure everything looks the way it should. If the preview looks good, click "Send messages" to send your message.
+Screendoor makes it easy to batch-send messages to your responders. If you'd like to send a message to all your responders, just click "Write message" under the "More" dropdown above the "Responses" table. Make sure the "All" checkbox is selected, and then click the "Craft your message" button. Enter a reply-to email, a subject, and a body for your message. After you have written your message, click the "Preview" to make sure everything looks the way it should. If the preview looks good, click "Send messages" to send your message. You'll see the blue progress bar move forward as Screendoor queues and sends your messages.
+
+- Tip: You can also insert a variety of useful responder-specific variables (for example, the responder's name) by clicking the "Insert variable" link and selecting the variable you would like to insert.
 
 ![send message](../images/screenshot_send_message.png)
 
