@@ -31,3 +31,6 @@ When a status is destroyed, any responses that were assigned to that status are 
 
 ## Why can't I destroy my status?
 You must always have at least one status that serves as a default status.
+
+## What's the difference between statuses and labels?
+Responses always have exactly one status, but can have multiple labels. For example, a response's status could be either "Open" or "Closed," but it could be labeled as both "Interesting" and "Practical."
