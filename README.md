@@ -19,7 +19,7 @@ Also:
 
 ## Technical details
 
-None, currently. Let's just write our content as well-structured markdown, and we'll deal with putting it on the web when the time comes. (We'll probably design a lightweight Jekyll template and serve it as static HTML.)
+Jekyll + GitHub Pages. Possibly an external service for search?
 
 ## Examples of knowledge bases that we like:
 
