@@ -1,7 +1,7 @@
 knowledge_base
 ==============
 
-The DOBT knowledge base.
+The DOBT knowledge base. [See the mockups](https://moqups.com/adamjacobbecker/3TdckdCm/)
 
 ## Overall Goals
 
