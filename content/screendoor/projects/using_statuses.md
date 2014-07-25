@@ -24,10 +24,10 @@ It can be very helpful to filter by status so that you can deal with one type of
 
 ![filter status](../images/screenshot_filter_status.png)
 
-## FAQ
+---
 
-- Q: What happens when I destroy a status?
-- A: when a status is destroyed, any responses that were assigned to that status are re-assigned to the first status in the list.
+## What happens when I destroy a status?
+When a status is destroyed, any responses that were assigned to that status are re-assigned to the first status in the list.
 
-- Q: Why can't I destroy my status?
-- A: You must always have at least one status that serves as a default status.
+## Why can't I destroy my status?
+You must always have at least one status that serves as a default status.
