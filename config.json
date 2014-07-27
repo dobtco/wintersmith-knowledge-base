@@ -1,0 +1,9 @@
+{
+  "locals": {
+    "url": "http://localhost:8080/",
+    "title": "DOBT Knowledge Base"
+  },
+  "require": {
+    "_": "underscore"
+  }
+}

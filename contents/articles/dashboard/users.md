@@ -1,3 +1,8 @@
+---
+template: article.jade
+priority: 1
+---
+
 ## Inviting new users
 
 If you are an administrator in your organization, you will be able to add users from the "Users" section of the dashboard. Simply click the ![add user](images/screenshot_add_user.png) button and then fill out the form.

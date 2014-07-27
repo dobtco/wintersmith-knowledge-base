@@ -1,3 +1,8 @@
+---
+template: article.jade
+priority: 1
+---
+
 ## Signing up...
 
 ### From an existing organization

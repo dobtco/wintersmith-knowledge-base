@@ -1,0 +1,22 @@
+extends layout
+block content
+  div.landing
+    h2 Dont worry, we've got you covered.
+    input.form-control.centersearch(type='text', placeholder='Search articles')
+  div.listings
+    //- - var articles = []
+    //- - _.each(contents['articles']._.directories, function(dir) {
+    //- -   articles.push(dir)
+    //- - })
+    //- - articles = _.chain(articles).value
+    //- each article in articles
+    //-   article
+    - var directories = _.map(contents.articles._.directories, function(item) {return item})
+    - function caps(string){return string.charAt(0).toUpperCase() + string.slice(1);}
+    each dir in directories
+      li= caps(dir.filename.split('/')[1])
+      //- ul
+      //- each k in _.pairs(dir)
+      //-   li= k[0]
+      //-   li= _.keys(k[1])
+      //-   li= k[1].filename

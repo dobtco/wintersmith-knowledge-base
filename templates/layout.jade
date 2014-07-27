@@ -1,0 +1,25 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title= locals.title
+    link(rel='stylesheet', href=contents.styles['bootstrap.min.css'].url)
+    link(rel='stylesheet', href=contents.styles['style.css'].url)
+    script(src=contents.js['jquery.min.js'].url)
+    script(src=contents.js['bootstrap.min.js'].url)
+    script(src=contents.js['js.js'].url)
+  body
+    //- if page.title != "Untitled"
+    //-   h1= page.title
+    //- else
+    //-   h1= locals.title
+    block nav
+      nav.navbar.navbar-default.topnav
+        .container-fluid
+          a.navbar-brand(href='/') DOBT Knowledge Base
+          form.navbar-form.navbar-left
+            .form-group
+              input.form-control(type='text', placeholder='Search articles')
+          ul.nav.navbar-nav.navbar-right
+            li: a(href='#') Back to Dashboard -->
+    block content
