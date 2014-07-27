@@ -11,12 +11,18 @@ block content
     //- - articles = _.chain(articles).value
     //- each article in articles
     //-   article
-    - var directories = _.map(contents.articles._.directories, function(item) {return item})
-    - function caps(string){return string.charAt(0).toUpperCase() + string.slice(1);}
+    - var directories = contents.articles._.directories
+    - function caps(string) {return string.charAt(0).toUpperCase() + string.slice(1);}
     each dir in directories
-      li= caps(dir.filename.split('/')[1])
-      //- ul
-      //- each k in _.pairs(dir)
-      //-   li= k[0]
-      //-   li= _.keys(k[1])
-      //-   li= k[1].filename
+      h3= caps(dir.filename.split('/')[1])
+      ul
+        each k in _.without(_.keys(dir), '.DS_Store', 'images')
+          if k.indexOf('.md') > -1
+            li= k
+          else
+            - var subdirs = contents.articles.screendoor._.directories
+            h4= k
+            //- h4= dir.filename+'/'+k
+            ul
+              each s in subdirs
+                li= s.filename
