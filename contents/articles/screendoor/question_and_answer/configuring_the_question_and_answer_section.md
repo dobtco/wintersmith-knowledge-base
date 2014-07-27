@@ -1,3 +1,8 @@
+---
+title: Configuring the question and answer section
+template: article.jade
+---
+
 Enabling the question and answer section for a project allows responders to ask questions. You (or someone else on your team) can then answer these questions and optionally display them publicly.
 
 ## Configuring the question and answer section

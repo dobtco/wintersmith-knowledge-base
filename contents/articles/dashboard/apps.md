@@ -1,7 +1,6 @@
 ---
 title: Apps
 template: article.jade
-priority: 1
 ---
 
 ## Installing an app

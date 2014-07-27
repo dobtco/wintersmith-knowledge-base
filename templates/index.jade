@@ -11,19 +11,4 @@ block content
     //- - articles = _.chain(articles).value
     //- each article in articles
     //-   article
-    - var directories = contents.articles._.directories
-    - function caps(string) {return string.charAt(0).toUpperCase() + string.slice(1);}
-    each dir in directories
-      - var appName = dir.filename.split('/')[1]
-      h3= caps(appName)
-      ul
-        each k in _.without(_.keys(dir), '.DS_Store', 'images')
-          if k.indexOf('.md') > -1
-            li= k
-          else
-            - var sections = contents.articles.-appName._.directories
-            h4= k
-            //- h4= dir.filename+'/'+k
-            ul
-              each s in sections
-                li= s.filename
+    +toc(directories)

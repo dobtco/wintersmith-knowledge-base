@@ -1,3 +1,8 @@
+---
+title: Building your form
+template: article.jade
+---
+
 ## Building your form
 
 At the heart of your project is your response form. You can create your form when you make your project, but you can also always go back and edit your form by clicking "Edit project" and selecting "Response form" from the "Project checklist."

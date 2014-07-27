@@ -1,6 +1,6 @@
 ---
+title: Signup and Login
 template: article.jade
-priority: 1
 ---
 
 ## Signing up...

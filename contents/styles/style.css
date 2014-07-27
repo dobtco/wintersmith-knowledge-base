@@ -1,5 +1,5 @@
 .navbar-default {
-  margin-bottom:40px;
+  margin-bottom:0px;
 }
 
 .landing {
@@ -8,4 +8,20 @@
 .centersearch {
   width:300px;
   margin:0px auto;
+}
+
+.sidenav {
+  background:#ddd;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.sidenav p {
+  padding-bottom:15px;
+}
+
+.article {
+  background:#fff;
+}
+.breadcrumbs {
+  margin-top:10px;
 }

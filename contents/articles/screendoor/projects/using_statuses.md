@@ -1,3 +1,8 @@
+---
+title: Using statuses
+template: article.jade
+---
+
 Statuses are a helpful way to label and organize responses. You can configure your own statuses according to the needs of your project. For example, the "Apps Contest" demo project uses three statuses ("Open," "Lost," or "Won") to designate the current state of each contest entry (response).
 
 ## Managing statuses

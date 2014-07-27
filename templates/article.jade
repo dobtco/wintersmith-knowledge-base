@@ -1,3 +1,27 @@
 extends layout
 block content
-  != page.html
+  .row
+    .sidenav.col-md-3
+      p(style='word-wrap:break-word;')
+        | Choose an app: 
+        select#choose-app
+          each dir in directories
+            option(value=dir.filename)= caps(dir.filename.split('/')[1])
+      - var cur_dir = route.splice(0,2).join('/')
+      +toc(_.filter(directories, function(d) {if (cur_dir == d.filename) {return true}}))
+      p
+        b Still need help? 
+        a(href='#') Contact us
+    .article.col-md-9
+      .breadcrumbs
+        - var x = '/articles'
+        each r in route.slice(1)
+          - x += '/' + r
+          a(href=x)!= caps(format(r))
+          |  &rarr; 
+      != page.html
+  
+  script.
+    document.getElementById('choose-app').onchange = function() {
+      window.location.href = '/' + this.value
+    }

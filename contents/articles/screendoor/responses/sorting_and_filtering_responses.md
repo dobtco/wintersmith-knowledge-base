@@ -1,3 +1,8 @@
+---
+title: Sorting and filtering responses
+template: article.jade
+---
+
 You can sort and filter the responses for your project from the "Responses" page.
 
 ## Sorting responses

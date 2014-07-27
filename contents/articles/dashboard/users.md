@@ -1,6 +1,6 @@
 ---
+title: Users
 template: article.jade
-priority: 1
 ---
 
 ## Inviting new users

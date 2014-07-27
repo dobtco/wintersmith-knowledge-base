@@ -1,6 +1,6 @@
 ---
+title: Organization Settings
 template: article.jade
-priority: 1
 ---
 
 ## Your organization details

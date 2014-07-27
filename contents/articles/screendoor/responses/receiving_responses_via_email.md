@@ -1,3 +1,8 @@
+---
+title: Receiving responses via email
+template: article.jade
+---
+
 ## Receiving responses via email
 
 To receive responses via email, select the "Response via email" box on the "Settings" page for your project. Then, select the appropriate option from the "Email responses" dropdown.
