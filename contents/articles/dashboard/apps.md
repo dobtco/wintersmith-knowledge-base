@@ -1,4 +1,5 @@
 ---
+title: Apps
 template: article.jade
 priority: 1
 ---
