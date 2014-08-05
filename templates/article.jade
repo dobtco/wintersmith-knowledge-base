@@ -14,10 +14,9 @@ block content
         a(href='#') Contact us
     .article.col-md-9
       .breadcrumbs
-        - var x = '/articles'
-        each r in route.slice(1)
-          - x += '/' + r
-          a(href=x)!= caps(format(r))
+        - var rs = locals.page.filename.split('/').slice(1)
+        each r, i in rs
+          a(href="/articles/"+rs.slice(0,i+1).join('/'))!= caps(format(r))
           |  &rarr; 
       != page.html
   
