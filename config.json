@@ -11,5 +11,8 @@
   ],
   "plugins": [
     "wintersmith-stylus"
+  ],
+  "ignore": [
+    "**/based/*.styl"
   ]
 }
