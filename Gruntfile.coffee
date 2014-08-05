@@ -12,6 +12,7 @@ module.exports = (grunt) ->
     'gh-pages':
       options:
         base: 'build'
+        message: 'Deploy (via Grunt)'
       src: ['**']
 
   grunt.registerTask 'deploy', ['wintersmith:build', 'gh-pages']
