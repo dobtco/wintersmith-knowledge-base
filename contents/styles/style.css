@@ -1,0 +1,39 @@
+.navbar-default {
+  margin-bottom:0px;
+}
+
+.landing {
+  text-align:center;
+}
+.centersearch {
+  width:300px;
+  margin:0px auto;
+}
+
+.sidenav {
+  background:#ddd;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.sidenav p {
+  padding-bottom:15px;
+}
+
+.toc, .toc ul {
+  list-style-type:none;
+  padding-left:20px;
+}
+.toc li, .toc ul li {
+  margin-top:5px;
+}
+.left_toc {
+  padding-left:5px;
+}
+
+.article {
+  background:#fff;
+}
+.breadcrumbs {
+  margin-top:10px;
+  margin-bottom:10px;
+}

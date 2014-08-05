@@ -1,0 +1,44 @@
+- var directories = contents.articles._.directories
+- var route = locals.page.filename.split('/')
+- var cur_dir = route.slice(0,2).join('/')
+- function caps(string) {return string.charAt(0).toUpperCase() + string.slice(1);}
+- function format(string) {return string.replace(/_/g, ' ').replace('.html', '')}
+
+mixin toc(dirs, show_top)
+  each dir in dirs
+    //- p(style='background:#ccc')= dir.filename
+    if show_top
+      h3: a(href=dir.filename)= caps(dir.filename.split('/')[1])
+    ul.toc(class!=attributes.class)
+      each k in _.without(_.keys(dir), '.DS_Store', 'images')
+        if k != "index.md"
+          if k.indexOf('.md') > -1
+            li: a(href='/'+dir[k].filename)= dir[k].title
+          else
+            if dir[k].filename == route.slice(0,-1).join('/') || route[route.length-1] == "index.html"
+              - var button_class = "glyphicon-chevron-down"
+              - var display = "block"
+            else
+              - var button_class = "glyphicon-chevron-up"
+              - var display = "none"
+            - var identifier = dir[k].filename.replace(/\//g, '-')
+            h4= caps(format(k))+" "
+              button(type='button', name=identifier).btn.btn-default.btn-xs.toggle_toc
+                span.glyphicon(class!=button_class)
+            ul(id!=identifier, style='display:'+display)
+              each article in _.values(dir[k])
+                li: a(href='/'+article.filename)= article.title
+  script.
+    $(".toggle_toc").click(function(){
+      //- alert(this.name)
+      if ($(this).children().hasClass('glyphicon-chevron-down')) {
+        $(this).children().removeClass('glyphicon-chevron-down')
+        $(this).children().addClass('glyphicon-chevron-up')
+        $('#'+this.name).hide()
+      }
+      else {
+        $(this).children().removeClass('glyphicon-chevron-up')
+        $(this).children().addClass('glyphicon-chevron-down')
+        $('#'+this.name).show()
+      }
+    })

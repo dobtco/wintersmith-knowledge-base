@@ -1,7 +1,9 @@
 knowledge_base
 ==============
 
-The DOBT knowledge base. [See the mockups](https://moqups.com/adamjacobbecker/3TdckdCm/)
+The DOBT knowledge base. [See the mockups](https://moqups.com/adamjacobbecker/3TdckdCm/).
+
+Read on to learn about the non-technical aspects of the knowledge base, or jump to the [development](#development) section.
 
 ## Overall Goals
 
@@ -19,7 +21,7 @@ Also:
 
 ## Technical details
 
-Jekyll + GitHub Pages. Possibly an external service for search?
+Wintersmith + GitHub Pages. Possibly an external service for search?
 
 ## Examples of knowledge bases that we like:
 
@@ -39,4 +41,10 @@ or for simple apps:
 
 `[App Name]/[Article].md`
 
+## Development
 
+You'll need [node and npm](http://nodejs.org) installed.
+
+1. `npm install -g wintersmith`
+2. `npm install`
+3. `wintersmith preview`

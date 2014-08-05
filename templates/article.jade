@@ -1,0 +1,31 @@
+extends layout
+block content
+  .row
+    .sidenav.col-md-3
+      p(style='word-wrap:break-word;')
+        | Choose an app: 
+        select#choose-app
+          - var sel = false
+          each dir in directories
+            - sel = false
+            if cur_dir == dir.filename
+              - sel = true
+            option(value=dir.filename, selected=sel)= caps(dir.filename.split('/')[1])
+      +toc(_.filter(directories, function(d) {if (cur_dir == d.filename) {return true}}), false)(class='left_toc')
+      div
+        b Still need help? 
+        div(style='text-indent:10px;')
+          a(href='#') Contact us
+    .article.col-md-9
+      .breadcrumbs
+        - var rs = locals.page.filename.split('/').slice(1)
+        each r, i in rs
+          if r != 'index.html'
+            a(href="/articles/"+rs.slice(0,i+1).join('/'))!= caps(format(r))
+            |  &rarr; 
+      != page.html
+  
+  script.
+    document.getElementById('choose-app').onchange = function() {
+      window.location.href = '/' + this.value
+    }
