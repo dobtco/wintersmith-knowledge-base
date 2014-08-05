@@ -48,3 +48,7 @@ You'll need [node and npm](http://nodejs.org) installed.
 1. `npm install -g wintersmith`
 2. `npm install`
 3. `wintersmith preview`
+
+## Deployment
+
+From the root directory, run `grunt deploy`. This will build via wintersmith and push to the `gh-pages` branch in this repository.

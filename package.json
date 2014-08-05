@@ -19,6 +19,9 @@
     "wintersmith": "^2.1.0",
     "underscore": "^1.6.0",
     "stylus": "^0.4.1",
-    "wintersmith-stylus": "^0.4.1"
+    "wintersmith-stylus": "^0.4.1",
+    "grunt": "^0.4.5",
+    "grunt-wintersmith": "0.0.2",
+    "grunt-gh-pages": "^0.9.1"
   }
 }
