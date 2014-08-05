@@ -19,6 +19,17 @@
   padding-bottom:15px;
 }
 
+.toc, .toc ul {
+  list-style-type:none;
+  padding-left:20px;
+}
+.toc li, .toc ul li {
+  margin-top:5px;
+}
+.left_toc {
+  padding-left:5px;
+}
+
 .article {
   background:#fff;
 }

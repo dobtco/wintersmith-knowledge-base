@@ -3,6 +3,6 @@ title: Screendoor
 template: article.jade
 ---
 
-## Welcome to Screendoor
+## Screendoor
 
 Screendoor index page...

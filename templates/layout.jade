@@ -5,6 +5,9 @@ html(lang='en')
     title= locals.title
     link(rel='stylesheet', href=contents.styles['bootstrap.min.css'].url)
     link(rel='stylesheet', href=contents.styles['style.css'].url)
+    script(src=contents.js['jquery.min.js'].url)
+    script(src=contents.js['bootstrap.min.js'].url)
+    script(src=contents.js['js.js'].url)
   body
     //- if page.title != "Untitled"
     //-   h1= page.title
@@ -22,6 +25,3 @@ html(lang='en')
     div.container-fluid
       include helpers
       block content
-    script(src=contents.js['jquery.min.js'].url)
-    script(src=contents.js['bootstrap.min.js'].url)
-    script(src=contents.js['js.js'].url)
