@@ -6,6 +6,9 @@
   "require": {
     "_": "underscore"
   },
+  "ignore": [
+    "styles/based"
+  ],
   "plugins": [
     "wintersmith-stylus"
   ]
