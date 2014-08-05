@@ -5,7 +5,7 @@ html(lang='en')
     title= locals.title
     link(rel='stylesheet', href='/styles/based.css')
     link(rel='stylesheet', href=contents.styles['style.css'].url)
-    script(src=contents.js['jquery.min.js'].url)
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
     script(src=contents.js['js.js'].url)
   body
     //- if page.title != "Untitled"
