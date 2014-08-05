@@ -2,12 +2,16 @@ extends layout
 block content
   .row
     .sidenav.col-md-3
+      - var cur_dir = route.splice(0,2).join('/')
       p(style='word-wrap:break-word;')
         | Choose an app: 
         select#choose-app
+          - var sel = false
           each dir in directories
-            option(value=dir.filename)= caps(dir.filename.split('/')[1])
-      - var cur_dir = route.splice(0,2).join('/')
+            - sel = false
+            if cur_dir == dir.filename
+              - sel = true
+            option(value=dir.filename, selected=sel)= caps(dir.filename.split('/')[1])
       +toc(_.filter(directories, function(d) {if (cur_dir == d.filename) {return true}}))
       p
         b Still need help? 
