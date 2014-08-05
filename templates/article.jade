@@ -16,8 +16,9 @@ block content
       .breadcrumbs
         - var rs = locals.page.filename.split('/').slice(1)
         each r, i in rs
-          a(href="/articles/"+rs.slice(0,i+1).join('/'))!= caps(format(r))
-          |  &rarr; 
+          if r != 'index.html'
+            a(href="/articles/"+rs.slice(0,i+1).join('/'))!= caps(format(r))
+            |  &rarr; 
       != page.html
   
   script.

@@ -6,13 +6,14 @@
 mixin toc(dirs)
   each dir in dirs
     //- p(style='background:#ccc')= dir.filename
-    h3= caps(dir.filename.split('/')[1])
+    h3: a(href=dir.filename)= caps(dir.filename.split('/')[1])
     ul
       each k in _.without(_.keys(dir), '.DS_Store', 'images')
-        if k.indexOf('.md') > -1
-          li: a(href='/'+dir[k].filename)= dir[k].title
-        else
-          h4= caps(format(k))
-          ul
-            each article in _.values(dir[k])
-              li: a(href='/'+article.filename)= article.title
+        if k != "index.md"
+          if k.indexOf('.md') > -1
+            li: a(href='/'+dir[k].filename)= dir[k].title
+          else
+            h4= caps(format(k))
+            ul
+              each article in _.values(dir[k])
+                li: a(href='/'+article.filename)= article.title
