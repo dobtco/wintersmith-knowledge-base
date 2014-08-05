@@ -18,6 +18,7 @@
   "dependencies": {
     "wintersmith": "^2.1.0",
     "underscore": "^1.6.0",
-    "stylus": "^0.4.1"
+    "stylus": "^0.4.1",
+    "wintersmith-stylus": "^0.4.1"
   }
 }
