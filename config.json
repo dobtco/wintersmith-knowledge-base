@@ -6,13 +6,10 @@
   "require": {
     "_": "underscore"
   },
-  "ignore": [
-    "styles/based"
-  ],
   "plugins": [
     "wintersmith-stylus"
   ],
   "ignore": [
-    "**/based/*.styl"
+    "styles/based/*.styl"
   ]
 }
