@@ -27,7 +27,7 @@ If you forgot your password, simply click the question mark on the right side of
 
 ## My password isn't working
 
-If your password isn't working, make sure that you're signing in with the correct email address and double check that caps lock is off. If it still isn't working, click the `forgot your password` question mark (see above) to reset your password.
+If your password isn't working, make sure that you're signing in with the correct email address and double check that caps lock is off. If it still isn't working, click the `Forgot your password?` question mark (see above) to reset your password.
 
 ## I'm having trouble resetting my password
 
