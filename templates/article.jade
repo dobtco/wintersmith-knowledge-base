@@ -1,7 +1,7 @@
 extends layout
 block content
-  .row
-    .sidenav.col-md-3
+  .grid
+    .sidenav.item.lap_three_columns
       p(style='word-wrap:break-word;')
         | Choose an app: 
         select#choose-app
@@ -16,7 +16,7 @@ block content
         b Still need help? 
         div(style='text-indent:10px;')
           a(href='#') Contact us
-    .article.col-md-9
+    .article.item.lap_nine_columns
       .breadcrumbs
         - var rs = locals.page.filename.split('/').slice(1)
         each r, i in rs

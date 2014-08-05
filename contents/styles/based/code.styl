@@ -1,0 +1,32 @@
+/* ================================================================== *\
+   Code ($code)
+\* ================================================================== */
+
+/* Correct `font-family` set oddly in Safari 5 and Chrome */
+code, pre
+  color: $darkestGray;
+  font-family: Monaco, "Lucida Sans Typewriter", Consolas, "Courier New", monospace;
+  font-size: 75%;
+
+code
+  padding: 0 0.3rem;
+  border: 1px solid $lightGray;
+  border-radius: 3px;
+  background: $lightestGray;
+  white-space: nowrap;
+
+/* Increase `padding` at larger viewport widths */
+@media only screen and (min-width: 480px)
+  code
+    padding: 0.1rem 0.3rem;
+
+pre
+  position: relative;
+  overflow: auto;
+  padding: 1rem;
+  background: $black;
+  box-shadow: inset 0 0 5px hsla(0, 0%, 0%, 0.6);
+  color: $gray;
+  white-space: pre;
+  word-wrap: normal;
+  word-break: normal;

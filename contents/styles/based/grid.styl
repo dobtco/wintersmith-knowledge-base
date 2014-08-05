@@ -1,0 +1,71 @@
+/* ================================================================== *\
+   Grids ($grids)
+\* ================================================================== */
+
+/**
+ * Grid container
+ * 1. Default gutter width, change if desired
+ * 2. Remove `list-style` in case `.grid` is on a <ul> element
+ * 3. Hack to remove `inline-block` whitespace - http://cbrac.co/16xcjcl
+ */
+
+.grid
+  margin: 0;
+  margin-left: -2rem; /* 1 */
+  padding: 0;
+  list-style: none;   /* 2 */
+  font-size: 0;       /* 3 */
+
+  &.gutter_none
+    margin-left 0
+    > .item { padding-left: 0 }
+
+  &.gutter_quarter
+    margin-left -0.5rem
+    > .item { padding-left: 0.5rem }
+
+  &.gutter_half
+    margin-left -1rem
+    > .item { padding-left: 1rem }
+
+  &.gutter_double
+    margin-left -4rem
+    > .item { padding-left: 4rem }
+
+/**
+ * Grid item
+ * 1. Default gutter width, change if desired
+ * 2. Ensures elements within `.item` start at the top
+ * 3. Reset `font-size` back to normal
+ */
+
+.item {
+  display: inline-block;
+  padding-left: 2rem;  /* 1 */
+  vertical-align: top; /* 2 */
+  font-size: 1rem;     /* 3 */
+  width: 100%;
+}
+
+/* Widths */
+build_grid(x = '')
+  .{x}one_column { width: 8.333% }
+  .{x}two_columns { width: (8.333 * 2)% }
+  .{x}three_columns { width: (8.333 * 3)% }
+  .{x}four_columns { width: (8.333 * 4)% }
+  .{x}five_columns { width: (8.333 * 5)% }
+  .{x}six_columns { width: (8.333 * 6)% }
+  .{x}seven_columns { width: (8.333 * 7)% }
+  .{x}eight_columns { width: (8.333 * 8)% }
+  .{x}nine_columns { width: (8.333 * 9)% }
+  .{x}ten_columns { width: (8.333 * 10)% }
+  .{x}eleven_columns { width: (8.333 * 11)% }
+  .{x}twelve_columns { width: (8.333 * 12)% }
+
+build_grid()
+
+@media only screen and (min-width: 640px)
+  build_grid('lap_')
+
+@media only screen and (min-width: 960px)
+  build_grid('desk_')

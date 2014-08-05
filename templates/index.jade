@@ -1,14 +1,8 @@
 extends layout
 block content
-  div.landing
-    h2 Dont worry, we've got you covered.
-    input.form-control.centersearch(type='text', placeholder='Search articles')
-  div.listings
-    //- - var articles = []
-    //- - _.each(contents['articles']._.directories, function(dir) {
-    //- -   articles.push(dir)
-    //- - })
-    //- - articles = _.chain(articles).value
-    //- each article in articles
-    //-   article
-    +toc(directories, true)
+  .home 
+    .landing
+      h1 Dont worry, we've got you covered.
+      input.form-control.centersearch(type='text', placeholder='Search knowledge base articles')
+    .listings
+      +toc(directories, true)

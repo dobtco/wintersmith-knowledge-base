@@ -1,0 +1,62 @@
+.pagination-wrapper
+  font-size: 13px
+  text-align center
+  margin-top 2rem
+
+  ul
+    display inline-block
+
+    li
+      display inline
+
+      > a, > span
+        display block
+        float left
+        padding 4px 5px
+        min-width 30px
+        background-color #eee
+        text-decoration none
+        border-color #ccc
+        border-style solid
+        border-width 1px 1px 1px 0
+
+      &.active a
+        background-color #ddd
+        color #333
+        font-weight 600
+
+      a:hover
+        background-color #ddd
+
+      &:last-child a,
+      &:last-child span
+        border-radius 0 3px 3px 0
+        min-width 25px
+
+      &:first-child a,
+      &:first-child span
+        border-radius 3px 0 0 3px
+        border-left-width 1px
+        min-width 25px
+
+  &.page-header-pagination-wrapper
+    margin-top 0
+
+    .pagination_status
+      float left
+      line-height 30px
+
+      a
+        font-weight 600
+
+    ul
+      float left
+      margin 0
+      padding 0 0 0 1rem
+
+@media only screen and (min-width: 640px)
+  .page-header-pagination-wrapper
+    position absolute
+    top 0
+    right 0
+

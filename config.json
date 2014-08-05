@@ -5,5 +5,8 @@
   },
   "require": {
     "_": "underscore"
-  }
+  },
+  "plugins": [
+    "wintersmith-stylus"
+  ]
 }

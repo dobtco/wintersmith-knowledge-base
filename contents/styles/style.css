@@ -1,19 +1,61 @@
-.navbar-default {
-  margin-bottom:0px;
+.navbar {
+  padding:10px 50px;
+  line-height:75px;
+  margin:0px auto;
+}
+.navbar a {
+  text-decoration:none;
+  color:#000;
+}
+.navbar-internal {
+  vertical-align: middle;
+}
+.navbar-left img {
+  height:75px;
+}
+.navbar-left span {
+  padding-left:10px;
+}
+.navbar-right {
+  text-align:right;
+}
+.navbar-form, .navbar-form input {
+  display:inline;
+  width:200px;
+}
+.navbar-form input {
+  margin-right:30px;
+}
+
+.home {
+  background:#F3F6F8;
+  padding:20px 10px;
+}
+
+.listings {
+}
+
+.container {
+  border-top:1px solid #F3F6F8;
+  /*background:#F3F6F8;*/
+  /*padding:20px 10px;*/
 }
 
 .landing {
   text-align:center;
 }
+.landing h1 {
+  font-weight:normal;
+}
 .centersearch {
-  width:300px;
+  width:400px;
+  height:40px;
   margin:0px auto;
 }
 
 .sidenav {
-  background:#ddd;
-  padding-top:20px;
-  padding-bottom:20px;
+  background:#F3F6F8;
+  padding:2rem 2rem 2rem 4rem;
 }
 .sidenav p {
   padding-bottom:15px;

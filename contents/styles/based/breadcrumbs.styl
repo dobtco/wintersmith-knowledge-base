@@ -1,0 +1,38 @@
+.breadcrumb_wrapper
+  background-color lighten($lighterGray, 3%)
+  background linear-gradient(lighten($lighterGray, 3%), darken($lighterGray, 3%))
+  border-bottom 1px solid $lightGray
+  height $breadcrumbHeight
+
+ul.breadcrumb
+  ninety_wrapper()
+  line-height 22px
+  font-size 0.8rem
+  padding-top 1px
+
+  li
+    display none
+
+    &:after
+      icon('\f105')
+      margin: 0 0.5rem
+      color $breadcrumbDividerColor
+
+    &:last-child:after
+      content: ''
+      margin: 0
+
+    a
+      color $breadcrumbLinkColor
+
+    span
+      font-weight 600
+      color $breadcrumbSpanColor
+
+    &:nth-last-child(2), &:last-child
+      display inline
+
+@media only screen and (min-width: 640px)
+  ul.breadcrumb
+    li
+      display inline

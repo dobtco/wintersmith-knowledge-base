@@ -1,0 +1,157 @@
+@import 'based/variables'
+
+//
+// Modals
+// --------------------------------------------------
+
+// .modal-open      - body class for killing the scroll
+// .modal           - container to scroll within
+// .modal-dialog    - positioning shell for the actual modal
+// .modal-content   - actual modal w/ bg and corners and shit
+
+$modalBorderRadius = 5px
+
+// Kill the scroll on the body
+.modal-open {
+  overflow: hidden;
+}
+
+// Container that the modal scrolls within
+.modal {
+  display: none;
+  overflow: auto;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+}
+
+// Shell div to position the modal with bottom padding
+.modal_dialog {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  padding: 10px;
+  z-index: (1040 + 10);
+}
+
+// Actual modal
+.modal_content {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #999; //old browsers fallback (ie8 etc)
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: $modalBorderRadius;
+  background-clip: padding-box;
+  // Remove focus outline from opened modal
+  outline: none;
+}
+
+// Modal background
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: (1040 - 10);
+  background-color: #000;
+  // Fade for backdrop
+  &.fade { opacity: 0; }
+  &.in { opacity: .5; }
+}
+
+// Modal header
+// Top section of the modal w/ title and dismiss
+.modal_header
+  padding: 1.5rem 2rem;
+  border-radius: ($modalBorderRadius - 1) ($modalBorderRadius - 1) 0 0
+  position relative
+
+  h3
+    font-size 1.6rem
+    font-weight normal
+    margin 0
+    color #333
+
+  // Close icon
+  .close
+    position absolute
+    top -9px
+    right -9px
+    color #fff
+    background-color $darkestGray
+    border-radius 50%
+    width 24px
+    height 24px
+    text-decoration none
+    text-align center
+    font-size 20px
+    line-height 24px
+
+    &:hover
+      background-color lighten($darkestGray, 5%)
+
+// Title text within header
+.modal_title {
+  margin: 0;
+  line-height: 20px;
+}
+
+// Modal body
+// Where all modal content resides (sibling of .modal_header and .modal-footer)
+.modal_body {
+  position: relative;
+  padding: 0 2rem 1.5rem;
+}
+
+// Footer (for actions)
+.modal_footer {
+  background-color $lighterGray
+  padding: 1rem 2rem
+  text-align: right; // right align buttons
+  border-radius: 0 0 $modalBorderRadius $modalBorderRadius
+
+  // Properly space out buttons
+  .btn + .btn {
+    margin-left: 5px;
+    margin-bottom: 0; // account for input[type="submit"] which gets the bottom margin like all other inputs
+  }
+  // but override that for button groups
+  .btn-group .btn + .btn {
+    margin-left: -1px;
+  }
+  // and override it for block buttons as well
+  .btn-block + .btn-block {
+    margin-left: 0;
+  }
+}
+
+.modal_confirm
+  .modal_header
+    padding 1rem 2rem
+    background-color $errorColor
+    margin-bottom 1rem
+
+    h3
+      color #fff
+
+  .modal_body
+    p
+      font-size 1.1rem
+      margin-bottom 0
+
+// Scale up the modal
+@media screen and (min-width: 768px) {
+
+  .modal_dialog {
+    left: 50%;
+    right: auto;
+    width: 600px;
+    padding-top: 70px;
+  }
+
+}

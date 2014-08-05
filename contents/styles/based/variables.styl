@@ -1,0 +1,83 @@
+// Colors
+$bodyBackgroundColor = #aab2bd
+$black = #222
+$darkestGray = #444
+$darkerGray = #777
+$darkGray = #aaa
+$gray = #ccc
+$lightGray = #e5e5e5
+$lighterGray = #efefef
+$lightestGray = #f7f7f7
+$white = #fff
+$blueGray = #6a6e75
+$lighterBlueGray = #6a6e75
+$selectionBackground = #b3d4fc
+$linkColor = #2e8ad0
+$bodyFontColor = $darkestGray
+$successColor = #2aa828
+$errorColor = #c12f2e
+$alertColor = $errorColor
+$blueHighlight = #eaf3fa
+$mintHighlight = #e7f9e7
+$questionTextColor = darken($linkColor, 10%)
+$purpleBlue = #6188f5
+
+// Layout
+$headerHeight = ($navHeight + $breadcrumbHeight)
+
+// Nav
+$navBackground = #434a54
+$navHoverBackground = darken(#434a54, 10%)
+$navDropdownBackground = $white
+$navBorderColor = darken(#434a54, 20%)
+$navHeight = 60px
+$navBreakpoint = 800px
+$navLinkColor = $white
+$navDropdownHeaderColor = $darkerGray
+
+// Breadcrumbs
+$breadcrumbHeight = 25px
+$breadcrumbLinkColor = $darkestGray
+$breadcrumbSpanColor = $darkestGray
+$breadcrumbDividerColor = $darkerGray
+
+// Bottom status bar
+$bottomStatusBarHeight = 60px
+
+// Sidebar nav
+$sidebarNavHighlightColor = lighten(#23719f, 5%)
+$sidebarNavBadgeColor = $successColor
+
+$footerHeight = 70px
+
+ninety_wrapper()
+  margin 0 auto
+  width 90%
+  max-width 1150px
+  position relative
+
+icon(unicode_id)
+  content unicode_id
+  font-family 'FontAwesome'
+
+user_pic(size = '25')
+  width unit(size, px)
+  border-radius 50%
+  border 1px solid $gray
+
+social_button_color(base_color)
+  background base_color
+
+  &:hover
+    background darken(base_color, 10%)
+
+cf()
+  &:before, &:after
+    display table
+    content " "
+
+  &:after
+    clear both
+
+monospace()
+  font-family "Lucida Console", monospace

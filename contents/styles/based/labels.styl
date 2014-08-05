@@ -1,0 +1,27 @@
+.label
+  display inline-block
+  padding: 0.1rem 0.4rem
+  border-radius 2px
+  font-size: 0.8rem
+  background-color $lighterGray
+
+  &.error
+    background-color $errorColor
+    color #fff
+
+  &.info
+    background-color #1fa3ec
+    color #fff
+
+  &.warning
+    background-color #ffd119
+    color #333
+
+.status
+  font-size 0.9rem
+  font-weight 600
+
+.dropdown_menu
+  a
+    &:hover .status
+      color #fff !important

@@ -1,0 +1,76 @@
+nav ul,
+nav ol,
+ul.unstyled,
+ol.unstyled {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.inline, ol.inline
+  li
+    display inline
+    margin-right 0.5rem
+
+    &:last-child
+      margin-right 0
+
+/* Nested `list-style` types for ordered lists */
+ol          { list-style: decimal; }
+ol ol       { list-style: upper-alpha; }
+ol ol ol    { list-style: lower-roman; }
+ol ol ol ol { list-style: lower-alpha; }
+
+ol ol,
+ol ul,
+ul ul,
+ul ol {
+  margin-bottom: 0;
+}
+
+ul.secondary_nav
+  font-size 0.9rem
+  font-weight 600
+
+  li
+    display inline
+    margin-right 1.5rem
+
+    > span
+      color $darkGray
+
+    &.active a
+      color $darkestGray
+
+      &:hover
+        text-decoration none
+
+    &:last-child
+      margin-right 0
+
+  &.muted
+    font-size 0.8rem
+    line-height 1.8
+
+    li
+      margin-right 1rem
+
+      &:last-child
+        margin-right 0
+
+      a
+        color $darkerGray
+
+ul.small_labels
+  font-size 0.85rem
+
+  li
+    a
+      color inherit
+
+    &:before
+      font-family 'FontAwesome'
+      content '\f0c8'
+      font-size 1.2rem
+      margin-right 0.5rem
+      vertical-align middle
