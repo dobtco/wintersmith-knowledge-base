@@ -11,4 +11,4 @@ When you initially set up your project, you can configure the question and answe
 
 ![q&a](../images/screenshot_qa.png)
 
-See [Managing questions](managing_questions.md) for information on how to manage and respond to questions.
+See [Managing questions](managing_questions.html) for information on how to manage and respond to questions.
