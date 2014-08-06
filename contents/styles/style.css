@@ -33,6 +33,24 @@
 }
 
 .listings {
+  /*text-align:center;*/
+  /*margin:0px auto;*/
+}
+.index_toc {
+
+}
+.listings a:hover {
+  text-decoration:none;
+}
+.listings a h3 {
+  /*text-decoration:underline;*/
+  /*font-weight:normal;*/
+  font-size:120%;
+  text-transform:uppercase;
+}
+
+.toggle_toc {
+  color:black;
 }
 
 .container {
@@ -70,6 +88,15 @@
 }
 .left_toc {
   padding-left:5px;
+}
+.left_toc h4 {
+  padding-top:5px;
+  font-weight:normal;
+  text-transform:uppercase;
+  font-size:100%;
+}
+.current_article {
+  font-weight:bold;
 }
 
 .article {

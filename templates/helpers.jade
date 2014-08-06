@@ -4,41 +4,54 @@
 - function caps(string) {return string.charAt(0).toUpperCase() + string.slice(1);}
 - function format(string) {return string.replace(/_/g, ' ').replace('.html', '')}
 
-mixin toc(dirs, show_top)
+mixin toc_article(article)
+  - var current_article = ""
+  if article.filename == locals.page.filename
+    - current_article = "current_article"
+  li: a(href='/'+article.filename, class!=current_article)= article.title
+
+mixin toc(dirs, index)
   each dir in dirs
     //- p(style='background:#ccc')= dir.filename
-    if show_top
-      h3: a(href=dir.filename)= caps(dir.filename.split('/')[1])
-    ul.toc(class!=attributes.class)
-      each k in _.without(_.keys(dir), '.DS_Store', 'images')
-        if k != "index.md"
-          if k.indexOf('.md') > -1
-            li: a(href='/'+dir[k].filename)= dir[k].title
-          else
-            if dir[k].filename == route.slice(0,-1).join('/') || route[route.length-1] == "index.html"
-              - var button_class = "glyphicon-chevron-down"
-              - var display = "block"
+    //- if index
+    //-   - var section_class = "item lap_four_columns"
+    //- else
+    //-   - var section_class = ""
+    .toc_section(class!=section_class)
+      if index
+        a(href=dir.filename)
+          h3= caps(dir.filename.split('/')[1])
+      ul.toc(class!=attributes.class)
+        each k in _.without(_.keys(dir), '.DS_Store', 'images')
+          if k != "index.md"
+            if k.indexOf('.md') > -1
+              +toc_article(dir[k])
+              //- li: a(href='/'+dir[k].filename)= dir[k].title
             else
-              - var button_class = "glyphicon-chevron-up"
-              - var display = "none"
-            - var identifier = dir[k].filename.replace(/\//g, '-')
-            h4= caps(format(k))+" "
-              button(type='button', name=identifier).toggle_toc <
-                span.glyphicon(class!=button_class)
-            ul(id!=identifier, style='display:'+display)
-              each article in _.values(dir[k])
-                li: a(href='/'+article.filename)= article.title
+              if dir[k].filename == route.slice(0,-1).join('/') || route[route.length-1] == "index.html"
+                - var button_class = "fa-toggle-down"
+                - var display = "block"
+              else
+                - var button_class = "fa-toggle-up"
+                - var display = "none"
+              - var identifier = dir[k].filename.replace(/\//g, '-')
+              h4= caps(format(k))+" "
+                a(name=identifier).toggle_toc
+                  span.fa(class!=button_class)
+              ul(id!=identifier, style='display:'+display)
+                each article in _.values(dir[k])
+                  +toc_article(article)
   script.
     $(".toggle_toc").click(function(){
       //- alert(this.name)
-      if ($(this).children().hasClass('glyphicon-chevron-down')) {
-        $(this).children().removeClass('glyphicon-chevron-down')
-        $(this).children().addClass('glyphicon-chevron-up')
+      if ($(this).children().hasClass('fa-toggle-down')) {
+        $(this).children().removeClass('fa-toggle-down')
+        $(this).children().addClass('fa-toggle-up')
         $('#'+this.name).hide()
       }
       else {
-        $(this).children().removeClass('glyphicon-chevron-up')
-        $(this).children().addClass('glyphicon-chevron-down')
+        $(this).children().removeClass('fa-toggle-up')
+        $(this).children().addClass('fa-toggle-down')
         $('#'+this.name).show()
       }
     })
