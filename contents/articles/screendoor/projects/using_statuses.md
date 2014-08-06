@@ -7,7 +7,7 @@ Statuses are a helpful way to label and organize responses. You can configure yo
 
 ## Managing statuses
 
-You can define the statuses for your project when you create your project initially, but you can also configure and manage statuses after the project has been created. Click "Edit Project" and select "Statuses" from the project checklist on the right-hand side to manage your statuses. It should look something like this (though the names, and colors of the statuses in your project will probably be different): 
+You can define the statuses for your project when you create your project initially, but you can also configure and manage statuses after the project has been created. Click "Edit Project" and select "Statuses" from the project checklist on the right-hand side to manage your statuses. It should look something like this (though the names, and colors of the statuses in your project will probably be different):
 
 ![statuses](../images/screenshot_statuses.png)
 
@@ -38,4 +38,4 @@ When a status is destroyed, any responses that were assigned to that status are 
 You must always have at least one status that serves as a default status.
 
 ## What's the difference between statuses and labels?
-Responses always have exactly one status, but can have multiple labels. For example, a response's status could be either "Open" or "Closed," but it could be labeled as both "Interesting" and "Practical."
+Responses always have exactly one status, but can have multiple labels. For example, a response's *status* could be either "Open" or "Closed," but it could be *labeled* as both "Interesting" and "Practical."
