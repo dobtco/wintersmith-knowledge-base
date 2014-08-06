@@ -21,7 +21,9 @@ module.exports = (callback) ->
                     title: item.title
                     title_token: item.title.tokenizeAndStem().join(" ")
                     url: item.url
-                    body: item.markdown.tokenizeAndStem().join(" ")
+                    body: item.markdown
+                    body_token: item.markdown.tokenizeAndStem().join(" ")
+
                 else
                   console.log "- Skipping #{item.filepath.relative}"
               else
