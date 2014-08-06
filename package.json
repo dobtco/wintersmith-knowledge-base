@@ -2,8 +2,9 @@
   "name": "knowledge_base",
   "version": "0.0.0",
   "description": "DOBT Knowledge Base",
-  "main": "index.js",
+  "main": "start",
   "scripts": {
+    "start": "coffee search/index.coffee",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,11 @@
     "wintersmith-stylus": "^0.4.1",
     "grunt": "^0.4.5",
     "grunt-wintersmith": "0.0.2",
-    "grunt-gh-pages": "^0.9.1"
+    "grunt-gh-pages": "^0.9.1",
+    "express": "^4.8.0",
+    "natural": "0.1.12",
+    "query-engine": "1.2.0",
+    "coffee-script": "^1.7.1",
+    "grunt-git": "^0.2.14"
   }
 }
