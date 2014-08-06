@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "wintersmith-browserify": "*",
+    "wintersmith-less": "*",
+    "wintersmith-nunjucks": "*",
+    "browsernizr": "*"
+  },
+  "repository": "none"
+}
