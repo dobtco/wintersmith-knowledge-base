@@ -45,10 +45,11 @@ or for simple apps:
 
 You'll need [node and npm](http://nodejs.org) installed.
 
-1. `npm install -g wintersmith`
-2. `npm install`
-3. `wintersmith preview`
+1. `npm install -g coffee-script`
+2. `npm install -g wintersmith`
+3. `npm install`
+4. `wintersmith preview`
 
 ## Deployment
 
-From the root directory, run `grunt deploy`. This will build via wintersmith and push to the `gh-pages` branch in this repository.
+From the root directory, run `grunt deploy`. This will build via wintersmith, push to the `gh-pages` branch in this repository, and push our search index to Heroku. (Note: this task will fail unless you have the correct permissions on Heroku.)
