@@ -30,7 +30,7 @@ module.exports = (articles) ->
       .setFilter('search', (model,searchString) ->
           return true  unless searchString?
           searchRegex = queryEngine.createSafeRegex(searchString)
-          pass = searchRegex.test(model.get('body'))
+          pass = searchRegex.test(model.get('body_token'))
           return pass
       )
       .query()
