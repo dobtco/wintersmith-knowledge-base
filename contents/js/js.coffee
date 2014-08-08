@@ -1,16 +1,12 @@
 $ ->
-  # console.log('ready')
+  $('#choose-app').on 'change', ->
+    window.location.href = '/' + $(@).val()
 
-  document.getElementById('choose-app').onchange = () ->
-    window.location.href = '/' + this.value
+  $(".toggle_toc").on 'click', ->
+    $icon = $(@).find('.fa')
+    $section = $("##{$(@).attr('name')}")
+    willHide = $icon.hasClass('fa-toggle-down')
 
-  $(".toggle_toc").click(() ->
-    if $(this).children().hasClass('fa-toggle-down')
-      $(this).children().removeClass('fa-toggle-down')
-      $(this).children().addClass('fa-toggle-up')
-      $('#'+this.name).hide()
-    else
-      $(this).children().removeClass('fa-toggle-up')
-      $(this).children().addClass('fa-toggle-down')
-      $('#'+this.name).show()
-  )
+    $icon.removeClass('fa-toggle-down fa-toggle-up')
+    $icon.addClass(if willHide then 'fa-toggle-up' else 'fa-toggle-down')
+    $section[if willHide then 'hide' else 'show']()
