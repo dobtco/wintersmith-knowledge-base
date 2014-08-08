@@ -8,7 +8,8 @@
   },
   "plugins": [
     "wintersmith-stylus",
-    "wintersmith-coffee"
+    "wintersmith-coffee",
+    "./plugins/markdown-helper.coffee"
   ],
   "ignore": [
     "styles/based/*.styl"

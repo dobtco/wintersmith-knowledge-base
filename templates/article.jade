@@ -23,4 +23,17 @@ block content
           if r != 'index.html'
             a(href="/articles/"+rs.slice(0,i+1).join('/'))!= ' ' + caps(format(r))
             |  &rarr;
+      .grid
+        .item.lap_six_columns
+          h3 On This Page
+          ol
+            each h in page.metadata.onThisPage
+              li: a(href!=h[1])= h[0]
+        if page.metadata.FAQs.length > 0
+          .item.lap_six_columns
+            h3 FAQs
+            ol
+              each h in page.metadata.FAQs
+                li: a(href!=h[1])= h[0]
+      hr
       != page.html
