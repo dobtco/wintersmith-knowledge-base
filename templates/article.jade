@@ -1,9 +1,9 @@
 extends layout
 block content
   .grid
-    .sidenav.item.lap_three_columns
+    .left_nav.item.lap_three_columns
       p(style='word-wrap:break-word;')
-        | Choose an app: 
+        | Choose an app:
         select#choose-app
           - var sel = false
           each dir in directories
@@ -11,9 +11,9 @@ block content
             if cur_dir == dir.filename
               - sel = true
             option(value=dir.filename, selected=sel)= caps(dir.filename.split('/')[1])
-      +toc(_.filter(directories, function(d) {if (cur_dir == d.filename) {return true}}), false)(class='left_toc')
+      +toc(_.filter(directories, function(d) {if (cur_dir == d.filename) {return true}}), false)
       div
-        b Still need help? 
+        b Still need help?
         div(style='text-indent:10px;')
           a(href='#') Contact us
     .article.item.lap_nine_columns
@@ -22,9 +22,9 @@ block content
         each r, i in rs
           if r != 'index.html'
             a(href="/articles/"+rs.slice(0,i+1).join('/'))!= caps(format(r))
-            |  &rarr; 
+            |  &rarr;
       != page.html
-  
+
   script.
     document.getElementById('choose-app').onchange = function() {
       window.location.href = '/' + this.value
