@@ -41,17 +41,3 @@ mixin toc(dirs, index)
               ul(id!=identifier, style='display:'+display)
                 each article in _.values(dir[k])
                   +toc_article(article)
-  script.
-    $(".toggle_toc").click(function(){
-      //- alert(this.name)
-      if ($(this).children().hasClass('fa-toggle-down')) {
-        $(this).children().removeClass('fa-toggle-down')
-        $(this).children().addClass('fa-toggle-up')
-        $('#'+this.name).hide()
-      }
-      else {
-        $(this).children().removeClass('fa-toggle-up')
-        $(this).children().addClass('fa-toggle-down')
-        $('#'+this.name).show()
-      }
-    })

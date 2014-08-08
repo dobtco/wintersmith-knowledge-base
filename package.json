@@ -28,7 +28,8 @@
     "natural": "0.1.12",
     "query-engine": "1.2.0",
     "coffee-script": "^1.7.1",
-    "grunt-git": "^0.2.14"
+    "grunt-git": "^0.2.14",
+    "wintersmith-coffee": "^0.2.1"
   },
   "engines": {
     "node": "0.10.x"

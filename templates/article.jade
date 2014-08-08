@@ -2,7 +2,7 @@ extends layout
 block content
   .grid
     .left_nav.item.lap_three_columns
-      p(style='word-wrap:break-word;')
+      p
         | Choose an app:
         select#choose-app
           - var sel = false
@@ -14,7 +14,7 @@ block content
       +toc(_.filter(directories, function(d) {if (cur_dir == d.filename) {return true}}), false)
       div
         b Still need help?
-        div(style='text-indent:10px;')
+        .still_need_help
           a(href='#') Contact us
     .article.item.lap_nine_columns
       .breadcrumbs
@@ -24,8 +24,3 @@ block content
             a(href="/articles/"+rs.slice(0,i+1).join('/'))!= caps(format(r))
             |  &rarr;
       != page.html
-
-  script.
-    document.getElementById('choose-app').onchange = function() {
-      window.location.href = '/' + this.value
-    }
