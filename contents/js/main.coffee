@@ -12,38 +12,36 @@ $ ->
     $section[if willHide then 'hide' else 'show']()
 
   if $(".search-results")[0]
+    url = "http://dobt-knowledge-base-search.herokuapp.com/search"
+    
+    $(".search-results").text("...")
     query = window.location.search.slice(3)
     $(".centersearch").attr('value', query)
-    $(".search-results").text("...")
 
-    $.get "http://dobt-knowledge-base-search.herokuapp.com/search", {q: query}, (data) ->
+    $.get url, {q: query}, (data) ->
       $(".search-results").text("")
 
       if data.length < 1
         $(".search-results").append("<h4>No results...</h4>")
       else
         for result in data
-          results = "..."
+          display = "..."
           re_left = "(\\S+\\s){0,8}"
           re_right = "(\\S*\\s\\S+){0,8}"
           re = new RegExp(re_left + query + re_right, 'ig')
 
           result_match = result.body.match(re)
           if result_match
-            for r, i in result_match
-              if i < 10
-                results = results + r + "... "
+            for r in result_match.slice(0,10)
+              display = display + r + "... "
 
-          results = results.replace(
-            new RegExp(query, 'ig'),
-            "<span class='highlight'>#{query}</span>"
-          )
+          display = display.replace(new RegExp(query, 'ig'),
+            "<span class='highlight'>#{query}</span>")
 
           $(".search-results").append("
             <div class='result'>
               <h4><a href='#{result.url}'>#{result.title}</a></h4>
               <p class='result-body'>
-                #{results}
+                #{display}
               </p>
-            </div>
-          ")
+            </div>")
