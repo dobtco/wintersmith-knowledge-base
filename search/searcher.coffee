@@ -1,6 +1,7 @@
 module.exports = (articles) ->
   queryEngine = require 'query-engine'
   natural = require 'natural'
+  _ = require 'underscore'
 
   projectCollection = queryEngine.createLiveCollection(articles)
   projectSearchCollection = projectCollection.createLiveChildCollection()
@@ -39,4 +40,6 @@ module.exports = (articles) ->
     natural.PorterStemmer.attach()
     terms = terms.tokenizeAndStem().join(" ")
     results = projectSearchCollection.setSearchString(terms).query().toJSON()
-    callback results
+    callback _.map(results, (result) ->
+      _.pick(result, 'title', 'url', 'body')
+    )
