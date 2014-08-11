@@ -19,19 +19,22 @@ $ ->
     $.get "http://dobt-knowledge-base-search.herokuapp.com/search", {q: query}, (data) ->
       $(".search-results").text("")
 
-      for result in data
-        results = "..."
-        re_left = "(\\S+\\s){0,8}"
-        re_right = "(\\S*\\s\\S+){0,8}"
-        re = new RegExp(re_left + query + re_right, 'ig')
+      if data.length < 1
+        results = "No results..."
+      else
+        for result in data
+          results = "..."
+          re_left = "(\\S+\\s){0,8}"
+          re_right = "(\\S*\\s\\S+){0,8}"
+          re = new RegExp(re_left + query + re_right, 'ig')
 
-        for r, i in result.body.match(re)
-          if i < 10
-            results = results + r + "... "
-        results = results.replace(
-          new RegExp(query, 'ig'),
-          "<span class='highlight'>#{query}</span>"
-        )
+          for r, i in result.body.match(re)
+            if i < 10
+              results = results + r + "... "
+          results = results.replace(
+            new RegExp(query, 'ig'),
+            "<span class='highlight'>#{query}</span>"
+          )
 
         $(".search-results").append("
           <div class='result'>
