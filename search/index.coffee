@@ -15,6 +15,7 @@ getArticles (articles) ->
     next()
 
   app.get '/search', (request, response) ->
+    response.setHeader("Access-Control-Allow-Origin", "localhost:8080")
     searcher request.query.q, (results) ->
       response.send results
 
