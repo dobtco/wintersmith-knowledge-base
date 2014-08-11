@@ -20,7 +20,7 @@ $ ->
       $(".search-results").text("")
 
       if data.length < 1
-        results = "No results..."
+        $(".search-results").append("<h4>No results...</h4>")
       else
         for result in data
           results = "..."
@@ -36,11 +36,11 @@ $ ->
             "<span class='highlight'>#{query}</span>"
           )
 
-        $(".search-results").append("
-          <div class='result'>
-            <h4><a href='#{result.url}'>#{result.title}</a></h4>
-            <p class='result-body'>
-              #{results}
-            </p>
-          </div>
-        ")
+          $(".search-results").append("
+            <div class='result'>
+              <h4><a href='#{result.url}'>#{result.title}</a></h4>
+              <p class='result-body'>
+                #{results}
+              </p>
+            </div>
+          ")
