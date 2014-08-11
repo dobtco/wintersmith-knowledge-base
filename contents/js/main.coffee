@@ -21,12 +21,12 @@ $ ->
 
       for result in data
         results = "..."
-        re_left = "(\\w+\\s){0,5}"
-        re_right = "(\\s\\w+){0,5}"
+        re_left = "(\\S+\\s){0,8}"
+        re_right = "(\\S*\\s\\S+){0,8}"
         re = new RegExp(re_left + query + re_right, 'ig')
 
         for r, i in result.body.match(re)
-          if i < 100
+          if i < 10
             results = results + r + "... "
         results = results.replace(
           new RegExp(query, 'ig'),
@@ -39,5 +39,6 @@ $ ->
             <p class='result-body'>
               #{results}
             </p>
+            #{result.body}
           </div>
         ")
