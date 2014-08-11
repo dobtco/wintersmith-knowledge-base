@@ -39,6 +39,5 @@ $ ->
             <p class='result-body'>
               #{results}
             </p>
-            #{result.body}
           </div>
         ")
