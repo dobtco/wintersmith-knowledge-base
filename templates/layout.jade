@@ -10,6 +10,8 @@ html(lang='en')
     script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
     script(src='/js/main.js')
   body
+  - var route = locals.page.filename.split('/')
+  - var cur_dir = route.slice(0,2).join('/')
     block nav
       .navbar
         .navbar-internal.grid
@@ -20,8 +22,17 @@ html(lang='en')
           .navbar-right.item.lap_six_columns
             form(action='/search', method='get').navbar-form
               input(type='search', name='q', placeholder='Search articles')
-            a(href='#') Back to Dashboard &rarr;
+            if cur_dir == "index.html"
+              - var back_to = "Dashboard"
+            else
+              - var back_to = env.helpers.caps(cur_dir.split('/')[1])
+            if back_to == "Dashboard"
+              - var back_to_link = 'https://dashboard.dobt.co/'
+            else if back_to == "Screendoor"
+              - var back_to_link = 'https://screendoor.dobt.co/'
+            else
+              - var back_to_link = '#'
+            a(href!=back_to_link)= "Back to " + back_to
+              &nbsp;&rarr;
     div.container
-      - var route = locals.page.filename.split('/')
-      - var cur_dir = route.slice(0,2).join('/')
       block content
