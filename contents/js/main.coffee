@@ -28,9 +28,12 @@ $ ->
           re_right = "(\\S*\\s\\S+){0,8}"
           re = new RegExp(re_left + query + re_right, 'ig')
 
-          for r, i in result.body.match(re)
-            if i < 10
-              results = results + r + "... "
+          result_match = result.body.match(re)
+          if result_match
+            for r, i in result_match
+              if i < 10
+                results = results + r + "... "
+
           results = results.replace(
             new RegExp(query, 'ig'),
             "<span class='highlight'>#{query}</span>"
