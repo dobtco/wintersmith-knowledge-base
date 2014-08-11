@@ -21,5 +21,6 @@ html(lang='en')
               input(type='text', placeholder='Search articles')
             a(href='#') Back to Dashboard &rarr;
     div.container
-      include helpers
+      - var route = locals.page.filename.split('/')
+      - var cur_dir = route.slice(0,2).join('/')
       block content

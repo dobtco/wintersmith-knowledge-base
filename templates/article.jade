@@ -5,10 +5,10 @@ block content
       p
         | Choose an app:
         select#choose-app
-          each dir in directories
-            option(value=dir.filename, selected=(cur_dir == dir.filename))= caps(dir.filename.split('/')[1])
+          each dir in contents.articles._.directories
+            option(value=dir.filename, selected=(cur_dir == dir.filename))= env.helpers.caps(dir.filename.split('/')[1])
       include partials/toc.jade
-      +toc(_.filter(directories, function(d) {if (cur_dir == d.filename) {return true}}), false)
+      +toc(_.filter(contents.articles._.directories, function(d) {if (cur_dir == d.filename) {return true}}), false)
       div
         b Still need help?
         .still_need_help
@@ -19,13 +19,13 @@ block content
         each r, i in rs
           if i < (rs.length-1)
             if r != 'index.html'
-              = caps(format(r)) + ' '
+              = env.helpers.caps(env.helpers.format(r)) + ' '
               | &rarr;&nbsp;
         - var last = rs[rs.length-1]
       if last != 'index.html'
-        h1= caps(format(rs[rs.length-1]))
+        h1= env.helpers.caps(env.helpers.format(rs[rs.length-1]))
       else
-        h1= caps(format(rs[rs.length-2]))
+        h1= env.helpers.caps(env.helpers.format(rs[rs.length-2]))
       .grid
         .item.lap_six_columns
           h3 On This Page

@@ -6,4 +6,4 @@ block content
       input.form-control.centersearch(type='text', placeholder='Search knowledge base articles')
     .listings
       include partials/toc.jade
-      +toc(directories, true)
+      +toc(contents.articles._.directories, true)

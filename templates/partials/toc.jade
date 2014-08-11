@@ -14,7 +14,7 @@ mixin toc(dirs, index)
     .toc_section(class!=section_class)
       if index
         a(href=dir.filename)
-          h3= caps(dir.filename.split('/')[1])
+          h3= env.helpers.caps(dir.filename.split('/')[1])
       ul.toc(class!=attributes.class)
         each k in _.without(_.keys(dir), '.DS_Store', 'images')
           if k != "index.md"
@@ -29,7 +29,7 @@ mixin toc(dirs, index)
                 - var button_class = "fa-toggle-up"
                 - var display = "none"
               - var identifier = dir[k].filename.replace(/\//g, '-')
-              h4= caps(format(k))+" "
+              h4= env.helpers.caps(env.helpers.format(k))+" "
                 a(name=identifier).toggle_toc
                   span.fa(class!=button_class)
               ul(id!=identifier, style='display:'+display)
