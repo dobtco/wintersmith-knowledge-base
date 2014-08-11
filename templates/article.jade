@@ -7,6 +7,7 @@ block content
         select#choose-app
           each dir in directories
             option(value=dir.filename, selected=(cur_dir == dir.filename))= caps(dir.filename.split('/')[1])
+      include partials/toc.jade
       +toc(_.filter(directories, function(d) {if (cur_dir == d.filename) {return true}}), false)
       div
         b Still need help?

@@ -5,4 +5,5 @@ block content
       h1 Dont worry, we've got you covered.
       input.form-control.centersearch(type='text', placeholder='Search knowledge base articles')
     .listings
+      include partials/toc.jade
       +toc(directories, true)
