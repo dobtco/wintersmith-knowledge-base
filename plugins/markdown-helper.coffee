@@ -13,9 +13,13 @@ module.exports = (env, callback) ->
     constructor: (@filepath, @metadata, @markdown) ->
       parseOut = (text) ->
         headings = text.match(/\#\#.+/gi)
-        return headings?.map (heading) ->
+        
+        headings?.map (heading) ->
           heading = heading.replace(/\#\#\s?/, '')
+          # "heading"-> ["heading", "link"]
           [heading, '#' + heading.toLowerCase().replace(/\W/g, '-')]
+        .filter (heading) ->
+          heading[0].slice(0,1) != '#'
 
       # to avoid an error if there aren't any sections
       @metadata.onThisPage = []
