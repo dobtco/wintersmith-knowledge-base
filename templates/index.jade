@@ -1,9 +1,10 @@
 extends layout
 block content
-  .home
+  .main
     .landing
       h1 Dont worry, we've got you covered.
-      input.form-control.centersearch(type='text', placeholder='Search knowledge base articles')
+      include partials/search.jade
+      +search
     .listings
       include partials/toc.jade
       +toc(contents.articles._.directories, true)
