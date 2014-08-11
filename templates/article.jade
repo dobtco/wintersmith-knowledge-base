@@ -5,12 +5,8 @@ block content
       p
         | Choose an app:
         select#choose-app
-          - var sel = false
           each dir in directories
-            - sel = false
-            if cur_dir == dir.filename
-              - sel = true
-            option(value=dir.filename, selected=sel)= caps(dir.filename.split('/')[1])
+            option(value=dir.filename, selected=(cur_dir == dir.filename))= caps(dir.filename.split('/')[1])
       +toc(_.filter(directories, function(d) {if (cur_dir == d.filename) {return true}}), false)
       div
         b Still need help?
