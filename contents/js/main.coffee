@@ -16,5 +16,13 @@ $ ->
     $(".centersearch").attr('value', query)
     $(".search-results").text("...")
 
-    $.get "http://dobt-knowledge-base-search.herokuapp.com/search", (data) ->
-      $(".search-results").text("got page!")
+    $.get "http://dobt-knowledge-base-search.herokuapp.com/search", {q: query}, (data) ->
+      $(".search-results").text("")
+
+      for result in data
+        $(".search-results").append("
+          <div>
+            <a href='#{result.url}'>#{result.title}</a>
+            <p>#{result.body}</p>
+          </div>
+        ")
