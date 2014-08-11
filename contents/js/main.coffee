@@ -13,14 +13,13 @@ $ ->
 
   if $(".search-results")[0]
     url = "http://dobt-knowledge-base-search.herokuapp.com/search"
-    
-    $(".search-results").text("...")
     query = window.location.search.slice(3)
+
     $(".centersearch").attr('value', query)
 
+    $(".search-results").text("...")
     $.get url, {q: query}, (data) ->
       $(".search-results").text("")
-
       if data.length < 1
         $(".search-results").append("<h4>No results...</h4>")
       else
