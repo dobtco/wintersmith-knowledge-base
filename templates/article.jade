@@ -20,10 +20,15 @@ block content
       .breadcrumbs
         - var rs = locals.page.filename.split('/').slice(1)
         each r, i in rs
-          if r != 'index.html'
-            a(href="/articles/"+rs.slice(0,i+1).join('/'))!= caps(format(r))
-            |  &rarr;
-            // ^^ intentional trailing whitespace ^^
+          if i < (rs.length-1)
+            if r != 'index.html'
+              = caps(format(r)) + ' '
+              | &rarr;&nbsp;
+        - var last = rs[rs.length-1]
+      if last != 'index.html'
+        h1= caps(format(rs[rs.length-1]))
+      else
+        h1= caps(format(rs[rs.length-2]))
       .grid
         .item.lap_six_columns
           h3 On This Page
