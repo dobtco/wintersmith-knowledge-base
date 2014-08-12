@@ -24,6 +24,7 @@
     "grunt": "^0.4.5",
     "grunt-wintersmith": "0.0.2",
     "grunt-gh-pages": "^0.9.1",
+    "grunt-link-checker": "0.0.6",
     "express": "^4.8.0",
     "natural": "0.1.12",
     "query-engine": "1.2.0",
