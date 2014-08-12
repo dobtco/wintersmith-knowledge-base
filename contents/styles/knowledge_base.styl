@@ -1,5 +1,11 @@
+// Variables
+$color-blue = #21BEDB
+$color-blue-gray = #F3F6F8
+
+// Base
+
 .container
-  border-top 1px solid #F3F6F8
+  border-top 1px solid $color-blue-gray
 
 input[type="search"]
   padding-left 10px
@@ -40,7 +46,7 @@ input[type="search"]
 // Home page
 
 .main
-  background #F3F6F8
+  background $color-blue-gray
   padding 20px 10px
 
 .listings
@@ -48,7 +54,7 @@ input[type="search"]
   text-align center
 
 .listings a
-  color #21BEDB
+  color $color-blue
 
 .toc_section
   text-align left
@@ -108,7 +114,7 @@ input[type="search"]
   color black
 
 .left_nav
-  background #F3F6F8
+  background $color-blue-gray
   padding 2rem 2rem 2rem 4rem
 
   & #choose-app
@@ -146,7 +152,7 @@ input[type="search"]
     float right
 
   & .current_article
-    color #21BEDB
+    color $color-blue
     font-weight bold
 
   & .still_need_help_container
@@ -182,12 +188,13 @@ input[type="search"]
   & ol
     padding-left 0px
     list-style-position inside
-    color #21BEDB
+    color $color-blue
     & a
-      color #21BEDB
+      color $color-blue
       text-decoration none
 
 .breadcrumbs
+  color $color-blue
   margin-top 10px
   margin-bottom 10px
 
@@ -229,7 +236,7 @@ footer
           text-align center
 
         &:hover
-          color #21bedb
+          color $color-blue
 
           &.fb
             color #2d5194
