@@ -34,11 +34,6 @@ input[type="search"]
 .gray
   color #6F7277
 
-.fa-chevron-down, .fa-chevron-up
-  font-size 80%
-  color #B4B5B7
-  float right
-
 // Home page
 
 .main
@@ -116,6 +111,17 @@ input[type="search"]
   background #F3F6F8
   padding 2rem 2rem 2rem 4rem
 
+  & #choose-app
+    height 35px
+    font-weight bold
+    margin-left 10px
+    margin-top 10px
+
+  & a
+    color black
+    display block
+    width 100%
+
   & p
     padding-bottom 15px
     word-wrap break-word
@@ -124,12 +130,21 @@ input[type="search"]
     padding-left 15px
 
   & h4
-    padding-top 10px
+    padding 10px 7px
     font-weight normal
     text-transform uppercase
     font-size 100%
+    margin-bottom 0px
+  & h4:hover
+    background #3BCCAF
+    color #fff
+
+  & .fa-chevron-down, .fa-chevron-up
+    font-size 80%
+    float right
 
   & .current_article
+    color #21BEDB
     font-weight bold
 
   & .still_need_help
