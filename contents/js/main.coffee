@@ -35,9 +35,13 @@ $ ->
 
     $(".centersearch").attr('value', query)
 
+    # Show loading state
     $(".search-results").text("...")
-    $.get url, {q: query}, (data) ->
-      $(".search-results").text("")
+
+    $.getJSON url, {q: query}, (data) ->
+      # Clear loading state
+      $(".search-results").html('')
+
       if data.length < 1
         $(".search-results").append("<h4>No results...</h4>")
       else
