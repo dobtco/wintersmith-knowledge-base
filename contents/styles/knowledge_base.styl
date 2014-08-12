@@ -4,6 +4,9 @@
 input[type="search"]
   padding-left 10px
 
+.fa
+  vertical-align baseline
+
 // Navigation
 
 .navbar
@@ -99,13 +102,10 @@ input[type="search"]
   padding-left 0px
 
 .toc_section li
-  margin-top 3px
+  margin-top 5px
 
 .toggle_toc
   color black
-
-.still_need_help_container
-  margin-top 10px
 
 .left_nav
   background #F3F6F8
@@ -121,6 +121,7 @@ input[type="search"]
     color black
     display block
     width 100%
+    text-decoration none
 
   & p
     padding-bottom 15px
@@ -128,6 +129,7 @@ input[type="search"]
 
   & ul
     padding-left 15px
+    margin-bottom 10px
 
   & h4
     padding 10px 7px
@@ -147,8 +149,21 @@ input[type="search"]
     color #21BEDB
     font-weight bold
 
+  & .still_need_help_container
+    background #EAEEF1
+    padding 10px
+    margin-top 15px
+
   & .still_need_help
+    margin-top 10px
     text-indent 10px
+    & a
+      background #3BCCAF
+      padding 10px 7px
+      text-transform uppercase
+      text-align center
+      color #fff
+
 
 // Article
 
