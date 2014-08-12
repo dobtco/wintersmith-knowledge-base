@@ -9,10 +9,10 @@ block content
             option(value=dir.filename, selected=(cur_dir == dir.filename))= env.helpers.caps(dir.filename.split('/')[1])
       include partials/toc.jade
       +toc(_.filter(contents.articles._.directories, function(d) {if (cur_dir == d.filename) {return true}}), false)
-      div
+      .still_need_help_container
         b Still need help?
         .still_need_help
-          a(href='#') Contact us
+          a(href='mailto:support@dobt.co') Contact us
     .article.item.lap_nine_columns
       .breadcrumbs
         - var rs = locals.page.filename.split('/').slice(1)
