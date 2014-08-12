@@ -5,10 +5,10 @@ $ ->
   $(".toggle_toc").on 'click', ->
     $icon = $(@).find('.fa')
     $section = $("##{$(@).attr('name')}")
-    willHide = $icon.hasClass('fa-toggle-down')
+    willHide = $icon.hasClass('fa-chevron-down')
 
-    $icon.removeClass('fa-toggle-down fa-toggle-up')
-    $icon.addClass(if willHide then 'fa-toggle-up' else 'fa-toggle-down')
+    $icon.removeClass('fa-chevron-down fa-chevron-up')
+    $icon.addClass(if willHide then 'fa-chevron-up' else 'fa-chevron-down')
     $section[if willHide then 'hide' else 'show']()
 
   if $(".search-results")[0]

@@ -16,15 +16,15 @@ mixin toc(dirs, index)
             +toc_article(dir[k])
           else
             if dir[k].filename == route.slice(0,-1).join('/') || route[route.length-1] == "index.html"
-              - var button_class = "fa-toggle-down"
+              - var button_class = "fa-chevron-down"
               - var display = "block"
             else
-              - var button_class = "fa-toggle-up"
+              - var button_class = "fa-chevron-up"
               - var display = "none"
             - var identifier = dir[k].filename.replace(/\//g, '-')
-            h4= env.helpers.caps(env.helpers.format(k))+" "
-              if !index
-                a(name=identifier).toggle_toc
+            a(name=identifier).toggle_toc
+              h4= env.helpers.caps(env.helpers.format(k))+" "
+                if !index
                   span.fa(class!=button_class)
             ul(id!=identifier, style='display:'+display)
               each article in _.values(dir[k])
