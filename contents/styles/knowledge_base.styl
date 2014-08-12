@@ -32,11 +32,28 @@
   background #F3F6F8
   padding 20px 10px
 
-.listings a hover
+.listings
+  margin-top 20px
+  text-align center
+
+.listings a
+  color #21BEDB
+
+.toc_section
+  text-align left
+
+.toc_section h3
+  font-size 120%
+  font-weight normal
+  text-transform uppercase
+  margin-bottom 20px
+
+.toc_section h3 a
+  color black
   text-decoration none
 
-.listings a h3
-  font-size 120%
+.toc_section h4
+  font-size 90%
   text-transform uppercase
 
 .landing
@@ -44,6 +61,7 @@
 
 .landing h1
   font-weight normal
+  margin-bottom 20px
 
 // Search
 
@@ -65,12 +83,12 @@
 
 // TOC
 
-.toc, .toc ul
+.toc_section ul
   list-style-type none
-  padding-left 20px
+  padding-left 0px
 
-.toc li, .toc ul li
-  margin-top 5px
+.toc_section ul li
+  margin-top 3px
 
 .toggle_toc
   color black
@@ -84,7 +102,7 @@
     word-wrap break-word
 
   & ul
-    padding-left 5px
+    padding-left 15px
 
   & h4
     padding-top 10px

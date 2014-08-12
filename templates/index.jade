@@ -2,9 +2,9 @@ extends layout
 block content
   .main
     .landing
-      h1 Dont worry, we've got you covered.
+      h1 Don't worry, we've got you covered.
       include partials/search.jade
-      +search
-    .listings
+      +search("Search knowledge base articles...")
+    .listings.grid
       include partials/toc.jade
-      +toc(contents.articles._.directories, true)
+      +toc(contents.articles._.directories, true)(class='item lap_two_columns')
