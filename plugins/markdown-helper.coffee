@@ -13,11 +13,11 @@ module.exports = (env, callback) ->
     constructor: (@filepath, @metadata, @markdown) ->
       parseOut = (text) ->
         headings = text.match(/\#\#.+/gi)
-        
+
         headings?.map (heading) ->
           heading = heading.replace(/\#\#\s?/, '')
           # "heading"-> ["heading", "link"]
-          [heading, '#' + heading.toLowerCase().replace(/\W/g, '-')]
+          [heading, '#' + heading.toLowerCase().replace(/[^\w]+/g, '-')]
         .filter (heading) ->
           heading[0].slice(0,1) != '#'
 
