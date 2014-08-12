@@ -1,4 +1,9 @@
 $ ->
+
+  # Dynamic email address
+  ourEmail = ['hello', '@', 'dobt', '.', 'co'].join('')
+  $('#dynamic-email').attr('href', "mailto:#{ourEmail}").append(ourEmail)
+
   # Get service status
   $.getJSON 'https://c73bgtwgrhvh.statuspage.io/api/v1/status.json', (data) ->
     return unless data.status?.indicator?
