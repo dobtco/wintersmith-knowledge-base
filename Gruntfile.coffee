@@ -33,4 +33,4 @@ module.exports = (grunt) ->
           remote: 'heroku'
 
 
-  grunt.registerTask 'deploy', ['wintersmith:build', 'gh-pages', 'gitpush:heroku', 'link-checker:postDeploy']
+  grunt.registerTask 'deploy', ['link-checker:dev', 'wintersmith:build', 'gh-pages', 'gitpush:heroku']
