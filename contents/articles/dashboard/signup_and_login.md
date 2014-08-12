@@ -3,7 +3,7 @@ title: Signup and Login
 template: article.jade
 ---
 
-## Signing up...
+## Signing up
 
 ### From an existing organization
 
