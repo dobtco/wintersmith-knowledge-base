@@ -32,6 +32,6 @@ html(lang='en')
               - var back_to_link = 'https://screendoor.dobt.co/'
             else
               - var back_to_link = '#'
-            a(href!=back_to_link)= "Back to " + back_to + "&rarr;"
+            a(href!=back_to_link)!= "Back to " + back_to + "&nbsp;&rarr;"
     div.container
       block content
