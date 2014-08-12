@@ -1,4 +1,17 @@
 $ ->
+  # Get service status
+  $.getJSON 'https://c73bgtwgrhvh.statuspage.io/api/v1/status.json', (data) ->
+    return unless data.status?.indicator?
+
+    $('.status.loading').hide()
+
+    if data.status.indicator == 'none'
+      $('.status.up').show()
+    else if data.status.indicator == 'minor'
+      $('.status.partial').show()
+    else if (data.status.indicator == 'major') || (data.status.indicator == 'critical')
+      $('.status.major').show()
+
   $('#choose-app').on 'change', ->
     window.location.href = '/' + $(@).val()
 

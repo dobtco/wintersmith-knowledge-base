@@ -33,3 +33,46 @@ html(lang='en')
             a(href!=back_to_link)!= "Back to " + back_to + "&nbsp;&rarr;"
     div.container
       block content
+    footer
+      .items.grid
+        .item.lap_three_columns.service-status
+          h2 Links
+          ul
+            li: a(href='http://status.dobt.co')
+              span.status.loading Service Status
+              span.status.up(style='display:none;')
+                i.fa.fa-check
+                | Everything is up!
+              span.status.partial(style='display:none;')
+                i.fa.fa-times
+                | Partial service outage
+              span.status.major(style='display:none;')
+                i.fa.fa-times
+                | Major service outage
+            li: a(href='http://blog.dobt.co') Blog
+            li: a(href='https://dashboard.dobt.co/privacy') Privacy
+            li: a(href='https://dashboard.dobt.co') Customer Dashboard
+        .item.lap_three_columns.social
+          h2 Social
+          ul
+            li: a.fb(href='https://www.facebook.com/dobtco')
+              i.fa.fa-facebook
+              | Facebook
+            li: a.tw(href='https://twitter.com/dobtco')
+              i.fa.fa-twitter
+              | Twitter
+            li: a.gp(href='https://plus.google.com/+DobtCo/')
+              i.fa.fa-google-plus
+              | Google+
+        .item.lap_three_columns.contact
+          h2 Contact
+          ul
+            li: a.tf(href='tel:+18772943628')
+              i.fa.fa-phone
+              | +1 (877) 294 - DOBT (Toll Free)
+            li: a.local(href='tel:+14049751962')
+              i.fa.fa-phone
+              | +1 (404) 975 - 1962 (Local)
+            li: a.email(id='dynamic-email', href='mailto:hello@dobtco')
+              i.fa.fa-envelope
+              | hello@dobt.co
