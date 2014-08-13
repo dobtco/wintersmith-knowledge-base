@@ -1,10 +1,15 @@
 @import 'based/variables'
 
 // Variables
+
 $kbBlue = #21BEDB
 $kbBlueGray = #F3F6F8
+$footerBackground = #2e2e2e
 
 // Base
+
+body
+  background-color $footerBackground
 
 .container
   border-top 1px solid $lighterGray
@@ -23,9 +28,14 @@ input[type="search"]
 $navbarHeight = 90px
 $navbarInnerHeight = 70px
 
+#header
+  background-color #fff
+
 .navbar
-  padding 10px 50px
+  padding 10px 0
   height $navbarHeight
+  width 90%
+  margin 0 auto
 
   a
     color black
@@ -276,7 +286,7 @@ $navbarInnerHeight = 70px
 // Footer
 
 footer
-  background #2e2e2e
+  background $footerBackground
   text-align center
   padding 3rem 0 1.5rem
 
