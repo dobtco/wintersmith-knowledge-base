@@ -1,3 +1,7 @@
+SEARCH_ENDPOINT = "http://dobt-knowledge-base-search.herokuapp.com/search"
+# Uncomment the following line to test search w/ development server:
+# SEARCH_ENDPOINT = "http://localhost:3000/search"
+
 # Toggle class
 $(document).on "click", "[data-toggle-class]", ->
   $($(@).data('target')).toggleClass($(@).data('toggle-class'))
@@ -46,7 +50,6 @@ $ ->
     $section[if willHide then 'hide' else 'show']()
 
   if $(".search-results")[0]
-    url = "http://dobt-knowledge-base-search.herokuapp.com/search"
     query = $.url().param('q')
 
     $(".centersearch-input").attr('value', query)
@@ -54,7 +57,7 @@ $ ->
     # Show loading state
     $(".search-results").text("...")
 
-    $.getJSON url, {q: query}, (data) ->
+    $.getJSON SEARCH_ENDPOINT, {q: query}, (data) ->
       # Clear loading state
       $(".search-results").html('')
 
@@ -62,25 +65,10 @@ $ ->
         $(".search-results").append("<h4>No results...</h4>")
       else
         for result in data
-          display = "..."
-          re_left = "(\\S+\\s){0,8}"
-          re_right = "(\\S*\\s\\S+){0,8}"
-          re = new RegExp(re_left + query + re_right, 'ig')
-
-          result_match = result.body.match(re)
-          if result_match
-            for r in result_match.slice(0,10)
-              display = display + r + "... "
-          else
-            display = result.body.match(/([^\.]+\.){0,3}/)[0] + '..'
-
-          display = display.replace(new RegExp(query, 'ig'),
-            "<span class='highlight'>#{query}</span>")
-
           $(".search-results").append("
             <div class='result'>
               <h4><a href='#{result.url}'>#{result.title}</a></h4>
               <p class='result-body'>
-                #{display}
+                #{result.excerpt}
               </p>
             </div>")

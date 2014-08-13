@@ -2,6 +2,7 @@ module.exports = (articles) ->
   queryEngine = require 'query-engine'
   natural = require 'natural'
   _ = require 'underscore'
+  highlighter = require './highlighter'
 
   projectCollection = queryEngine.createLiveCollection(articles)
   projectSearchCollection = projectCollection.createLiveChildCollection()
@@ -38,8 +39,9 @@ module.exports = (articles) ->
 
   return (terms, callback) ->
     natural.PorterStemmer.attach()
-    terms = terms.tokenizeAndStem().join(" ")
-    results = projectSearchCollection.setSearchString(terms).query().toJSON()
-    callback _.map(results, (result) ->
-      _.pick(result, 'title', 'url', 'body')
+    tokenizedTerms = terms.tokenizeAndStem().join(" ")
+    results = projectSearchCollection.setSearchString(tokenizedTerms).query().toJSON()
+    highlightedResults = highlighter(results, terms)
+    callback _.map(highlightedResults, (result) ->
+      _.pick(result, 'title', 'url', 'body', 'excerpt')
     )

@@ -1,5 +1,7 @@
 wintersmith = require 'wintersmith'
 _ = require 'underscore'
+_s = require 'underscore.string'
+marked = require 'marked'
 natural = require 'natural'
 
 module.exports = (callback) ->
@@ -21,7 +23,7 @@ module.exports = (callback) ->
                     title: item.title
                     title_token: item.title.tokenizeAndStem().join(" ")
                     url: item.url
-                    body: item.markdown
+                    body: _s.stripTags(marked(item.markdown))
                     body_token: item.markdown.tokenizeAndStem().join(" ")
 
                 else
