@@ -15,7 +15,7 @@ To change an app's URL (slug), click the "Admin" link to the right of the app li
 
 ## Adding or changing your plan
 
-From the "Dashboard" section, select the app you would like to configure. Then, click "Change plan" under "Plan" to add or change a plan. See the [organization settings article](organization_settings.html) for more information on billing and subscription.
+From the "Dashboard" section, select the app you would like to configure. Then, click "Change plan" under "Plan" to add or change a plan. See the [organization settings article](../accounts/organization_settings.html) for more information on billing and subscription.
 
 ## Removing an app
 
