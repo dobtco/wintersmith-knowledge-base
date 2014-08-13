@@ -20,7 +20,7 @@ html(lang='en')
           .navbar-left
             a(href='/')
               img(src='/images/dobt_logo.png')
-              span.brand DOBT
+              span.brand.desk_show_i DOBT
                 span.gray  | Knowledge Base
           .navbar-right
             form(action='/search', method='get').navbar-form
@@ -31,7 +31,7 @@ html(lang='en')
             else
               - back_to = "Dashboard"
               - var back_to_link = 'https://dashboard.dobt.co/'
-            a(href!=back_to_link)!= "Back to " + back_to + "&nbsp;&rarr;"
+            a.lap_show_i(href!=back_to_link)!= "Back to " + back_to + "&nbsp;&rarr;"
       div.container
         block content
     footer
