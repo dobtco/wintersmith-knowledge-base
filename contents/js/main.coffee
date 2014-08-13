@@ -31,7 +31,7 @@ $ ->
 
   if $(".search-results")[0]
     url = "http://dobt-knowledge-base-search.herokuapp.com/search"
-    query = decodeURIComponent(window.location.search.slice(3).replace(/\+/g, "%20"))
+    query = $.url().param('q')
 
     $(".centersearch").attr('value', query)
 
