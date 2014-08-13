@@ -1,7 +1,20 @@
+- var route = locals.page.filename.split('/')
+- var cur_dir = route.slice(0,2).join('/')
+
 doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
+
+    - var content = ""
+    if cur_dir.search("articles") > -1
+      //- Strip html, get first ~three sentences
+      - content = page.html.replace(/<(?:.|\n)*?>/gm, '').match(/([^\.]+\.){0,3}/)[0]
+    else if cur_dir == "index.html"
+    //-  Insert hard-coded meta/description for home page here
+      - content = ""
+    meta(name='description', content=content)
+
     - var title = ""
     if page.metadata.title
       - title = page.metadata.title + " | "
@@ -16,8 +29,6 @@ html(lang='en')
     script(src='/js/purl.js')
     script(src='/js/main.js')
   body
-  - var route = locals.page.filename.split('/')
-  - var cur_dir = route.slice(0,2).join('/')
     block nav
       header#header
         .navbar
