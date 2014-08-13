@@ -87,7 +87,7 @@ $navbarInnerHeight = 70px
   text-align left
 
 .toc_section h3
-  font-size 120%
+  font-size 1.2rem
   font-weight normal
   text-transform uppercase
   margin-bottom 20px
@@ -100,7 +100,7 @@ $navbarInnerHeight = 70px
   text-decoration none
 
 .toc_section h4
-  font-size 90%
+  font-size 1rem
   text-transform uppercase
 
 .landing
@@ -145,24 +145,26 @@ $navbarInnerHeight = 70px
 // TOC
 
 .toc_section ul
-  list-style-type none
-  padding-left 0px
+  list-style none
+  padding 0.25rem 0 1rem
 
 .toc_section li
-  margin-top 5px
+  margin 0.5rem 0 0
 
 .toggle_toc
   color black
 
 .left_nav
   background $kbBlueGray
-  padding 2rem 2rem 2rem 4rem
+  padding 0 2rem 2rem 4rem
+
+  .choose-app-text
+    font-size 0.9rem
+    margin-bottom 5px
 
   #choose-app
     height 35px
-    font-weight bold
-    margin-left 10px
-    margin-top 10px
+    font-weight 600
 
   a
     color black
@@ -184,13 +186,17 @@ $navbarInnerHeight = 70px
     text-transform uppercase
     font-size 100%
     margin-bottom 0px
+    position relative
+
   h4:hover
     background #3BCCAF
     color #fff
 
   .fa-chevron-down, .fa-chevron-up
-    font-size 80%
-    float right
+    font-size 12px
+    position absolute
+    top 12px
+    right 10px
 
   .current_article
     color $kbBlue
@@ -199,19 +205,16 @@ $navbarInnerHeight = 70px
   .still_need_help_container
     background #EAEEF1
     padding 10px
-    margin-top 15px
+    margin-top 2rem
 
   .still_need_help
     margin-top 10px
-    text-indent 10px
 
     a
-      background #3BCCAF
-      padding 10px 7px
       text-transform uppercase
-      text-align center
-      color #fff
 
+    i
+      margin-left 10px
 
 // Breadcrumbs
 

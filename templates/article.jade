@@ -3,7 +3,7 @@ block content
   .grid
     .left_nav.item.lap_three_columns
       p
-        | Choose an app:
+        div.choose-app-text Choose an app:
         select#choose-app
           each dir in contents.articles._.directories
             option(value=dir.filename, selected=(cur_dir == dir.filename))= env.helpers.caps(dir.filename.split('/')[1])
@@ -12,7 +12,7 @@ block content
       .still_need_help_container
         b Still need help?
         .still_need_help
-          a(href='mailto:support@dobt.co') Contact us
+          a.button.teal(href='mailto:support@dobt.co') Contact us
             i.fa.fa-envelope
     .article.item.lap_nine_columns
       .breadcrumbs
