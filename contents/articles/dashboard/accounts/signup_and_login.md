@@ -21,7 +21,7 @@ If you already have a dobt.co account, you can sign in from the [sign in page](h
 
 If you forgot your password, simply click the question mark on the right side of where you would normally enter your password. Then, follow the prompts to reset your password.
 
-![screenshot](images/screenshot_forgot_password.png)
+![screenshot](../images/screenshot_forgot_password.png)
 
 ---
 
