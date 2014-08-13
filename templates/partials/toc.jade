@@ -17,12 +17,14 @@ mixin toc(dirs, index)
             if dir[k].filename == route.slice(0,-1).join('/') || route[route.length-1] == "index.html"
               - var button_class = "fa-chevron-down"
               - var display = "block"
+              - var activeClass = "active"
             else
               - var button_class = "fa-chevron-up"
               - var display = "none"
+              - var activeClass = ""
             - var identifier = dir[k].filename.replace(/\//g, '-')
             a(name=identifier).toggle_toc
-              h4= env.helpers.format(k) + " "
+              h4(class=activeClass)= env.helpers.format(k) + " "
                 if !index
                   span.fa(class!=button_class)
             ul(id!=identifier, style='display:'+display)

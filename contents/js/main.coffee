@@ -21,10 +21,13 @@ $ ->
     window.location.href = '/' + $(@).val()
 
   $(".toggle_toc").on 'click', ->
+    $h4 = $(@).find('h4')
     $icon = $(@).find('.fa')
     $section = $("##{$(@).attr('name')}")
     willHide = $icon.hasClass('fa-chevron-down')
 
+    $('.toc_section').find('h4').removeClass('active')
+    $h4.addClass('active') unless willHide
     $icon.removeClass('fa-chevron-down fa-chevron-up')
     $icon.addClass(if willHide then 'fa-chevron-up' else 'fa-chevron-down')
     $section[if willHide then 'hide' else 'show']()
