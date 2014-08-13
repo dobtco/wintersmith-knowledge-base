@@ -1,14 +1,18 @@
+# Toggle class
+$(document).on "click", "[data-toggle-class]", ->
+  $($(@).data('target')).toggleClass($(@).data('toggle-class'))
+
 $ ->
 
   # Dynamic email address
   ourEmail = ['hello', '@', 'dobt', '.', 'co'].join('')
   $('#dynamic-email').attr('href', "mailto:#{ourEmail}").append(ourEmail)
 
-  # Header permalinks
-  for h in $(".article_body > :header")
-    $(h).'hover' ->
-      $("#anchor-#{h.id}").show
-    $(h).prepend("<a class='anchor' id='anchor-#{h.id}' href='##{h.id}'><i class='fa fa-anchor'></a>")
+  # # Header permalinks
+  # for h in $(".article_body > :header")
+  #   $(h).'hover' ->
+  #     $("#anchor-#{h.id}").show
+  #   $(h).prepend("<a class='anchor' id='anchor-#{h.id}' href='##{h.id}'><i class='fa fa-anchor'></a>")
 
   # Get service status
   $.getJSON 'https://c73bgtwgrhvh.statuspage.io/api/v1/status.json', (data) ->
