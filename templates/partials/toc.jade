@@ -8,7 +8,7 @@ mixin toc(dirs, index)
   each dir in dirs
     .toc_section(class!=attributes.class)
       if index
-        h3: a(href=dir.filename)= env.helpers.caps(dir.filename.split('/')[1])
+        h3: a(href=dir.filename)= dir.filename.split('/')[1]
       each k in _.without(_.keys(dir), '.DS_Store', 'images')
         if k != "index.md"
           if k.indexOf('.md') > -1
@@ -22,7 +22,7 @@ mixin toc(dirs, index)
               - var display = "none"
             - var identifier = dir[k].filename.replace(/\//g, '-')
             a(name=identifier).toggle_toc
-              h4= env.helpers.caps(env.helpers.format(k))+" "
+              h4= env.helpers.format(k) + " "
                 if !index
                   span.fa(class!=button_class)
             ul(id!=identifier, style='display:'+display)

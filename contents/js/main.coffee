@@ -31,7 +31,7 @@ $ ->
 
   if $(".search-results")[0]
     url = "http://dobt-knowledge-base-search.herokuapp.com/search"
-    query = decodeURIComponent(window.location.search.slice(3).replace(/\+/g, "%20"))
+    query = $.url().param('q')
 
     $(".centersearch-input").attr('value', query)
 
@@ -55,6 +55,8 @@ $ ->
           if result_match
             for r in result_match.slice(0,10)
               display = display + r + "... "
+          else
+            display = result.body.match(/([^\.]+\.){0,3}/)[0] + '..'
 
           display = display.replace(new RegExp(query, 'ig'),
             "<span class='highlight'>#{query}</span>")
