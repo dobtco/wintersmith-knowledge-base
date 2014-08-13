@@ -1,3 +1,11 @@
+# We were getting weird false positives here.
+# Not sure why the crawler is crawling javascript?
+IGNORE_LINK_CHECKER_FALSE_POSITIVES = (crawler) ->
+  crawler.addFetchCondition (url) ->
+    !url.path.match('strictMode') &&
+    !url.path.match('.js')
+
+
 module.exports = (grunt) ->
 
   grunt.loadNpmTasks 'grunt-wintersmith'
@@ -18,15 +26,11 @@ module.exports = (grunt) ->
         site: 'localhost'
         options:
           initialPort: 8080
-          callback: (crawler) ->
-            # We were getting weird false positives here.
-            # Not sure why the crawler is crawling javascript?
-            crawler.addFetchCondition (url) ->
-              !url.path.match('strictMode') &&
-              !url.path.match('.js')
-
+          callback: IGNORE_LINK_CHECKER_FALSE_POSITIVES
       postDeploy:
         site: 'help.dobt.co'
+        options:
+          callback: IGNORE_LINK_CHECKER_FALSE_POSITIVES
 
     'gh-pages':
       options:
