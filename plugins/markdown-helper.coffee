@@ -2,6 +2,9 @@ module.exports = (env, callback) ->
 
   # Helper functions:
 
+  caps = (string) ->
+    string.charAt(0).toUpperCase() + string.slice(1)
+
   format = (string) ->
     string.replace(/_/g, ' ').replace('.html', '')
 
@@ -27,7 +30,8 @@ module.exports = (env, callback) ->
       @metadata.FAQs = parseOut(section2) if section2
 
   env.registerContentPlugin 'pages', '**/*.*(markdown|mkd|md)', MarkdownHelper
-  
+
+  env.helpers.caps = caps
   env.helpers.format = format
 
   callback()

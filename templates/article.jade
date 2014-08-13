@@ -6,7 +6,7 @@ block content
         div.choose-app-text Choose an app:
         select#choose-app
           each dir in contents.articles._.directories
-            option(value=dir.filename, selected=(cur_dir == dir.filename))= dir.filename.split('/')[1]
+            option(value=dir.filename, selected=(cur_dir == dir.filename))= env.helpers.caps(dir.filename.split('/')[1])
       include partials/toc.jade
       +toc(_.filter(contents.articles._.directories, function(d) {if (cur_dir == d.filename) {return true}}), false)
       .still_need_help_container
@@ -40,4 +40,5 @@ block content
               each h in page.metadata.FAQs
                 li: a(href!=h[1])= h[0]
       hr
-      != page.html
+      .article_body
+        != page.html
