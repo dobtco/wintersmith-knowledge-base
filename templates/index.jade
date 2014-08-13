@@ -5,6 +5,9 @@ block content
       h1 Don't worry, we've got you covered.
       include partials/search.jade
       +search("Search knowledge base articles...")
+      span.or-browse
+        | Or&nbsp;
+        a(href='/articles/screendoor') browse articles &rarr;
     .listings.grid
       include partials/toc.jade
       +toc(contents.articles._.directories, true)(class='item lap_two_columns')

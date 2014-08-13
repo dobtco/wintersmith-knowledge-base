@@ -104,11 +104,21 @@ $navbarInnerHeight = 70px
   text-transform uppercase
 
 .landing
+  padding 3rem 0
   text-align center
 
-.landing h1
-  font-weight normal
-  margin-bottom 20px
+  .or-browse
+    display inline-block
+    font-size 0.85rem
+    margin-top 0.5rem
+
+  h1
+    font-weight normal
+    font-size 2.4rem
+    margin-bottom 20px
+
+  .centersearch-form
+    max-width 460px
 
 // Search
 
@@ -121,12 +131,13 @@ $navbarInnerHeight = 70px
     height 40px
     padding-left 36px
     font-size 1.1rem
+    margin-left -18px
 
   &:after
     position absolute
     font-size 16px
     top 13px
-    left 12px
+    left -6px
     content "\f002"
     font-family 'FontAwesome'
     color $darkGray
