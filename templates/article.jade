@@ -25,13 +25,13 @@ block content
         each r, i in rs
           if i < (rs.length-1)
             if r != 'index.html'
-              = env.helpers.format(r) + ' '
+              = env.helpers.caps(env.helpers.format(r)) + ' '
               | &rarr;&nbsp;
         - var last = rs[rs.length-1]
       if last != 'index.html'
-        h1.capitalize= env.helpers.format(rs[rs.length-1])
+        h1= env.helpers.caps(env.helpers.format(rs[rs.length-1]))
       else
-        h1.capitalize= env.helpers.format(rs[rs.length-2])
+        h1= env.helpers.caps(env.helpers.format(rs[rs.length-2]))
       .article_toc.grid
         .item.lap_six_columns
           h3 On This Page
