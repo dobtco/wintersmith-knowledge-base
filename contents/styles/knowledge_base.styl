@@ -180,7 +180,7 @@ $navbarInnerHeight = 70px
 
 .left_nav
   background $kbBlueGray
-  padding 0 2rem 2rem 4rem
+  padding 0 2rem 2rem
 
   .choose-app-text
     font-size 0.9rem
@@ -248,11 +248,29 @@ $navbarInnerHeight = 70px
   margin 1rem 0 0.5rem
 
 
+// Article layout
+
+$leftNavWidth = 300px
+
+.article-wrapper
+  display table
+
+  .left_nav, .article
+    display table-cell
+
+  .left_nav
+    min-width $leftNavWidth
+    height 100%
+
+  .article
+    width 100%
+    height 100%
+
 // Article
 
 .article
   background #fff
-  padding-bottom 20px
+  padding 1rem 2rem 2rem 2rem
 
   h1
     font-size 2.2rem

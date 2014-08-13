@@ -1,7 +1,7 @@
 extends layout
 block content
-  .grid
-    .left_nav.item.lap_three_columns
+  .article-wrapper.cf
+    .left_nav
       p
         div.choose-app-text Choose an app:
         select#choose-app
@@ -14,7 +14,7 @@ block content
         .still_need_help
           a.button.teal(href='mailto:support@dobt.co') Contact us
             i.fa.fa-envelope
-    .article.item.lap_nine_columns
+    .article
       .breadcrumbs.capitalize
         - var rs = locals.page.filename.split('/').slice(1)
         each r, i in rs
