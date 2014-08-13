@@ -9,5 +9,25 @@ block content
         | Or&nbsp;
         a(href='/articles/screendoor') browse articles &rarr;
     .listings.grid
-      include partials/toc.jade
-      +toc(contents.articles._.directories, true)(class='item lap_two_columns')
+      .item.lap_two_columns
+        h3: a(href='/articles/dashboard') Dashboard
+        h4 Applications
+        ul
+          li: a(href='articles/dashboard/applications/managing_applications.html') Managing Applications
+        h4 Accounts
+        ul
+          li: a(href='articles/dashboard/accounts/managing_users.html') Managing Users
+          li: a(href='articles/dashboard/accounts/signup_and_login.html') Signup and Login
+      .item.lap_two_columns
+        h3: a(href='/articles/screendoor') Screendoor
+        h4 Messages
+        ul
+          li: a(href='articles/screendoor/messages/sending_messages.html') Sending Messages
+        h4 Projects
+        ul
+          li: a(href='articles/dashboard/accounts/managing_users.html') Managing Users
+          li: a(href='articles/dashboard/accounts/signup_and_login.html') Signup and Login
+        h4 Question and Answer
+        h4 Responses
+      .item.lap_two_columns
+        h3: a(href='/articles/dashboard') Etc.
