@@ -2,7 +2,12 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
-    title= locals.title
+    - var title = ""
+    if !page.metadata.title
+      - title = ""
+    else
+      - title = page.metadata.title + " | "
+    title= title + locals.title
     link(rel='shortcut icon', href='/images/dobt_logo.png')
     link(rel='stylesheet', href='//fonts.googleapis.com/css?family=Open+Sans:400,300,700,600')
     link(rel='stylesheet', href='/styles/based.css')
