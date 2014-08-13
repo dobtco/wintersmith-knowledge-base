@@ -18,6 +18,13 @@ module.exports = (grunt) ->
         site: 'localhost'
         options:
           initialPort: 8080
+          callback: (crawler) ->
+            # We were getting weird false positives here.
+            # Not sure why the crawler is crawling javascript?
+            crawler.addFetchCondition (url) ->
+              !url.path.match('strictMode') &&
+              !url.path.match('.js')
+
       postDeploy:
         site: 'help.dobt.co'
 
