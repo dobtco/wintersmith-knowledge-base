@@ -33,7 +33,7 @@ $ ->
     url = "http://dobt-knowledge-base-search.herokuapp.com/search"
     query = decodeURIComponent(window.location.search.slice(3).replace(/\+/g, "%20"))
 
-    $(".centersearch").attr('value', query)
+    $(".centersearch-input").attr('value', query)
 
     # Show loading state
     $(".search-results").text("...")

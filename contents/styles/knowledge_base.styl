@@ -1,3 +1,5 @@
+@import 'based/variables'
+
 // Variables
 $kbBlue = #21BEDB
 $kbBlueGray = #F3F6F8
@@ -5,7 +7,7 @@ $kbBlueGray = #F3F6F8
 // Base
 
 .container
-  border-top 1px solid $kbBlueGray
+  border-top 1px solid $lighterGray
 
 input[type="search"]
   padding-left 10px
@@ -15,33 +17,58 @@ input[type="search"]
 
 // Navigation
 
+$navbarHeight = 90px
+$navbarInnerHeight = 70px
+
 .navbar
   padding 10px 50px
-  line-height 75px
+  height $navbarHeight
 
-.navbar a
-  color black
-  text-decoration none
+  a
+    color black
+    text-decoration none
 
-.navbar-left img
-  height 75px
+.navbar-left, .navbar-right
+  line-height $navbarInnerHeight
 
-.navbar-left .brand
-  padding-left 10px
+.navbar-left
+  float left
+
+  img
+    height $navbarInnerHeight
+
+  .brand
+    font-size 1.2rem
+    padding-left 10px
 
 .navbar-right
+  float right
   text-align right
 
-.navbar-form, .navbar-form input
-  display inline
-  width 200px
+  a:hover
+    text-decoration underline
 
-.navbar-form input
-  margin-right 30px
-  height 25px
+.navbar-form
+  position relative
+  display inline-block
+
+  input
+    display inline
+    width 200px
+    margin-right 20px
+    height 25px
+    padding-left 28px
+
+  &:after
+    position absolute
+    top 1px
+    left 8px
+    content "\f002"
+    font-family 'FontAwesome'
+    color $darkGray
 
 .gray
-  color #6F7277
+  color $darkGray
 
 // Home page
 
@@ -85,10 +112,24 @@ input[type="search"]
 
 // Search
 
-.centersearch
-  width 400px
-  height 40px
-  margin 0px auto
+.centersearch-form
+  position relative
+  max-width 400px
+  margin 0 auto
+
+  .centersearch-input
+    height 40px
+    padding-left 36px
+    font-size 1.1rem
+
+  &:after
+    position absolute
+    font-size 16px
+    top 13px
+    left 12px
+    content "\f002"
+    font-family 'FontAwesome'
+    color $darkGray
 
 .search-results
   margin 0px auto

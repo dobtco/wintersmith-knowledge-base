@@ -15,22 +15,21 @@ html(lang='en')
   - var cur_dir = route.slice(0,2).join('/')
     block nav
       .navbar
-        .navbar-internal.grid
-          .navbar-left.item.lap_six_columns
-            a(href='/')
-              img(src='/images/dobt_logo.png')
-              span.brand DOBT
-                span.gray  | Knowledge Base
-          .navbar-right.item.lap_six_columns
-            form(action='/search', method='get').navbar-form
-              input(type='search', name='q', placeholder='Search articles')
-            if cur_dir.toLowerCase().search('screendoor') > -1
-              - back_to = "Screendoor"
-              - var back_to_link = 'https://screendoor.dobt.co/'
-            else
-              - back_to = "Dashboard"
-              - var back_to_link = 'https://dashboard.dobt.co/'
-            a(href!=back_to_link)!= "Back to " + back_to + "&nbsp;&rarr;"
+        .navbar-left
+          a(href='/')
+            img(src='/images/dobt_logo.png')
+            span.brand DOBT
+              span.gray  | Knowledge Base
+        .navbar-right
+          form(action='/search', method='get').navbar-form
+            input(type='search', name='q', placeholder='Search articles')
+          if cur_dir.toLowerCase().search('screendoor') > -1
+            - back_to = "Screendoor"
+            - var back_to_link = 'https://screendoor.dobt.co/'
+          else
+            - back_to = "Dashboard"
+            - var back_to_link = 'https://dashboard.dobt.co/'
+          a(href!=back_to_link)!= "Back to " + back_to + "&nbsp;&rarr;"
     div.container
       block content
     footer
