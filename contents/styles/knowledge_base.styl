@@ -199,6 +199,12 @@ $navbarInnerHeight = 70px
     width 100%
     text-decoration none
 
+    &.current_article, &:hover
+      color $kbBlue
+
+    &.current_article
+      font-weight bold
+
   p
     padding-bottom 15px
     word-wrap break-word
@@ -224,10 +230,6 @@ $navbarInnerHeight = 70px
       position absolute
       top 12px
       right 10px
-
-  .current_article
-    color $kbBlue
-    font-weight bold
 
   .still_need_help_container
     background #EAEEF1
