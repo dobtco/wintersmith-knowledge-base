@@ -8,11 +8,14 @@ $ ->
   ourEmail = ['hello', '@', 'dobt', '.', 'co'].join('')
   $('#dynamic-email').attr('href', "mailto:#{ourEmail}").append(ourEmail)
 
-  # # Header permalinks
-  # for h in $(".article_body > :header")
-  #   $(h).'hover' ->
-  #     $("#anchor-#{h.id}").show
-  #   $(h).prepend("<a class='anchor' id='anchor-#{h.id}' href='##{h.id}'><i class='fa fa-anchor'></a>")
+  # Header permalinks
+  for h in $(".article_body > :header")
+    $(h).hover(
+      -> $("#anchor-#{this.id}").show()
+      -> $("#anchor-#{this.id}").hide()
+    )
+    $(h).prepend("<a class='anchor' id='anchor-#{h.id}' href='##{h.id}'><i class='fa fa-link'></a>")
+    $("#anchor-#{h.id}").hide()
 
   # Get service status
   $.getJSON 'https://c73bgtwgrhvh.statuspage.io/api/v1/status.json', (data) ->
