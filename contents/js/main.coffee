@@ -7,6 +7,8 @@ $(document).on "click", "[data-toggle-class]", ->
   $($(@).data('target')).toggleClass($(@).data('toggle-class'))
 
 $ ->
+  # Placeholder polyfill
+  $('input, textarea').placeholder()
 
   # Dynamic email address
   ourEmail = ['hello', '@', 'dobt', '.', 'co'].join('')
