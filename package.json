@@ -5,7 +5,9 @@
   "main": "start",
   "scripts": {
     "start": "coffee search/index.coffee",
-    "test": "echo \"No tests!\" && exit 0"
+    "test": "npm run preview && npm run check-links",
+    "preview": "wintersmith preview &",
+    "check-links": "grunt link-checker:dev"
   },
   "repository": {
     "type": "git",
