@@ -5,7 +5,7 @@ checkout:
 
 deployment:
   production:
-    branch: master
+    branch: production
     commands:
       - git config --global user.email "ops@dobt.co"
       - git config --global user.name "CircleCI"

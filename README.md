@@ -38,7 +38,7 @@ You'll need [node and npm](http://nodejs.org) installed.
 
 ## Deployment
 
-Pushing to the `master` branch will automatically run tests via CircleCI and deploy if passing. Any substantial changes should be made in a feature branch and reviewed prior to being merged into master.
+Pushing to the `master` branch will automatically run tests (currently just a link-checker) on CircleCI. Pushing to the production branch will run the tests *and* deploy if passing. Changes should always be made in the master branch (or a feature branch) and reviewed prior to being merged into production. `hubot deploy knowledge_base immediately` will create and merge a PR from master &rarr; production for you.
 
 ## License
 
