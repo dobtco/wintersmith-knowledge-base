@@ -1,0 +1,10 @@
+checkout:
+  post:
+    - npm install -g coffee-script
+    - npm install -g wintersmith
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - grunt deploy
