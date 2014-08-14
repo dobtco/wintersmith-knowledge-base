@@ -39,3 +39,7 @@ You'll need [node and npm](http://nodejs.org) installed.
 ## Deployment
 
 From the root directory, first start a local server with `wintersmith preview` (to allow the link checker to do its business), then run `grunt deploy`. This will build via wintersmith, push to the `gh-pages` branch in this repository, and push our search index to Heroku. (Note: this task will fail unless you have the correct permissions on Heroku.)
+
+## License
+
+This codebase, with the exception of the content in the `articles/` directory, is MIT licensed. The `articles/` are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
