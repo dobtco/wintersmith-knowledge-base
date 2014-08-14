@@ -20,7 +20,7 @@ $ ->
       -> $("#anchor-#{this.id}").show()
       -> $("#anchor-#{this.id}").hide()
     )
-    $(h).prepend("<a class='anchor' id='anchor-#{h.id}' href='##{h.id}'><i class='fa fa-link'></a>")
+    $(h).prepend("<a class='anchor' id='anchor-#{h.id}' href='##{h.id}'><i class='fa fa-link'></i></a>")
     $("#anchor-#{h.id}").hide()
 
   # Get service status
