@@ -9,4 +9,5 @@ deployment:
     commands:
       - git config --global user.email "ops@dobt.co"
       - git config --global user.name "CircleCI"
+      - git remote add heroku git@heroku.com:dobt-knowledge-base-search.git
       - grunt deploy
