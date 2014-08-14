@@ -117,8 +117,8 @@ $navbarInnerHeight = 70px
     text-transform uppercase
     // font-weight normal
     position relative
-    padding 10px 0px
-    margin-bottom 0px
+    padding 10px 0
+    margin-bottom 0
 
   ul
     list-style none
@@ -189,9 +189,34 @@ $navbarInnerHeight = 70px
     max-width 400px
 
 .search-results
-  margin 0px auto
-  margin-top 20px
-  padding 10px
+  margin 2rem auto
+  width 90%
+  max-width 700px
+
+.search-results-loading
+  font-size 40px
+  color $darkGray
+  text-align center
+  height 100px
+  line-height 100px
+
+.no-search-results
+  height 100px
+  text-align center
+
+  h3
+    line-height 100px
+    color $darkerGray
+
+.results-count
+  text-align center
+  padding-bottom 1rem
+
+  h3
+    color $darkerGray
+
+.result
+  margin-bottom 1.5rem
 
 .highlight
   background #FFFF00
@@ -247,7 +272,7 @@ $navbarInnerHeight = 70px
     font-weight normal
     text-transform uppercase
     font-size 100%
-    margin-bottom 0px
+    margin-bottom 0
     position relative
 
     &:hover, &.active
@@ -369,7 +394,7 @@ $leftNavWidth = 300px
     font-size 1.2rem
 
   ol
-    padding-left 0px
+    padding-left 0
     list-style-position inside
     color $kbBlue
 

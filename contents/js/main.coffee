@@ -56,16 +56,17 @@ $ ->
 
     $(".centersearch-input").val(query)
 
-    # Show loading state
-    $(".search-results").text("...")
-
-    $.getJSON SEARCH_ENDPOINT, {q: query}, (data) ->
+    $.getJSON SEARCH_ENDPOINT, { q: query }, (data) ->
       # Clear loading state
-      $(".search-results").html('')
+      $(".search-results-loading").remove()
 
       if data.length < 1
-        $(".search-results").append("<h4>No results...</h4>")
+        $(".no-search-results").show()
       else
+        $('.results-count').show()
+                           .find('h3')
+                           .text("#{data.length} search result#{if data.length == 1 then '' else 's'}")
+
         for result in data
           $(".search-results").append("
             <div class='result'>

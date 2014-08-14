@@ -4,3 +4,9 @@ block content
     include partials/search.jade
     +search
     .search-results
+      .search-results-loading
+        i.fa.fa-refresh.fa-spin
+      .no-search-results(style='display: none;')
+        h3 No search results.
+      .results-count(style='display: none;')
+        h3
