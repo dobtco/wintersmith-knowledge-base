@@ -8,11 +8,10 @@ The DOBT knowledge base. [View the live site](http://help.dobt.co)
 Our users are largely non-technical, so it will be a good source of info for them. Use cases include:
 
 - Using it to run trainings/self-trainings
-- Linking to it when we get silly support requests
+- Linking to it when we get support requests
 - Linking to it from pages inside of our apps
 - Using it as a sales tool: sometimes, instead of giving a demo, we can link folks to the appropriate sections in the knowledge base
-
-Also, it might be a good source of SEO for us
+- SEO
 
 ## Technical details
 
