@@ -8,26 +8,24 @@ block content
       span.or-browse
         | Or&nbsp;
         a(href='/articles/screendoor') browse articles &rarr;
-    .listings.grid
-      .item.lap_two_columns
+    .listings.grid.gutter_none
+      .item.lap_four_columns
         h3: a(href='/articles/dashboard') Dashboard
-        h4 Applications
         ul
-          li: a(href='articles/dashboard/applications/managing_applications.html') Managing Applications
-        h4 Accounts
+          li: a(href='/articles/dashboard/applications/managing_applications.html') Managing Applications
+          li: a(href='/articles/dashboard/accounts/managing_users.html') Managing Users
+          li: a(href='/articles/dashboard/accounts/signup_and_login.html') Signup and Login
+      .item.lap_four_columns
+        h3: a(href='/articles/screendoor') Screendoor Projects
         ul
-          li: a(href='articles/dashboard/accounts/managing_users.html') Managing Users
-          li: a(href='articles/dashboard/accounts/signup_and_login.html') Signup and Login
-      .item.lap_two_columns
-        h3: a(href='/articles/screendoor') Screendoor
-        h4 Messages
+          li: a(href='/articles/screendoor/projects/creating_a_project.html') Creating a project
+          li: a(href='/articles/screendoor/projects/my_projects.html') My projects
+          li: a(href='/articles/screendoor/projects/using_statuses.html') Using statuses
+          li: a(href='/articles/screendoor/projects/collaborators.html') Collaborators
+      .item.lap_four_columns
+        h3: a(href='/articles/screendoor') Screendoor Responses
         ul
-          li: a(href='articles/screendoor/messages/sending_messages.html') Sending Messages
-        h4 Projects
-        ul
-          li: a(href='articles/dashboard/accounts/managing_users.html') Managing Users
-          li: a(href='articles/dashboard/accounts/signup_and_login.html') Signup and Login
-        h4 Question and Answer
-        h4 Responses
-      .item.lap_two_columns
-        h3: a(href='/articles/dashboard') Etc.
+          li: a(href='/articles/screendoor/responses/building_your_form.html') Building your form
+          li: a(href='/articles/screendoor/responses/sorting_and_filtering_responses.html') Sorting and filtering responses
+          li: a(href='/articles/screendoor/responses/embedding_the_response_form.html') Embedding the response form
+          li: a(href='/articles/screendoor/responses/receiving_responses_via_email.html') Receiving responses via email
