@@ -7,4 +7,6 @@ deployment:
   production:
     branch: master
     commands:
+      - git config user.email "ops@dobt.co"
+      - git config user.name "CircleCI"
       - grunt deploy
