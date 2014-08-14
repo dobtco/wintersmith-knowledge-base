@@ -54,7 +54,7 @@ $ ->
   if $(".search-results")[0]
     query = $.url().param('q')
 
-    $(".centersearch-input").attr('value', query)
+    $(".centersearch-input").val(query)
 
     # Show loading state
     $(".search-results").text("...")
