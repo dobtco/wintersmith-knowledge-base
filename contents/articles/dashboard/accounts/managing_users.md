@@ -1,6 +1,5 @@
 ---
 title: Manging Users
-template: article.jade
 ---
 
 ## Inviting new users

@@ -29,6 +29,9 @@ module.exports = (env, callback) ->
       @metadata.onThisPage = parseOut(section1) if section1
       @metadata.FAQs = parseOut(section2) if section2
 
+    getTemplate: ->
+      @metadata.template or "article.jade"
+
   env.registerContentPlugin 'pages', '**/*.*(markdown|mkd|md)', MarkdownHelper
 
   env.helpers.caps = caps

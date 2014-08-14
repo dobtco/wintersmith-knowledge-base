@@ -1,6 +1,5 @@
 ---
 title: Embedding the response form
-template: article.jade
 ---
 
 ## Embedding the response form

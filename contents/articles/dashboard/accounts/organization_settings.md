@@ -1,6 +1,5 @@
 ---
 title: Organization Settings
-template: article.jade
 ---
 
 ## Your organization details

@@ -1,6 +1,5 @@
 ---
 title: Sending Messages
-template: article.jade
 ---
 
 ## Sending messages

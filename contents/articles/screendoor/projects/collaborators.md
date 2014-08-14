@@ -1,6 +1,5 @@
 ---
 title: Collaborators
-template: article.jade
 ---
 
 ## Adding collaborators

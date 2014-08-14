@@ -1,11 +1,10 @@
 ---
 title: Allowing edits to responses
-template: article.jade
 ---
 
 ## Allowing edits to multiple responses
 
-If you'd like your responders to be able to edit their responses after they have submitted them, click "Allow edits" from the "more" dropdown above the "Responses" table. 
+If you'd like your responders to be able to edit their responses after they have submitted them, click "Allow edits" from the "more" dropdown above the "Responses" table.
 
 ![allow edits](../images/screenshot_allow_edits.png)
 

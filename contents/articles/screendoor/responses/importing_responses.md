@@ -1,6 +1,5 @@
 ---
 title: Importing responses
-template: article.jade
 ---
 
 ## Importing responses
@@ -11,7 +10,7 @@ To import responses into your project from a [CSV](http://en.wikipedia.org/wiki/
 
 ---
 
-## I have my data in an Excel file. Can I get it into Screendoor? 
+## I have my data in an Excel file. Can I get it into Screendoor?
 Yes! Save your data as a CSV file from Excel. Then you can easily import it into Screendoor (see above).
 
 ## Will importing responses automatically create fields in my Screendoor form?

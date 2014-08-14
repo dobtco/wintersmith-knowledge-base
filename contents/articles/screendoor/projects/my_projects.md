@@ -1,6 +1,5 @@
 ---
 title: My projects
-template: article.jade
 ---
 
 ## View all my projects

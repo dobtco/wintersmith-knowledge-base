@@ -1,6 +1,5 @@
 ---
 title: Creating a project
-template: article.jade
 ---
 
 From Screendoor, it's easy to create a new project. Just click the <img src='../images/screenshot_create_project1.png' style='vertical-align:bottom;' /> button or select "New Project" from the Projects dropdown.
@@ -19,4 +18,4 @@ Select the "Custom" type to create a custom project without a template. Custom p
 
 ## Demo projects
 
-If you just want to see a demo project, click the "create an example project" link at the bottom of the "Create project" pop-up. Demo projects are a good way to get a feel for how a project works in Screendoor, and also include sample responses that you can play around with. Note that demo projects will be automatically deleted after 30 days. 
+If you just want to see a demo project, click the "create an example project" link at the bottom of the "Create project" pop-up. Demo projects are a good way to get a feel for how a project works in Screendoor, and also include sample responses that you can play around with. Note that demo projects will be automatically deleted after 30 days.

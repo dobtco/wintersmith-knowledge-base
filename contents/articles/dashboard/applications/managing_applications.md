@@ -1,6 +1,5 @@
 ---
 title: Managing Applications
-template: article.jade
 ---
 
 ## Installing an app

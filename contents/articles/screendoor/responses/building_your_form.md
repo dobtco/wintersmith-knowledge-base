@@ -1,6 +1,5 @@
 ---
 title: Building your form
-template: article.jade
 ---
 
 ## Building your form

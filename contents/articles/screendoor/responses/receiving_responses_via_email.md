@@ -1,6 +1,5 @@
 ---
 title: Receiving responses via email
-template: article.jade
 ---
 
 ## Receiving responses via email
