@@ -3,6 +3,8 @@ knowledge_base
 
 The DOBT knowledge base. [View the live site](http://help.dobt.co)
 
+[![screenshot](http://cl.ly/image/0u1l273z2D2Z/Screen%20Shot%202014-08-15%20at%203.52.00%20PM.png)](http://help.dobt.co)
+
 ## Overall Goals
 
 Our users are largely non-technical, so it will be a good source of info for them. Use cases include:
