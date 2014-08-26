@@ -38,6 +38,10 @@ You'll need [node and npm](http://nodejs.org) installed.
 3. `npm install`
 4. `wintersmith preview`
 
+### If you need to run on the express-based search indexer:
+
+`npm start` or `nodemon search/index.coffee` (the latter will monitor for file changes and reload the server automatically)
+
 ## Deployment
 
 Pushing to the `master` branch will automatically run tests (currently just a link-checker) on CircleCI. Pushing to the production branch will run the tests *and* deploy if passing. Changes should always be made in the master branch (or a feature branch) and reviewed prior to being merged into production. `hubot deploy knowledge_base immediately` will create and merge a PR from master &rarr; production for you.
