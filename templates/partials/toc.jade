@@ -2,7 +2,8 @@ mixin toc_article(article)
   - var current_article = ""
   if article.filename == locals.page.filename
     - current_article = "current_article"
-  li: a(href='/'+article.filename, class!=current_article)= article.title
+  unless article.metadata.draft
+    li: a(href='/'+article.filename, class!=current_article)= article.title
 
 mixin toc(dirs, index)
   each dir in dirs
