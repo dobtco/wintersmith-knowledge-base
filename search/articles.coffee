@@ -16,8 +16,9 @@ module.exports = (callback) ->
         recursiveScan = (contents) ->
             _.each contents, (item) ->
               if item.filepath?
-                # if item.filepath.full.match /\.md$/ && (!item.metadata.draft)
-                if item.filepath.full.match /\.md$/
+                if item.metadata && item.metadata.draft
+                    console.log "- Skipping #{item.filepath.relative} (draft)"
+                else if item.filepath.full.match /\.md$/
                   console.log "+ Adding #{item.filepath.relative} to search index"
 
                   articles.push
@@ -26,7 +27,6 @@ module.exports = (callback) ->
                     url: item.url
                     body: _s.stripTags(marked(item.markdown))
                     body_token: item.markdown.tokenizeAndStem().join(" ")
-
                 else
                   console.log "- Skipping #{item.filepath.relative}"
               else
