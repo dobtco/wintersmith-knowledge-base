@@ -28,6 +28,10 @@ Screendoor allows you to configure your evaluations with a variety of rating fie
 
 - ![free response](../images/screenshot_free_response.png) &nbsp;&nbsp;Free response
 
+## Advanced evaluation settings
+
+If you want to enable advanced evaluation settings like weighted rating fields, check out the [Advanced Evaluation Settings](advanced_evaluation_settings.html) article.
+
 ---
 
 ## How do I connect a rating field to a response field?
