@@ -4,7 +4,7 @@ title: Configuring evaluation fields
 
 Screendoor gives you powerful and configurable tools to collaboratively rate and evaluate responses.
 
-## Configuring ratings fields
+## Configuring rating fields
 
 Evaluations in Screendoor are based on "rating fields," which are simply criteria by which to rate a response. For example, let's say that you wanted to rate a response's originality. Just click "Edit project" and select "Evaluation" from the project checklist to get to the evaluation section of your project. If your project has any rating fields already set up, you'll see them here. To add a rating field, click "Add rating field."
 
