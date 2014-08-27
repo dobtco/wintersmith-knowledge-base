@@ -1,8 +1,9 @@
 ---
 title: Managing questions
+order: 2
 ---
 
-If you haven't configured the question and answer section for your project yet, check out the [Configuring the question and answer section](1_configuring_the_question_and_answer_section.html) article.
+If you haven't configured the question and answer section for your project yet, check out the [Configuring the question and answer section](configuring_the_question_and_answer_section.html) article.
 
 ## Managing questions
 

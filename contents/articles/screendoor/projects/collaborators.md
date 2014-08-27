@@ -1,5 +1,6 @@
 ---
 title: Collaborators
+order: 4
 ---
 
 ## Adding collaborators

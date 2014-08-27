@@ -1,5 +1,6 @@
 ---
 title: My projects
+order: 2
 ---
 
 ## View all my projects

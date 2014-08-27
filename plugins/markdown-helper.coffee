@@ -8,15 +8,6 @@ module.exports = (env, callback) ->
   format = (string) ->
     string.replace(/\d_/, '').replace(/_/g, ' ').replace('.html', '')
 
-  alpha_sort = (a, b) ->
-    aname = a.filename.toLowerCase()
-    bname = b.filename.toLowerCase()
-    if (aname < bname)
-      return -1
-    if (aname > bname)
-      return 1
-    return 0
-
   class MarkdownHelper extends env.plugins.MarkdownPage
 
     constructor: (@filepath, @metadata, @markdown) ->
@@ -45,6 +36,5 @@ module.exports = (env, callback) ->
 
   env.helpers.caps = caps
   env.helpers.format = format
-  env.helpers.alpha_sort = alpha_sort
 
   callback()

@@ -1,5 +1,6 @@
 ---
 title: Configuring evaluation fields
+order: 1
 ---
 
 Screendoor gives you powerful and configurable tools to collaboratively rate and evaluate responses.
@@ -30,7 +31,7 @@ Screendoor allows you to configure your evaluations with a variety of rating fie
 
 ## Advanced evaluation settings
 
-If you want to enable advanced evaluation settings like weighted rating fields, check out the [Advanced Evaluation Settings](2_advanced_evaluation_settings.html) article.
+If you want to enable advanced evaluation settings like weighted rating fields, check out the [Advanced Evaluation Settings](advanced_evaluation_settings.html) article.
 
 ---
 

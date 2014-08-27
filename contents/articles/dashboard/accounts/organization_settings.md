@@ -1,5 +1,6 @@
 ---
 title: Organization Settings
+order: 3
 ---
 
 ## Your organization details

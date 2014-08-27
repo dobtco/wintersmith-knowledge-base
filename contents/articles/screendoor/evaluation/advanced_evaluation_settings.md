@@ -1,5 +1,6 @@
 ---
 title: Advanced evaluation settings
+order: 2
 ---
 
 To enable the advanced evaluation settings, check the box under "Advanced evaluations."

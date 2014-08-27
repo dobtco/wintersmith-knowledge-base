@@ -1,5 +1,6 @@
 ---
 title: Sending messages
+order: 1
 ---
 
 ## Sending messages
@@ -12,7 +13,7 @@ Screendoor makes it easy to batch-send messages to your responders. If you'd lik
 
 ## Sending messages to specific responders
 
-If you'd prefer to send a message only to specific responders, you can simply check the responders you'd like to send a message to from the "Responses" table. Then, make sure the "Checked" checkbox is selected in the "Send a message popup" and craft your message, which will only be sent to the responders you selected. Alternatively, you can apply whichever [filters](../2_responses/2_sorting_and_filtering_responses.html) you'd like before you click "Write message." Then, simply select the "Current search results" checkbox in the "Send a message" popup before crafting your message.
+If you'd prefer to send a message only to specific responders, you can simply check the responders you'd like to send a message to from the "Responses" table. Then, make sure the "Checked" checkbox is selected in the "Send a message popup" and craft your message, which will only be sent to the responders you selected. Alternatively, you can apply whichever [filters](../responses/sorting_and_filtering_responses.html) you'd like before you click "Write message." Then, simply select the "Current search results" checkbox in the "Send a message" popup before crafting your message.
 
 ![specific responders](../images/screenshot_specific_responders.png)
 

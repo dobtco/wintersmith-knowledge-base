@@ -1,5 +1,6 @@
 ---
 title: Receiving responses via email
+order: 6
 ---
 
 ## Receiving responses via email

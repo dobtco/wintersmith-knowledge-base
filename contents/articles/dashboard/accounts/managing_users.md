@@ -1,5 +1,6 @@
 ---
 title: Manging users
+order: 2
 ---
 
 ## Inviting new users

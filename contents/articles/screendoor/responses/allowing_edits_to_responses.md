@@ -1,5 +1,6 @@
 ---
 title: Allowing edits to responses
+order: 3
 ---
 
 ## Allowing edits to multiple responses

@@ -1,5 +1,6 @@
 ---
 title: Signup and Login
+order: 1
 ---
 
 ## Signing up

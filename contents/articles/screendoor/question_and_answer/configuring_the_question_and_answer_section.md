@@ -1,5 +1,6 @@
 ---
 title: Configuring the question and answer section
+order: 1
 ---
 
 Enabling the question and answer section for a project allows responders to ask questions. You (or someone else on your team) can then answer these questions and optionally display them publicly.
@@ -10,4 +11,4 @@ When you initially set up your project, you can configure the question and answe
 
 ![q&a](../images/screenshot_qa.png)
 
-See [Managing questions](2_managing_questions.html) for information on how to manage and respond to questions.
+See [Managing questions](managing_questions.html) for information on how to manage and respond to questions.
