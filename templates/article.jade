@@ -29,7 +29,7 @@ block content
               | &rarr;&nbsp;
         - var last = rs[rs.length-1]
       if last != 'index.html'
-        h1= env.helpers.caps(env.helpers.format(rs[rs.length-1]))
+        h1= page.metadata.title
       else
         h1= env.helpers.caps(env.helpers.format(rs[rs.length-2]))
       unless (route[route.length-1] == 'index.html') || !page.metadata.onThisPage
