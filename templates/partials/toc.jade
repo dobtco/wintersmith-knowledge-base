@@ -10,12 +10,13 @@ mixin toc(dirs, index)
     .toc_section(class!=attributes.class)
       if index
         h3: a(href=dir.filename)= dir.filename.split('/')[1]
-      each k in _.without(_.keys(dir), '.DS_Store', 'images')
-        if k != "index.md"
-          if k.indexOf('.md') > -1
-            +toc_article(dir[k])
+      - var sections = _.without(_.keys(dir), '.DS_Store', 'images').sort()
+      each section in sections
+        if section != "index.md"
+          if section.indexOf('.md') > -1
+            +toc_article(dir[section])
           else
-            if dir[k].filename == route.slice(0,-1).join('/') || route[route.length-1] == "index.html"
+            if dir[section].filename == route.slice(0,-1).join('/') || route[route.length-1] == "index.html"
               - var button_class = "fa-chevron-down"
               - var display = "block"
               - var activeClass = "active"
@@ -23,11 +24,12 @@ mixin toc(dirs, index)
               - var button_class = "fa-chevron-up"
               - var display = "none"
               - var activeClass = ""
-            - var identifier = dir[k].filename.replace(/\//g, '-')
+            - var identifier = dir[section].filename.replace(/\//g, '-')
             a(name=identifier).toggle_toc
-              h4(class=activeClass)= env.helpers.format(k) + " "
+              h4(class=activeClass)= env.helpers.format(section) + " "
                 if !index
                   span.fa(class!=button_class)
             ul(id!=identifier, style='display:'+display)
-              each article in _.values(dir[k])
+              - var articles = _.values(dir[section]).sort(env.helpers.alpha_sort)
+              each article in articles
                 +toc_article(article)

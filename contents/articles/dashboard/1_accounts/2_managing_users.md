@@ -1,5 +1,5 @@
 ---
-title: Manging Users
+title: Manging users
 ---
 
 ## Inviting new users
