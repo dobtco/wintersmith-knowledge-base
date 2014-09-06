@@ -28,7 +28,6 @@ The directory structure will be as follows:
 
 `[App Name]/[Section]/[Article].md`
 
-
 ## Development
 
 You'll need [node and npm](http://nodejs.org) installed.
