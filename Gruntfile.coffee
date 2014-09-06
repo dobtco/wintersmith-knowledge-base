@@ -11,7 +11,7 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-wintersmith'
   grunt.loadNpmTasks 'grunt-link-checker'
   grunt.loadNpmTasks 'grunt-gh-pages'
-  grunt.loadNpmTasks 'grunt-git'
+  grunt.loadNpmTasks 'grunt-shell'
 
   grunt.initConfig
     pkg: '<json:package.json>'
@@ -38,10 +38,8 @@ module.exports = (grunt) ->
         message: 'Deploy (via Grunt)'
       src: ['**']
 
-    gitpush:
-      heroku:
-        options:
-          remote: 'heroku'
+    shell:
+      pushtoheroku:
+        command: 'git push heroku production:master'
 
-
-  grunt.registerTask 'deploy', ['wintersmith:build', 'gh-pages', 'gitpush:heroku']
+  grunt.registerTask 'deploy', ['wintersmith:build', 'gh-pages', 'shell:pushtoheroku']
