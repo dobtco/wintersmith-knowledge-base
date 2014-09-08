@@ -1,6 +1,6 @@
 ---
 title: Adding a response due date
-order: 8
+order: 4
 ---
 
 To add a response due date for your project, click "Edit project" and select "Responses" from the "Project checklist." Set the deadline for responses by selecting a date from the date/time picker.

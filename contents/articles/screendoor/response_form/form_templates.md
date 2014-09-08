@@ -1,6 +1,6 @@
 ---
 title: Form templates
-order: 10
+order: 2
 ---
 
 Form templates enable you to save your forms as templates and re-use them in new projects.

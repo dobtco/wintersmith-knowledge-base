@@ -1,6 +1,6 @@
 ---
 title: Exporting responses
-order: 7
+order: 5
 ---
 
 ## Exporting responses

@@ -1,6 +1,6 @@
 ---
 title: Sorting and filtering responses
-order: 2
+order: 1
 ---
 
 You can sort and filter the responses for your project from the "Responses" page.
