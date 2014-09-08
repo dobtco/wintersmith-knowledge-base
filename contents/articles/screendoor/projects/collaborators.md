@@ -11,7 +11,15 @@ You can add collaborators to your project when you create it, but you can also g
 
 ## Assigning permissions
 
-You can always go back and change permissions for a collaborator after you have added them. Simple select the new permissions level you wish to give a collaborator from the dropdown next to their name and email address on the "Collaborators" page.
+You can always go back and change permissions for a collaborator after you have added them. Simply select the new permissions level you wish to give a collaborator from the dropdown next to their name and email address on the "Collaborators" page.
+
+Here is a summary of the available permissions levels:
+
+- **View Only**: View-only users can see responses, no more.
+
+- **Reviewer**: Reviewers can view, comment on, and rate responses. They can also change the status, add labels, and assign users to a response.
+
+- **Admin**: Admins have all permissions.
 
 ## Custom permissions
 
