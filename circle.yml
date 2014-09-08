@@ -3,6 +3,10 @@ checkout:
     - npm install -g coffee-script
     - npm install -g wintersmith
 
+test:
+  override:
+    - script/cibuild
+
 deployment:
   production:
     branch: production

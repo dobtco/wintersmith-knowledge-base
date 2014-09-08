@@ -32,14 +32,9 @@ The directory structure will be as follows:
 
 You'll need [node and npm](http://nodejs.org) installed.
 
-1. `npm install -g coffee-script`
-2. `npm install -g wintersmith`
-3. `npm install`
-4. `wintersmith preview`
-
-### If you need to run on the express-based search indexer:
-
-`npm start` or `nodemon search/index.coffee` (the latter will monitor for file changes and reload the server automatically)
+1. `script/bootstrap`
+2. Run the preview server: `wintersmith preview`
+3. If you need to run on the express-based search indexer: `npm start` or `nodemon search/index.coffee` (the latter will monitor for file changes and reload the server automatically)
 
 ## Deployment
 
