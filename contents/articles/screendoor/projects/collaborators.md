@@ -13,7 +13,7 @@ You can add collaborators to your project when you create it, but you can also g
 
 You can always go back and change permissions for a collaborator after you have added them. Simply select the new permissions level you wish to give a collaborator from the dropdown next to their name and email address on the "Collaborators" page.
 
-Here is a summary of the available permissions levels:
+Here is a summary of the available permission levels:
 
 - **View Only**: View-only users can see responses, no more.
 
