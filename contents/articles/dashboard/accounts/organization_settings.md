@@ -1,5 +1,5 @@
 ---
-title: Organization Settings
+title: Organization Settings & Billing
 order: 3
 ---
 
@@ -9,7 +9,7 @@ To configure or update your organization details, navigate to the "Settings" sec
 
 ## Adding a credit card
 
-To add a credit card, click the "Manage billing details" link from the "Settings" page. Then click the "Add credit card" link towards the top of the page. Enter your credit card details and click the "Save" button. You can always go back and change the credit card you have on file by clicking the "Update credit card on file" link and entering the new credit card information.
+To add a credit card, click the [Manage billing details](https://dashboard.dobt.co/billing) link from the "Settings" page. Then click the "Add credit card" link towards the top of the page. Enter your credit card details and click the "Save" button. You can always go back and change the credit card you have on file by clicking the "Update credit card on file" link and entering the new credit card information.
 
 ## Adding or changing a subscription
 
