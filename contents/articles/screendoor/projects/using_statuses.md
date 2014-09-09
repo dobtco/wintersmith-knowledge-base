@@ -1,6 +1,10 @@
 ---
 title: Using statuses
 order: 3
+app_pages:
+  - projectwizard-statuses
+  - projectadmin-responses-index
+  - projectadmin-responses-show
 ---
 
 Statuses are a helpful way to label and organize responses. You can configure your own statuses according to the needs of your project. For example, the "Apps Contest" demo project uses three statuses ("Open," "Lost," or "Won") to designate the current state of each contest entry (response).

@@ -1,6 +1,8 @@
 ---
 title: My projects
 order: 2
+app_pages:
+  - account-projects
 ---
 
 ## View all my projects

@@ -1,6 +1,9 @@
 ---
 title: Allowing edits to responses
 order: 2
+app_pages:
+  - projectadmin-responses-index
+  - projectadmin-responses-show
 ---
 
 ## Allowing edits to multiple responses

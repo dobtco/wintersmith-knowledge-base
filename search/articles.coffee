@@ -24,9 +24,12 @@ module.exports = (callback) ->
                   articles.push
                     title: item.title
                     title_token: item.title.tokenizeAndStem().join(" ")
+                    app: item.filepath.relative.split('/')[1]
+                    app_pages: item.metadata.app_pages
                     url: item.url
                     body: _s.stripTags(marked(item.markdown))
                     body_token: item.markdown.tokenizeAndStem().join(" ")
+                    order: item.metadata.order || 0
                 else
                   console.log "- Skipping #{item.filepath.relative}"
               else
