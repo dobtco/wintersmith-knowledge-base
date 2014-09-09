@@ -30,6 +30,7 @@ module.exports = (callback) ->
                     body: _s.stripTags(marked(item.markdown))
                     body_token: item.markdown.tokenizeAndStem().join(" ")
                     order: item.metadata.order || 0
+                    draft: item.metadata.draft || false
                 else
                   console.log "- Skipping #{item.filepath.relative}"
               else
