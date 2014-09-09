@@ -1,6 +1,8 @@
 ---
 title: Importing responses
 order: 4
+app_pages:
+  - projectadmin-settings-import
 ---
 
 ## Importing responses

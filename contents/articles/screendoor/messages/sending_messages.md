@@ -1,6 +1,11 @@
 ---
 title: Sending messages
 order: 1
+app_pages:
+  - projectadmin-responses-index
+  - projectadmin-messages-edit
+  - projectadmin-messages-preview
+  - projectadmin-messages-index
 ---
 
 ## Sending messages

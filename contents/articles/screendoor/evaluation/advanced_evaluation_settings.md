@@ -1,9 +1,14 @@
 ---
 title: Advanced evaluation settings
 order: 2
+app_pages:
+  - projectwizard-evaluation
+  - projectwizard-advancedevaluation
+  - projectadmin-responses-ratings
+  - projectadmin-responses-show
 ---
 
-To enable the advanced evaluation settings, check the box under "Advanced evaluations."
+To enable the advanced evaluation settings, check the box under "Advanced evaluations" in the "Evaluation" section of the "Project checklist."
 
 ![advanced evaluations box](../images/screenshot_advanced_evaluation.png)
 

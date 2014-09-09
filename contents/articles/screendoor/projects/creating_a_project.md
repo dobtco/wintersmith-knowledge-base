@@ -1,6 +1,9 @@
 ---
 title: Creating a project
 order: 1
+app_pages:
+  - sites-show
+  - home-index
 ---
 
 From Screendoor, it's easy to create a new project. Just click the <img src='../images/screenshot_create_project1.png' style='vertical-align:bottom;' /> button or select "New Project" from the Projects dropdown.

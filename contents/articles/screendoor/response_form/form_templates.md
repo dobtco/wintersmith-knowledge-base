@@ -1,6 +1,9 @@
 ---
 title: Form templates
 order: 2
+app_pages:
+  - projectwizard-responseform
+  - formtemplates-index
 ---
 
 Form templates enable you to save your forms as templates and re-use them in new projects.

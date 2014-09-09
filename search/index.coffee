@@ -3,6 +3,7 @@ getArticles = require './articles'
 
 getArticles (articles) ->
   searcher = require('./searcher')(articles)
+  appPagesSearcher = require('./app_pages_searcher')(articles)
   app = express()
 
   # CORS
@@ -17,6 +18,14 @@ getArticles (articles) ->
   app.get '/search', (request, response) ->
     searcher request.query.q, (results) ->
       response.send results
+
+  app.get '/app_pages', (request, response) ->
+    unless request.query.app && request.query.page_key
+      response.status(400)
+              .send('please specify both app & page_key URL params.')
+    else
+      appPagesSearcher request.query.app, request.query.page_key, (results) ->
+        response.send results
 
   app.listen(process.env.PORT || 3000)
 

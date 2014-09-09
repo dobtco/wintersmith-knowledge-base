@@ -1,6 +1,8 @@
 ---
 title: Collaborators
 order: 4
+app_pages:
+  - projectwizard-collaborators
 ---
 
 ## Adding collaborators
