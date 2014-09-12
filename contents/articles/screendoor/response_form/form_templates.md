@@ -1,6 +1,6 @@
 ---
 title: Form templates
-order: 2
+order: 3
 app_pages:
   - projectwizard-responseform
   - formtemplates-index
