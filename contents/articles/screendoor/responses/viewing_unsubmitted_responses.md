@@ -7,7 +7,7 @@ app_pages:
   - projectadmin-unsubmittedresponses-index
 ---
 
-To see all unsubmitted responses for your project, navigate to the "Responses" page and click the "View unsubmitted responses" link underneath the statuses and labels section. Note that in order to preserve the privacy of your responders, you will only be able to view the status, not the actual content, of these unsubmitted responses. However, you can see how many validation errors have occurred so far and how many fields have been completed.
+To see all unsubmitted responses for your project, navigate to the "Responses" page and click the "View unsubmitted responses" link underneath the statuses and labels section. Note that in order to preserve the privacy of your responders, you will only be able to view the status, responder name, and last four digits (not the actual content) of these unsubmitted responses. However, you can see how many validation errors have occurred so far and how many fields have been completed.
 
 ![unsubmitted responses](../images/screenshot_unsubmitted_responses.png)
 
