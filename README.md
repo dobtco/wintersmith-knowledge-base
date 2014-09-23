@@ -19,14 +19,17 @@ Our users are largely non-technical, so it will be a good source of info for the
 
 Built with [Wintersmith](https://github.com/jnordberg/wintersmith). Hosted on GitHub Pages. Search powered by a small node app running on Heroku.
 
-
 ## Format
 
-Each article (page) in the knowledge base will have sections and FAQs. The sections are boring, cut-and-dry "here's how to use X". The FAQs are more specific questions that we can answer. (Our existing support requests will determine what makes it into the FAQs.) Sections and FAQs will be separated by a `---` in the markdown file.
+Each article (page) in the knowledge base has sections and FAQs. The sections are cut-and-dry "here's how to use X". The FAQs are more specific questions that we can answer. Sections and FAQs are separated by a `---` in the markdown file.
 
-The directory structure will be as follows:
+The directory structure is:
 
 `[App Name]/[Section]/[Article].md`
+
+for example:
+
+`screendoor/responses/importing_responses.md`
 
 ## Development
 
@@ -34,7 +37,7 @@ You'll need [node and npm](http://nodejs.org) installed.
 
 1. `script/bootstrap`
 2. Run the preview server: `wintersmith preview`
-3. If you need to run on the express-based search indexer: `npm start` or `nodemon search/index.coffee` (the latter will monitor for file changes and reload the server automatically)
+3. If you need to run the express-based search indexer: `npm start` or `nodemon search/index.coffee` (the latter will monitor for file changes and reload the server automatically)
 
 ## Deployment
 
