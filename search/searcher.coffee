@@ -1,3 +1,5 @@
+# Searches index and returns results as JSON
+
 module.exports = (articles) ->
   queryEngine = require 'query-engine'
   natural = require 'natural'

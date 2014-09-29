@@ -1,3 +1,5 @@
+# Indexes articles into a Javascript array
+
 wintersmith = require 'wintersmith'
 _ = require 'underscore'
 _s = require 'underscore.string'
