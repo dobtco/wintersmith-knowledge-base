@@ -1,6 +1,8 @@
 knowledge_base
 ==============
 
+[![circle]](https://circleci.com/gh/dobtco/knowledge_base)
+
 The DOBT knowledge base. [View the live site](http://help.dobt.co)
 
 [![screenshot](http://cl.ly/image/0u1l273z2D2Z/Screen%20Shot%202014-08-15%20at%203.52.00%20PM.png)](http://help.dobt.co)
@@ -46,3 +48,5 @@ Pushing to the `master` branch will automatically run tests (currently just a li
 ## License
 
 This codebase, with the exception of the content in the `articles/` directory, is MIT licensed. The `articles/` are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+[circle]: https://circleci-badges.herokuapp.com/dobtco/knowledge_base/c41097bed0dbef49d5bb6ab93435e7ee5d834505
