@@ -34,7 +34,8 @@ module.exports = (articles) ->
       .setFilter('search', (model,searchString) ->
           return true  unless searchString?
           searchRegex = queryEngine.createSafeRegex(searchString)
-          pass = searchRegex.test(model.get('body_token'))
+          pass = searchRegex.test(model.get('body_token')) ||
+                 searchRegex.test(model.get('title_token'))
           return pass
       )
       .query()
