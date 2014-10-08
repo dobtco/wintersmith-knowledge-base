@@ -7,11 +7,11 @@ app_pages:
   - projectadmin-responses-show
 ---
 
-Statuses are a helpful way to label and organize responses. You can configure your own statuses according to the needs of your project. For example, the "Apps Contest" demo project uses three statuses ("Open," "Lost," or "Won") to designate the current state of each contest entry (response).
+Statuses are a helpful way to organize responses and keep track of their current state. You can configure your own statuses according to the needs of your project. For example, the "Apps Contest" demo project uses three statuses ("Open," "Lost," or "Won") to designate the current state of each contest entry (response).
 
 ## Managing statuses
 
-You can define the statuses for your project when you create your project initially, but you can also configure and manage statuses after the project has been created. Click "Edit Project" and select "Statuses" from the project checklist on the right-hand side to manage your statuses. It should look something like this (though the names, and colors of the statuses in your project will probably be different):
+You can define statuses for your project when you initially create it, but you can also configure and manage statuses at any time by clicking "Edit Project" and selecting "Statuses" from the project checklist on the right-hand side of the page. It should look something like this (though the names and colors of the statuses in your project will probably be different):
 
 ![statuses](../images/screenshot_statuses.png)
 
@@ -19,11 +19,11 @@ You can assign any name and color to each status. Simply click on either the nam
 
 ## Assigning responses to statuses
 
-Once you have the statuses in your project configured, you can set the status of each individual response. You can assign a status to a response from the "Responses" table by checking the box next to a response and clicking the "Status" dropdown above the table.
+Once you have added statuses to your project, you can set the status of any individual response. Assign a status to a response from the "Responses" table by checking the box next to a response and clicking the "Status" dropdown above the table.
 
 ![assign status](../images/screenshot_assign_status1.png)
 
-You can also assign a response from an individual response page by clicking on the "Status" dropdown at the top of the right-hand sidebar.
+You can also assign a response from an individual response page by clicking on the "Status" dropdown in the sidebar on the right-hand side of the page.
 
 ![assign status](../images/screenshot_assign_status2.png)
 
