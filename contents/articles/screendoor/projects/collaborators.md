@@ -1,6 +1,6 @@
 ---
 title: Collaborators
-order: 4
+order: 5
 app_pages:
   - projectwizard-collaborators
 ---
