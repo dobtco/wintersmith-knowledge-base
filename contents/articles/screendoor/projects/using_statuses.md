@@ -29,7 +29,7 @@ You can also assign a response from an individual response page by clicking on t
 
 ## Filtering responses by status
 
-It can be very helpful to filter by status so that you can deal with one type of response at a time. For example, we might want to see contest entries that have not been judged yet -- that still have a status of "Open." Just click on a label on the left-hand side of the table of responses to filter by that label.
+To filter responses by status, just click on a status on the left-hand side of the responses table.
 
 ![filter status](../images/screenshot_filter_status.png)
 
