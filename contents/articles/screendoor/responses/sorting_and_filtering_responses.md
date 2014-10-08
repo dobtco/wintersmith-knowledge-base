@@ -19,8 +19,16 @@ If you want to sort by a specific field that is not shown on the table, add that
 
 ## Filtering responses
 
-- To filter responses by a search term, enter your search term in the "Search responses" field on the upper left-hand side of the "Responses" table and then hit enter.
-- To filter by status, select the box just below the search field that displays the status you would like to filter by. For example, if you only want to display responses that have a status of "Open," select the "Open status" (assuming that "Open" is one of your statuses).
-- You can also filter by label. To do so, just select the label you wish to use as a filter from the boxes just below the status selection, to the left of the "Responses" table. Note that to stop filtering by a label, click the label again to deselect it. A dark gray background indicates a label that is currently being used as a filter, while a light gray background indicates a label that is not currently being used as a filter.
-
 ![filter responses](../images/screenshot_filter_responses.png)
+
+### Filtering by search term
+
+To filter responses by a search term, enter your search term in the "Search responses" field on the upper left-hand side of the "Responses" table and then hit enter.
+
+### Filtering by status
+
+To filter by status, select the box just below the search field that displays the status you would like to filter by. For example, if you only want to display responses that have a status of "Open," select the "Open status" (assuming that "Open" is one of your statuses).
+
+### Filtering by label
+
+You can also filter by label: just select the label you wish to use as a filter from the boxes just below the status selection, on the left-hand side of the "Responses" table. Note that to stop filtering by a label, click the label again to deselect it. A dark gray background indicates a label that is currently being used as a filter, while a light gray background indicates a label that is not currently being used as a filter.
