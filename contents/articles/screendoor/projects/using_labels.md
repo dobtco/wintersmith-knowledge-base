@@ -6,7 +6,7 @@ app_pages:
   - projectadmin-responses-show
 ---
 
-Labels are another helpful way to organize responses, and are similar in function to "tags." Responses can have multiple labels, and labels can be applied to any number of responses.
+Labels (otherwise known as "tags") are another helpful way to organize responses. Responses can have multiple labels, and labels can be applied to any number of responses.
 
 ## Creating labels
 
