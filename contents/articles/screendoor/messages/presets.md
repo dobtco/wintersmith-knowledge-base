@@ -1,6 +1,6 @@
 ---
-title: Sending messages
-order: 1
+title: Using message presets
+order: 2
 app_pages:
   - projectadmin-responses-index
   - projectadmin-messages-edit
