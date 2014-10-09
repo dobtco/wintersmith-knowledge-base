@@ -5,7 +5,7 @@ app_pages:
   - projectwizard-questionandanswer
 ---
 
-Enabling the question and answer section for a project allows responders to ask questions. You (or someone else on your team) can then answer these questions and optionally display them publicly.
+Enabling the question and answer section for a project allows respondents to ask questions. You (or someone else on your team) can then answer these questions and optionally display them publicly.
 
 ## Configuring the question and answer section
 
