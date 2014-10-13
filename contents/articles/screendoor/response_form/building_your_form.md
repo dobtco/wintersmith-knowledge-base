@@ -11,7 +11,7 @@ At the heart of your project is your response form. You'll build your form when 
 
 ### Adding new fields
 
-To add a new field to your form, click the "Add new field" tab on the left-hand side of the form builder. Then, just select the appropriate field type (for example, "Address" if you would like to collect address information from your responders) to add it to your form. Once form fields have been added, you can always drag-and-drop to change their order within the form.
+To add a new field to your form, click the "Add new field" tab on the left-hand side of the form builder. Then, just select the appropriate field type (for example, "Address" if you would like to collect address information from your respondents) to add it to your form. Once form fields have been added, you can always drag-and-drop to change their order within the form.
 
 ![add field](../images/screenshot_add_field.png)
 
@@ -31,7 +31,7 @@ To delete an existing field, click the red "-" icon that appears when you move y
 
 ## Admin-only fields
 
-To make a field admin-only, select it and click the "Edit field" tab. Then, check the box next to "Admin only." Admin-only fields will not be shown to responders, but they can be used for keeping track of admin-only response information.
+To make a field admin-only, select it and click the "Edit field" tab. Then, check the box next to "Admin only." Admin-only fields will not be shown to respondents, but they can be used for keeping track of admin-only response information.
 
 ## Blind fields
 

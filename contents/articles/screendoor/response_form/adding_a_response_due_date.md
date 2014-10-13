@@ -17,19 +17,19 @@ If you need to extend the due date, simply return to this page and select a new 
 
 ## Requiring Screendoor registration
 
-By default, Screendoor requires responders to be registered as Screendoor users. However, it's easy to waive this requirement by unchecking the "Require registration" box.
+By default, Screendoor requires respondents to be registered as Screendoor users. However, it's easy to waive this requirement by unchecking the "Require registration" box.
 
 ![waive registration requirement](../images/screenshot_require_registration.png)
 
-## Hiding responder names
+## Hiding respondent names
 
-To hide responder names from reviewers, check the "Treat responder names as 'blind fields'" box.
+To hide respondent names from reviewers, check the "Treat respondent names as 'blind fields'" box.
 
-![hide responder names](../images/screenshot_hide_responder_names.png)
+![hide respondent names](../images/screenshot_hide_responder_names.png)
 
 ## Displaying a custom "after response" page
 
-To display a custom page to responders after they submit their response, select "Display a custom page" from the "After response" dropdown.
+To display a custom page to respondents after they submit their response, select "Display a custom page" from the "After response" dropdown.
 
 ![custom after response](../images/screenshot_after_response.png)
 
