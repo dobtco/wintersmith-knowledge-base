@@ -3,6 +3,7 @@ title: Sorting and filtering responses
 order: 1
 app_pages:
   - projectadmin-responses-index
+  - projectadmin-responses-advancedsearch
 ---
 
 You can sort and filter the responses for your project from the "Responses" page.
@@ -32,3 +33,9 @@ To filter by status, select the box just below the search field that displays th
 ### Filtering by label
 
 You can also filter by label: just select the label you wish to use as a filter from the boxes just below the status selection, on the left-hand side of the "Responses" table. Note that to stop filtering by a label, click the label again to deselect it. A dark gray background indicates a label that is currently being used as a filter, while a light gray background indicates a label that is not currently being used as a filter.
+
+### Advanced search
+
+To perform an advanced search, click "Advanced search" on the left-hand side of the "Responses" page. From the "Advanced search" page, you can search by a variety of criteria. Check the box next to a search filter and fill in your query to activate filtering. Then, after you've activated the appropriate filters, click the "Filter results" button to perform your search. Note that you can perform a search based on your custom form elements.
+
+![advanced search filters](../images/screenshot_advanced_search.png)
