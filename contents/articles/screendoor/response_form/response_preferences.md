@@ -13,7 +13,13 @@ Set a deadline for responses by selecting a date from the date/time picker.
 
 ![set due date](../images/screenshot_due_date.png)
 
-If you need to extend the due date, simply return to this page and select a new date. You can also clear the due date and allow all responses by clicking "Clear due date."
+If you need to extend the due date, simply return to this page and select a new date (You can also [extend the due date for a specific response](../responses/viewing_unsubmitted_responses.html#extending-the-due-date-for-a-specific-response)). Clear the due date and allow all responses by clicking "Clear due date."
+
+### Adding a grace period
+
+You can also add a grace period. During the grace period, draft responses can still be submitted but new responses cannot be created. 
+
+![grace period](../images/screenshot_grace_period.png)
 
 ## Requiring Screendoor registration
 
