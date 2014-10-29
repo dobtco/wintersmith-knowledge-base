@@ -3,7 +3,7 @@
     "url": "http://localhost:8080/",
     "title": "DOBT Knowledge Base",
     "section_sort_order": {
-      "screendoor": ["projects", "response_form", "responses", "messages", "question_and_answer", "evaluation"],
+      "screendoor": ["projects", "response_form", "responses", "messages", "question_and_answer", "evaluation", "zapier_integration"],
       "dashboard": ["accounts", "applications", "access"]
     }
   },
