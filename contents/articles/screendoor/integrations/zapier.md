@@ -1,9 +1,13 @@
 ---
-title: Getting started with Screendoor on Zapier
+title: Zapier
 order: 1
 app_pages:
   - apikeys-index
 ---
+
+Zapier is a service that allows you to define automated integrations between a variety of apps and services. Using Zapier, you can automate your workflow and integrate Screendoor triggers with many of the [apps](https://zapier.com/zapbook/) registered with Zapier.
+
+## Getting started with Screendoor on Zapier
 
 To get Screendoor working with Zapier, the first thing you'll need to do is connect your Screendoor account. Select "Connected Accounts" from the Zapier menu to get started.
 
@@ -15,7 +19,7 @@ Click "Connect new account" and select "Screendoor."
 
 Next, enter a name for your Screendoor account (this is just for your own reference, so call it whatever you want).
 
-To connect your Screendoor account, you'll need to [create an API key from Screendoor](https://screendoor.dobt.co/account/api_keys). Enter an API key name (again, whatever you'd like), and click "Submit" to create your Screendoor API key.
+To connect your Screendoor account, you'll need to [create an API key from Screendoor](https://screendoor.dobt.co/settings/api_keys). Enter "zapier" for the API key name, and click "Submit" to create your Screendoor API key.
 
 ![create api key](../images/screenshot_create_api_key.png)
 
@@ -30,3 +34,11 @@ Paste this API key into Zapier and click "Continue."
 Zapier will test your API key to make sure it's working. If you get an authorization error at this point, make sure you've entered your API key correctly.
 
 That's it! Your Screendoor account is now connected to Zapier, which means you can use Screendoor triggers in your zaps.
+
+---
+
+## Why do I have to enter a project ID when I create a zap?
+
+When creating a zap, you'll have to enter the Screendoor project ID for the project you'd like to integrate with. This is so Zapier knows which Screendoor project to interact with.
+
+![project id](../images/screenshot_zapier_project_id.png)
