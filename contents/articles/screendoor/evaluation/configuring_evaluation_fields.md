@@ -15,7 +15,7 @@ Evaluations in Screendoor are based on "rating fields," which are simply criteri
 
 ![add rating field](../images/screenshot_add_rating_field.png)
 
-Let's call this rating field "Originality" and set it up to use a number range up to 10.
+Let's make this rating field numeric and call it "Originality."
 
 ![edit rating field](../images/screenshot_originality_rating_field.png)
 
@@ -25,13 +25,13 @@ Now that the "Originality" rating field has been added, it's easy to rate and ev
 
 ## Rating field types
 
-Screendoor allows you to configure your evaluations with a variety of rating field types. There are several rating field types in addition to the "Number range" type:
+Screendoor allows you to configure your evaluations with a variety of rating field types. There are several rating field types in addition to the "numeric" type:
 
 - ![stars](../images/screenshot_stars.png) &nbsp;&nbsp;Stars
 
-- ![colors](../images/screenshot_colors.png) &nbsp;&nbsp;Red/yellow/green
+- ![colors](../images/screenshot_colors.png) &nbsp;&nbsp;Color range
 
-- ![free response](../images/screenshot_free_response.png) &nbsp;&nbsp;Free response
+- ![free response](../images/screenshot_free_response.png) &nbsp;&nbsp;Free text
 
 ## Advanced evaluation settings
 
@@ -40,7 +40,7 @@ If you want to enable advanced evaluation settings like weighted rating fields, 
 ---
 
 ## How do I connect a rating field to a response field?
-To associate a rating field with a specific response field, click the plus icon next to the text "Not connected to a response field" and then select the appropriate response field from the dropdown.
+To associate a rating field with a specific response field, select the appropriate response field from the "Rating for..." dropdown.
 
 ![connect to response field](../images/screenshot_connect_to_response_field.png)
 
