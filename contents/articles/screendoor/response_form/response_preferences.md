@@ -40,3 +40,8 @@ To display a custom page to respondents after they submit their response, select
 ![custom after response](../images/screenshot_after_response.png)
 
 You can then write and preview your custom page under "After Response Page" in the project checklist.
+
+---
+
+## What time zone will the response due date be set in?
+The response due date will be set in your current local time zone. The date/time will automatically be presented to users based on their own local time zone. For example, if you set the due date to 4:00pm and you are in the Pacific Time Zone, users on the East Coast will see the due date as 7:00pm.
