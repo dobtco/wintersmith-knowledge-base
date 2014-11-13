@@ -12,15 +12,15 @@ You can sort and filter the responses for your project from the "Responses" page
 
 To sort responses by a specific field, just click that field on the "Responses" table. An up or down arrow will appear next to the field name to indicate that the table is being sorted by that field. To reverse the sort order, click the field again and the arrow will reverse.
 
-![sort responses](../images/screenshot_sort_responses.png)
+![sort responses](../images/sort_responses.png)
 
-If you want to sort by a specific field that is not shown on the table, add that field from the "Edit columns" dropdown and then click it when it appears in the table.
+If you want to sort by a specific field that is not shown on the table, add that field from the "Edit columns" dropdown and then click it when it appears as a table header.
 
-![edit columns](../images/screenshot_edit_columns.png)
+![edit columns](../images/edit_columns.png)
 
 ## Filtering responses
 
-![filter responses](../images/screenshot_filter_responses.png)
+![filter responses](../images/filter_responses.png)
 
 ### Filtering by search term
 
@@ -38,4 +38,4 @@ You can also filter by label: just select the label you wish to use as a filter 
 
 To perform an advanced search, click "Advanced search" on the left-hand side of the "Responses" page. From the "Advanced search" page, you can search by a variety of criteria. Check the box next to a search filter and fill in your query to activate filtering. Then, after you've activated the appropriate filters, click the "Filter results" button to perform your search. Note that you can perform a search based on your custom form elements.
 
-![advanced search filters](../images/screenshot_advanced_search.png)
+![advanced search filters](../images/advanced_search.png)
