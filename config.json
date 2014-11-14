@@ -17,5 +17,8 @@
   ],
   "ignore": [
     "styles/based/*.styl"
-  ]
+  ],
+  "markdown": {
+    "smartypants": true
+  }
 }
