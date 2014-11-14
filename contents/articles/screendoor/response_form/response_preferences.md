@@ -11,35 +11,45 @@ To configure preferences for responses, click "Edit project" and select "Respons
 
 Set a deadline for responses by selecting a date from the date/time picker.
 
-![set due date](../images/due_date.png)
+![set due date](../images/response_due_date.png)
 
-If you need to extend the due date, simply return to this page and select a new date (You can also [extend the due date for a specific response](../responses/viewing_unsubmitted_responses.html#extending-the-due-date-for-a-specific-response)). Clear the due date and allow all responses by clicking "Clear due date."
+If you need to extend the due date, simply return to this page and select a new date (You can also [extend the due date for a specific response](../responses/viewing_unsubmitted_responses.html#extending-the-due-date-for-a-specific-response)). To clear the due date and allow all responses, click the "Clear due date" link.
 
 ### Adding a grace period
 
-You can also add a grace period. During the grace period, draft responses can still be submitted but new responses cannot be created. 
+To add a grace period, click "Add grace period" and select a date from the date/time picker. After the response due date has passed but before the grace period ends, respondents will be able to submit their pre-existing drafts but will not be able to create new responses. 
 
 ![grace period](../images/grace_period.png)
 
-## Requiring Screendoor registration
+## Data collection
 
-By default, Screendoor requires respondents to be registered as Screendoor users. However, it's easy to waive this requirement by unchecking the "Require registration" box.
+![data collection](../images/data_collection.png)
 
-![waive registration requirement](../images/require_registration.png)
+### Names and email addresses
 
-## Hiding respondent names
+By default, Screendoor will collect names and email addresses for all respondents. If the respondent is registered with Screendoor, their name and email address will be automatically collected based on their registration information. Otherwise, respondents will be asked to enter this information manually.
 
-To hide respondent names from reviewers, check the "Treat respondent names as 'blind fields'" box.
+If you don't want to collect names and email addresses from your respondents (or if you want them to be anonymous), check the "Do not collect names or email addresses" box.
 
-![hide respondent names](../images/hide_responder_names.png)
+### Requiring signatures
 
-## Displaying a custom "after response" page
+If you'd like to require an electronic signature from your respondents, check the the corresponding box.
 
-To display a custom page to respondents after they submit their response, select "Display a custom page" from the "After response" dropdown.
+### Hiding respondent names
+
+To stop your collaborators (other than those with "blind field" permissions) from viewing respondents' names, check the 'Treat respondents names as "blind fields"' box. This will allow you to collect respondents' names while keeping this information from your collaborators/reviewers.
+
+## After response
 
 ![custom after response](../images/after_response.png)
 
-You can then write and preview your custom page under "After Response Page" in the project checklist.
+### Displaying a custom "after response" page
+
+To display a custom page to respondents after they submit their response, check the "Display a custom page" box. You can then write and preview your custom page under "After response page" in the project checklist.
+
+### Sending a confirmation email
+
+To send a confirmation email to respondents after they submit their response, check the "Send a confirmation email" box and then write your custom confirmation email under "After response email" in the project checklist.
 
 ---
 

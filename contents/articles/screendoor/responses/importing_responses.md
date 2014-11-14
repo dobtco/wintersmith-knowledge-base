@@ -6,13 +6,13 @@ app_pages:
   - projectadmin-responseimports-edit
 ---
 
-To import responses into your project from a [CSV](http://en.wikipedia.org/wiki/Comma-separated_values) file, select the "Import responses" box on the left-hand side of the "Settings" page for your project. Make sure your CSV file is properly formatted, and that it contains column headers as the first row. Select your CSV file, optionally add a label that will be applied to all imported items, and click the "Preview your import" button to begin the import process.
+To import responses from a [CSV](http://en.wikipedia.org/wiki/Comma-separated_values) file, select the "Import responses" box from the left-hand side of the "Settings" page for your project. Then, select your CSV file, optionally add a label that will be applied to all imported items, and click the "Preview your import" button to begin the import process.
 
 ![import responses](../images/import.png)
 
 ## Importing columns that correspond to existing response fields
 
-From the preview page, you can configure how you want your responses to be imported. Screendoor will make an intelligent guess about which column in your CSV file corresponds to which response field in your form -- you'll see a blue "Existing" label next to columns that Screendoor has associated with an existing response field. But you can also change the response field for a column manually by clicking the "Edit" button and selecting a field from the dropdown.
+From the preview page, you can configure how you want your responses to be imported. Screendoor will make an intelligent guess about which column in your CSV file corresponds to which response field in your form -- you'll see a blue "Existing" label next to columns that Screendoor has associated with an existing response field. But you can also manually change the response field for a column by clicking the "Edit" button and selecting a field from the dropdown.
 
 ![edit response field for column](../images/import_edit.png)
 

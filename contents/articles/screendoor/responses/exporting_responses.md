@@ -8,11 +8,11 @@ app_pages:
 
 ## Exporting responses
 
-To export responses from your project, navigate to the "Responses" page for you project, click "More" on the toolbar, and select "Export responses."
+To export responses, navigate to the "Responses" page for you project. If you'd like to only export specific responses, check the box next to those responses. Then click "More" on the toolbar and select "Export responses."
 
 ![export responses](../images/export_responses.png)
 
-From the "Export responses" popup, select which responses you'd like to export. Then, select the format you'd like to export them as, and click "Download" to begin the export process.
+From the "Export responses" popup, select which responses you'd like to export. Then, select the format you'd like to export as and click "Download" to begin the export process.
 
 ![export responses...](../images/export_responses_popup.png)
 

@@ -8,7 +8,7 @@ app_pages:
 
 ## Viewing unsubmitted responses
 
-To see all unsubmitted responses for your project, navigate to the "Responses" page and click the "View unsubmitted responses" link underneath the statuses and labels section. Note that in order to preserve the privacy of your respondents, you will only be able to view the validation status, respondent name, and last four digits of the response ID for these unsubmitted responses (not their actual contents). However, you can see how many validation errors have occurred so far and how many fields have been completed.
+To view all unsubmitted responses for your project, navigate to the "Responses" page and click the "View unsubmitted responses" link underneath the statuses and labels section. Note that in order to preserve the privacy of your respondents, you will only be able to view the validation status, respondent name, and last four digits of the response ID for these unsubmitted responses (not their actual contents). However, you can see how many validation errors have occurred so far and how many fields have been completed.
 
 ![unsubmitted responses](../images/unsubmitted_responses.png)
 
@@ -21,3 +21,9 @@ To extend the due date for a specific response from the "View unsubmitted respon
 ![extend due date](../images/extend_due_date.png)
 
 Click "Submit" to extend the due date for that response. Note that this will not affect any other responses.
+
+## Waiving payment for a specific response
+
+To waive payment for a specific response, click the "Waive" link next to the appropriate response.
+
+![waive payment](../images/waive_payment.png)

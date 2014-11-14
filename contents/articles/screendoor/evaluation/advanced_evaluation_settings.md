@@ -12,7 +12,7 @@ To enable the advanced evaluation settings, check the box under "Advanced evalua
 
 ![advanced evaluations box](../images/advanced_evaluation.png)
 
-Once you check this box, a new "Advanced Evaluation" section should show up in the "Project checklist" just under "Evaluation." From the "Advanced Evaluation" page, you can configure several advanced evaluation settings.
+Once you check this box, a new "Advanced evaluation" section should show up in the "Project checklist" just under "Evaluation." From the "Advanced evaluation" page, you can configure several advanced evaluation settings.
 
 ## Rating field weights
 
@@ -42,6 +42,6 @@ When evaluators rate responses, these labels will show up next to their numbers 
 
 You can also optionally configure a date when evaluators will be able to begin rating responses. This can be useful if you want to make sure that evaluators do not rate responses until they have been completed. If you set a date, but then later decide that you want to allow ratings immediately, simply click the "Allow ratings immediately" link.
 
-If you want to make sure that evaluators submit their ratings by a specific date, you can set up an optional ratings due date by selecting the appropriate date and time from the date picker. If you later decide to remove the due date, just click the "No due date" link.
+If you want to make sure that evaluators submit their ratings by a specific date, you can set up an optional ratings due date by selecting the appropriate date from the date/time picker. If you later decide to remove the due date, just click the "No due date" link.
 
 ![rating deadlines](../images/rating_deadlines.png)
