@@ -33,11 +33,15 @@ If you don't want to collect names and email addresses from your respondents (or
 
 ### Requiring signatures
 
-If you'd like to require an electronic signature from your respondents, check the the corresponding box.
+If you'd like to require an electronic signature from your respondents, check the the corresponding box. To learn more about signatures, check out the [Signatures](signatures.html) article.
 
 ### Hiding respondent names
 
 To stop your collaborators (other than those with "blind field" permissions) from viewing respondents' names, check the 'Treat respondents names as "blind fields"' box. This will allow you to collect respondents' names while keeping this information from your collaborators/reviewers.
+
+## Payments
+
+Screendoor enables you to easily receive credit card payments from your respondents via [Stripe](https://stripe.com/). Check out the [Payments](payments.html) article for more information.
 
 ## After response
 

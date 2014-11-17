@@ -1,6 +1,6 @@
 ---
 title: Embedding the response form
-order: 4
+order: 6
 app_pages:
   - projectadmin-settings-embedcode
 ---
