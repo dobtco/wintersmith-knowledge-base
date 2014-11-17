@@ -35,10 +35,10 @@ To filter responses by status, just click on a status on the left-hand side of t
 
 ---
 
-## What happens when I destroy a status?
-When a status is destroyed, any responses that were assigned to that status are re-assigned to the first status in the list.
+## What happens when I delete a status?
+When a status is deleted, any responses that were assigned to that status are re-assigned to the first status in the list.
 
-## Why can't I destroy my status?
+## Why can't I delete my status?
 You must always have at least one status that serves as a default status.
 
 ## What's the difference between statuses and labels?

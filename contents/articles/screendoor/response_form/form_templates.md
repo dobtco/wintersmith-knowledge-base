@@ -14,15 +14,11 @@ To create a form template from an existing form, select the "Options" tab from t
 
 ![save as template](../images/save_as_template.png)
 
-To create a form template from scratch, navigate to your user settings page and select "Form templates" at the bottom of the navigation bar on the left-hand side.
+To create a form template from scratch, click "Organization settings" from the "User" menu and select "Form templates" at the bottom of the navigation bar on the left-hand side.
 
-![user settings](../images/user_settings.png)
+![user settings](../images/organization_settings.png)
 
-From the "Form templates" page, you can create a form template by clicking the "New form template" button and filling out the form with the appropriate fields.
-
-![create form template](../images/create_form_template.png)
-
-From this page, you can also search for form templates that you have created, as well as edit (and destroy) form templates.
+From the "Form templates" page, you can create a form template by clicking the "New form template" button and filling out the form with the appropriate fields. You can also search for form templates that you have created, as well as edit and delete form templates.
 
 ## Using a form template
 
