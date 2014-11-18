@@ -14,15 +14,9 @@ To enable payments, click "Edit project" and select "Responses" from the "Projec
 
 ![require payment](../images/require_payment.png)
 
-Click the "Connect with Stripe" button to connect to your Stripe account. You'll be redirected to the "Stripe Connect" page, which will look something like this:
+Click the "Connect with Stripe" button to connect to your Stripe account. You'll be redirected to the "Stripe: Connect with Screendoor" page, where you'll see the message "Screendoor would like you to start accepting payments with Stripe." Fill out the form and click the "Authorize access to this account" button to go back to Screendoor. Note that payment profiles are shared across all the projects in your organization; if you have multiple projects, you won't have to set up a payment profile for each one separately. 
 
-![stripe connect](../images/stripe_connect.png)
-
-After filling out this page (and creating a Stripe account if you don't already have one), click the "Authorize access to this account" button.
-
-![stripe authorize](../images/stripe_authorize.png)
-
-You'll be redirected back to Screendoor, where you should see the "Successfully authorized Stripe account" message. Note that payment profiles are shared across all the projects in your organization; if you have multiple projects, you won't have to set up a payment profile for each one separately. Next, enter the charge amount for your project.
+Next, enter the charge amount for your project.
 
 ![charge amount](../images/charge_amount.png)
 
@@ -54,4 +48,10 @@ Click the "View on Stripe" button for a charge to view it in your Stripe dashboa
 Nope, all they'll need is a valid credit card. This is what the payment form will look like to respondents:
 
 ![payment form](../images/payment_form.png)
+
+## Can I waive payment for specific respondents?
+Yes, you can waive payment for a specific response from the [unsubmitted responses](../responses/viewing_unsubmitted_responses.html#waiving-payment-for-a-specific-response) page.
+
+## Are there processing fees?
+Yes. Stripe [charges](https://stripe.com/us/pricing) 2.9% + 30&cent; and Screendoor charges 2.1%.
 
