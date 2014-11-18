@@ -14,3 +14,5 @@ To view all of your projects, click the "All my projects" link from the dashboar
 ## Filtering projects
 
 You can search through your projects by typing your search query into the search field above the "My projects" table, on the right-hand side. Hit enter to search.
+
+![my projects](../images/my_projects.png)
