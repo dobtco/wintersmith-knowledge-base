@@ -38,5 +38,3 @@ If you (or another admin) make changes to a response after the respondent has si
 ![request new signature](../images/request_new_signature.png)
 
 To request a new signature, click the "Request new signature" link from the individual response page. The respondent will then be notified that you have requested them to sign the updated response. Once they sign off on your changes, the response will appear again as "signed."
-
-![signed response](../images/signed_response.png)
