@@ -18,4 +18,4 @@ Screendoor allows you to embed the response form for your project in your own we
 ---
 
 ## Why does my embed code not work?
-If you are seeing the "project not found" error when you try to embed your code, it's probably because your project is not live. To make your project live, click the "Go live" button from your project page.
+If you are seeing the "project not found" error when you try to embed your code, it's probably because your project is not live. To make your project live, click the "Go live" button from your project page. Also, projects with [payments](payments.html) or [signatures](signatures.html) enabled cannot be embedded.
