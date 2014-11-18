@@ -11,11 +11,11 @@ You can add collaborators to your project when you first create it, but you can 
 
 ![add collaborators](../images/add_collaborators.png)
 
-If the person you are searching for is already registered, you'll see them come up in your search, and can add them immediately. Make sure to select the appropriate permission level from the dropdown (note the explanations of each permission level under "Recommendations").
+If the person you are searching for is already registered and part of your organization, you'll see them come up in your search and can add them immediately. Make sure to select the appropriate permission level from the dropdown (note the explanations of each permission level under "Recommendations").
 
 ![add collaborators 2](../images/add_collaborators2.png)
 
-You can also invite someone to collaborate if they are not yet registered with your project. Just enter their email address, select a permission level, choose whether or not to add them to your organization (note that collaborators can only be part of one organization), and click "Send invite."
+You can also invite someone to collaborate if they are not yet registered with your project. Just enter their email address, select a permission level, choose whether or not to add them to your organization, and click "Send invite."
 
 ![add collaborator not registered](../images/add_collaborators3.png)
 
