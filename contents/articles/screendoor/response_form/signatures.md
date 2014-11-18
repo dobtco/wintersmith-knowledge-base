@@ -15,6 +15,18 @@ That's it! Respondents will now be required to sign their response before submit
 
 ![signature](../images/signature.png)
 
+## Viewing signatures
+
+Once a response is signed, you'll be able to view the signature from the individual response page.
+
+![signed response](../images/signed_response.png)
+
+You can also view whether or not a response has been signed from the "Responses" table for your project.
+
+![signed column](../images/signed_column.png)
+
+Also, when you export a response as a PDF, the signature will appear in that PDF.
+
 ---
 
 ## What happens if a respondent makes changes to their response after signing?
