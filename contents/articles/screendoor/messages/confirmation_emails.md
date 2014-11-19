@@ -8,7 +8,7 @@ app_pages:
 
 It's easy to set up Screendoor to automatically send confirmation emails whenever a response is submitted. First, check the "Send a confirmation email" checkbox from the "Responses" page of the "Project checklist."
 
-![send a confirmation email](../images/screenshot_send_confirmation_email.png)
+![send a confirmation email](../images/send_confirmation_email.png)
 
 Then, write your confirmation email in the "After response email" step of the "Project checklist."
 

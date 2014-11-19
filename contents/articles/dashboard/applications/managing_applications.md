@@ -7,7 +7,7 @@ order: 1
 
 To install an app, navigate to the "App store" section of the dashboard. Select the app you would like to install and then click the "free trial" button at the bottom of the app page. You will then be prompted to install the app you selected.
 
-![install app](../images/screenshot_install_app.png)
+![install app](../images/install_app.png)
 
 ## Changing an app's URL or slug
 
@@ -15,7 +15,7 @@ To change an app's URL (slug), click the "Admin" link to the right of the app li
 
 ## Adding or changing your plan
 
-From the "Dashboard" section, select the app you would like to configure. Then, click "Change plan" under "Plan" to add or change a plan. See the [organization settings article](../accounts/organization_settings.html) for more information on billing and subscription.
+From the "Dashboard" section, select the app you would like to configure. Then, click "Change plan" under "Plan" to add or change a plan. See the [Organization settings](../accounts/organization_settings.html) article for more information on billing and subscription.
 
 ## Removing an app
 

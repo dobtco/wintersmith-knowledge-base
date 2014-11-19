@@ -10,16 +10,20 @@ app_pages:
 
 If you'd like your respondents to be able to edit their responses after they have submitted them, click "Allow edits" from the "more" dropdown above the "Responses" table.
 
-![allow edits](../images/screenshot_allow_edits.png)
+![allow edits](../images/allow_edits.png)
 
-You can then allow edits for all respondents (the "All" checkbox), for the respondents displayed in the current search results (the "Current search results" checkbox), or for the respondents you have selected by checking the box next to their name in the "Responses" table (the "Checked" checkbox).
+You can then allow edits for all respondents ("All"), for the respondents displayed in the current search results ("Current search results"), or for the respondents you have selected by checking the box next to their name in the "Responses" table ("Checked").
 
-![allow edits popup](../images/screenshot_allow_edits_popup.png)
+![allow edits popup](../images/allow_edits_modal.png)
 
-After you have chosen which responses to enable for editing, select either "Yes" or "Once" from the "Edit type" dropdown. "Yes" will enable multiple edits, while "Once" will only allow the respondent to edit their response one time. Then, click "Update responses" to save your configuration. Note that you can always go back and disable response editing by selecting "No" from the "Edit type" dropdown.
+After you have chosen which responses to enable for editing, select either "Yes" or "Once" from the "Released for edits" dropdown. "Yes" will enable multiple edits, while "Once" will only allow the respondent to edit their response only one time. Then, click "Update responses" to allow edits. Note that you can always go back and disable response editing by selecting "No" from the "Edit type" dropdown.
 
 ## Allowing edits to a specific response
 
-If you just want to allow edits to one response, you can do so from the individual response page. From the "Responses" page, click on the response you'd like to allow edits to. This will bring you to the details page for that specific response. Select either "Yes" or "Once" from the "Allow edits" dropdown.
+If you just want to allow edits to one response, you can also do so from the individual response page (click the response from the "Responses" table to get to this page). Click the "Allow respondent to edit" link (just below the sidebar) and select the appropriate option from the dropdown.
 
-![allow edits](../images/screenshot_allow_edits_individual.png)
+![allow edits](../images/allow_edits_individual.png)
+
+Once you allow edits, you can copy the edit URL and send it to respondents if necessary. Click "Show edit URL" from the sidebar and copy the edit URL from the modal.
+
+![show edit URL](../images/show_edit_url.png)

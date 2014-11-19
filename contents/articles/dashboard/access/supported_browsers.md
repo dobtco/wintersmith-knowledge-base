@@ -7,4 +7,4 @@ DOBT's applications are designed to support the latest web browsers. We recommen
 
 If you see the following warning, you'll need to upgrade your web browser before our apps function as intended:
 
-![upgrade browser](../images/screenshot_upgrade_browser.png)
+![upgrade browser](../images/upgrade_browser.png)
