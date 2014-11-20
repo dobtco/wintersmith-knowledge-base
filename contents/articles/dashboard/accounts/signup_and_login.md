@@ -1,5 +1,5 @@
 ---
-title: Signup and Login
+title: Signup and login
 order: 1
 ---
 

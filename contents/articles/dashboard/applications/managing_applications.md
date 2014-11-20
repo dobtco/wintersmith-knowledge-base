@@ -1,5 +1,5 @@
 ---
-title: Managing Applications
+title: Managing applications
 order: 1
 ---
 
@@ -8,6 +8,12 @@ order: 1
 To install an app, navigate to the "App store" section of the dashboard. Select the app you would like to install and then click the "free trial" button at the bottom of the app page. You will then be prompted to install the app you selected.
 
 ![install app](../images/install_app.png)
+
+## Launching an app
+
+To launch an app, just click the app name from the Dashboard.
+
+![launch app](../images/launch_app.png)
 
 ## Changing an app's URL or slug
 

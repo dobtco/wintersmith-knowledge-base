@@ -1,5 +1,5 @@
 ---
-title: Organization Settings & Billing
+title: Organization settings & billing
 order: 3
 ---
 
