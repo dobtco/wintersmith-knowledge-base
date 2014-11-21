@@ -5,7 +5,7 @@ app_pages:
   - projectwizard-responses
 ---
 
-To configure preferences for responses, click "Edit project" and select "Responses" from the project checklist.
+To configure preferences for responses, click "Edit project" and select "Responses" from the Project Checklist.
 
 ## Adding a response due date
 
@@ -49,11 +49,11 @@ Screendoor enables you to easily receive credit card payments from your responde
 
 ### Displaying a custom "after response" page
 
-To display a custom page to respondents after they submit their response, check the "Display a custom page" box. You can then write and preview your custom page under "After response page" in the project checklist.
+To display a custom page to respondents after they submit their response, check the "Display a custom page" box. You can then write and preview your custom page under "After response page" in the Project Checklist.
 
 ### Sending a confirmation email
 
-To send a confirmation email to respondents after they submit their response, check the "Send a confirmation email" box and then write your custom confirmation email under "After response email" in the project checklist.
+To send a confirmation email to respondents after they submit their response, check the "Send a confirmation email" box and then write your custom confirmation email under "After response email" in the Project Checklist.
 
 ---
 

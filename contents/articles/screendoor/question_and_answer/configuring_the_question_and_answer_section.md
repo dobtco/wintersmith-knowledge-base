@@ -5,7 +5,7 @@ app_pages:
   - projectwizard-questionandanswer
 ---
 
-To enable and configure the question and answer section for your project, click "Edit project" and select "Question & answer" from the "Project checklist." Make sure the checkbox next to "Allow respondents to submit questions about the project to collaborators" is checked.
+To enable and configure the question and answer section for your project, click "Edit project" and select "Question & answer" from the Project Checklist. Make sure the checkbox next to "Allow respondents to submit questions about the project to collaborators" is checked.
 
 ![q&a](../images/qa.png)
 

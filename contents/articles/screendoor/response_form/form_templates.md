@@ -22,6 +22,6 @@ From the "Form templates" page, you can create a form template by clicking the "
 
 ## Using a form template
 
-Once you have created a form template, it's easy to use it in your forms. From the "Response form" step in your "Project checklist," select the "Options" tab and click the "Import from a template" button. Note that importing a form from a template will replace your current form fields with the template's fields. This makes templates most suitable for importing into empty projects.
+Once you have created a form template, it's easy to use it in your forms. From the "Response form" step in your Project Checklist, select the "Options" tab and click the "Import from a template" button. Note that importing a form from a template will replace your current form fields with the template's fields. This makes templates most suitable for importing into empty projects.
 
 ![import from template](../images/import_from_template.png)

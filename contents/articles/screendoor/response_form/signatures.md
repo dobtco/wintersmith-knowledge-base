@@ -7,7 +7,7 @@ app_pages:
 
 ## Enabling electronic signatures
 
-To enable electronic signatures for your project, click "Edit project" and select "Responses" from the "Project checklist." Then, check the "Require signatures for responses" box.
+To enable electronic signatures for your project, click "Edit project" and select "Responses" from the Project Checklist. Then, check the "Require signatures for responses" box.
 
 ![require signatures](../images/require_signatures.png)
 

@@ -7,7 +7,7 @@ app_pages:
 
 ## Adding collaborators
 
-You can add collaborators to your project when you first create it, but you can also go back and add (as well as configure and remove) collaborators later. From the main project page, click "Edit project" and select "Collaborators" from the "Project checklist" on the right-hand side of the page. You can search for an individual to add by typing their name or email address into the search box under "Add collaborators."
+You can add collaborators to your project when you first create it, but you can also go back and add (as well as configure and remove) collaborators later. From the main project page, click "Edit project" and select "Collaborators" from the Project Checklist on the right-hand side of the page. You can search for an individual to add by typing their name or email address into the search box under "Add collaborators."
 
 ![add collaborators](../images/add_collaborators.png)
 

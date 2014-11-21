@@ -11,7 +11,7 @@ Statuses are a helpful way to organize responses and keep track of their current
 
 ## Managing statuses
 
-You can define statuses for your project when you first create it, but you can also configure and manage statuses at any time by clicking "Edit Project" and selecting "Statuses" from the project checklist on the right-hand side of the page. It should look something like this (though the names and colors of the statuses in your project will probably be different):
+You can define statuses for your project when you first create it, but you can also configure and manage statuses at any time by clicking "Edit Project" and selecting "Statuses" from the Project Checklist on the right-hand side of the page. It should look something like this (though the names and colors of the statuses in your project will probably be different):
 
 ![statuses](../images/statuses.png)
 

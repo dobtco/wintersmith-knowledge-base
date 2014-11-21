@@ -8,11 +8,11 @@ app_pages:
   - projectadmin-responses-show
 ---
 
-To enable the advanced evaluation settings, check the box under "Advanced evaluations" in the "Evaluation" section of the "Project checklist."
+To enable the advanced evaluation settings, check the box under "Advanced evaluations" in the "Evaluation" section of the Project Checklist.
 
 ![advanced evaluations box](../images/advanced_evaluation.png)
 
-Once you check this box, a new "Advanced evaluation" section should show up in the "Project checklist" just under "Evaluation." From the "Advanced evaluation" page, you can configure several advanced evaluation settings.
+Once you check this box, a new "Advanced evaluation" section should show up in the Project Checklist just under "Evaluation." From the "Advanced evaluation" page, you can configure several advanced evaluation settings.
 
 ## Rating field weights
 
