@@ -21,9 +21,9 @@ Your project is now archived! You'll see an "Archived" tag next to the name of y
 ![archived](../images/archived.png)
 
 
-## Unarchiving a project
+## Restoring a project
 
-To unarchive a project, click the "Restore project" button.
+To restore an archived project, click the "Restore project" button.
 
 ![restore project](../images/restore_project.png)
 
