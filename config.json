@@ -22,7 +22,8 @@
         "site_admin"
       ],
       "govmapper": [
-        "site_admin"
+        "site_admin",
+        "maps"
       ]
     }
   },
