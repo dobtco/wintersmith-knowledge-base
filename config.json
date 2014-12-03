@@ -3,9 +3,27 @@
     "url": "http://localhost:8080/",
     "title": "DOBT Knowledge Base",
     "section_sort_order": {
-      "screendoor": ["projects", "response_form", "responses", "messages", "question_and_answer", "evaluation", "plans_and_billing", "integrations"],
-      "dashboard": ["accounts", "applications", "access"],
-      "adopta": ["site_admin"]
+      "screendoor": [
+        "projects",
+        "response_form",
+        "responses",
+        "messages",
+        "question_and_answer",
+        "evaluation",
+        "plans_and_billing",
+        "integrations"
+      ],
+      "dashboard": [
+        "accounts",
+        "applications",
+        "access"
+      ],
+      "adopta": [
+        "site_admin"
+      ],
+      "govmapper": [
+        "maps"
+      ]
     }
   },
   "require": {
