@@ -23,7 +23,7 @@
       ],
       "govmapper": [
         "site_admin",
-        "maps"
+        "public_site"
       ]
     }
   },

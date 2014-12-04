@@ -1,9 +1,9 @@
 ---
-title: Viewing your map
+title: Viewing your site
 order: 1
 ---
 
-To view your map, click the "View public site" link from the GovMapper admin navigation bar.
+To view your site, click the "View public site" link from the GovMapper admin navigation bar.
 
 ![view public site](../images/view_public_site.png)
 
