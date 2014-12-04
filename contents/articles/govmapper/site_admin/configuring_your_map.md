@@ -7,9 +7,19 @@ To configure your map, click its name from the "Maps" section of GovMapper.
 
 ![map](../images/map.png)
 
+## Configuring your response form
+
+To configure your response form (the form that users will fill out when adding a place), click the "Build your form" link from the "On Screendoor..." sidebar. This will take you to Screendoor's form builder, where you can [build your response form](/articles/screendoor/response_form/building_your_form.html) as you would for any Screendoor project.
+
+![build your form](../images/build_your_form.png)
+
+> Note that data for any response field not marked as "admin only" will be displayed publicly on your map.
+
 ## Changing your map's name
 
 To change your map's name (and the name of the associated Screendoor project), edit the name under "Settings."
+
+![edit name](../images/edit_name.png)
 
 ## Managing permissions
 
@@ -49,4 +59,4 @@ If you chose "Custom image," pick your image by clicking "Choose File" and selec
 
 Your custom image will be used as the map marker.
 
-> Note: Upload at 2x resolution to ensure your map marker will work on retina displays. For example, if your image would normally be 256x256 pixels, upload at a 512x512 resolution.
+> Note: Upload at 2x resolution to ensure your map marker will display correctly on retina displays. For example, if your image would normally be 256x256 pixels, upload at a 512x512 resolution.

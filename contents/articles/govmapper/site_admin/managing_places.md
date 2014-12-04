@@ -15,12 +15,6 @@ To view submitted places for a GovMapper map, click "Maps" from the GovMapper na
 
 This will take you to the "Responses" page for the Screendoor project associated with your GovMapper map. From here, you can manage responses just as you would for any other Screendoor project. See the [Screendoor](/articles/screendoor) articles for more information.
 
-## Configuring your response form
-
-To configure your response form (the form that users will fill out when adding a place), click the "Build your form" link from the "On Screendoor..." sidebar. This will take you to Screendoor's form builder, where you can [build your response form](/articles/screendoor/response_form/building_your_form.html) as you would for any Screendoor project.
-
-> Note that any response field not marked as "admin only" will be displayed publicly on your map.
-
 ## Configuring statuses
 
 Click the "Configure statuses" link from the "On Screendoor..." sidebar to configure an approval and review workflow for your places. By default, your project will only have one status ("Visible on map"). This means that any response that is submitted will immediately be shown on your map. If you'd like to review responses before displaying them on your map, create another status (e.g. "Not visible on map") and make it the default status by dragging it to the top of the statuses list.
