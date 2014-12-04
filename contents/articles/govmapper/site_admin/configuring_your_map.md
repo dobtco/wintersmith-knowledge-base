@@ -48,3 +48,5 @@ If you chose "Custom image," pick your image by clicking "Choose File" and selec
 ![custom image](../images/custom_image.png)
 
 Your custom image will be used as the map marker.
+
+> Note: Upload at 2x resolution to ensure your map marker will work on retina displays. For example, if your image would normally be 256x256 pixels, upload at a 512x512 resolution.
