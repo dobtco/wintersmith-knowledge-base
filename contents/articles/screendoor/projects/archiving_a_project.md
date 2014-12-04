@@ -8,7 +8,7 @@ app_pages:
 
 When a project isn't active anymore, you can archive it to keep your data safe. Archived projects are read-only, so you won't be able to make any changes or accept responses once you archive a project. However, you can always go back and unarchive a project.
 
-> Note that archived projects will *not* count towards your plan's project limit.
+> **Note**: Archived projects will *not* count towards your plan's project limit.
 
 ## Archiving a project
 

@@ -3,7 +3,7 @@ title: Adding adoptable things
 order: 2
 ---
 
-> Note: We'll be using "hydrant" as the example "thing," but replace this with whatever "Singular thing name" you set up when you [configured your site](configuring_your_site.html#basic-info).
+> **Note**: We'll be using "hydrant" as the example "thing," but replace this with whatever "Singular thing name" you set up when you [configured your site](configuring_your_site.html#basic-info).
 
 To add some adoptable hydrants, click the "Hydrants" link.
 
@@ -39,7 +39,7 @@ You can also include the `name` header:
     37.875271,-122.271025,some hydrant
     37.875271,-122.261025,another hydrant
 
-> Advanced feature: If you add an `id` header and specify an `id` for some of your CSV rows, Adopta will look for an existing hydrant with a matching `id`. If it finds one, it will overwrite its name, latitude, and longitude with the values defined in your CSV file.
+> **Advanced feature**: If you add an `id` header and specify an `id` for some of your CSV rows, Adopta will look for an existing hydrant with a matching `id`. If it finds one, it will overwrite its name, latitude, and longitude with the values defined in your CSV file.
 
 
 ## Viewing your added hydrants

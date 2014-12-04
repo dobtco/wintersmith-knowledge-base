@@ -31,7 +31,7 @@ To view details for a place, click its place marker on the map.
 
 To edit a place, click its place marker on the map. Then, click the "View on Screendoor" link.
 
-> Note: This link will only appear if you're logged in and have the appropriate permissions.
+> **Note**: This link will only appear if you're logged in and have the appropriate permissions.
 
 This will take you to the Screendoor response page for the place you selected. To edit the place, click the "Edit response" link below the sidebar on the right-hand side of the page.
 

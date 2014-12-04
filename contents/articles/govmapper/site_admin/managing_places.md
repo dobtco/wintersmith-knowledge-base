@@ -5,7 +5,7 @@ order: 4
 
 GovMapper retrieves the places (location points) for your map from responses to its associated Screendoor project, so you can manage these places in the same way you'd manage any Screendoor responses.
 
-> Note that each "map" on GovMapper corresponds to a separate Screendoor project
+> **Note**: Each "map" on GovMapper corresponds to a separate Screendoor project
 
 ## Viewing and managing submitted places
 
@@ -21,7 +21,7 @@ Click the "Configure statuses" link from the "On Screendoor..." sidebar to confi
 
 ![statuses](../images/statuses.png)
 
-> Note: DO NOT delete or rename the default status. Only responses with a status of "Visible on map" will be displayed on the map.
+> **Note**: DO NOT delete or rename the default status. Only responses with a status of "Visible on map" will be displayed on the map.
 
 Check out the [Using statuses](/articles/screendoor/projects/using_statuses.html) article to learn more about Screendoor statuses.
 
