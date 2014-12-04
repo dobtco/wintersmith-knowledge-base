@@ -21,6 +21,8 @@ Click the "Configure statuses" link from the "On Screendoor..." sidebar to confi
 
 ![statuses](../images/statuses.png)
 
+> Note: DO NOT delete or rename the default status. Only responses with a status of "Visible on map" will be displayed on the map.
+
 Check out the [Using statuses](/articles/screendoor/projects/using_statuses.html) article to learn more about Screendoor statuses.
 
 ## Syncing changes from Screendoor
