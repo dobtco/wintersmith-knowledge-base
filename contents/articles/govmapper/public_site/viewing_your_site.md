@@ -29,10 +29,6 @@ To view details for a place, click its place marker on the map.
 
 ## Editing a place
 
-To edit a place, click its place marker on the map. Then, click the "View on Screendoor" link.
+To edit a place, click its place marker on the map. Then, click the "Edit place" link from the sidebar. Make your edits and click "Submit edits" to save them.
 
 > **Note**: This link will only appear if you're logged in and have the appropriate permissions.
-
-This will take you to the Screendoor response page for the place you selected. To edit the place, click the "Edit response" link below the sidebar on the right-hand side of the page.
-
-![edit response](../images/edit_response.png)
