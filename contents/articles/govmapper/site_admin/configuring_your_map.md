@@ -11,6 +11,14 @@ To configure your map, click its name from the "Maps" section of GovMapper.
 
 To change your map's name (and the name of the associated Screendoor project), edit the name under "Settings."
 
+## Managing permissions
+
+To manage permissions for your map, select a permission level next to the appropriate user group.
+
+![permissions](../images/permissions.png)
+
+You can also set a permission level for individual users after you've added them.
+
 ## Adding users
 
 To add a user to your map, start typing their name or email address in the search box under "Add users."
@@ -24,14 +32,6 @@ If the person you're searching for is already registered on Screendoor and part 
 You can also add users who are not yet registered with your organization. Just enter their name and email address, select a permission level, choose whether or not to add them to your organization, and click "Send invite."
 
 ![add new user](../images/add_new_user.png)
-
-## Managing permissions
-
-To manage permissions for your map, select a permission level next to the appropriate user group.
-
-![permissions](../images/permissions.png)
-
-You can also set a permission level for individual users after you've added them.
 
 ## Configuring map markers
 
@@ -48,4 +48,3 @@ If you chose "Custom image," pick your image by clicking "Choose File" and selec
 ![custom image](../images/custom_image.png)
 
 Your custom image will be used as the map marker.
-
