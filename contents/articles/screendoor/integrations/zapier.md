@@ -5,7 +5,7 @@ app_pages:
   - apikeys-index
 ---
 
-**Please note that Screendoor is currently "invite-only" on Zapier, which means that you will have to [accept our invite](https://zapier.com/developer/invite/11164/f7c39187582faf14fb803d66cc8500b7/) first.**
+**Please note that Screendoor is currently "invite-only" on Zapier, which means that you will have to [accept our invitation](https://zapier.com/developer/invite/11164/f7c39187582faf14fb803d66cc8500b7/) first.**
 
 Zapier is a service that allows you to define automated integrations between a variety of apps and services. Using Zapier, you can automate your workflow and integrate Screendoor triggers with many of the [apps](https://zapier.com/zapbook/) registered with Zapier.
 
