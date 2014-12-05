@@ -12,13 +12,13 @@ Screendoor lets you easily receive credit card payments from your respondents vi
 
 To enable payments, click "Edit project" and select "Responses" from the Project Checklist. Check the "Require a credit card payment from respondents" box.
 
-> Note that Screendoor will only require a payment from respondents if you have a valid payment profile set up and define a charge amount.
+> **Note**: Screendoor will only require a payment from respondents if you have a valid payment profile set up and define a charge amount.
 
 ![require payment](../images/require_payment.png)
 
 Click the "Connect with Stripe" button to connect to your Stripe account. You'll be redirected to the "Stripe: Connect with Screendoor" page, where you'll see the message "Screendoor would like you to start accepting payments with Stripe." Fill out the form and click the "Authorize access to this account" button to go back to Screendoor.
 
-> Note that payment profiles are shared across all the projects in your organization: if you have multiple projects, you won't have to set up a payment profile for each one separately. 
+> **Note**: Payment profiles are shared across all the projects in your organization: if you have multiple projects, you won't have to set up a payment profile for each one separately. 
 
 Next, enter the charge amount for your project.
 
