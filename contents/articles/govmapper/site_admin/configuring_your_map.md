@@ -17,9 +17,13 @@ To configure your response form (the form that users will fill out when adding a
 
 ## Changing your map's name
 
-To change your map's name (and the name of the associated Screendoor project), edit the name under "Settings."
+![map settings](../images/map_settings.png)
 
-![edit name](../images/edit_name.png)
+To change your map's name, edit the name under "Settings."
+
+You can also choose whether your map is displayed by default, which means that new users to your site will not have to [click on your map's name](../public_site/viewing_your_site.html#toggling-map-layers) to see it.
+
+If "Show revision history on the public site" if checked, users to your site will be able to see the same response history that is available to admins on Screendoor.
 
 ## Managing permissions
 
