@@ -15,7 +15,7 @@ To configure your response form (the form that users will fill out when adding a
 
 > **Note**: Data for any response field not marked as "admin only" will be displayed publicly on your map.
 
-## Changing your map's name
+## Editing your map's settings
 
 ![map settings](../images/map_settings.png)
 
