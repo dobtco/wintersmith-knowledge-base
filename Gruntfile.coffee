@@ -40,6 +40,6 @@ module.exports = (grunt) ->
 
     shell:
       pushtoheroku:
-        command: 'git push heroku production:master'
+        command: 'git push heroku master'
 
   grunt.registerTask 'deploy', ['wintersmith:build', 'gh-pages', 'shell:pushtoheroku']
