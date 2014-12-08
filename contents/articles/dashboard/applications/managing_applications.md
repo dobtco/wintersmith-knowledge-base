@@ -5,7 +5,7 @@ order: 1
 
 ## Installing an app
 
-To install an app, navigate to the "App store" section of the dashboard. Select the app you would like to install and then click the "free trial" button at the bottom of the app page. You will then be prompted to install the app you selected.
+To install an app, navigate to the "App store" section of the dashboard. Select the app you would like to install and then click the "Launch" button at the bottom of the app page. You will then be prompted to install the app you selected.
 
 ![install app](../images/install_app.png)
 
