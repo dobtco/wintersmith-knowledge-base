@@ -5,7 +5,7 @@ app_pages:
   - projectwizard-collaborators
 ---
 
-## Adding collaborators
+## Adding individual collaborators
 
 You can add collaborators to your project when you first create it, but you can also go back and add (as well as configure and remove) collaborators later. From the main project page, click "Edit project" and select "Collaborators" from the Project Checklist on the right-hand side of the page. You can search for an individual to add by typing their name or email address into the search box under "Add collaborators."
 
@@ -19,7 +19,21 @@ You can also invite someone to collaborate if they are not yet registered with y
 
 ![add collaborator not registered](../images/add_collaborators3.png)
 
-## Assigning permissions
+## Adding collaborators in bulk
+
+To add collaborators in bulk, click "Add in bulk" and enter the email addresses of the collaborators you'd like to invite (one per line). Then, select the appropriate permission level, choose whether or not to add them to your organization, and click "Send invites."
+
+![add collaborators in bulk](../images/add_collaborators_in_bulk.png)
+
+## Allowing all organization members to collaborate
+
+If you want to allow individuals who are already members of your organization (but have not been added as collaborators to your project) to collaborate, simply select the appropriate organization-wide permission level. This way, you don't have to manually add everyone who is already a part of your organization every time you create a new project.
+
+![organization permissions](../images/organization_permissions.png)
+
+This will allow all members of your organization to collaborate, and give them the selected permission level.
+
+## Assigning permissions to collaborators
 
 You can always go back and change permissions for a collaborator after you have added them. Simply select the new permissions level you wish to give a collaborator from the dropdown next to their name and email address on the "Collaborators" page.
 
