@@ -33,10 +33,6 @@ If you want to allow individuals who are already members of your organization (b
 
 This will allow all members of your organization to collaborate, and give them the selected permission level.
 
-> **Note**: Any permission level that you assign to a specific collaborator will override the organization-wide permission level.
-
-If you want to revoke organization-wide access and only allow collaborators that you've added to access your project, simply select "None" as your organization-wide permission level.
-
 ## Assigning permissions to collaborators
 
 You can always go back and change permissions for a collaborator after you have added them. Simply select the new permissions level you wish to give a collaborator from the dropdown next to their name and email address on the "Collaborators" page.
