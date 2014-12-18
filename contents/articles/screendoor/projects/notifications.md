@@ -8,17 +8,17 @@ app_pages:
 
 ## Configuring project notifications
 
-When you create a project, your notification level for that project will be Subscribed by default. If you are added to a project, it will be Participating. To change your notification level for a project, select a notification level from the "Settings" page.
+When you create a project, you'll receive all notifications for that project by default. If you're added to a project, you'll only receive notifications if you're mentioned in a comment or assigned to a response, by default. To change your notification setting for a project, select an option from the "Settings" page.
 
 ![project notification level](../images/project_notification_level.png)
 
 ## Configuring response notifications
 
-When you're Subscribed to a project, you'll also get Subscribed to all new responses by default. If you're not Subscribed to a project, you'll only be Subscribed to a response when you're mentioned in or assigned to it.
+If you're receiving all notifications for a project, you'll also receive all notifications for new responses by default. Otherwise, you'll only receive notifications when you're mentioned in a comment or assigned to a response.
 
-To change your notification level for a response, simply select the appropriate notification level from the "Notifications" dropdown on the response page.
+To change your notification setting for a response, simply select the appropriate option from the "Notifications" dropdown on the response page.
 
 ![response notification level](../images/response_notification_level.png)
 
-> **Note**: If you set your notification level for a response to Ignoring, you will not receive any notifications for that response, even if someone assigns you to it.
+> **Note**: If you select "Ignore" for a response, you will not receive any notifications for that response, even if someone assigns you to it or mentions you in a comment.
 
