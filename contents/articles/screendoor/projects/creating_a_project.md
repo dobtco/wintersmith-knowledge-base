@@ -12,7 +12,7 @@ From Screendoor, it's easy to create a new project. Just click the "Create proje
 
 ## Using a template
 
-If one of our templates corresponds to the type of project you would like to create, select the appropriate template under "Type." Templates provide preset forms and settings, but you can always customize your project after you have created it with a template.
+If one of our templates corresponds to the type of project you would like to create, select the appropriate template under "Type." Templates provide preset forms and settings, but you can always customize your project after you have created it with a template. To learn more about project templates, check out the [Project templates](templates.html) article
 
 ![templates](../images/templates.png)
 

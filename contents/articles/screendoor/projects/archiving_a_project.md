@@ -1,6 +1,6 @@
 ---
 title: Archiving a project
-order: 6
+order: 7
 app_pages:
   - projectadmin-settings-settings
   - projects-show
