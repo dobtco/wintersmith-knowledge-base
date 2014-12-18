@@ -9,7 +9,7 @@ Project templates allow you to re-use configuration settings from existing proje
 
 ## Creating templates
 
-To save an existing project as a template, click "Edit project," and select "Save this project as a template" from the dropdown arrow next the name of the project.
+To save an existing project as a template, click "Edit project," click the arrow next to the name of your project, and select "Save this project as a template."
 
 ![save project as template](../images/save_project_as_template.png)
 
