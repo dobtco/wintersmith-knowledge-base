@@ -6,7 +6,7 @@ app_pages:
   - home-index
 ---
 
-From Screendoor, it's easy to create a new project. Just click the <img src='../images/create_project1.png' style='vertical-align:bottom;' /> button or select "New Project" from the Projects dropdown.
+From Screendoor, it's easy to create a new project. Just click the "Create project" button or select "New Project" from the Projects dropdown.
 
 ![create project](../images/create_project2.png)
 
@@ -16,9 +16,9 @@ If one of our templates corresponds to the type of project you would like to cre
 
 ![templates](../images/templates.png)
 
-## Custom project (no template)
+## Blank project (no template)
 
-Select the "Custom" type to create a custom project without a template. Custom projects don't have any pre-configured options, so you can set it up according to your project's specifications.
+Select the "Blank" type to create a blank project. Blank projects don't have any pre-configured options, so you can set it up according to your project's specifications.
 
 ## Demo projects
 
