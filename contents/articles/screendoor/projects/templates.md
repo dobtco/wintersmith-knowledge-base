@@ -28,6 +28,10 @@ To use a template for a new project, simply select it from the list of templates
 
 ![create project from template](../images/create_project_from_template.png)
 
+## Updating a template
+
+If you want to make changes to a template, simply create a new project with it. Then, make the necessary changes and re-save your new project as a template. You can always go back and delete the original template if you don't need it anymore.
+
 ## Importing templates
 
 To import a template, click "Import a template" and select the appropriate file.
