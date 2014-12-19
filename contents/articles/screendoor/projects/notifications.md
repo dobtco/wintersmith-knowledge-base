@@ -3,7 +3,7 @@ title: Notifications
 order: 7
 app_pages:
   - projectadmin-settings-settings
-  - projects-show
+  - projectadmin-responses-show
 ---
 
 ## Configuring project notifications
