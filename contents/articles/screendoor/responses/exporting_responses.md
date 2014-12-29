@@ -1,6 +1,6 @@
 ---
 title: Exporting responses
-order: 5
+order: 6
 app_pages:
   - projectadmin-responses-index
   - projectadmin-settings-settings

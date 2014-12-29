@@ -1,6 +1,6 @@
 ---
 title: Allowing edits to responses
-order: 2
+order: 3
 app_pages:
   - projectadmin-responses-index
   - projectadmin-responses-show

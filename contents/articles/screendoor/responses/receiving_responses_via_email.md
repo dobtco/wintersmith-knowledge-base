@@ -1,6 +1,6 @@
 ---
 title: Receiving responses via email
-order: 3
+order: 4
 app_pages:
   - projectadmin-settings-emailresponses
 ---
