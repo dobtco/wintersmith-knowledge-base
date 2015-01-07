@@ -21,15 +21,19 @@ To add a grace period, click "Add grace period" and select a date from the date/
 
 ![grace period](../images/grace_period.png)
 
-## Data collection
-
-![data collection](../images/data_collection.png)
-
-### Names and email addresses
+## Respondent Identification
 
 By default, Screendoor will collect names and email addresses for all respondents. If the respondent is registered with Screendoor, their name and email address will be automatically collected based on their registration information. Otherwise, respondents will be asked to enter this information manually.
 
-If you don't want to collect names and email addresses from your respondents, or want to collect them in a format other than the default, check the "Do not collect names or email addresses" box.
+If you don't want to collect names and email addresses from your respondents (or if you want to collect them via your own custom fields) select "Keep responses anonymous" under "Identification level."
+
+If you'd like to require your respondents to create a Screendoor account before submitting responses, select "Require a Screendoor account."
+
+![identification](../images/identification.png)
+
+## Data collection
+
+![data collection](../images/data_collection.png)
 
 ### Requiring signatures
 
