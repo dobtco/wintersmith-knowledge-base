@@ -26,6 +26,11 @@ html(lang='en')
     link(rel='stylesheet', href='//fonts.googleapis.com/css?family=Open+Sans:400,300,700,600')
     link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css')
     link(rel='stylesheet', href='/styles/knowledge_base.css')
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+
+    if page.metadata.include_formrenderer
+      script(src='//d3q1ytufopwvkq.cloudfront.net/0.2.0/formrenderer.js')
+      link(href='//d3q1ytufopwvkq.cloudfront.net/0.2.0/formrenderer.css', rel='stylesheet')
 
     | <!--[if lt IE 9]>
     |  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -96,7 +101,6 @@ html(lang='en')
             li: a.email(id='dynamic-email')
               i.fa.fa-envelope
 
-    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
     script(src='/js/purl.js')
     script(src='/js/jquery.placeholder.js')
     script(src='/js/main.js')

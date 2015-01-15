@@ -3,6 +3,7 @@ title: Embedding the response form
 order: 6
 app_pages:
   - projectadmin-settings-embedcode
+include_formrenderer: true
 ---
 
 ## Embedding the response form
@@ -13,7 +14,19 @@ Screendoor allows you to embed the response form for your project in your own we
 
  Here is an example of a simple embedded response form for a live Screendoor project (from the "Apps Contest" example):
 
-<iframe id='frame' width='500px' height='600px' src='http://screendoor.dobt.co/embedded/projects/410/responses/new' frameborder='0' marginheight='0' marginwidth='0'></iframe>
+<form data-formrenderer></form>
+
+<script>
+  FormRenderer.BUTTON_CLASS = 'button info'
+
+  new FormRenderer({
+    "project_id": 410,
+    "afterSubmit": {
+      "method": "page",
+      "html": "<h2>Thanks for submitting the example form!</h2>"
+    }
+  });
+</script>
 
 ---
 
