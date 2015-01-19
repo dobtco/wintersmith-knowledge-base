@@ -28,6 +28,10 @@ Screendoor allows you to embed the response form for your project in your own we
   });
 </script>
 
+## Customizing the embedded form
+
+Screendoor's embed code is highly customizable. Take a look at the open-source repository for all of the available options: [https://github.com/dobtco/formrenderer-base](https://github.com/dobtco/formrenderer-base).
+
 ---
 
 ## Why does my embed code not work?
