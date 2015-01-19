@@ -8,7 +8,7 @@ include_formrenderer: true
 
 ## Embedding the response form
 
-Screendoor allows you to embed the response form for your project in your own website, making it even easier for respondents to fill out your form. To embed the response form, click "Settings" from your project page and select "Embed code" from the navigation boxes on the left-hand side of the page. Then, configure your embed code and copy the HTML code under "Embed code" onto your own website.
+Screendoor allows you to embed the response form for your project in your own website, making it even easier for respondents to fill out your form. To embed the response form, click "Settings" from your project page and select "Embed code" from the navigation boxes on the left-hand side of the page. Then, copy the HTML code onto your own website.
 
 ![embed code](../images/embed_code.png)
 
@@ -27,6 +27,10 @@ Screendoor allows you to embed the response form for your project in your own we
     }
   });
 </script>
+
+## Customizing the embedded form
+
+Screendoor's embed code is highly customizable. Take a look at the open-source repository for all of the available options: [https://github.com/dobtco/formrenderer-base](https://github.com/dobtco/formrenderer-base).
 
 ---
 
