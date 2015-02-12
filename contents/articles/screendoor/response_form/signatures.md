@@ -33,7 +33,7 @@ Also, when you export a response as a PDF, the signature will appear in that PDF
 Any time a respondent makes changes to a response that requires their signature, they'll have to re-sign it. This way, every change will be "signed."
 
 ## What happens if I make changes to a response after it's been signed?
-If you (or another admin) make changes to a response after the respondent has signed and submitted it, you'll have to request that they sign it again if you want the new version to be signed. However, you'll still be able to see the signed prevision revision.
+If you (or another admin) make changes to a response after the respondent has signed and submitted it, you'll have to request that they sign it again if you want the new version to be signed. However, you'll still be able to see the signed previous revision.
 
 ![request new signature](../images/request_new_signature.png)
 
