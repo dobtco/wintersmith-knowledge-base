@@ -3,7 +3,7 @@ title: Two-factor authentication
 order: 5
 ---
 
-Make your account more secure by requiring an extra step for authentication. All you need is a telephone and an application on your computer or mobile device.
+Make your account more secure by requiring an extra step for authentication. All you need is a cell phone and an application on your computer or mobile device.
 
 ## Enabling two-factor authentication
 
@@ -15,7 +15,7 @@ To enable two-factor authentication for your DOBT account, go to the "My account
 
 To use Authy for two-factor authentication from your smartphone, download the Authy app. When your first launch it, you'll have to enter your phone number and email address. Verify your account by sending an SMS and then entering the registration code from that SMS into Authy.
 
-Next, add an "authenticator account" by pressing the plus button. Scan the QR code displayed on the DOBT Dashboard (or enter the code manually), enter "DOBT" as your account name, and press "Done." Next, enter the validation code from Authy into the DOBT Dashboard and click "Verify device." You should now see the "You've enabled two-factor authentication!" page. Make sure you write down your backup codes so you can access your account if you lose your phone.
+Next, add an "authenticator account" by pressing the plus button. Scan the QR code displayed on the DOBT Dashboard (or enter the code manually), enter "DOBT" as your account name, and press "Done." Next, enter the validation code from Authy into the DOBT Dashboard and click "Verify device." You should now see the "You've enabled two-factor authentication!" page. Make sure you write down your backup codes, so you can access your account if you lose your phone.
 
 ### Using the Authy Chrome app
 
