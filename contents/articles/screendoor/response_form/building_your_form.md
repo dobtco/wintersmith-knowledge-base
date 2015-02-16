@@ -27,11 +27,13 @@ To copy an existing field, click the green "+" icon that appears when you move y
 
 ### Deleting fields
 
-To delete an existing field, click the red "-" icon that appears when you move your mouse over the field. You will prompted to confirm that you want to delete this response field. Note that deleting a field will also remove any submitted responses to that field.
+To delete an existing field, click the red "-" icon that appears when you move your mouse over the field.
 
-## Admin-only fields
+If there are already responses to your project, you'll see a dropdown prompting you to either "Hide this field" or "Delete this field and its answers." Select "Delete this field and its answers" from the dropdown and then click "Confirm" to delete this field and all of its answers. You may also decide to hide this field instead of deleting it by selecting "Hide this field" from the dropdown. If you hide a field, existing answers will be preserved but respondents won't see the field anymore.
 
-To make a field admin-only, select it and click the "Edit field" tab. Then, check the box next to "Admin only." Admin-only fields will not be shown to respondents, but they can be used for keeping track of admin-only response information.
+## Hidden fields
+
+To hide a field, select it and click the "Edit field" tab. Then, check the box next to "Hidden." Hidden fields will not be shown to respondents, but they can be seen and edited by admins.
 
 ## Blind fields
 
