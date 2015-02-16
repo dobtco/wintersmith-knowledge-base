@@ -11,6 +11,10 @@ To enable two-factor authentication for your DOBT account, go to the "My account
 
 ![enable 2fa](../images/enable_2fa.png)
 
+### Using the Google Authenticator app
+
+To use the Google Authenticator app for two-factor authentication from your smartphone, download the Google Authenticator app. Then, simply open Google Authenticator from your phone, press the "+" button, and select "Scan barcode." Scan the QR code from the DOBT Dashboard, enter the validation code from Google Authenticator into the DOBT Dashboard, and click the "Verify device" button.
+
 ### Using the Authy smartphone app
 
 To use Authy for two-factor authentication from your smartphone, download the Authy app. When your first launch it, you'll have to enter your phone number and email address. Verify your account by sending an SMS and then entering the registration code from that SMS into Authy.
@@ -35,6 +39,17 @@ If you don't have access to your cell phone, **you won't be able to sign in to y
 
 ## Signing in with two-factor authentication enabled
 
-To sign in to your DOBT account with two-factor authentication enabled, enter your email and password as you normally would. Then, open Authy (if you're using the Chrome app, you'll have to enter your master password), click "DOBT," and copy your verification code. Next, enter that verification code into the DOBT Dashboard page and click "Sign in."
+To sign in to your DOBT account with two-factor authentication enabled, enter your email and password as you normally would.
+
+- *If you're using the Google Authenticator app*:  
+Open Google Authenticator on your smartphone and note the DOBT verification code.
+
+- *If you're using the Authy smartphone app*:  
+Open Authy on your smartphone, press "DOBT," and note your verification code.
+
+- *If you're using the Authy Chrome app*:  
+Open Authy, enter your master password, click "DOBT," and copy your verification code.
+
+Next, enter that verification code into the DOBT Dashboard page and click "Sign in."
 
 ![login with 2fa](../images/2fa_login_verify.png)
