@@ -3,7 +3,7 @@ title: Two-factor authentication
 order: 5
 ---
 
-Make your account more secure by requiring an extra step for authentication. All you need is a cell phone and an application on your computer or mobile device.
+Make your account more secure by requiring an extra step for authentication. If you have a smartphone, you'll need either the [Authy](https://www.authy.com/) or [Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=en) mobile app. If you don't have a smartphone, you can use the [Authy Chrome app](https://chrome.google.com/webstore/detail/authy/gaedmjdfmmahhbjefcbgaolhhanlaolb).
 
 ## Enabling two-factor authentication
 
@@ -11,7 +11,7 @@ To enable two-factor authentication for your DOBT account, go to the "My account
 
 ![enable 2fa](../images/enable_2fa.png)
 
-### Using the Authy Smartphone app
+### Using the Authy smartphone app
 
 To use Authy for two-factor authentication from your smartphone, download the Authy app. When your first launch it, you'll have to enter your phone number and email address. Verify your account by sending an SMS and then entering the registration code from that SMS into Authy.
 
@@ -21,13 +21,17 @@ Next, add an "authenticator account" by pressing the plus button. Scan the QR co
 
 The easiest way to use two-factor authentication without a smartphone is with the Authy Chrome app.
 
-[Download Authy](https://chrome.google.com/webstore/detail/authy/gaedmjdfmmahhbjefcbgaolhhanlaolb) and set it up by entering your phone number. Then, verify your phone number by sending an SMS and then entering the registration code from that SMS into Authy.
+[Download the Authy Chrome app](https://chrome.google.com/webstore/detail/authy/gaedmjdfmmahhbjefcbgaolhhanlaolb) and set it up by entering your phone number. Then, verify your phone number by sending an SMS and then entering the registration code from that SMS into Authy.
 
 Next, set up a master password for Authy under the "Account" tab.
 
 Now that your Authy account is set up, click "Add Authenticator Account" and enter the code displayed under step 2 from the DOBT Dashboard (it will be something like `xrijdtj44fdc26tdopxpg6yt`). Click "Add Account," select a logo, and enter "DOBT" for the account name. You should now see a "DOBT" account under "External Accounts" in Authy.
 
 To finish setting up two-factor authentication for your DOBT account, close the main Authy window. You should then see a smaller Authy window: click "DOBT" and then "Copy" to copy your validation code. Enter that code into the DOBT Dashboard and click "Verify device." You should now see the "You've enabled two-factor authentication!" page. Make sure you write down your backup codes so you can access your account if you lose your phone.
+
+## Saving your backup codes
+
+If you don't have access to your cell phone, **you won't be able to sign in to your account unless you have your backup codes**. It is very important to write these codes down somewhere safe or store them in an encrypted file on your computer.
 
 ## Signing in with two-factor authentication enabled
 
