@@ -7,7 +7,7 @@ order: 1
 
 ### From an existing organization
 
-If you don't already have a dobt.co account, you'll need to ask an administrator from your organization to invite you. Once they do, you'll be able to create an account by accepting the invite and filling out the basic form.
+If you don't already have a DOBT account, you'll need to ask an administrator from your organization to invite you. Once they do, you'll be able to create an account by accepting the invite and filling out the basic form.
 
 ### With a new organization
 
@@ -19,15 +19,21 @@ If you already have a dobt.co account, you can sign in from the [sign in page](h
 
 ## Forgot password
 
-If you forgot your password, simply click the question mark on the right side of where you would normally enter your password. Then, follow the prompts to reset your password.
+If you forgot your password, simply click the "Forgot your password?" link. Then, follow the prompts to reset your password.
 
 ![screenshot](../images/forgot_password.png)
+
+## Enabling two-factor authentication
+
+Two-factor authentication provides enhanced security by requiring an extra step for authentication.
+
+See the [Two-factor authentication](two_factor_auth.html) article for details.
 
 ---
 
 ## My password isn't working
 
-If your password isn't working, make sure that you're signing in with the correct email address and double check that caps lock is off. If it still isn't working, click the `Forgot your password?` question mark (see above) to reset your password.
+If your password isn't working, make sure that you're signing in with the correct email address and double check that caps lock is off. If it still isn't working, click the "Forgot your password" link to reset your password.
 
 ## I'm having trouble resetting my password
 
