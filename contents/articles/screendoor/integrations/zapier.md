@@ -47,6 +47,6 @@ When creating a zap, you'll have to enter the Screendoor project ID for the proj
 
 ![zapier project id](../images/zapier_project_id.png)
 
-You can find your project ID on your project's settings page.
+You can find your project ID on your project's settings page. Click "Show advanced settings" to show your project ID.
 
 ![screendoor project id](../images/project_id.png)

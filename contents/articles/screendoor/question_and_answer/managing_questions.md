@@ -11,11 +11,7 @@ If you haven't configured the question and answer section for your project yet, 
 
 ## Managing questions
 
-To manage questions (and answers) for your project, click the "Q&A" link from your project page.
-
-![q&a link](../images/qa_link.png)
-
-You can display all questions or only unanswered questions by selecting the appropriate box from the left-hand side of the "Q&A" page.
+To manage questions (and answers) for your project, click the "Q&A" link from your project page. You can display all questions or only unanswered questions by selecting the appropriate box from the left-hand side of the "Q&A" page.
 
 ![q&a filter](../images/qa_filter.png)
 

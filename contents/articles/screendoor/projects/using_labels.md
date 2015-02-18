@@ -16,7 +16,7 @@ To create a label, click "Add label" on the left-hand side of the "Responses" pa
 
 ## Managing labels
 
-You can always go back and edit your labels after you create them. Simply click "Edit labels" and then click the pencil icon to update your label's name or color.
+You can always go back and edit your labels after you create them. Simply click "Edit labels" (1), click the pencil icon next to a label (2), and then click on its name or color to change it.
 
 ![edit labels](../images/edit_label.png)
 
@@ -28,7 +28,7 @@ To label responses from the "Responses" page, check the box next to the response
 
 ## Labelling individual responses
 
-To label responses from an individual response page, click the label icon and select the appropriate label.
+To label responses from an individual response page, click the label icon and select the appropriate label from the dropdown.
 
 ![label response](../images/label_response.png)
 

@@ -40,11 +40,9 @@ Then, click the "Connect with Stripe" button to connect to a different Stripe ac
 
 To view completed charges, click "Organization settings" from the "User" menu and select "Payment profile" from the navigation box on the left-hand side of the page. You can also manage the payment profile for your organization from this page.
 
-![organization settings](../images/organization_settings.png)
+![organization settings](../images/completed_charges.png)
 
 From the "Payment profile" page, you'll see a list of completed charges for your organization.
-
-![completed charges](../images/completed_charges.png)
 
 Click the "View on Stripe" button for a charge to view it in your Stripe dashboard.
 

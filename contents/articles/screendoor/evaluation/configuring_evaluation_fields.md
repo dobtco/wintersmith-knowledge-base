@@ -17,8 +17,6 @@ Evaluations in Screendoor are based on "rating fields," which are simply criteri
 
 Let's make this rating field numeric and call it "Originality."
 
-![edit rating field](../images/originality_rating_field.png)
-
 Now that the "Originality" rating field has been added, it's easy to rate and evaluate responses according to their originality. From an individual response page, you (and your collaborators) can simply rate the response's originality under "Rate this response."
 
 ![rate response](../images/rate_response.png)

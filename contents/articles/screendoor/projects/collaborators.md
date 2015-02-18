@@ -15,13 +15,13 @@ If the person you are searching for is already registered and part of your organ
 
 ![add collaborators 2](../images/add_collaborators2.png)
 
-You can also invite someone to collaborate if they are not yet registered with your project. Just enter their email address, select a permission level, choose whether or not to add them to your organization, and click "Send invite."
+You can also invite someone to collaborate if they are not yet registered with your project. Just enter their name and email address, select a permission level, choose whether or not to add them to your organization, and click "Send invite."
 
 ![add collaborator not registered](../images/add_collaborators3.png)
 
 ## Adding collaborators in bulk
 
-To add collaborators in bulk, click "Add in bulk" and enter the email addresses of the collaborators you'd like to invite (one per line). Then, select the appropriate permission level, choose whether or not to add them to your organization, and click "Send invites."
+To add collaborators in bulk, click "add in bulk" and enter the email addresses of the collaborators you'd like to invite (one per line). Then, select the appropriate permission level, choose whether or not to add them to your organization, and click "Send invites."
 
 ![add collaborators in bulk](../images/add_collaborators_in_bulk.png)
 
@@ -55,4 +55,4 @@ If you need more control and configuration options for a collaborators permissio
 
 ## Removing collaborators
 
-To remove a collaborator, simply click the "remove" link next to the collaborator you would like to remove. Note that this link only appears when you move your mouse over the collaborator.
+To remove a collaborator, simply click the "-" link next to the collaborator you would like to remove. Note that this link only appears when you move your mouse over the collaborator.

@@ -8,7 +8,7 @@ app_pages:
 
 ## Allowing edits to multiple responses
 
-If you'd like your respondents to be able to edit their responses after they have submitted them, click "Allow edits" from the "more" dropdown above the "Responses" table.
+If you'd like your respondents to be able to edit their responses after they have submitted them, select some responses and click "Allow edits" from the "more" dropdown above the "Responses" table.
 
 ![allow edits](../images/allow_edits.png)
 
@@ -16,7 +16,7 @@ You can then allow edits for all respondents ("All"), for the respondents displa
 
 ![allow edits popup](../images/allow_edits_modal.png)
 
-After you have chosen which responses to enable for editing, select either "Yes" or "Once" from the "Released for edits" dropdown. "Yes" will enable multiple edits, while "Once" will only allow the respondent to edit their response only one time. Then, click "Update responses" to allow edits. Note that you can always go back and disable response editing by selecting "No" from the "Edit type" dropdown.
+After you have chosen which responses to enable for editing, select either "Yes" or "Once" from the "Released for edits" dropdown. "Yes" will enable multiple edits, while "Once" will only allow the respondent to edit their response only one time. Then, click "Update responses" to allow edits. Note that you can always go back and disable response editing by selecting "No" from the "Released for edits" dropdown.
 
 ## Allowing edits to a specific response
 

@@ -15,11 +15,11 @@ If you'd like to send a message to all your respondents, just click "Write messa
 
 Make sure the "All" checkbox is selected, and then click the "Craft your message" button.
 
-![write message popup](../images/write_message_popup.png)
+![write message popup](../images/write_message_modal.png)
 
 Enter a reply-to email, a subject, and write your message!
 
-- Tip: You can also insert a variety of useful respondent-specific variables (for example, the respondent's name) by clicking the curly braces icon and selecting the variable you would like to insert. ![](../images/insert_merge_variable.png)
+> **Note**: You can also insert a variety of useful respondent-specific variables (for example, the respondent's name) by clicking the curly braces icon and selecting the variable you would like to insert.
 
 Then, click "Preview" to make sure everything looks good. Click "Send messages" to send your message to all your respondents.
 

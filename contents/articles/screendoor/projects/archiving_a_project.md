@@ -23,11 +23,7 @@ Your project is now archived! You'll see an "Archived" tag next to the name of y
 
 ## Restoring a project
 
-To restore an archived project, click the "Restore project" button.
-
-![restore project](../images/restore_project.png)
-
-Your project will now be active again.
+To restore an archived project, click the "Restore project" button. Your project will now be active again.
 
 ---
 

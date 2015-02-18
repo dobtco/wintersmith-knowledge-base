@@ -12,7 +12,7 @@ From Screendoor, it's easy to create a new project. Just click the "Create proje
 
 ## Using a template
 
-If one of our templates corresponds to the type of project you would like to create, select the appropriate template under "Type." Templates provide preset forms and settings, but you can always customize your project after you have created it with a template. To learn more about project templates, check out the [Project templates](templates.html) article
+If one of our templates corresponds to the type of project you would like to create, select the appropriate template. Templates provide preset forms and settings, but you can always customize your project after you have created it with a template. To learn more about project templates, check out the [Project templates](templates.html) article.
 
 ![templates](../images/templates.png)
 
@@ -22,5 +22,5 @@ Select the "Blank" type to create a blank project. Blank projects don't have any
 
 ## Demo projects
 
-If you just want to see a demo project, click the "create an example project" link at the bottom of the "Create project" pop-up. Demo projects are a good way to get a feel for how a project works in Screendoor, and also include sample responses that you can play around with. Note that demo projects will be automatically deleted after 30 days.
+If you just want to see a demo project, click the "example project" link under "Choose a template." Demo projects are a good way to get a feel for how a project works in Screendoor, and also include sample responses that you can play around with. Note that demo projects will be deleted automatically after 30 days.
 

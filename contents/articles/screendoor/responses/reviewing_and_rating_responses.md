@@ -12,8 +12,6 @@ To view an individual response page, click on the appropriate response from the 
 
 To rate a response, select or input an appropriate rating for any pertinent evaluation fields.
 
-![rating field](../images/rating_field.png)
-
 ![rating fields](../images/rating_fields.png)
 
 ## Commenting on a response
