@@ -44,4 +44,4 @@ To export a template, simply click the "Export" link next to a template.
 
 ---
 ## If I accidentally delete a default template, can I recover it?
-Yes! All the default templates are stored on our [Project Templates page](https://github.com/dobtco/screendoor-project-templates). Download the YAML file for the deleted template and then import it.
+Yes! Simply click the "Restore default templates?" link from the "Project templates" page.
