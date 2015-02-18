@@ -8,6 +8,8 @@ app_pages:
 
 Project templates allow you to re-use configuration settings from existing projects when you create new projects.
 
+> **Note**: You must have the appropriate [permissions](/articles/dashboard/accounts/managing_users.html#managing-user-permissions) in order to manage project templates for your organization.
+
 ## Creating templates
 
 To save an existing project as a template, click "Edit project," click the arrow next to the name of your project, and select "Save this project as a template."

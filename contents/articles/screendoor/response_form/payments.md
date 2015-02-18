@@ -8,6 +8,8 @@ app_pages:
 
 ## Enabling payments
 
+> **Note**: You must have the appropriate [permissions](/articles/dashboard/accounts/managing_users.html#managing-user-permissions) in order to manage payments for your organization.
+
 Screendoor lets you easily receive credit card payments from your respondents via [Stripe](https://stripe.com/). After enabling payments and setting a charge amount, your respondents will be charged when submitting their response. Note that you will need to create a Stripe account in order to accept payments via Screendoor.
 
 To enable payments, click "Edit project" and select "Responses" from the Project Checklist. Check the "Require a credit card payment from respondents" box.

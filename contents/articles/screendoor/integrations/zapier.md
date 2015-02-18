@@ -11,6 +11,8 @@ Zapier is a service that allows you to define automated integrations between a v
 
 ## Getting started with Screendoor on Zapier
 
+> **Note**: In order to use Zapier with Screendoor, you must have [permission](/articles/dashboard/accounts/managing_users.html#managing-user-permissions) to manage API keys for your Organization.
+
 To get Screendoor working with Zapier, the first thing you'll need to do is connect your Screendoor account. Select "Connected Accounts" from the Zapier menu to get started.
 
 ![connected accounts](../images/connected_accounts.png)
