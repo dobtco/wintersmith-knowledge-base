@@ -11,7 +11,9 @@ If you are an administrator in your organization, you will be able to add users 
 
 ## Managing user permissions
 
-When you add a user, you can choose the appropriate permission level for that user with the "Permission level" dropdown on the "invite user" page. However, you can also change an existing user's permission level. Just select the user you would like to manage from the "Users" section of the dashboard and then select the appropriate permission level from the dropdown on the user page.
+When you add a user, you can choose the appropriate permission level for that user from the "Permission level" dropdown on the "Invite user" page.
+
+To manage permissions for existing users, click on the user you'd like to manage from the "Users" page. Then, check or uncheck the appropriate permissions under "App permissions."
 
 ## Resetting a user's password
 
