@@ -27,14 +27,12 @@ $ ->
   $.getJSON 'https://c73bgtwgrhvh.statuspage.io/api/v1/status.json', (data) ->
     return unless data.status?.indicator?
 
-    $('.status.loading').hide()
-
     if data.status.indicator == 'none'
-      $('.status.up').show()
+      $('.footer_status').addClass('is_up')
     else if data.status.indicator == 'minor'
-      $('.status.partial').show()
+      $('.footer_status').addClass('is_partial')
     else if (data.status.indicator == 'major') || (data.status.indicator == 'critical')
-      $('.status.major').show()
+      $('.footer_status').addClass('is_down')
 
   $('#choose-app').on 'change', ->
     window.location.href = '/' + $(@).val()

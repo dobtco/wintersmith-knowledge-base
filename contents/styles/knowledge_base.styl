@@ -4,7 +4,7 @@
 
 $kbBlue = #21BEDB
 $kbBlueGray = #F3F6F8
-$footerBackground = #2e2e2e
+$footerBackground = #080F1F
 
 // Base
 
@@ -374,7 +374,7 @@ $leftNavWidth = 300px
   h3
     font-weight 500
     font-size 1.3rem
-  
+
   img
     padding 5px
     border 5px solid #F4F5F7
@@ -420,7 +420,7 @@ $leftNavWidth = 300px
 footer
   background $footerBackground
   text-align center
-  padding 3rem 0 1.5rem
+  padding 3rem 0 1.5rem 2rem
 
   .grid
     max-width 900px
@@ -430,59 +430,53 @@ footer
     color white
     text-align left
 
-  h2
-    color white
-    font-weight normal
-    text-transform uppercase
-    font-size 1.2rem
-    margin-bottom 1.5rem
-
   ul
     list-style-type none
     padding 0 0 2rem
 
     li
-      margin-bottom 1rem
+      font-size 110%
+      margin-bottom 1.5rem
+      color rgba(255, 255, 255, 0.8)
 
       a
         color white
-        font-size 1rem
         display inline-block
-        text-decoration none!important
+        text-decoration none
 
-        i
-          display inline-block
-          width 28px
-          font-size 16px
-          text-align center
+        &:hover, &:focus
+          text-decoration underline
 
-        &:hover
-          color $kbBlue
-
-          &.fb
-            color #2d5194
-
-          &.gp
-            color #db4738
-
-          &.tw
-            color #5caeeb
-
-      .status.up i
-        color green
-
-      .status.partial i
-        color yellow
-
-      .status.major i
-        color red
-
-      .service-status
-        padding 0
+      i
+        margin-right 0.7em
+        color: rgba(#fff,0.5);
+        font-size: 1.2em;
+        width: 1.5em;
+        text-align: center;
+        display: block;
 
   .contact ul
     padding-bottom 0
-    
+
+.footer_status
+  position relative
+  &:before
+    content ""
+    position absolute
+    top 50%
+    left -1.5rem
+    width 0.5rem
+    height 0.5rem
+    margin-top -0.25rem
+    border-radius 50%
+  &.is_up:before
+    background #90E92F
+  &.is_partial:before
+    background #fff200
+  &.is_down:before
+    background #e80000
+
+
 // Code blocks
 
 pre
@@ -493,7 +487,7 @@ pre
   width 60%
   min-width 30rem
   padding 1rem
-  
+
 code
   display inline-block
   border 0
@@ -502,16 +496,16 @@ code
   backround transparent
   white-space pre
   padding .1rem .2rem
-  
+
 // Blockquotes
 
 blockquote
   padding 0 1rem
   color #777
   border-left 4px solid #ddd
-  
+
 // Tables
 
 td
   min-width 10rem
-  
+
