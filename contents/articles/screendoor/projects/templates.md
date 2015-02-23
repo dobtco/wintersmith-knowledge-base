@@ -12,7 +12,7 @@ Project templates allow you to re-use configuration settings from existing proje
 
 ## Creating templates
 
-To save an existing project as a template, click "Edit project," click the arrow next to the name of your project, and select "Save this project as a template."
+To save an existing project as a template, click "Save this project as a template" from the "Settings" page for your project.
 
 ![save project as template](../images/save_project_as_template.png)
 
@@ -37,6 +37,8 @@ If you want to make changes to a template, simply create a new project with it. 
 ## Importing templates
 
 To import a template, click "Import a template" and select the appropriate file.
+
+You can also preview and import a variety of project templates from [our template library](https://github.com/dobtco/screendoor-project-templates).
 
 ## Exporting templates
 
