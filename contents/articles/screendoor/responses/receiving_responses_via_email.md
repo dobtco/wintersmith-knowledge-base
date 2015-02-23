@@ -11,9 +11,9 @@ To receive responses via email, select the "Response via email" box on the "Sett
 
 ![email responses](../images/email_responses.png)
 
-After you have turned on email responses, configure how you'd like to map a response email to your project's custom form by selecting the appropriate field names under "Field mappings". For example, you might want to map the email's subject to the "Title" field in your project's response form. See the configuration below for a simple example, which might be used for an article submission project.
+That's it! You can now use Screendoor to organize, manage, and evaluate incoming email responses to your project. This is what a response submitted via email will look like:
 
-![email response fields](../images/email_response_fields.png)
+![response submitted via email](../images/emailed_response.png)
 
 ## Receiving responses with a custom address
 
