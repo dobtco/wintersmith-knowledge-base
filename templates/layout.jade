@@ -60,26 +60,25 @@ html(lang='en')
         block content
     footer
       .grid
-        .item.lap_four_columns.service-status
-          h2 Links
+        .item.lap_five_columns.service-status
           ul
-            li: a(href='http://status.dobt.co')
-              span.status.loading Service Status
-              span.status.up(style='display:none;')
-                i.fa.fa-check
-                | Everything is up!
-              span.status.partial(style='display:none;')
-                i.fa.fa-times
-                | Partial service outage
-              span.status.major(style='display:none;')
-                i.fa.fa-times
-                | Major service outage
             li: a(href='http://blog.dobt.co') Blog
-            li: a(href='https://dashboard.dobt.co/privacy') Privacy
+            li.footer_status: a(href='http://status.dobt.co') Status Board
+            li: a(href='https://dashboard.dobt.co/terms') Terms of Service
+            li: a(href='https://dashboard.dobt.co/privacy') Privacy Policy
             li: a(href='https://dashboard.dobt.co') Customer Dashboard
-        .item.lap_four_columns.social
-          h2 Social
+        .item.lap_five_columns.contact
           ul
+            li
+              i.fa.fa-phone
+              | Toll Free:&nbsp;&nbsp;
+              a.tf(href='tel:+18772943628') +1 (877) 294 - DOBT
+            li
+              i.fa.fa-phone
+              | Local:&nbsp;&nbsp;
+              a.local(href='tel:+14049751962') +1 (404) 975 - 1962
+            li: a.email(id='dynamic-email')
+              i.fa.fa-envelope-o
             li: a.fb(href='https://www.facebook.com/dobtco')
               i.fa.fa-facebook
               | Facebook
@@ -89,17 +88,6 @@ html(lang='en')
             li: a.gp(href='https://plus.google.com/+DobtCo/')
               i.fa.fa-google-plus
               | Google+
-        .item.lap_four_columns.contact
-          h2 Contact
-          ul
-            li: a.tf(href='tel:+18772943628')
-              i.fa.fa-phone
-              | +1 (877) 294 - DOBT (Toll Free)
-            li: a.local(href='tel:+14049751962')
-              i.fa.fa-phone
-              | +1 (404) 975 - 1962 (Local)
-            li: a.email(id='dynamic-email')
-              i.fa.fa-envelope
 
     script(src='/js/purl.js')
     script(src='/js/jquery.placeholder.js')
