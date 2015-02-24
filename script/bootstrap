@@ -5,3 +5,4 @@ set -e
 npm install -g coffee-script
 npm install -g wintersmith
 npm install
+bundle install
