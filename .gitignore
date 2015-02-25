@@ -2,3 +2,4 @@ node_modules/
 build
 .grunt
 npm-debug.log
+.sass-cache/

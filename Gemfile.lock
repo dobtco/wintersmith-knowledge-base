@@ -1,0 +1,44 @@
+GIT
+  remote: git://github.com/dobtco/dvl-core.git
+  revision: 18da0602e4185730781efca3ca166fa27a055213
+  specs:
+    dvl-core (0.1.0)
+      activesupport
+      coffee-script
+      erector-rails4
+      sass
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.2.0)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    coffee-script (2.3.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.9.1)
+    erector-rails4 (0.2.0)
+      activesupport (>= 3.0.0)
+      treetop
+    execjs (2.3.0)
+    i18n (0.7.0)
+    json (1.8.2)
+    minitest (5.5.1)
+    polyglot (0.3.5)
+    sass (3.4.12)
+    thread_safe (0.3.4)
+    treetop (1.5.3)
+      polyglot (~> 0.3)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dvl-core!
+  sass
