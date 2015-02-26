@@ -398,7 +398,6 @@ $leftNavWidth: 300px;
 .article-wrapper {
   .left_nav {
     padding: 1rem 0;
-  }
 
     .left_nav_toggle {
       width: 90%;
@@ -408,9 +407,9 @@ $leftNavWidth: 300px;
       color: $darkerGray;
     }
 
-      i {
-        margin-right: 10px;
-      }
+    i {
+      margin-right: 10px;
+    }
 
     .left_nav_inner {
       width: 90%;
@@ -423,6 +422,7 @@ $leftNavWidth: 300px;
         display: block;
       }
     }
+  }
 }
 
 @media only screen and (min-width: 960px) {
