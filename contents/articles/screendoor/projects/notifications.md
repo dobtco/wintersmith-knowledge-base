@@ -18,7 +18,7 @@ If you're receiving all notifications for a project, you'll also receive all not
 
 To change your notification setting for a response, simply select the appropriate option from the "Notifications" dropdown on the response page.
 
-![response notification level](../images/response_notification_level.png)
-
 > **Note**: If you select "Ignore" for a response, you will not receive any notifications for that response, even if someone assigns you to it or mentions you in a comment.
+
+![response notification level](../images/response_notification_level.png)
 

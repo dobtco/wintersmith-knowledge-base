@@ -7,7 +7,7 @@ app_pages:
 
 ## Enabling electronic signatures
 
-To enable electronic signatures for your project, click "Edit project" and select "Responses" from the Project Checklist. Then, check the "Require signatures for responses" box.
+To enable electronic signatures for your project, click "Edit project" and select "Responses" from the Project Checklist. Then, check the "Require signatures for responses" box under "Data collection."
 
 ![require signatures](../images/require_signatures.png)
 
@@ -33,8 +33,8 @@ Also, when you export a response as a PDF, the signature will appear in that PDF
 Any time a respondent makes changes to a response that requires their signature, they'll have to re-sign it. This way, every change will be "signed."
 
 ## What happens if I make changes to a response after it's been signed?
-If you (or another admin) make changes to a response after the respondent has signed and submitted it, you'll have to request that they sign it again if you want the new version to be signed. However, you'll still be able to see the signed previous revision.
+If you (or another admin) make changes to a response after the respondent has signed and submitted it, you'll have to request that they sign it again if you want the new version to be signed.
 
 ![request new signature](../images/request_new_signature.png)
 
-To request a new signature, click the "Request new signature" link from the individual response page. The respondent will then be notified that you have requested them to sign the updated response. Once they sign off on your changes, the response will appear again as "signed."
+To request a new signature, click the "Request new signature" button from the individual response page. The respondent will then be notified that you have requested them to sign the updated response. Once they sign off on your changes, the response will appear again as "signed."
