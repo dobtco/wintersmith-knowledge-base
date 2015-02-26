@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/dobtco/dvl-core.git
-  revision: 18da0602e4185730781efca3ca166fa27a055213
+  revision: b21c404e92398d5d9240ec4abc78e15fd96fefe6
   specs:
     dvl-core (0.1.0)
       activesupport
@@ -29,7 +29,7 @@ GEM
     json (1.8.2)
     minitest (5.5.1)
     polyglot (0.3.5)
-    sass (3.4.12)
+    sass (3.4.13)
     thread_safe (0.3.4)
     treetop (1.5.3)
       polyglot (~> 0.3)
