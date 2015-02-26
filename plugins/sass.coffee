@@ -1,6 +1,7 @@
 child_process = require 'child_process'
 path = require 'path'
 fs = require 'fs'
+autoprefixer = require 'autoprefixer'
 
 module.exports = (wintersmith, callback) ->
   class SassPlugin extends wintersmith.ContentPlugin
@@ -15,12 +16,13 @@ module.exports = (wintersmith, callback) ->
         if path.basename(@_filename.full).charAt(0) == '_'
           callback null
         else
-          command = ['sass', @_filename.full, '--load-path', '`bundle show dvl-core`', '-t', 'compressed']
+          command = ['bundle exec sass', @_filename.full, '--load-path', '`bundle show dvl-core`', '-t', 'compressed']
 
           onComplete = (error, stdout, stderr) ->
             if error
               callback error
             else
+              stdout = autoprefixer.process(stdout).css
               callback null, new Buffer stdout
 
           c = child_process.exec command.join(' '), {}, onComplete
