@@ -16,6 +16,7 @@ getArticles (articles) ->
     next()
 
   app.get '/search', (request, response) ->
+    request.query.q ||= ''
     searcher request.query.q, (results) ->
       response.send results
 
