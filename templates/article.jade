@@ -1,25 +1,24 @@
 extends layout
 block content
-  .content_inner.cf
+  .article-wrapper.cf
     .left_nav
-      .container
-        a.left_nav_toggle(data-toggle-class='open', data-target='.left_nav')
-          i.fa.fa-reorder
-          | Expand navigation
+      a.left_nav_toggle(data-toggle-class='open', data-target='.left_nav')
+        i.fa.fa-reorder
+        | Expand navigation
 
-        .left_nav_inner
-          p
-            div.choose-app-text Choose an app:
-            select#choose-app
-              each dir in contents.articles._.directories
-                option(value=dir.filename, selected=(cur_dir == dir.filename))= dir['index.md'].metadata.title || env.helpers.caps(dir.filename.split('/')[1])
-          include partials/toc.jade
-          +toc(_.filter(contents.articles._.directories, function(d) {if (cur_dir == d.filename) {return true}}), false)
-          .still_need_help_container
-            b Still need help?
-            .still_need_help
-              a.button.teal(href='mailto:support@dobt.co') Contact us
-                i.fa.fa-envelope
+      .left_nav_inner
+        p
+          div.choose-app-text Choose an app:
+          select#choose-app
+            each dir in contents.articles._.directories
+              option(value=dir.filename, selected=(cur_dir == dir.filename))= dir['index.md'].metadata.title || env.helpers.caps(dir.filename.split('/')[1])
+        include partials/toc.jade
+        +toc(_.filter(contents.articles._.directories, function(d) {if (cur_dir == d.filename) {return true}}), false)
+        .still_need_help_container
+          b Still need help?
+          .still_need_help
+            a.button.teal(href='mailto:support@dobt.co') Contact us
+              i.fa.fa-envelope
     .article
       .breadcrumbs.capitalize
         - var rs = locals.page.filename.split('/').slice(1)

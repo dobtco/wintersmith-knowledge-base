@@ -15,7 +15,7 @@ module.exports = (wintersmith, callback) ->
         if path.basename(@_filename.full).charAt(0) == '_'
           callback null
         else
-          command = ['bundle exec sass', @_filename.full, '--load-path', '`bundle show dvl-core`', '-t', 'compressed']
+          command = ['sass', @_filename.full, '--load-path', '`bundle show dvl-core`', '-t', 'compressed']
 
           onComplete = (error, stdout, stderr) ->
             if error
