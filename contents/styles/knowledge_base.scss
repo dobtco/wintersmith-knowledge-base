@@ -14,9 +14,21 @@ $kbBlueGray: #F3F6F8;
 
 body {
   padding-top: $navHeight;
+  background: $kbBlueGray;
+  // Sticky footer
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
-.container {
+// Sticky footer
+.content {
+  flex: 1;
+}
+
+.navbar_inner,
+.content_inner,
+.footer_inner {
   width: 90%;
   max-width: 1140px;
   margin: 0 auto;
@@ -51,7 +63,6 @@ input[type="search"] {
 // Home page
 
 .main {
-  background: $kbBlueGray;
   padding: 20px 10px;
 }
 
@@ -233,7 +244,7 @@ input[type="search"] {
 }
 
 .left_nav {
-  background: $kbBlueGray;
+  background: #fff;
 
   .choose-app-text {
     font-size: 0.9rem;
@@ -323,7 +334,7 @@ input[type="search"] {
 
 $leftNavWidth: 300px;
 
-.article-wrapper {
+.content_inner {
   .left_nav {
     padding: 1rem 0;
 
@@ -354,7 +365,7 @@ $leftNavWidth: 300px;
 }
 
 @media only screen and (min-width: 960px) {
-  .article-wrapper {
+  .content_inner {
     display: table;
 
     .left_nav, .article {
@@ -385,8 +396,7 @@ $leftNavWidth: 300px;
 // Article
 
 .article {
-  background: #fff;
-  padding: 1rem 2rem 2rem 2rem;
+  padding: 1rem 2rem 2rem;
 
   h1 {
     font-size: 2.2rem;
