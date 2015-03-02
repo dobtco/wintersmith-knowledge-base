@@ -1,5 +1,6 @@
 $navBackground: #424a55;
 $navHeight: 4.5rem;
+$footerBackground: darken($navBackground, 7%);
 
 @import 'vendor/assets/stylesheets/dvl/app';
 @import 'vendor/assets/stylesheets/dvl/components/splash_footer';
