@@ -32,7 +32,8 @@
     "wintersmith-coffee": "^0.2.1",
     "marked": "^0.3.2",
     "underscore.string": "^2.3.3",
-    "grunt-shell": "^1.1.1"
+    "grunt-shell": "^1.1.1",
+    "autoprefixer": "1.1.x"
   },
   "engines": {
     "node": "0.10.x"
