@@ -4,10 +4,7 @@
   "description": "DOBT Knowledge Base",
   "main": "start",
   "scripts": {
-    "start": "coffee search/index.coffee",
-    "test": "npm run preview && npm run check-links",
-    "preview": "wintersmith preview &",
-    "check-links": "grunt link-checker:dev"
+    "start": "coffee search/index.coffee"
   },
   "repository": {
     "type": "git",
@@ -34,6 +31,11 @@
     "underscore.string": "^2.3.3",
     "grunt-shell": "^1.1.1",
     "autoprefixer": "1.1.x"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "request": "*",
+    "chai": "*"
   },
   "engines": {
     "node": "0.10.x"

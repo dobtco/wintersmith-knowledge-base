@@ -1,0 +1,22 @@
+[
+  {
+    "title": "About tags",
+    "body": "otherwise known as labels yada yada yada. This should show up below the 'Using labels' article when searched if we are weighing titles > bodies properly."
+  },
+  {
+    "title": "Using labels",
+    "body": "Labels (also known as 'tags') are another helpful way to organize responses. Responses can have multiple labels, and labels can be applied to any number of responses.## Creating labelsTo create a label, click 'Add label' on the left-hand side of the 'Responses' page. Enter a name for your label (and optionally select a color), then click 'Create.'![add label](../images/add_label.png)## Managing labelsYou can always go back and edit your labels after you create them. Simply click 'Edit labels' (1), click the pencil icon next to a label (2), and then click on its name or color to change it.![edit labels](../images/edit_label.png)## Labelling multiple responsesTo label responses from the 'Responses' page, check the box next to the responses you'd like to label, click the 'Label' dropdown, and select the appropriate label.![label responses](../images/label_responses.png)## Labelling individual responsesTo label responses from an individual response page, click the label icon and select the appropriate label from the dropdown.![label response](../images/label_response.png)## Filtering responses by labelTo filter responses by label, click the appropriate label on the left-hand side of the 'Responses' table. To stop filtering by that label, click it again.![filter label](../images/filter_label.png)"
+  },
+  {
+    "title": "Supported browsers",
+    "body": "DOBT's applications are designed to support the latest web browsers. We recommend using Google Chrome. It is fast and automatically keeps itself up to date. We also support the current versions of Safari, Firefox, and IE 9+. Please note that IE9 may not support all of our features, and users are encouraged to upgrade to at least version 10.If you see the following warning, you'll need to upgrade your web browser before our apps function as intended:![upgrade browser](../images/upgrade_browser.png)"
+  },
+  {
+    "title": "An article title",
+    "body": "Contains the word magicians"
+  },
+  {
+    "title": "What is magician",
+    "body": "Just to make sure we tokenize properly when we weigh our search results."
+  }
+]

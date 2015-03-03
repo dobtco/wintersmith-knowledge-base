@@ -70,6 +70,10 @@ $ ->
   if $(".search-results")[0]
     query = $.url().param('q')
 
+    unless query.length > 0
+      $(".search-results-loading").remove()
+      return $(".no-query").show()
+
     $(".centersearch-input").val(query)
 
     $.getJSON SEARCH_ENDPOINT, { q: query }, (data) ->
