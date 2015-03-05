@@ -1,6 +1,5 @@
-- var section_name
 - function section_sort_helper(a, b) {
--   return locals.section_sort_order[section_name].indexOf(a) > locals.section_sort_order[section_name].indexOf(b)
+-   return locals.section_sort_order[cur_app].indexOf(a) > locals.section_sort_order[cur_app].indexOf(b)
 - }
 
 - function article_sort_helper(a, b) {
@@ -13,38 +12,32 @@
 - }
 
 mixin toc_article(article)
-  - var current_article = ""
   if article.filename == locals.page.filename
-    - current_article = "current_article"
+    - current_article = 'current_article'
+  else
+    - current_article = ''
   if article.metadata && !article.metadata.draft
     li: a(href='/'+article.filename, class!=current_article)= article.title
 
-mixin toc(dirs, index)
-  each dir in dirs
-    - section_name = dir.filename.split('/')[1]
+mixin toc()
+  each section_name in _.keys(contents.articles[cur_app]).sort(section_sort_helper)
+    if _.contains(['images', 'index.md'], section_name)
+      - continue
+    - section = contents.articles[cur_app][section_name]
     .toc_section(class!=attributes.class)
-      if index
-        h3: a(href=dir.filename)= dir.filename.split('/')[1]
-      - var sections = _.without(_.keys(dir), '.DS_Store', 'images').sort(section_sort_helper)
-      each section in sections
-        if section != "index.md"
-          if section.indexOf('.md') > -1
-            +toc_article(dir[section])
-          else
-            if dir[section].filename == route.slice(0,-1).join('/') || route[route.length-1] == "index.html"
-              - var button_class = "fa-chevron-down"
-              - var display = "block"
-              - var activeClass = "active"
-            else
-              - var button_class = "fa-chevron-up"
-              - var display = "none"
-              - var activeClass = ""
-            - var identifier = dir[section].filename.replace(/\//g, '-')
-            a(name=identifier).toggle_toc
-              h4(class=activeClass)= env.helpers.format(section) + " "
-                if !index
-                  span.fa(class!=button_class)
-            ul(id!=identifier, style='display:'+display)
-              - var articles = _.values(dir[section]).sort(article_sort_helper)
-              each article in articles
-                +toc_article(article)
+      if section.filename == route.slice(0,-1).join('/') || route[route.length-1] == "index.html"
+        - button_class = "fa-chevron-down"
+        - display = "block"
+        - activeClass = "active"
+      else
+        - button_class = "fa-chevron-up"
+        - display = "none"
+        - activeClass = ""
+      - identifier = section.filename.replace(/\//g, '-')
+      a(name=identifier).toggle_toc
+        h4(class=activeClass)= env.helpers.format(section_name) + " "
+          if !index
+            span.fa(class!=button_class)
+      ul(id!=identifier, style='display:'+display)
+        each article in _.values(section).sort(article_sort_helper)
+          +toc_article(article)

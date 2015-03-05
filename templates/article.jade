@@ -11,10 +11,14 @@ block content
           p
             div.choose-app-text Choose an app:
             select#choose-app
-              each dir in contents.articles._.directories
-                option(value=dir.filename, selected=(cur_dir == dir.filename))= dir['index.md'].metadata.title || env.helpers.caps(dir.filename.split('/')[1])
+              each app, app_name in contents.articles
+                - title = app['index.md'].metadata.title || env.helpers.caps(app_name)
+                - path = "articles/" + app_name
+                option(value=path, selected=(cur_dir == path))= title
+
           include partials/toc.jade
-          +toc(_.filter(contents.articles._.directories, function(d) {if (cur_dir == d.filename) {return true}}), false)
+          +toc
+
           .still_need_help_container
             b Still need help?
             .still_need_help
@@ -22,21 +26,15 @@ block content
                 i.fa.fa-envelope
     .article
       .breadcrumbs.capitalize
-        - var rs = locals.page.filename.split('/').slice(1)
-        each r, i in rs
-          if i < (rs.length-1)
-            if r != 'index.html'
-              if _.isUndefined(contents.articles[r]) || _.isUndefined(contents.articles[r]['index.md'].metadata.title)
-                = env.helpers.caps(env.helpers.format(r))
-              else
-                = (contents.articles[r]['index.md'].metadata.title)
-              | &nbsp;&rarr;&nbsp;
-        - var last = rs[rs.length-1]
-      if page.metadata.title
-        h1= page.metadata.title
-      else
-        h1= env.helpers.caps(env.helpers.format(rs[rs.length-2]))
-      unless (route[route.length-1] == 'index.html') || !page.metadata.onThisPage
+        each r in route.slice(1, -1)
+          if _.isUndefined(contents.articles[r]) || _.isUndefined(contents.articles[r]['index.md'].metadata.title)
+            = env.helpers.caps(env.helpers.format(r))
+          else
+            = (contents.articles[r]['index.md'].metadata.title)
+          | &nbsp;&rarr;&nbsp;
+
+      h1= page.metadata.title || "Untitled"
+      if page.metadata.onThisPage
         .article_toc.grid
           .item.lap_six_columns
             h3 On This Page
