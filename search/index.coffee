@@ -1,5 +1,8 @@
 express = require 'express'
-getArticles = require './articles'
+
+getArticles =
+  if process.env.NODE_ENV == 'test' then require './articles_fixture'
+  else require './articles'
 
 getArticles (articles) ->
   searcher = require('./searcher')(articles)
@@ -16,8 +19,12 @@ getArticles (articles) ->
     next()
 
   app.get '/search', (request, response) ->
-    searcher request.query.q || '', (results) ->
-      response.send results
+    unless request.query.q
+      response.status(400)
+        .send('please specify a search query (q).')
+    else
+      searcher request.query.q, (results) ->
+        response.send results
 
   app.get '/app_pages', (request, response) ->
     unless request.query.app && request.query.page_key

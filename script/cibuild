@@ -1,3 +1,17 @@
 #! /bin/sh
 
-npm test
+set -e
+
+# Test search server
+NODE_ENV=test npm start &
+PID1=$!
+sleep 5
+mocha --compilers coffee:coffee-script/register
+kill $PID1
+
+# Test static site
+wintersmith preview &
+PID2=$!
+sleep 5
+grunt link-checker:dev
+kill $PID2
