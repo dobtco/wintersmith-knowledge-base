@@ -4,7 +4,7 @@ block content
     .landing
       h1 Don't worry, we've got you covered.
       include partials/search.jade
-      +search("Search knowledge base articles...")
+      +search
       span.or-browse
         | Or&nbsp;
         a(href='/articles/screendoor') browse articles &rarr;
@@ -33,11 +33,3 @@ block content
 
       //- For the link-checker...
       a(href='/articles/govmapper', style='display:none;') Govmapper
-
-      //- .item.lap_three_columns
-      //-   h3:
-      //-   ul
-      //-     li: a(href='/articles/govmapper/site_admin/creating_a_map.html') Creating a map
-      //-     li: a(href='/articles/govmapper/site_admin/configuring_your_map.html') Configuring your map
-      //-     li: a(href='/articles/govmapper/public_site/viewing_your_site.html') Viewing your site
-      //-     li: a(href='/articles/govmapper/site_admin/managing_places.html') Managing places

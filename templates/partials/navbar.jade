@@ -1,18 +1,17 @@
-if cur_dir.toLowerCase().search('screendoor') > -1
-  - back_to = "Screendoor"
-  - var back_to_link = 'https://screendoor.dobt.co/'
-else
-  - back_to = "Dashboard"
-  - var back_to_link = 'https://dashboard.dobt.co/'
+- back_to_data = {}
+- back_to_data['dashboard'] = {text: 'Dashboard', link: 'https://dashboard.dobt.co/'}
+- back_to_data['screendoor'] = {text: 'Screendoor', link: 'https://screendoor.dobt.co/'}
+- back_to_data['govmapper'] = {text: 'GovMapper', link: 'https://govmapper.dobt.co/'}
+
+- back_to = back_to_data[cur_app] || back_to_data['dashboard']
 
 .navbar
   .container
     .navbar_header
       a.navbar_brand(href='/') DOBT Knowledge Base
-
     .navbar_content.navbar_content_secondary
       form(action='/search', method='get')
         input(type='text', name='q', placeholder='Search articles')
       ul
         li
-          a(href!=back_to_link)!= "Back to " + back_to + "&nbsp;&rarr;"
+          a(href!=back_to['link'])!= "Back to " + back_to['text'] + "&nbsp;&rarr;"
