@@ -50,4 +50,5 @@ module.exports = (env, callback) ->
     env.locals.nap = nap
 
     env.logger.info('nap.package()...')
-    nap.package(callback)
+    nap.package ->
+      callback()
