@@ -30,7 +30,8 @@
     "marked": "^0.3.2",
     "underscore.string": "^2.3.3",
     "grunt-shell": "^1.1.1",
-    "autoprefixer": "1.1.x"
+    "autoprefixer": "1.1.x",
+    "nap": "~0.7.15"
   },
   "devDependencies": {
     "mocha": "^2.1.0",
