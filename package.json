@@ -19,7 +19,6 @@
     "wintersmith": "^2.1.0",
     "underscore": "^1.6.0",
     "grunt": "^0.4.5",
-    "grunt-wintersmith": "0.0.2",
     "grunt-gh-pages": "^0.9.1",
     "grunt-link-checker": "0.0.6",
     "express": "^4.8.0",
@@ -30,7 +29,8 @@
     "marked": "^0.3.2",
     "underscore.string": "^2.3.3",
     "grunt-shell": "^1.1.1",
-    "autoprefixer": "1.1.x"
+    "autoprefixer": "1.1.x",
+    "nap": "~0.7.15"
   },
   "devDependencies": {
     "mocha": "^2.1.0",

@@ -8,16 +8,12 @@ IGNORE_LINK_CHECKER_FALSE_POSITIVES = (crawler) ->
 
 module.exports = (grunt) ->
 
-  grunt.loadNpmTasks 'grunt-wintersmith'
   grunt.loadNpmTasks 'grunt-link-checker'
   grunt.loadNpmTasks 'grunt-gh-pages'
   grunt.loadNpmTasks 'grunt-shell'
 
   grunt.initConfig
     pkg: '<json:package.json>'
-
-    wintersmith:
-      build: {}
 
     'link-checker':
       options:
@@ -39,7 +35,9 @@ module.exports = (grunt) ->
       src: ['**']
 
     shell:
+      build:
+        command: 'wintersmith build'
       pushtoheroku:
         command: 'git push heroku master'
 
-  grunt.registerTask 'deploy', ['wintersmith:build', 'gh-pages', 'shell:pushtoheroku']
+  grunt.registerTask 'deploy', ['shell:build', 'gh-pages', 'shell:pushtoheroku']

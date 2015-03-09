@@ -33,6 +33,7 @@
   "plugins": [
     "./plugins/sass.coffee",
     "wintersmith-coffee",
+    "./plugins/wintersmith-nap.coffee",
     "./plugins/markdown-helper.coffee"
   ],
   "ignore": [
@@ -42,5 +43,16 @@
     "smartypants": true,
     "gfm": true,
     "tables": true
+  },
+  "nap": {
+    "assets": {
+      "js": {
+        "main": [
+          "/js/purl.js",
+          "/js/jquery.placeholder.js",
+          "/js/main.coffee"
+        ]
+      }
+    }
   }
 }
