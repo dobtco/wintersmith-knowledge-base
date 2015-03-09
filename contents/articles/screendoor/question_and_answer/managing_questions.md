@@ -11,15 +11,15 @@ If you haven't configured the question and answer section for your project yet, 
 
 ## Managing questions
 
-To manage questions (and answers) for your project, click the "Q&A" link from your project page. You can display all questions or only unanswered questions by selecting the appropriate box from the left-hand side of the "Q&A" page.
+To manage questions (and answers) for your project, click the "Questions" link from your project page. You can display all questions or only unanswered questions by selecting the appropriate box from the left-hand side of the "Questions" page.
 
 ![q&a filter](../images/qa_filter.png)
 
-To delete a question, select it from the table of questions on the "Q&A" page and then click the "Delete question" link at the bottom of the page.
+To delete a question, select it from the table of questions on the "Questions" page and then click the "Delete question" link at the bottom of the page.
 
 ## Answering questions
 
-To answer a question, select it from the table on the "Q&A" page. Enter your answer, select whether or not you'd like it to be displayed publicly, and then click the "Post answer" button.
+To answer a question, select it from the table on the "Questions" page. Enter your answer, select whether or not you'd like it to be displayed publicly, and then click the "Post answer" button.
 
 ![answer question](../images/answer_question.png)
 
