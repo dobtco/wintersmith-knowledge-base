@@ -3,4 +3,3 @@ build
 .grunt
 npm-debug.log
 .sass-cache/
-contents/assets
