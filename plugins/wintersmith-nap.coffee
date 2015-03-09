@@ -4,6 +4,9 @@ nap  = require 'nap'
 path = require 'path'
 
 module.exports = (env, callback) ->
+  # Disable for now
+  return callback()
+
   preview = 'preview' == env.mode
   roots =
     contents: env.config.contents
@@ -31,7 +34,7 @@ module.exports = (env, callback) ->
   # Instantiate nap!
   nap napCfg
 
-  if true #preview # development
+  if preview # development
     # Refer to https://github.com/etabits/wintersmith-nap/pull/3#issuecomment-31646159
     assetsRx = new RegExp(path.resolve('/assets/', roots.contents)+'/', 'g')
     createNapWrapper = (ext) ->
