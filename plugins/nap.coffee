@@ -1,5 +1,6 @@
 # Copied from https://gist.github.com/asmod3us/bc4a1a9c929b54749cdc#file-wintersmith-nap-coffee
 
+fs  = require 'fs'
 nap  = require 'nap'
 path = require 'path'
 
@@ -11,6 +12,9 @@ module.exports = (env, callback) ->
   roots =
     contents: env.config.contents
     output: env.config.output
+
+  # Ensure that the output directory exists
+  fs.mkdirSync(roots.output) unless fs.existsSync(roots.output)
 
   # Reading config from wintersmith config object (config.json)
   napCfg = env.config.nap
