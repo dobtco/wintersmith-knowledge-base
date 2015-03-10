@@ -5,9 +5,6 @@ nap  = require 'nap'
 path = require 'path'
 
 module.exports = (env, callback) ->
-  # Disable for now
-  return callback()
-
   preview = 'preview' == env.mode
   roots =
     contents: env.config.contents
@@ -57,5 +54,4 @@ module.exports = (env, callback) ->
     env.locals.nap = nap
 
     env.logger.info('nap.package()...')
-    nap.package ->
-      callback()
+    nap.package(callback)
