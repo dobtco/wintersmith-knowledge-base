@@ -36,6 +36,10 @@ You can also filter by label: just select the label you wish to use as a filter 
 
 ### Advanced search
 
-To perform an advanced search, click "Advanced search" on the left-hand side of the "Responses" page. From the "Advanced search" page, you can search by a variety of criteria. Check the box next to a search filter and fill in your query to activate filtering. Then, after you've activated the appropriate filters, click the "Filter results" button to perform your search. Note that you can perform a search based on your custom form elements.
+To perform an advanced search, click the "..." in the search bar on the "Responses" page.
+
+![advanced search button](../images/advanced_search_button.png)
+
+From the "Advanced search" popup, you can create powerful custom search queries. Click "Add a filter" to filter by a variety of criteria. Then, click "Search" to find all responses that match your query.
 
 ![advanced search filters](../images/advanced_search.png)
