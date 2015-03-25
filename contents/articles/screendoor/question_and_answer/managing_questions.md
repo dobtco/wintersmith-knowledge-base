@@ -3,7 +3,7 @@ title: Managing questions
 order: 2
 app_pages:
   - projectadmin-questions-index
-  - projects-show
+  - frontend-projects-show
   - projectadmin-questions-show
 ---
 

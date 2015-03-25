@@ -3,7 +3,6 @@ title: Sorting and filtering responses
 order: 1
 app_pages:
   - projectadmin-responses-index
-  - projectadmin-responses-advancedsearch
 ---
 
 You can sort and filter the responses for your project from the "Responses" page.

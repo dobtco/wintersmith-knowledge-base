@@ -3,7 +3,7 @@ title: Archiving a project
 order: 7
 app_pages:
   - projectadmin-settings-settings
-  - projects-show
+  - frontend-projects-show
 ---
 
 When a project isn't active anymore, you can archive it to keep your data safe. Archived projects are read-only, so you won't be able to make any changes or accept responses once you archive a project. However, you can always go back and unarchive a project.

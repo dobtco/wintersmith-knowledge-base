@@ -3,6 +3,7 @@ title: Importing responses
 order: 5
 app_pages:
   - projectadmin-settings-import
+  - projectadmin-responseimports-new
   - projectadmin-responseimports-edit
 ---
 
