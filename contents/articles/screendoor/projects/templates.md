@@ -26,7 +26,7 @@ From the "Project templates" page, you can view and manage your project template
 
 ## Previewing templates
 
-To preview a template, just click on it's name from the "Project templates" page.
+To preview a template, just click on its name from the "Project templates" page.
 
 ![preview template](../images/preview_project_template.png)
 
