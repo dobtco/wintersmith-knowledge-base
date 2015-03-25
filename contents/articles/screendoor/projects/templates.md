@@ -24,6 +24,14 @@ From the "Project templates" page, you can view and manage your project template
 
 ![project templates](../images/project_templates.png)
 
+## Previewing templates
+
+To preview a template, just click on its name from the "Project templates" page.
+
+![preview template](../images/preview_project_template.png)
+
+From the preview page, you can click the "Create a project with this template" button to use that template for a new project.
+
 ## Using templates
 
 To use a template for a new project, simply select it from the list of templates when you create a project.
