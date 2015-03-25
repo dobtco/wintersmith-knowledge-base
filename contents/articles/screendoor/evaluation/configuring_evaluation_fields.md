@@ -2,7 +2,7 @@
 title: Configuring evaluation fields
 order: 1
 app_pages:
-  - projectwizard-evaluation
+  - projectadmin-wizard-evaluation
   - projectadmin-responses-ratings
   - projectadmin-responses-show
 ---

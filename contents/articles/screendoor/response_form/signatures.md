@@ -2,7 +2,7 @@
 title: Signatures
 order: 4
 app_pages:
-  - projectwizard-responses
+  - projectadmin-wizard-responses
 ---
 
 ## Enabling electronic signatures

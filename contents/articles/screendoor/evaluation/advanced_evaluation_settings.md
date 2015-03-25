@@ -2,8 +2,8 @@
 title: Advanced evaluation settings
 order: 2
 app_pages:
-  - projectwizard-evaluation
-  - projectwizard-advancedevaluation
+  - projectadmin-wizard-evaluation
+  - projectadmin-wizard-advancedevaluation
   - projectadmin-responses-ratings
   - projectadmin-responses-show
 ---

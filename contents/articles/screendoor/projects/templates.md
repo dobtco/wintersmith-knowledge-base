@@ -3,7 +3,7 @@ title: Project templates
 order: 6
 app_pages:
   - projecttemplates-index
-  - projectwizard-description
+  - projectadmin-wizard-description
 ---
 
 Project templates allow you to re-use configuration settings from existing projects when you create new projects.

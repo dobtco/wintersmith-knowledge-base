@@ -2,7 +2,7 @@
 title: Configuring the question and answer section
 order: 1
 app_pages:
-  - projectwizard-questionandanswer
+  - projectadmin-wizard-questionandanswer
 ---
 
 To enable and configure the question and answer section for your project, click "Edit project" and select "Questions" from the "Progress" menu. Make sure the checkbox next to "Allow respondents to submit questions about the project to collaborators" is checked.

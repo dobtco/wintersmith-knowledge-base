@@ -2,7 +2,7 @@
 title: Collaborators
 order: 5
 app_pages:
-  - projectwizard-collaborators
+  - projectadmin-wizard-collaborators
 ---
 
 ## Adding individual collaborators

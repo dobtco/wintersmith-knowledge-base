@@ -2,7 +2,7 @@
 title: Building your form
 order: 1
 app_pages:
-  - projectwizard-responseform
+  - projectadmin-wizard-responseform
 ---
 
 ## Building your form

@@ -2,7 +2,7 @@
 title: Using statuses
 order: 3
 app_pages:
-  - projectwizard-statuses
+  - projectadmin-wizard-statuses
   - projectadmin-responses-index
   - projectadmin-responses-show
 ---

@@ -2,7 +2,7 @@
 title: Response preferences
 order: 2
 app_pages:
-  - projectwizard-responses
+  - projectadmin-wizard-responses
 ---
 
 To configure preferences for responses, click "Edit project" and select "Responses" from the Project Checklist.

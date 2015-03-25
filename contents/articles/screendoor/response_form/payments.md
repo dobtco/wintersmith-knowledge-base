@@ -2,7 +2,7 @@
 title: Payments
 order: 3
 app_pages:
-  - projectwizard-responses
+  - projectadmin-wizard-responses
   - payments-index
 ---
 

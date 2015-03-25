@@ -2,8 +2,8 @@
 title: Confirmation emails
 order: 3
 app_pages:
-  - projectwizard-responses
-  - projectwizard-afterresponseemail
+  - projectadmin-wizard-responses
+  - projectadmin-wizard-afterresponseemail
 ---
 
 It's easy to set up Screendoor to automatically send confirmation emails whenever a response is submitted. First, check the "Send a confirmation email" checkbox from the "Responses" page of the Project Checklist.
