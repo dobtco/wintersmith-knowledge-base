@@ -21,13 +21,9 @@ module.exports = (env, callback) ->
         .filter (heading) ->
           heading[0].slice(0,1) != '#'
 
-      # to avoid an error if there aren't any sections
-      @metadata.onThisPage = []
-      @metadata.FAQs = []
-
       [section1, section2] = @markdown.split("---")
-      @metadata.onThisPage = parseOut(section1) if section1
-      @metadata.FAQs = parseOut(section2) if section2
+      @metadata.onThisPage = parseOut(section1 || '') || []
+      @metadata.FAQs = parseOut(section2 || '') || []
 
     getTemplate: ->
       @metadata.template or "article.jade"

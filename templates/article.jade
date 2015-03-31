@@ -34,19 +34,19 @@ block content
           | &nbsp;&rarr;&nbsp;
 
       h1= page.metadata.title || "Untitled"
-      if page.metadata.onThisPage
-        .article_toc.grid
+      .article_toc.grid
+        if page.metadata.onThisPage.length > 0
           .item.lap_six_columns
             h3 On This Page
             ol
               each h in page.metadata.onThisPage
                 li: a(href!=h[1])= h[0]
-          if page.metadata.FAQs.length > 0
-            .item.lap_six_columns
-              h3 FAQs
-              ol
-                each h in page.metadata.FAQs
-                  li: a(href!=h[1])= h[0]
+        if page.metadata.FAQs.length > 0
+          .item.lap_six_columns
+            h3 FAQs
+            ol
+              each h in page.metadata.FAQs
+                li: a(href!=h[1])= h[0]
         hr
       .article_body
         != page.html
