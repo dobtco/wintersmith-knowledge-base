@@ -16,7 +16,7 @@ To rate a response, select or input an appropriate rating for any pertinent eval
 
 ## Commenting on a response
 
-To comment on a response, enter your comment and click the "Post comment" button.
+To comment on a response, enter your comment and click the "Submit" button.
 
 ![comment](../images/comment.png)
 
