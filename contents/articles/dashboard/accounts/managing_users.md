@@ -1,5 +1,5 @@
 ---
-title: Manging users
+title: Managing users
 order: 2
 ---
 
