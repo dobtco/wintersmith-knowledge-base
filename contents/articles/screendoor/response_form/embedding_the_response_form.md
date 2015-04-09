@@ -8,7 +8,7 @@ include_formrenderer: true
 
 ## Embedding the response form
 
-Screendoor allows you to embed the response form for your project in your own website, making it even easier for respondents to fill out your form. To embed the response form, click "Settings" from your project page and select "Embed code" from the navigation boxes on the left-hand side of the page. Then, copy the HTML code onto your own website.
+Screendoor allows you to embed the response form for your project on your own website, making it even easier for respondents to fill out your form. To embed the response form, click "Settings" from your project page and select "Embed code" from the navigation boxes on the left-hand side of the page. Then, copy the HTML code onto your own website.
 
 ![embed code](../images/embed_code.png)
 
