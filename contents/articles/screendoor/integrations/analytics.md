@@ -1,6 +1,6 @@
 ---
 title: Google Analytics
-order: 2
+order: 3
 app_pages:
   - analytics-show
 ---
