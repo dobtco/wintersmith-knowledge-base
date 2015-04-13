@@ -1,6 +1,6 @@
 ---
 title: Zapier
-order: 1
+order: 2
 app_pages:
   - apikeys-index
 ---
