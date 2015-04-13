@@ -5,12 +5,12 @@
 
 - back_to = back_to_data[cur_app] || back_to_data['dashboard']
 
-.navbar
+.navbar.navbar_sticky
   .container
     .navbar_header
       a.navbar_brand(href='/') DOBT Knowledge Base
     .navbar_content.navbar_content_secondary
-      form(action='/search', method='get')
+      form.navbar_search_form(action='/search', method='get')
         input(type='text', name='q', placeholder='Search articles')
       ul
         li
