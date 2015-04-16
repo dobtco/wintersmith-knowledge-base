@@ -1,6 +1,6 @@
 ---
 title: Archiving a project
-order: 7
+order: 8
 app_pages:
   - projectadmin-settings-settings
   - frontend-projects-show
