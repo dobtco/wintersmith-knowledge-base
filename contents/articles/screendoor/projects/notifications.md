@@ -1,6 +1,6 @@
 ---
 title: Notifications
-order: 7
+order: 9
 app_pages:
   - projectadmin-settings-settings
   - projectadmin-responses-show

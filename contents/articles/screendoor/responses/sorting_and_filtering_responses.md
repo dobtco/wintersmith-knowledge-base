@@ -42,3 +42,17 @@ To perform an advanced search, click the "..." in the search bar on the "Respons
 From the "Advanced search" popup, you can create powerful custom search queries. Click "Add a filter" to filter by a variety of criteria. Then, click "Search" to find all responses that match your query.
 
 ![advanced search filters](../images/advanced_search.png)
+
+## Assigning responses
+
+### Assigning multiple responses
+
+To assign multiple responses to individuals or teams, check the appropriate responses from the "Responses" table and select the appropriate individuals/teams from the "Assign" dropdown.
+
+![assign responses](../images/assign_responses.png)
+
+### Assigning individual responses
+
+To assign a response to individuals or teams from an individual response page, click the "Change?" link under "Assigned to" in the sidebar. Then, select the appropriate individuals/teams from the dropdown.
+
+![assign response](../images/assign_response.png)
