@@ -24,15 +24,15 @@ With each field you add to your form, think about the type of answer you want to
 
 For example, if you're asking a yes–no question, two checkboxes wouldn't make sense because the user could select both options.
 
-<form class='example_fr fr_no' id='example_fr_1'></form>
+<div class='example_fr fr_no' id='example_fr_1'></div>
 
 Instead, use radio buttons or the "Multiple choice" field in Screendoor.
 
-<form class='example_fr fr_yes' id='example_fr_2'></form>
+<div class='example_fr fr_yes' id='example_fr_2'></div>
 
 Here's another example: if you want to collect numeric data, you can use a "Numeric" field rather than a "Text" field. Screendoor will display an error if the user tries to enter anything in this field that isn't a number.
 
-<form class='example_fr fr_yes' id='example_fr_9'></form>
+<div class='example_fr fr_yes' id='example_fr_9'></div>
 
 ### If your form is long, separate it out into multiple pages
 
@@ -42,13 +42,13 @@ The prospect of filling out a huge form can be overwhelming and deter respondent
 
 Use section headers ("Section breaks" with labels in Screendoor) to organize your form. Use large section headers to separate out major parts of your form. Use medium and small section headers to identify sub-sections.
 
-<form class='example_fr fr_yes' id='example_fr_11'></form>
+<div class='example_fr fr_yes' id='example_fr_11'></div>
 
 ### Use blocks of text for long or important instructions
 
 If you need to write more than a paragraph, put it in a "Block of text" rather than the description of a section header. Use large or medium blocks of text for instructions that require special emphasis rather than "\*emphasizing with asterisks\*" or "ALL CAPS."
 
-<form class='example_fr fr_yes' id='example_fr_12'></form>
+<div class='example_fr fr_yes' id='example_fr_12'></div>
 
 ### Only ask once
 
@@ -58,31 +58,31 @@ Avoid asking for information more than once. For example, if Screendoor is [alre
 
 If you want to give your respondents information about multiple fields, try to avoid repeating yourself. Redundant information makes the form longer and harder to read.
 
-<form class='example_fr fr_no' id='example_fr_7'></form>
+<div class='example_fr fr_no' id='example_fr_7'></div>
 
 Instead, use section headers and descriptions to tell them once.
 
-<form class='example_fr fr_yes' id='example_fr_8'></form>
+<div class='example_fr fr_yes' id='example_fr_8'></div>
 
 ### Keep your labels and descriptions concise
 
 Avoid overloading your form with redundant descriptions.
 
-<form class='example_fr fr_no' id='example_fr_3'></form>
+<div class='example_fr fr_no' id='example_fr_3'></div>
 
 Be concise, but give your respondents the information they need to complete your form.
 
-<form class='example_fr fr_yes' id='example_fr_4'></form>
+<div class='example_fr fr_yes' id='example_fr_4'></div>
 
 ### Always provide clear labels for inputs
 
 Try not to assume that respondents will know the question you're asking just from looking at the field.
 
-<form class='example_fr fr_no' id='example_fr_5'></form>
+<div class='example_fr fr_no' id='example_fr_5'></div>
 
 One great way to keep your forms concise is to have your label and the respondent's answer form a complete sentence, like this:
 
-<form class='example_fr fr_yes' id='example_fr_6'></form>
+<div class='example_fr fr_yes' id='example_fr_6'></div>
 
 ### Instead of complicated instructions, try using rules
 
@@ -92,7 +92,7 @@ If you need to ask your respondents to skip certain fields of your form dependin
 
 Never use all caps for labels.
 
-<form class='example_fr fr_no' id='example_fr_10'></form>
+<div class='example_fr fr_no' id='example_fr_10'></div>
 
 Use emphasis only when you need to. If you use too much emphasis (**bold**, *italics*, or <u>underlining</u>), the user will ignore it.
 
