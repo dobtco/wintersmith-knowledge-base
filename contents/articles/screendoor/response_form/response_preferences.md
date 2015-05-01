@@ -1,6 +1,6 @@
 ---
 title: Response preferences
-order: 2
+order: 3
 app_pages:
   - projectadmin-wizard-responses
 ---
