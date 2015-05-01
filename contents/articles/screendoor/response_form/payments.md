@@ -1,6 +1,6 @@
 ---
 title: Payments
-order: 3
+order: 4
 app_pages:
   - projectadmin-wizard-responses
   - payments-index

@@ -1,3 +1,10 @@
+# Copied form dvl-core
+$.fn.extend styledControls: ->
+  $(@).find('label.control').each ->
+    unless @hasStyledControls
+      @hasStyledControls = true
+      $(@).find('input').after("<span class='control_styled' />")
+
 $.fn.extend
   flashPlaceholder: (text, timeout) ->
     @each ->
@@ -23,6 +30,8 @@ $(document).on "click", "[data-toggle-class]", ->
   $($(@).data('target')).toggleClass($(@).data('toggle-class'))
 
 $ ->
+  $('body').styledControls()
+
   # Placeholder polyfill
   $('input, textarea').placeholder()
 
@@ -110,7 +119,6 @@ $ ->
         'is_down'
 
     $('.footer_status').addClass newClass
-
 
 # Subscribe folks to our "House List" on Campaign Monitor
 $(document).on 'submit', '.newsletter_form', (e) ->

@@ -244,6 +244,10 @@ input[type="search"] {
 .left_nav {
   background: $kbBlueGray;
 
+  .navigation {
+    margin-bottom: 2rem;
+  }
+
   .choose-app-text {
     font-size: 0.9rem;
     margin-bottom: 5px;
@@ -387,7 +391,7 @@ $leftNavWidth: 300px;
     }
 
     .article {
-      max-width: 52rem;
+      width: 52rem;
       height: 100%;
     }
   }
@@ -520,4 +524,19 @@ blockquote {
 
 td {
   min-width: 10rem;
+}
+
+// Formrenderer
+
+.example_fr {
+  border-left: 6px solid #EAE9E9;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+.fr_yes {
+  border-left-color: $successColor;
+}
+
+.fr_no {
+  border-left-color: $errorColor;
 }

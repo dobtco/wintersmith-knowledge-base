@@ -8,8 +8,8 @@ block content
           | Expand navigation
 
         .left_nav_inner
-          p
-            div.choose-app-text Choose an app:
+          div.navigation
+            div.choose-app-text Navigation:
             select#choose-app
               each app, app_name in contents.articles
                 - title = app['index.md'].metadata.title || env.helpers.caps(app_name)

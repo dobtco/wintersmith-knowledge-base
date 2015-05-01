@@ -37,7 +37,8 @@
     "./plugins/markdown-helper.coffee"
   ],
   "ignore": [
-    "styles/includes/*"
+    "styles/includes/*",
+    "**/.DS_Store"
   ],
   "markdown": {
     "smartypants": true,
