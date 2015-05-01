@@ -529,14 +529,41 @@ td {
 // Formrenderer
 
 .example_fr {
-  border-left: 6px solid #EAE9E9;
-  padding-left: 1rem;
+  border-left-style: solid;
+  border-left-width: 6px;
+  padding: 1rem;
+  background-color: #efefef;
   margin-bottom: 0.5rem;
+  position: relative;
+
+  .fr_response_field {
+    margin-bottom: 0;
+  }
+
+  &:after {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    color: $darkerGray;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: - ($lineHeight / 2);
+  }
 }
+
 .fr_yes {
   border-left-color: $successColor;
+
+  &:after {
+    content: 'Good';
+  }
 }
 
 .fr_no {
   border-left-color: $errorColor;
+
+  &:after {
+    content: 'Bad';
+  }
 }
