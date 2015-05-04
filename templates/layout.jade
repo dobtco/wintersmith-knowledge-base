@@ -30,8 +30,10 @@ html(lang='en')
     script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
 
     if page.metadata.include_formrenderer
-      script(src='//d3q1ytufopwvkq.cloudfront.net/0.3.5/formrenderer.js')
-      link(href='//d3q1ytufopwvkq.cloudfront.net/0.3.5/formrenderer.css', rel='stylesheet')
+      script(src='//d3q1ytufopwvkq.cloudfront.net/0/formrenderer.js')
+      link(href='//d3q1ytufopwvkq.cloudfront.net/0/formrenderer.css', rel='stylesheet')
+
+    != nap.js('main')
 
     | <!--[if lt IE 9]>
     |  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -46,9 +48,6 @@ html(lang='en')
         block content
 
     include partials/footer.html
-
-    != nap.js('main')
-
     include partials/external_scripts.html
 
     //- Don't render analytics when developing
