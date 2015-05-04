@@ -1,36 +1,10 @@
-# Copied form dvl-core
-$.fn.extend styledControls: ->
-  $(@).find('label.control').each ->
-    unless @hasStyledControls
-      @hasStyledControls = true
-      $(@).find('input').after("<span class='control_styled' />")
-
-$.fn.extend
-  flashPlaceholder: (text, timeout) ->
-    @each ->
-      initialPlaceholder = $(@).attr('placeholder')
-      $(@).val('')
-      $(@).attr('placeholder', text)
-
-      if !$(@).data('original-placeholder')
-        $(@).data('original-placeholder', initialPlaceholder)
-
-      if timeout
-        setTimeout =>
-          $(@).attr('placeholder', $(@).data('original-placeholder'))
-          $(@).data('original-placeholder', '')
-        , timeout
-
 SEARCH_ENDPOINT = "http://dobt-knowledge-base-search.herokuapp.com/search"
 # Uncomment the following line to test search w/ development server:
 # SEARCH_ENDPOINT = "http://localhost:3000/search"
 
-# Toggle class
-$(document).on "click", "[data-toggle-class]", ->
-  $($(@).data('target')).toggleClass($(@).data('toggle-class'))
-
 $ ->
   $('body').styledControls()
+  $('body').styledSelect(width: 'full')
 
   # Placeholder polyfill
   $('input, textarea').placeholder()
@@ -105,38 +79,3 @@ $ ->
               </p>
             </div>")
 
-  # Get service status from StatusPage
-  # Copied from dvl/core/components/splash_footer.coffee
-  $.getJSON 'https://c73bgtwgrhvh.statuspage.io/api/v1/status.json', (data) ->
-    return unless data.status?.indicator?
-
-    newClass = switch data.status.indicator
-      when 'none'
-        'is_up'
-      when 'minor'
-        'is_partial'
-      when 'major', 'critical'
-        'is_down'
-
-    $('.footer_status').addClass newClass
-
-# Subscribe folks to our "House List" on Campaign Monitor
-$(document).on 'submit', '.newsletter_form', (e) ->
-  e.preventDefault()
-  $input = $(@).find('input[type=email]')
-  return unless $input.val()
-
-  $.ajax
-    url: 'http://dobt.createsend.com/t/t/s/dijhkj/?callback=?'
-    type: 'get',
-    dataType: 'json'
-    data:
-      'cm-dijhkj-dijhkj': $input.val()
-    success: (data) ->
-      if data.Status == 400
-        $input.flashPlaceholder('Whoops, an error occurred!', 2000)
-      else
-        $input.flashPlaceholder('Thanks!', 2000)
-
-  $input.flashPlaceholder('Subscribing...')
-  $input.blur()

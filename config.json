@@ -49,6 +49,11 @@
     "assets": {
       "js": {
         "main": [
+          "/js/flash_placeholder.js",
+          "/js/service_status.coffee",
+          "/js/styled_controls.coffee",
+          "/js/styled_select.coffee",
+          "/js/toggle_class.coffee",
           "/js/purl.js",
           "/js/jquery.placeholder.js",
           "/js/main.coffee"
