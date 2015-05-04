@@ -56,6 +56,7 @@
           "/js/toggle_class.coffee",
           "/js/purl.js",
           "/js/jquery.placeholder.js",
+          "/js/jquery.fitvids.js",
           "/js/main.coffee"
         ]
       }
