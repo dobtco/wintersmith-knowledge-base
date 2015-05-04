@@ -541,6 +541,7 @@ td {
   }
 
   &:after {
+    display: none;
     position: absolute;
     top: 50%;
     right: 1rem;
@@ -549,6 +550,12 @@ td {
     text-transform: uppercase;
     font-weight: 600;
     margin-top: - ($lineHeight / 2);
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .example_fr:after {
+    display: block;
   }
 }
 
