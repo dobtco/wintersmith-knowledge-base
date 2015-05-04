@@ -6,7 +6,7 @@ app_pages:
   - projectadmin-wizard-responseform
 ---
 
-[Your form](/articles/screendoor/response_form/building_your_form.html) is the core of your Screendoor project. To ensure that you provide a smooth experience for your respondents and collect accurate and relevant information, we want to help you make your forms:
+Your form is the core of your Screendoor project. To ensure that you provide a smooth experience for your respondents and collect accurate and relevant information, we want to help you make your forms:
 
 - **User-friendly**. Your form should be as easy as possible for respondents to fill out. No surprises, no headaches.
 
