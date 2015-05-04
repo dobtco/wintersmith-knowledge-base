@@ -8,7 +8,6 @@ html(lang='en')
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
 
-
     - var content = ""
     if cur_dir.search("articles") > -1
       //- Strip html, get first ~three sentences
@@ -35,10 +34,21 @@ html(lang='en')
 
     != nap.js('main')
 
+    | <script>
+    |   var $buoop = {};
+    |   $buoop.ol = window.onload;
+    |   window.onload=function(){
+    |    try {if ($buoop.ol) $buoop.ol();}catch (e) {}
+    |    var e = document.createElement("script");
+    |    e.setAttribute("type", "text/javascript");
+    |    e.setAttribute("src", "//browser-update.org/update.js");
+    |    document.body.appendChild(e);
+    |   }
+    | </script>
+
     | <!--[if lt IE 9]>
     |  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     | <![endif]-->
-    | <script src="/js/modernizr.js"></script>
 
   body
     block nav
@@ -48,7 +58,10 @@ html(lang='en')
         block content
 
     include partials/footer.html
-    include partials/external_scripts.html
+
+    | <!--[if lt IE 9]>
+    |   <script src='/js/polyfills.js'></script>
+    | <![endif]-->
 
     //- Don't render analytics when developing
     if env.mode == 'build'
