@@ -13,12 +13,7 @@ $kbBlueGray: #F3F6F8;
 // Base
 
 body {
-  padding-top: $navHeight;
   background: $footerBackground;
-}
-
-.navbar {
-  position: absolute;
 }
 
 .content {
@@ -343,8 +338,6 @@ $leftNavWidth: 300px;
     padding: 1rem 0;
 
     .left_nav_toggle {
-      width: 90%;
-      margin: 0 auto;
       display: block;
       font-size: 1.2rem;
       color: $darkerGray;
@@ -355,9 +348,8 @@ $leftNavWidth: 300px;
     }
 
     .left_nav_inner {
-      width: 90%;
-      margin: 0 auto;
       display: none;
+      margin-top: 1rem;
     }
 
     &.open {
