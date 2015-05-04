@@ -113,10 +113,7 @@ Let us help you make your form awesome. We're available for consultation on an h
   function ExampleFR(target, response_fields) {
     return new FormRenderer({
       target: target,
-      enableAutosave: false,
-      enableBeforeUnload: false,
-      enableBottomStatusBar: false,
-      enableLocalstorage: false,
+      plugins: [],
       response_fields: response_fields,
       response: {
         id: 'xxx',
@@ -305,7 +302,7 @@ Let us help you make your form awesome. We're available for consultation on an h
         field_type: 'block_of_text',
         field_options: {
           size: 'medium',
-          description: "Please enter only your own income, even if you're married"
+          description: "Please enter only your own income, even if you're married:"
         }
       },
       {

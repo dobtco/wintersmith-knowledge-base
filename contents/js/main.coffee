@@ -4,7 +4,7 @@ SEARCH_ENDPOINT = "http://dobt-knowledge-base-search.herokuapp.com/search"
 
 $ ->
   $('body').styledControls()
-  $('body').styledSelect(width: 'full')
+  $('body').styledSelect()
 
   # Placeholder polyfill
   $('input, textarea').placeholder()
@@ -78,4 +78,3 @@ $ ->
                 #{result.excerpt}
               </p>
             </div>")
-

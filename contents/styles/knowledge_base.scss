@@ -241,6 +241,10 @@ input[type="search"] {
 
   .navigation {
     margin-bottom: 2rem;
+
+    .styled_select_wrapper {
+      width: 100%;
+    }
   }
 
   .choose-app-text {
@@ -528,7 +532,11 @@ td {
   margin-bottom: 0.5rem;
   position: relative;
 
-  .fr_response_field {
+  .fr_response_field h3 {
+    font-weight: 600; // fix article override...
+  }
+
+  .fr_response_field:last-child {
     margin-bottom: 0;
   }
 
