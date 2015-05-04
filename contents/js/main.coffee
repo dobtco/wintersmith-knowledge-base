@@ -35,6 +35,10 @@ $ ->
     else if (data.status.indicator == 'major') || (data.status.indicator == 'critical')
       $('.status.major').show()
 
+
+  # Responsive embedded videos
+  $('.embedded_video_wrapper').fitVids()
+
   $('#choose-app').on 'change', ->
     window.location.href = '/' + $(@).val()
 
