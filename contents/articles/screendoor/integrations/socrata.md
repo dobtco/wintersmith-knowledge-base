@@ -8,7 +8,7 @@ app_pages:
 Screendoor makes it easy to passively sync responses to a Socrata dataset.
 
 <div class='embedded_video_wrapper'>
-  <iframe src="https://player.vimeo.com/video/125202890" width="620" height="348" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/gRVwX2q6i2w?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Connecting to Socrata
