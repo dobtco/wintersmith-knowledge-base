@@ -49,7 +49,7 @@ Here is a summary of the available permission levels:
 
 - **Can view responses**: View-only users can see responses, no more.
 
-- **Can review assigned responses**: Users can review and rate responses assigned to them. They can't assign statuses or labels to responses.
+- **Can review assigned responses**: Users can rate responses assigned to them and comment on all responses. They can't assign statuses or labels to responses.
 
 - **Can review, label, assign all responses**: Users can view, comment on, and rate responses. They can also change the status, add labels, and assign users to a response.
 
