@@ -37,7 +37,7 @@ If you want to allow individuals who are already members of your organization (b
 
 ![organization permissions](../images/organization_permissions.png)
 
-This will allow all members of your organization to collaborate, and give them the selected permission level.
+This will allow all members of your organization to collaborate, and give them the selected permission level by default.
 
 ## Assigning permissions to collaborators
 
@@ -49,7 +49,9 @@ Here is a summary of the available permission levels:
 
 - **Can view responses**: View-only users can see responses, no more.
 
-- **Can review and rate responses**: Reviewers can view, comment on, and rate responses. They can also change the status, add labels, and assign users to a response.
+- **Can review assigned responses**: Users can review and rate responses assigned to them. They can't assign statuses or labels to responses.
+
+- **Can review, label, assign all responses**: Users can view, comment on, and rate responses. They can also change the status, add labels, and assign users to a response.
 
 - **Administrator**: Administrators have all permissions.
 
