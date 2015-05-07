@@ -25,3 +25,11 @@ Select the "Blank" type to create a blank project. Blank projects don't have any
 
 If you just want to see a demo project, click the "example project" link under "Choose a template." Demo projects are a good way to get a feel for how a project works in Screendoor, and also include sample responses that you can play around with. Note that demo projects will be deleted automatically after 30 days.
 
+## Changing your project's URL
+
+To change your project's URL, click "Change?" from the "Settings" page. Enter a new URL and click save.
+
+> **Note**: URLs can only contain letters, numbers, and dashes.
+
+![change URL](../images/change_url.png)
+
