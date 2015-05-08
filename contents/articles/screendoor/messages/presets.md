@@ -11,7 +11,7 @@ Message presets allow you to define a canned message once and send it as many ti
 
 ## Creating message presets
 
-To create a preset, click the "Manage presets" link from the "Messages" page. Then, click the "Add message preset" button. Write your message preset (optionally using respondent-specific variables) just as you would write a normal message.
+To create a preset, click the "Manage presets" link from the "Messages" page. Then, click the "Add a preset" button. Write your message preset (optionally using respondent-specific variables) just as you would write a normal message. Click "Save" to save your preset message.
 
 ## Using message presets
 
