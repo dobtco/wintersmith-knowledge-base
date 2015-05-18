@@ -31,6 +31,12 @@ Screendoor allows you to configure your evaluations with a variety of rating fie
 
 - ![free response](../images/free_response.png) &nbsp;&nbsp;Free text
 
+## Segmented review
+
+If you'd like to only show a rating field to a specific team (you'll have to [configure teams](/articles/screendoor/projects/teams.html) for your project first), click the "Only show to..." link for that rating field and select the appropriate team from the dropdown. Any collaborators who aren't on that team won't be able to see that rating field or evaluate based on it.
+
+![segmented rating field](../images/rating_field_segmented.png)
+
 ## Advanced evaluation settings
 
 To enable advanced evaluation settings (weighted fields and deadlines), check out the [Advanced evaluation settings](advanced_evaluation_settings.html) article.
@@ -45,8 +51,3 @@ To associate a rating field with a specific response field, select the appropria
 After you connect a rating field to a response field, the rating will show up next to the response field (rather than under "Rate this response") when you evaluate responses.
 
 ![rating field connected to response field](../images/rating_field_connected.png)
-
-## Can I make a rating field that only a specific team can see?
-Yes! To only show a rating field to a specific team, click the "Only show to..." link for that rating field and select the appropriate team from the dropdown. Any collaborators who aren't on that team won't be able to see that rating field or evaluate based on it.
-
-![segmented rating field](../images/rating_field_segmented.png)
