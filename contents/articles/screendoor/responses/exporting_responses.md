@@ -8,15 +8,23 @@ app_pages:
 
 ## Exporting responses
 
-To export responses, navigate to the "Responses" page for you project. If you'd like to only export specific responses, check the box next to those responses. Then click "More" on the toolbar and select "Export responses."
+To export responses, navigate to the "Responses" page for you project. Check the boxes next to the responses you'd like to export. Then, click "More" on the toolbar and select "Export responses" from the dropdown.
 
 ![export responses](../images/export_responses.png)
 
-From the "Export responses" popup, select which responses you'd like to export. You can also choose to export ratings and blind fields (if you have the appropriate permissions). Then, select the format you'd like to export as and click "Download" to begin the export process.
+From the "Export responses" popup, select a format and optionally include blind fields and ratings (if you have the appropriate permissions). Then, click "Download" to begin the export process.
 
 ![export responses...](../images/export_responses_modal.png)
 
 Depending on the format you've selected, Screendoor may email you a link to download your exported responses. If it does, just click the link in the email to download your responses.
+
+## Exporting all responses
+
+To export all responses, check the topmost box and click the "Select all results" link if you have more than one page of responses.
+
+![select all responses](../images/select_all_responses.png)
+
+Then, click "More" and select "Export responses" from the dropdown (see above).
 
 ---
 
