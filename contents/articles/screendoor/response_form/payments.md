@@ -2,7 +2,7 @@
 title: Payments
 order: 4
 app_pages:
-  - projectadmin-wizard-responses
+  - projectadmin-wizard-signaturefees
   - payments-index
 ---
 
@@ -12,7 +12,7 @@ app_pages:
 
 Screendoor lets you easily receive credit card payments from your respondents via [Stripe](https://stripe.com/). After enabling payments and setting a charge amount, your respondents will be charged when submitting their response. Note that you will need to create a Stripe account in order to accept payments via Screendoor.
 
-To enable payments, click "Edit project" and select "Responses" from the Project Checklist. Check the "Require a credit card payment from respondents" box.
+To enable payments, click "Edit project" and select "Signature and fees" from the "Progress" menu. Check the "Charge a submission fee" box.
 
 > **Note**: Screendoor will only require a payment from respondents if you have a valid payment profile set up and define a charge amount.
 
@@ -30,7 +30,7 @@ That's it! Respondents will now be required to pay before submitting their respo
 
 ## Switching payment profiles
 
-To disconnect your current payment profile, click the "Change profile" link from the "Responses" step in your Project Checklist.
+To disconnect your current payment profile, click the "Change profile" link from the "Signature and fees" page.
 
 ![change profile](../images/change_profile.png)
 

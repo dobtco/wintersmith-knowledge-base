@@ -2,12 +2,12 @@
 title: Signatures
 order: 5
 app_pages:
-  - projectadmin-wizard-responses
+  - projectadmin-wizard-signaturefees
 ---
 
 ## Enabling electronic signatures
 
-To enable electronic signatures for your project, click "Edit project" and select "Responses" from the Project Checklist. Then, check the "Require signatures for responses" box under "Data collection."
+To enable electronic signatures for your project, click "Edit project" and select "Signature and fees" from the "Progress" menu. Then, check the "Ask users to sign the form before submitting" box.
 
 ![require signatures](../images/require_signatures.png)
 
