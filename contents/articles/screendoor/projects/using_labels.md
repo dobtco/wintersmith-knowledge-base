@@ -10,13 +10,13 @@ Labels (also known as "tags") are another helpful way to organize responses. Res
 
 ## Creating labels
 
-To create a label, click "Add label" on the left-hand side of the "Responses" page. Enter a name for your label (and optionally select a color), then click "Create."
+To create a label, click the "Add label" icon on the left-hand side of the "Responses" page. Enter a name for your label (and optionally select a color) and click "Create."
 
 ![add label](../images/add_label.png)
 
 ## Managing labels
 
-You can always go back and edit your labels after you create them. Simply click "Edit labels" (1), click the pencil icon next to a label (2), and then click on its name or color to change it.
+You can always go back and edit your labels after you create them: Click the "Edit labels" icon and then click the same icon next to the label you'd like to edit.
 
 ![edit labels](../images/edit_label.png)
 

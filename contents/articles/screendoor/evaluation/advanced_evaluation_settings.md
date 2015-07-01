@@ -16,11 +16,13 @@ Once you check this box, a new "Advanced evaluation" section should show up in t
 
 ## Rating field weights
 
-You can define a weight (also known as a multiplier) for your rating fields. For example, if you wanted to weigh "Excellence" more heavily than "Originality," you could configure your rating fields accordingly:
+You can decide what percentage of the total rating will come from each rating field. For example, if you want to weigh "Excellence" more heavily than "Originality," you can give it a higher weight. Click "Edit weights" to edit your rating field weights, set them up how you want, and click "Save weights" to save your changes.
+
+> **Note**: The total weight must always add up to 100.
 
 ![field weight](../images/field_weight.png)
 
-If we then rate a response's originality at 5 (out of 10) and its excellence at 10 (out of 10), we will get an average rating of 80% (rather than 75%, as it would be without any weighting). To see details about a weighted rating, simply click the link under "Average rating" on the right-hand side of an individual response page.
+If you then rate a response's originality at 5 (out of 10) and its excellence at 10 (out of 10), you will get an average rating of 88% (rather than 75%, as it would be without any weighting). To see details about a weighted rating, simply click the link under "Average rating" on the right-hand side of an individual response page.
 
 ![average rating](../images/average_rating.png)
 

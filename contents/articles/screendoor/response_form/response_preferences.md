@@ -39,29 +39,9 @@ To learn more about respondent identification, see the [Identification fields FA
 
 ![data collection](../images/data_collection.png)
 
-### Requiring signatures
-
-If you'd like to require an electronic signature from your respondents, check the the corresponding box. To learn more about signatures, check out the [Signatures](signatures.html) article.
-
 ### Hiding respondent names
 
-To stop your collaborators (other than those with "blind field" permissions) from viewing respondents' names, check the 'Treat respondents names as "blind fields"' box. This will allow you to collect respondents' names while keeping this information from your collaborators/reviewers.
-
-## Payments
-
-Screendoor enables you to easily receive credit card payments from your respondents via [Stripe](https://stripe.com/). Check out the [Payments](payments.html) article for more information.
-
-## After response
-
-![custom after response](../images/after_response.png)
-
-### Displaying a custom "after response" page
-
-To display a custom page to respondents after they submit their response, check the "Display a custom page" box. You can then write and preview your custom page under "After response page" in the Project Checklist.
-
-### Sending a confirmation email
-
-To send a confirmation email to respondents after they submit their response, check the "Send a confirmation email" box and then write your custom confirmation email under "After response email" in the Project Checklist.
+To stop your collaborators (other than those with "blind field" permissions) from viewing respondents' names, check the "Treat respondent names as 'blind fields'" box. This will allow you to collect respondents' names while keeping this information from your collaborators/reviewers.
 
 ---
 
