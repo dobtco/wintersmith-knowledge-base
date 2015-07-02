@@ -11,19 +11,19 @@ module.exports = (env, callback) ->
   class MarkdownHelper extends env.plugins.MarkdownPage
 
     constructor: (@filepath, @metadata, @markdown) ->
-      parseOut = (text) ->
-        headings = text.match(/\#\#.+/gi)
+      parseOut = (text, headerLevel) ->
+        headings = text.match(///\#{#{headerLevel}}.+///gi)
 
         headings?.map (heading) ->
-          heading = heading.replace(/\#\#\s?/, '')
+          heading = heading.replace(///\#{#{headerLevel}}\s?///, '')
           # "heading"-> ["heading", "link"]
           [heading, '#' + heading.toLowerCase().replace(/[^\w]+/g, '-')]
         .filter (heading) ->
           heading[0].slice(0,1) != '#'
 
       [section1, section2] = @markdown.split("---")
-      @metadata.onThisPage = parseOut(section1 || '') || []
-      @metadata.FAQs = parseOut(section2 || '') || []
+      @metadata.onThisPage = parseOut(section1 || '', 2) || []
+      @metadata.FAQs = parseOut(section2 || '', 3) || []
 
     getTemplate: ->
       @metadata.template or "article.jade"

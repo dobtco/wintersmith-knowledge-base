@@ -31,10 +31,12 @@ See the [Two-factor authentication](two_factor_auth.html) article for details.
 
 ---
 
-## My password isn't working
+## F.A.Q.
+
+### My password isn't working
 
 If your password isn't working, make sure that you're signing in with the correct email address and double check that caps lock is off. If it still isn't working, click the "Forgot your password" link to reset your password.
 
-## I'm having trouble resetting my password
+### I'm having trouble resetting my password
 
 If you tried to reset your password but still have not received the reset email, confirm that you sent it to the correct email address and that it didn't get caught in a spam filter. If you still haven't received the reset email after some time has passed, try contacting an administrator from your organization. If you still can't sign in and cannot resolve the issue, [contact us](mailto:support@dobt.co).

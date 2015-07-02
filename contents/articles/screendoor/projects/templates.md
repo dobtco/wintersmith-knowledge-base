@@ -56,5 +56,8 @@ To export a template, simply click the "Export" link next to a template.
 > **Note**: You can share these exported YAML files with other Screendoor users.
 
 ---
-## If I accidentally delete a default template, can I recover it?
+
+## F.A.Q.
+
+### If I accidentally delete a default template, can I recover it?
 Yes! Simply click the "Restore default templates?" link from the "Project templates" page.

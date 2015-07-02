@@ -35,11 +35,13 @@ To filter responses by status, just click on a status from the left-hand side of
 
 ---
 
-## What happens when I delete a status?
+## F.A.Q.
+
+### What happens when I delete a status?
 When a status is deleted, any responses that were assigned to that status are re-assigned to the first status in the list.
 
-## Why can't I delete my status?
+### Why can't I delete my status?
 You must always have at least one status that serves as a default status.
 
-## What's the difference between statuses and labels?
+### What's the difference between statuses and labels?
 Responses always have exactly one status, but can have multiple labels. For example, a response's *status* could be either "Open" or "Closed," but it could be *labeled* as both "Interesting" and "Practical."

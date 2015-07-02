@@ -48,14 +48,16 @@ Click the "View on Stripe" button for a charge to view it in your Stripe dashboa
 
 ---
 
-## Will respondents need a Stripe account in order to pay?
+## F.A.Q.
+
+### Will respondents need a Stripe account in order to pay?
 Nope, all they'll need is a valid credit card. This is what the payment form will look like to respondents:
 
 ![payment form](../images/payment_form.png)
 
-## Can I waive payment for specific respondents?
+### Can I waive payment for specific respondents?
 Yes, you can waive payment for a specific response from the [unsubmitted responses](../responses/viewing_unsubmitted_responses.html#waiving-payment-for-a-specific-response) page.
 
-## Are there processing fees?
+### Are there processing fees?
 Yes. Stripe [charges](https://stripe.com/us/pricing) 2.9% + 30&cent; and Screendoor charges 2.1%.
 

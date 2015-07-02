@@ -34,5 +34,7 @@ Screendoor's embed code is highly customizable. Take a look at the open-source r
 
 ---
 
-## Why does my embed code not work?
+## F.A.Q.
+
+### Why does my embed code not work?
 If you are seeing the "project not found" error when you try to embed your code, it's probably because your project is not live. To make your project live, click the "Go live" button from your project page. Also, projects with [payments](payments.html) or [signatures](signatures.html) enabled cannot be embedded.
