@@ -1,4 +1,6 @@
 # Browser list for autoprefixer
 
-Last 3 versions
-Explorer 9
+last 3 versions
+Explorer >= 9
+Firefox >= 20
+Safari >= 5
