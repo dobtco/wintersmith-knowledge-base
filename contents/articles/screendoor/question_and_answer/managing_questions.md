@@ -29,10 +29,12 @@ You can always go back and change your answer by selecting the appropriate quest
 
 ---
 
-## Can I answer a question privately?
+## F.A.Q.
+
+### Can I answer a question privately?
 Yes, just uncheck the "Display this question publicly?" box when you answer the question.
 
-## Can I add a question manually?
+### Can I add a question manually?
 Yes, just initialize the question yourself by clicking the "Submit question" link from the main project page. Then, you can answer it normally.
 
 ![submit question](../images/submit_question.png)

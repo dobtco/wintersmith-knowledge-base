@@ -43,7 +43,9 @@ To enable advanced evaluation settings (weighted fields and deadlines), check ou
 
 ---
 
-## How do I connect a rating field to a response field?
+## F.A.Q.
+
+### How do I connect a rating field to a response field?
 To associate a rating field with a specific response field, select the appropriate response field from the "Rating for..." dropdown.
 
 ![connect to response field](../images/connect_to_response_field.png)

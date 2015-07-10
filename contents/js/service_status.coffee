@@ -12,4 +12,4 @@ $ ->
       when 'major', 'critical'
         'is_down'
 
-    $('.footer_status').addClass newClass
+    $('.public_footer_status').addClass newClass

@@ -23,7 +23,9 @@ If you would like to use a custom email address for incoming responses (instead 
 
 ---
 
-## This all seems too complicated. Is there an easier way to receive email inside of Screendoor?
+## F.A.Q.
+
+### This all seems too complicated. Is there an easier way to receive email inside of Screendoor?
 Yes, there is a simpler way. All you need to do is select the "Email Only" project template when you create your project. This way, your project is pre-configured to receive responses via email.
 
 ![email only](../images/email_only.png)

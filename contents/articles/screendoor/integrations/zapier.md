@@ -41,7 +41,9 @@ That's it! Your Screendoor account is now connected to Zapier, which means you c
 
 ---
 
-## Why do I have to enter a project ID when I create a zap?
+## F.A.Q.
+
+### Why do I have to enter a project ID when I create a zap?
 
 When creating a zap, you'll have to enter the Screendoor project ID for the project you'd like to integrate with. This is so Zapier knows which Screendoor project to interact with. Note that each zap has its own associated Screendoor project.
 

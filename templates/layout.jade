@@ -23,10 +23,11 @@ html(lang='en')
     title= title + locals.title
 
     link(rel='shortcut icon', href='/images/dobt_logo.png')
-    link(rel='stylesheet', href='//fonts.googleapis.com/css?family=Open+Sans:400,300,700,600')
     link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css')
     link(rel='stylesheet', href='/styles/knowledge_base.css')
     script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    script(src='//use.typekit.net/ckb1dps.js')
+    script try{Typekit.load();}catch(e){}
 
     if page.metadata.include_formrenderer
       script(src='//d3q1ytufopwvkq.cloudfront.net/0.5.5/formrenderer.js')

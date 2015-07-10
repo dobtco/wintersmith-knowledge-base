@@ -45,5 +45,7 @@ To stop your collaborators (other than those with "blind field" permissions) fro
 
 ---
 
-## What time zone will the response due date be set in?
+## F.A.Q.
+
+### What time zone will the response due date be set in?
 The response due date will be set in your current local time zone. The date/time will automatically be presented to users based on their own local time zone. For example, if you set the due date to 4:00pm and you are in the Pacific Time Zone, users on the East Coast will see the due date as 7:00pm.

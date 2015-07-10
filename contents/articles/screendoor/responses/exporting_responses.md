@@ -28,7 +28,9 @@ Then, click "More" and select "Export responses" from the dropdown (see above).
 
 ---
 
-## Can I export my entire project?
+## F.A.Q.
+
+### Can I export my entire project?
 If you'd like to export a *complete* set of data for your project (as JSON files), you can do so from the "Settings" page. Just click the "Export project as JSON" link and then click the "Generate export" button from the popup. Note that Screendoor will process your export request and then send you an email with the download link once it's done.
 
 ![export project](../images/export_project.png)

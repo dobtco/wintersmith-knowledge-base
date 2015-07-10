@@ -27,5 +27,7 @@ To restore an archived project, click the "Restore project" button. Your project
 
 ---
 
-## Will my project page still be visible if my project is archived?
+## F.A.Q.
+
+### Will my project page still be visible if my project is archived?
 Archived projects will *not* show up on your organization's project listing page. However, if someone still has the URL for your project page, they will be able to view it (but not submit responses).

@@ -31,5 +31,7 @@ When you're done configuring your import, click "Finish import."
 
 ---
 
-## I have my data in an Excel file. Can I get it into Screendoor?
+## F.A.Q.
+
+### I have my data in an Excel file. Can I get it into Screendoor?
 Yes! Save your data as a CSV file from Excel. Then you can easily import it into Screendoor (see above).

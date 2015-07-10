@@ -2,34 +2,35 @@ extends layout
 block content
   .main
     .landing
-      h1 Don't worry, we've got you covered.
+      h2 Don't worry, we've got you covered.
       include partials/search.jade
       +search
       span.or-browse
         | Or&nbsp;
         a(href='/articles/screendoor') browse articles &rarr;
-    .listings.grid
-      .item.lap_four_columns
-        h3: a(href='/articles/dashboard') Dashboard
-        ul
-          li: a(href='/articles/dashboard/applications/managing_applications.html') Managing Applications
-          li: a(href='/articles/dashboard/accounts/managing_users.html') Managing Users
-          li: a(href='/articles/dashboard/accounts/signup_and_login.html') Signup and Login
-          li: a(href='/articles/dashboard/accounts/billing.html') Billing
-      .item.lap_four_columns
-        h3: a(href='/articles/screendoor') Screendoor
-        ul
-          li: a(href='/articles/screendoor/projects/creating_a_project.html') Creating a project
-          li: a(href='/articles/screendoor/response_form/building_your_form.html') Building your form
-          li: a(href='/articles/screendoor/response_form/payments.html') Payments
-          li: a(href='/articles/screendoor/response_form/signatures.html') Signatures
-          li: a(href='/articles/screendoor/projects/using_statuses.html') Using statuses
-      .item.lap_four_columns
-        h3: a(href='/articles/adopta') Adopta
-        ul
-          li: a(href='/articles/adopta/site_admin/configuring_your_site.html') Configuring your site
-          li: a(href='/articles/adopta/site_admin/adding_adoptable_things.html') Adding adoptable things
-          li: a(href='/articles/adopta/site_admin/viewing_and_messaging_adopters.html') Viewing and messaging adopters
+    .listings
+      .grid
+        .item.lap_four_columns
+          h3: a(href='/articles/dashboard') Dashboard
+          ul
+            li: a(href='/articles/dashboard/applications/managing_applications.html') Managing Applications
+            li: a(href='/articles/dashboard/accounts/managing_users.html') Managing Users
+            li: a(href='/articles/dashboard/accounts/signup_and_login.html') Signup and Login
+            li: a(href='/articles/dashboard/accounts/billing.html') Billing
+        .item.lap_four_columns
+          h3: a(href='/articles/screendoor') Screendoor
+          ul
+            li: a(href='/articles/screendoor/projects/creating_a_project.html') Creating a project
+            li: a(href='/articles/screendoor/response_form/building_your_form.html') Building your form
+            li: a(href='/articles/screendoor/response_form/payments.html') Payments
+            li: a(href='/articles/screendoor/response_form/signatures.html') Signatures
+            li: a(href='/articles/screendoor/projects/using_statuses.html') Using statuses
+        .item.lap_four_columns
+          h3: a(href='/articles/adopta') Adopta
+          ul
+            li: a(href='/articles/adopta/site_admin/configuring_your_site.html') Configuring your site
+            li: a(href='/articles/adopta/site_admin/adding_adoptable_things.html') Adding adoptable things
+            li: a(href='/articles/adopta/site_admin/viewing_and_messaging_adopters.html') Viewing and messaging adopters
 
       //- For the link-checker...
       a(href='/articles/govmapper', style='display:none;') Govmapper

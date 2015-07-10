@@ -20,7 +20,7 @@ block content
           +toc
 
           .still_need_help_container
-            b Still need help?
+            h3 Still need help?
             .still_need_help
               a.button.teal(href='mailto:support@dobt.co') Contact us
                 i.fa.fa-envelope
@@ -33,7 +33,7 @@ block content
             = (contents.articles[r]['index.md'].metadata.title)
           | &nbsp;&rarr;&nbsp;
 
-      h1= page.metadata.title || "Untitled"
+      h2= page.metadata.title || "Untitled"
       .article_toc.grid
         if page.metadata.onThisPage.length > 0
           .item.lap_six_columns
@@ -43,10 +43,11 @@ block content
                 li: a(href!=h[1])= h[0]
         if page.metadata.FAQs.length > 0
           .item.lap_six_columns
-            h3 FAQs
+            h3 F.A.Q.
             ol
               each h in page.metadata.FAQs
                 li: a(href!=h[1])= h[0]
-        hr
+        .item.lap_twelve_columns
+          hr
       .article_body
         != page.html

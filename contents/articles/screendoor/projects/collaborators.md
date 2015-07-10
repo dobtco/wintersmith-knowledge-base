@@ -67,7 +67,9 @@ To remove a collaborator, check the box next to their name and click the "Remove
 
 ---
 
-## Can I organize collaborators into teams?
+## F.A.Q.
+
+### Can I organize collaborators into teams?
 Yes! Check the boxes next to the appropriate collaborators and click the "Team" button. Then, enter the name of your new team and click "Add" to create a new team with those collaborators in it.
 
 ![add team](../images/add_team2.png)
