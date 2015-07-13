@@ -47,9 +47,7 @@ html(lang='en')
     |   }
     | </script>
 
-    | <!--[if lt IE 9]>
-    |  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    | <![endif]-->
+    | <!--[if lt IE 9]><script src="//d2yxgjkkbvnhdt.cloudfront.net/dist/shim.js"></script><![endif]-->
 
   body
     block nav
@@ -60,9 +58,7 @@ html(lang='en')
 
     include partials/footer.html
 
-    | <!--[if lt IE 9]>
-    |   <script src='/js/polyfills.js'></script>
-    | <![endif]-->
+    | <!--[if lt IE 9]><script src="//d2yxgjkkbvnhdt.cloudfront.net/dist/polyfills.js"></script><![endif]-->
 
     //- Don't render analytics when developing
     if env.mode == 'build'
