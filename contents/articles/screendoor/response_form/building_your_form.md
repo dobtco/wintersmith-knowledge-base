@@ -11,7 +11,7 @@ At the heart of your project is your response form. You'll build your form when 
 
 ### Adding new fields
 
-To add a new field to your form, click the "Add new field" tab on the left-hand side of the form builder. Then, just select the appropriate field type (for example, "Address" if you would like to collect address information from your respondents) to add it to your form. Once form fields have been added, you can always drag-and-drop to change their order within the form.
+To add a new field to your form, click the "Add new field" button on the left-hand side of the form builder. Then, click the appropriate field type (for example, "Address" if you would like to collect address information from your respondents) to add it to your form. Once form fields have been added, you can always drag-and-drop to change their order within the form.
 
 ![add field](../images/add_field.png)
 

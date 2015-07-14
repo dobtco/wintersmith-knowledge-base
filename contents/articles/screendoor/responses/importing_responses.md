@@ -13,11 +13,11 @@ To import responses from a [CSV](http://en.wikipedia.org/wiki/Comma-separated_va
 
 ## Importing columns that correspond to existing response fields
 
-From the preview page, you can configure how you want your responses to be imported. Screendoor will make an intelligent guess about which columns in your CSV file correspond to which response fields in your form -- you'll see a blue "Existing" label next to columns that Screendoor has associated with an existing response field. But you can also manually change the response field for a column by clicking the "Edit" button and selecting a field from the dropdown.
+From the preview page, you can configure how you want your responses to be imported. Screendoor will make an intelligent guess about which columns in your CSV file correspond to which response fields in your form -- you'll see a blue "Existing" label next to columns that Screendoor has associated with an existing response field. But you can also manually change the response field for a column by clicking the "Edit" button, clicking "Import to existing field," and selecting a field from the dropdown.
 
 ![edit response field for column](../images/import_edit.png)
 
-You can even add a column as a new response field: Just click "Add this as a new field" and select the field name and type you'd like to import your column as.
+You can even add a column as a new response field: Just click "Add this as a new field" and select the field name and type you'd like to import your column as. Remember to click "Save."
 
 ## Importing columns as new response fields
 

@@ -10,13 +10,9 @@ app_pages:
 
 ## Sending messages to all your respondents
 
-If you'd like to send a message to all your respondents, first check the topmost checkbox in the "Responses" table.
+If you'd like to send a message to all your respondents, check the topmost checkbox in the "Responses" table. If you have more than one full page of responses, click the "Select all results" link to select all of your responses.
 
-![select all responses 1](../images/select_all_responses1.png)
-
-If you have more than one full page of responses, click the "Select all results" link to select all of your responses.
-
-![select all responses 2](../images/select_all_responses2.png)
+![select all responses](../images/select_all_responses.png)
 
 Select "Write message" from the "More" dropdown.
 
