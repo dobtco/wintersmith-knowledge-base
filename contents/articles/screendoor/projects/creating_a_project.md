@@ -7,7 +7,7 @@ app_pages:
   - projects-new
 ---
 
-From Screendoor, it's easy to create a new project. Just click the "Create project" button or select "New Project" from the Projects dropdown.
+To create a new project, just click the "Create your first project" button from the Screendoor home page or select "New project..." from the Projects dropdown.
 
 ![create project](../images/create_project2.png)
 

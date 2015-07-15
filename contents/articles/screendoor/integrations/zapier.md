@@ -27,7 +27,7 @@ To connect your Screendoor account, you'll need to [create an API key from Scree
 
 ![create api key](../images/create_api_key.png)
 
-After you create your key, copy it by clicking the blue "Copy to clipboard" icon.
+After you create your key, copy it by clicking the "Copy to clipboard" icon.
 
 ![copy api key](../images/copy_api_key.png)
 

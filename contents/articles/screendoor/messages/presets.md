@@ -15,6 +15,6 @@ To create a preset, click the "Manage presets" link from the "Messages" page. Th
 
 ## Using message presets
 
-Once you've defined your preset message, you can quickly send it to respondents as many times as you like: simply select respondents from the "Responses" page, select "Write message" from the "More" dropdown, and click "Craft your message." Then, click "Use a preset" and select your preset from the dropdown. That's it! Preview your messages and click "Send messages" to send your canned message to the respondents you selected.
+Once you've defined your preset message, you can quickly send it to respondents as many times as you like: simply select respondents from the "Responses" page, select "Write message" from the "More" dropdown. Then, click "Use a preset" and select your preset from the dropdown. That's it! Preview your messages and click "Send messages" to send your canned message to the respondents you selected.
 
 ![message preset](../images/preset.png)
