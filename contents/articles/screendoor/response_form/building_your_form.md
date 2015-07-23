@@ -33,7 +33,11 @@ If there are already responses to your project, you'll see a dropdown prompting 
 
 ## Adding rules
 
-Use rules to only show certain fields when the respondent needs to fill them in. Rules allow you to create powerful forms where fields are hidden or shown based on a respondent's previous answers. To show a field only when specific criteria are met, select your field and click "Add a rule" from the "Edit field" tab in the form builder.
+Use rules to only show certain fields when the respondent needs to fill them in. Rules allow you to create powerful forms where fields are hidden or shown based on a respondent's previous answers.
+
+> **Note**: Try to keep your forms simple: If you find yourself creating complex conditional scenarios or making forms with dozens of pages, consider breaking your complicated form up into several simpler forms.
+
+To show a field only when specific criteria are met, select your field and click "Add a rule" from the "Edit field" tab in the form builder.
 
 ![add rule](../images/add_rule.png)
 
