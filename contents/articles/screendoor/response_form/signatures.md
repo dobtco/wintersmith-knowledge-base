@@ -5,6 +5,8 @@ app_pages:
   - projectadmin-wizard-signaturefees
 ---
 
+> **Note**: In order to use electronic signatures, you'll need to sign up for a Plus plan or higher.
+
 ## Enabling electronic signatures
 
 To enable electronic signatures for your project, click "Edit project" and select "Signature and fees" from the "Progress" menu. Then, check the "Ask users to sign the form before submitting" box.

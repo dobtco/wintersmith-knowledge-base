@@ -6,6 +6,8 @@ app_pages:
   - projectadmin-teams-index
 ---
 
+> **Note**: In order to use project teams, you'll need to sign up for a Plus plan or higher.
+
 Organize collaborators into teams to streamline the collaborative review workflow for your project.
 
 ## Managing teams
