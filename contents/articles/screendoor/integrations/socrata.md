@@ -5,6 +5,8 @@ app_pages:
   - projectadmin-socratasyncs-show
 ---
 
+> **Note**: In order to use Socrata data sync, you'll need to sign up for an Enterprise plan.
+
 Screendoor makes it easy to passively sync responses to a Socrata dataset.
 
 <div class='embedded_video_wrapper'>

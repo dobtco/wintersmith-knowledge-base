@@ -72,6 +72,8 @@ To remove a collaborator, check the box next to their name and click the "Remove
 ### Can I organize collaborators into teams?
 Yes! Check the boxes next to the appropriate collaborators and click the "Team" button. Then, enter the name of your new team and click "Add" to create a new team with those collaborators in it.
 
+> **Note**: In order to use project teams, you'll need to sign up for a Plus plan or higher.
+
 ![add team](../images/add_team2.png)
 
 Check out the [Project teams](teams.html) article for more details on managing teams.
