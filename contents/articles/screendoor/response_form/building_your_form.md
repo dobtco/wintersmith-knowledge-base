@@ -7,7 +7,7 @@ app_pages:
 
 ## Building your form
 
-At the heart of your project is your response form. You'll build your form when you first create your project, but you can also always go back and edit your form by clicking "Edit project" and selecting "Form builder" from the progress menu.
+At the heart of your project is your response form. You'll build your form when you first create your project, but you can also always go back and edit your form by clicking "Edit project" and selecting "Form builder" from the "Progress" menu.
 
 ### Adding new fields
 

@@ -5,7 +5,7 @@ app_pages:
   - projectadmin-wizard-responses
 ---
 
-To configure preferences for responses, click "Edit project" and select "Responses" from the Project Checklist.
+To configure response preferences for your project, click "Edit project" and select "Responses" from the "Progress" menu.
 
 ## Adding a response due date
 
