@@ -9,32 +9,30 @@ app_pages:
 
 Read more about [how to set up questions for a project](configuring_the_question_and_answer_section.html).
 
-## Managing questions
+### Viewing questions
 
-To manage questions (and answers) for your project, click the "Questions" link from your project page. You can display all questions or only unanswered questions by selecting the appropriate box from the left-hand side of the "Questions" page.
+On your project's Questions page, you can see all of the questions asked by the public, as well as whether they have been answered or made visible for others to see.
 
-![q&a filter](../images/qa_filter.png)
+![Viewing questions asked for a project.](../images/questions_2.png)
 
-To delete a question, select it from the table of questions on the "Questions" page and then click the "Delete question" link at the bottom of the page.
+By default, Screendoor only shows you questions that have not yet been answered. Select &ldquo;All questions&rdquo; in the sidebar to view those that have already received answers.
 
-## Answering questions
+### Answering and editing questions
 
-To answer a question, select it from the table on the "Questions" page. Enter your answer, select whether or not you'd like it to be displayed publicly, and then click the "Post answer" button.
+To answer, edit, or delete a question, select it from the table on the Questions page.
 
-![answer question](../images/answer_question.png)
+![Answering a question.](../images/questions_3.png)
 
-You can always go back and change your answer by selecting the appropriate question and editing the answer text from the question page. You can also remove an answer by clicking the "Remove answer" button.
-
-![answered question](../images/answered_question.png)
+After you answer a question, you can always return to this page to edit your answer later, or remove your answer entirely.
 
 ---
 
 ## F.A.Q.
 
 ### Can I answer a question privately?
-Yes, just uncheck the "Display this question publicly?" box when you answer the question.
+Yes. Just uncheck the "Display this question publicly?" box when you answer the question.
 
-### Can I add a question manually?
-Yes, just initialize the question yourself by clicking the "Submit question" link from the main project page (get there by clicking the "View project" button). Then, you can answer it normally.
+### Can I add a question to my own project?
+Yes. Click the &ldquo;View project&rdquo; button, and press the &ldquo;Ask a question&rdquo; link in the project page header.
 
-![submit question](../images/submit_question.png)
+![Asking a question](../images/questions_4.png)
