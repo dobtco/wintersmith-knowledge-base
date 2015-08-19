@@ -1,5 +1,5 @@
 ---
-title: Configuring the question and answer section
+title: Setting up questions for a project
 order: 1
 app_pages:
   - projectadmin-wizard-questionandanswer
