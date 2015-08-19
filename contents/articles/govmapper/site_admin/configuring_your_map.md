@@ -9,7 +9,7 @@ To configure your map, click its name from the "Maps" section of GovMapper.
 
 ## Configuring your response form
 
-To configure your response form (the form that users will fill out when adding a place), click the "Build your form" link from the "On Screendoor..." sidebar. This will take you to Screendoor's form builder, where you can [build your response form](/articles/screendoor/response_form/building_your_form.html) as you would for any Screendoor project.
+To configure your response form (the form that users will fill out when adding a place), click the "Build your form" link from the "On Screendoor..." sidebar. This will take you to Screendoor's form builder, where you can [build your response form](/articles/screendoor/your_form/building_your_form.html) as you would for any Screendoor project.
 
 ![build your form](../images/build_your_form.png)
 

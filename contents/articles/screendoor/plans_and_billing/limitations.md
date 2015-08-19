@@ -14,7 +14,7 @@ Once your plan's limit for a certain feature has been reached (for example, you'
 
 In addition, some advanced features are only available on certain plans:
 
-- [Electronic signatures](../response_form/signatures.html)
+- [Electronic signatures](../your_form/signatures.html)
 - [Project teams](../projects/teams.html)
 - [Socrata data sync](../integrations/socrata.html)
 

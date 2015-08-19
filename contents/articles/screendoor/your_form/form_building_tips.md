@@ -52,7 +52,7 @@ If you need to write more than a paragraph, put it in a "Block of text" rather t
 
 ### Only ask once
 
-Avoid asking for information more than once. For example, if Screendoor is [already collecting names and email addresses](/articles/screendoor/response_form/response_preferences.html#respondent-identification) from respondents, you don't need to ask for that information again. If you ask respondents for their address in one section of the form, you shouldn't need to ask for it again in another section.
+Avoid asking for information more than once. For example, if Screendoor is [already collecting names and email addresses](/articles/screendoor/your_form/response_preferences.html#respondent-identification) from respondents, you don't need to ask for that information again. If you ask respondents for their address in one section of the form, you shouldn't need to ask for it again in another section.
 
 ### Don't repeat yourself
 
@@ -86,7 +86,7 @@ One great way to keep your forms concise is to have your label and the responden
 
 ### Instead of complicated instructions, try using rules
 
-If you need to ask your respondents to skip certain fields of your form depending on their answers to some of your questions, consider using [rules](/articles/screendoor/response_form/building_your_form.html#adding-rules). With rules, Screendoor lets you conditionally hide or show any field on your form. This will make complex forms much more usable.
+If you need to ask your respondents to skip certain fields of your form depending on their answers to some of your questions, consider using [rules](/articles/screendoor/your_form/building_your_form.html#adding-rules). With rules, Screendoor lets you conditionally hide or show any field on your form. This will make complex forms much more usable.
 
 ### Keep your copy clear and consistent
 
