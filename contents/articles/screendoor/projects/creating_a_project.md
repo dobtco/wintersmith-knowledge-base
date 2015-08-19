@@ -11,7 +11,7 @@ app_pages:
 
 To start a new Screendoor project, press the "Create project" button on your dashboard.
 
-![create project](../images/create_project2.png)
+![Creating a project.](../images/create_project_1.png)
 
 If it's your first time using Screendoor, you'll see a large "Create your first project" button in the center of the screen. 
 
@@ -19,7 +19,7 @@ If it's your first time using Screendoor, you'll see a large "Create your first 
 
 You can customize Screendoor for any type of form you can think of, but choosing a [project template](templates.html) gives you a head start. Templates come with presets and pre-built forms that are tailored to your type of project. For example, if you're creating a job application, select the "Job" template.
 
-![templates](../images/templates.png)
+![Choosing a template.](../images/create_project_2.png)
 
 If you don't like the settings a template comes with, you can always change them later. If you don't want any settings decided for you, select the "Blank" template, which has no preset options.
 
