@@ -43,7 +43,7 @@ Use the tabs at the top of the Preview page to view the template's project descr
 
 If you want to make changes to a template, simply create a new project with it, make some changes, and save it as a new template. You can always go back and delete the original template if you don't need it anymore.
 
-## Importing templates
+### Importing templates
 
 Screendoor lets you import templates that other customers have exported. To import a template, visit the &ldquo;Your templates&rdquo; page, select &ldquo;Import a template&rdquo;, and choose the template you want to import.
 

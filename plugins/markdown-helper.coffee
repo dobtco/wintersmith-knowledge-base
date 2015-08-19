@@ -23,7 +23,7 @@ module.exports = (env, callback) ->
 
       [section1, section2] = @markdown.split("---")
       @metadata.onThisPage = parseOut(section1 || '', 3) || []
-      @metadata.FAQs = parseOut(section2 || '', 4) || []
+      @metadata.FAQs = parseOut(section2 || '', 3) || []
 
     getTemplate: ->
       @metadata.template or "article.jade"
