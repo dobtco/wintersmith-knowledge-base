@@ -7,7 +7,7 @@ app_pages:
   - projectadmin-questions-show
 ---
 
-If you haven't configured the question and answer section for your project yet, check out the [Configuring the question and answer section](configuring_the_question_and_answer_section.html) article.
+Read more about [how to set up questions for a project](configuring_the_question_and_answer_section.html).
 
 ## Managing questions
 
