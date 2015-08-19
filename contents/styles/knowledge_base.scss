@@ -14,13 +14,18 @@ $kbBlueGray: #F3F6F8;
 // Base
 
 body {
-  background: $footerBackground;
+  background: $lightestGray;
 }
 
 .container {
   width: 90%;
   max-width: $maxWidth;
   margin: 0 auto;
+  @include cf;
+}
+
+.content {
+  margin: $lineHeight auto;
 }
 
 input[type="search"] {
@@ -85,7 +90,7 @@ input[type="search"] {
   }
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: $lapWidth) {
   .listings {
     .item {
       text-align: left;
@@ -149,7 +154,7 @@ input[type="search"] {
   }
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: $lapWidth) {
   .centersearch-form {
     width: auto;
     max-width: 400px;
@@ -217,24 +222,13 @@ input[type="search"] {
 }
 
 .left_nav {
-  background: $kbBlueGray;
-
+  background: $lighterGray;
+  border-radius: $radius;
   .navigation {
-    margin-bottom: 2rem;
-
+    margin-bottom: $lineHeight;
     .styled_select_wrapper {
       width: 100%;
     }
-  }
-
-  .choose-app-text {
-    font-size: 0.9rem;
-    margin-bottom: 5px;
-  }
-
-  #choose-app {
-    height: 35px;
-    font-weight: 600;
   }
 
   .toc_section {
@@ -318,9 +312,24 @@ input[type="search"] {
 // Breadcrumbs
 
 .breadcrumbs {
-  // color $darkestGa
-  font-weight: 300;
-  margin: 1rem 0 0.5rem;
+  list-style: none;
+  li {
+    display: inline-block;
+    font-size: $fontSmaller;
+    &:after {
+      content: '\f054'; // right caret
+      font-family: 'FontAwesome';
+      color: $gray;
+      font-size: 0.75rem;
+      display: inline-block;
+      line-height: 1;
+      margin: 0 $rhythm;
+      text-align: center;
+    }
+    &:last-child:after {
+      content: none;
+    }
+  }
 }
 
 
@@ -328,66 +337,55 @@ input[type="search"] {
 
 $leftNavWidth: 300px;
 
-.article-wrapper {
-  .left_nav {
-    padding: 1rem 0;
-
-    .left_nav_toggle {
-      display: block;
-      font-size: 1.2rem;
-      color: $darkerGray;
-    }
-
-    i {
-      margin-right: 10px;
-    }
-
-    .left_nav_inner {
-      display: none;
-      margin-top: 1rem;
-    }
-
-    &.open {
-      .left_nav_inner {
-        display: block;
-      }
-    }
+.left_nav {
+  padding: 1rem 0;
+  i {
+    margin-right: $rhythm;
   }
 }
 
-@media only screen and (min-width: 960px) {
-  .article-wrapper {
-    display: table;
+.left_nav_toggle {
+  display: block;
+  font-size: 1.2rem;
+  color: $darkerGray;
+}
 
-    .left_nav, .article {
-      display: table-cell;
-    }
+.left_nav_inner {
+  display: none;
+  margin-top: 1rem;
+  .left_nav.open & {
+    display: block;
+  }
+}
 
-    .left_nav {
-      width: $leftNavWidth;
-      height: 100%;
-      padding: 0 2rem 2rem;
+@media only screen and (min-width: $deskWidth) {
+  .left_nav,
+  .article {
+    float: left;
+  }
+  .left_nav {
+    width: 27%;
+    margin-right: 6%;
+    height: 100%;
+    padding: 0 2rem 2rem;
+  }
+  .left_nav_toggle {
+    display: none;
+  }
 
-      .left_nav_toggle {
-        display: none;
-      }
-
-      .left_nav_inner {
-        display: block;
-      }
-    }
-
-    .article {
-      height: 100%;
-    }
+  .left_nav_inner {
+    display: block;
+  }
+  .article {
+    width: 66%;
+    height: 100%;
   }
 }
 
 // Article
 
 .article {
-  background: #fff;
-  padding: $lineHeight $lineHeight * 2;
+  padding: 0;
 
   .article_body {
     h2, h3, h4, h5, h6 {
@@ -406,7 +404,8 @@ $leftNavWidth: 300px;
   }
 
   img {
-    border: 10px solid $lighterGray;
+    border: 1px solid $gray;
+    box-shadow: 0 1px 0 rgba(#000,0.03);
   }
 
   .anchor {
@@ -495,7 +494,7 @@ td {
   }
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: $lapWidth) {
   .example_fr:after {
     display: block;
   }
