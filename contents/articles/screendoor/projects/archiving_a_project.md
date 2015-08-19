@@ -3,31 +3,22 @@ title: Archiving a project
 order: 8
 app_pages:
   - projectadmin-settings-settings
-  - frontend-projects-show
 ---
 
-When a project isn't active anymore, you can archive it to keep your data safe. Archived projects are read-only, so you won't be able to make any changes or accept responses once you archive a project. However, you can always go back and unarchive a project.
+If you exceed the number of projects your plan allows, you can archive an inactive project to keep your data safe. Archived projects are read-only, so they don't count towards your plan's limits: you can't change an archived project's settings, add ratings and comments, or accept new submissions.
 
-> **Note**: Archived projects will *not* count towards your plan's project limit.
+To archive a project, visit your project's Settings page, and select "Archive project" in the bottom left-hand corner.
 
-## Archiving a project
+![Archiving a project.](../images/archive_project_1.png)
 
-To archive a project, click the "Archive project" link from the bottom left-hand side of the "Settings" page for your project.
+An archived project has a tag next to its title, to remind you of its status. If you want to restore an archived project, just press the "Restore project" button on the alert at the top of the page.
 
-![archive project](../images/archive_project.png)
-
-Your project is now archived! You'll see an "Archived" tag next to the name of your project, as well as a "This project is currently archived" alert. You'll still be able to view all your responses, as well as remove collaborators.
-
-![archived](../images/archived.png)
-
-
-## Restoring a project
-
-To restore an archived project, click the "Restore project" button. Your project will now be active again.
+![Restoring an archived project.](../images/archive_project_2.png)
 
 ---
 
 ## F.A.Q.
 
-### Will my project page still be visible if my project is archived?
-Archived projects will *not* show up on your organization's project listing page. However, if someone still has the URL for your project page, they will be able to view it (but not submit responses).
+### Will my archived project's page still be publicly available?
+
+If someone still has the link to your project page, they will be able to view it, but they won't be able to submit to your form. Archived projects are not linked to from your organization's project listings.

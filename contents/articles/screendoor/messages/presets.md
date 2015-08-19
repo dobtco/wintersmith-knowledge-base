@@ -1,20 +1,28 @@
 ---
 title: Using message presets
-order: 2
+order: 3
 app_pages:
   - projectadmin-messages-edit
   - projectadmin-messages-preview
   - projectadmin-messages-index
 ---
 
-Message presets allow you to define a canned message once and send it as many times as you'd like.
+If you send the same types of messages repeatedly for a project, you can create canned messages or &ldquo;message presets&rdquo; to reuse later.
 
-## Creating message presets
+### Creating a message preset
 
-To create a preset, click the "Manage presets" link from the "Messages" page. Then, click the "Add a preset" button. Write your message preset (optionally using respondent-specific variables) just as you would write a normal message. Click "Save" to save your preset message.
+To create a preset, visit the Messages page for your project, and click the &ldquo;Manage presets&rdquo; link on the lower left-hand side of the page.
 
-## Using message presets
+![The Manage presets link on the message page.](../images/messages_preset_1.png)
 
-Once you've defined your preset message, you can quickly send it to respondents as many times as you like: simply select respondents from the "Responses" page, select "Write message" from the "More" dropdown. Then, click "Use a preset" and select your preset from the dropdown. That's it! Preview your messages and click "Send messages" to send your canned message to the respondents you selected.
+Then, select the &ldquo;Add a preset&rdquo; button on the upper right-hand side of the page.
 
-![message preset](../images/preset.png)
+![Writing a preset.](../images/messages_preset_2.png)
+
+Write your preset just like you would write a normal message. ([Learn more about composing messages in Screendoor.](sending_messages.html)) Once you're finished, press the Save button.
+
+### Using your preset
+
+You can send message presets to respondents with just a few clicks. When composing a message, click the &ldquo;Use a preset&rdquo; button, and select your preset from the dropdown.
+
+![Selecting a preset.](../images/messages_preset_3.png)
