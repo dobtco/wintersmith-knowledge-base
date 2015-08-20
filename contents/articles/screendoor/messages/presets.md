@@ -17,10 +17,12 @@ To create a preset, visit the Messages page for your project, and click the &ldq
 
 Then, select the &ldquo;Add a preset&rdquo; button on the upper right-hand side of the page.
 
+![Writing a preset.](../images/messages_preset_2.png)
+
 Write your preset just like you would write a normal message. ([Learn more about composing messages in Screendoor.](sending_messages.html)) Once you're finished, press the Save button.
 
 ### Using your preset
 
 You can send message presets to respondents with just a few clicks. When composing a message, click the &ldquo;Use a preset&rdquo; button, and select your preset from the dropdown.
 
-![Selecting a preset.](../images/messages_preset_2.png)
+![Selecting a preset.](../images/messages_preset_3.png)
