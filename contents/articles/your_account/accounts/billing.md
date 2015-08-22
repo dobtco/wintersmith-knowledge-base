@@ -1,5 +1,5 @@
 ---
-title: Billing
+title: Viewing your billing details
 order: 4
 redirect_from: /articles/dashboard/accounts/billing.html
 ---

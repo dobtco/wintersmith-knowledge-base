@@ -1,20 +1,8 @@
 ---
-title: Signup and login
+title: Signing in
 order: 1
 redirect_from: /articles/dashboard/accounts/signup_and_login.html
 ---
-
-## Signing up
-
-### From an existing organization
-
-If you don't already have a DOBT account, you'll need to ask an administrator from your organization to invite you. Once they do, you'll be able to create an account by accepting the invite and filling out the basic form.
-
-### With a new organization
-
-If you aren't part of an existing organization, you'll need to [sign up as a new organization](https://dashboard.dobt.co/organizations/new).
-
-## Signing in
 
 If you already have a dobt.co account, you can sign in from the [sign in page](https://dashboard.dobt.co/sign_in). You'll need the email address you signed up with, as well as the password you created.
 

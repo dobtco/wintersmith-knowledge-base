@@ -1,5 +1,5 @@
 ---
-title: Managing users
+title: Managing users on your account
 order: 2
 redirect_from: /articles/dashboard/accounts/managing_users.html
 ---

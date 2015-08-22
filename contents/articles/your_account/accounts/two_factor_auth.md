@@ -1,5 +1,5 @@
 ---
-title: Two-factor authentication
+title: Enabling 2FA for added security
 order: 5
 redirect_from: /articles/dashboard/accounts/two_factor_auth.html
 ---
