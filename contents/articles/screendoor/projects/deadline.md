@@ -1,30 +1,34 @@
 ---
-title: Adding a deadline
+title: Setting a deadline
 order: 3
 app_pages:
   - projectadmin-wizard-responses
 redirect_from: /articles/screendoor/response_form/response_preferences.html
 ---
 
-To configure response preferences for your project, click "Edit project" and select "Responses" from the "Progress" menu.
+To set a deadline for responses, press the &ldquo;Edit project&rdquo; button on the right side of the project header. In the Progress menu, select &ldquo;Responses&rdquo;.
 
-## Adding a response due date
+### Adding a deadline to a project
 
-Set a deadline for responses by selecting a date (and time) from the date/time picker.
+Under &ldquo;Responses due at&rdquo;, select a date and time to set a deadline for responses.
 
-![set due date](../images/response_due_date.png)
+![Setting a deadline.](../images/deadline1.png)
 
-If you need to extend the due date, simply return to this page and select a new date (You can also [extend the due date for a specific response](../responses/providing_support_to_respondents.html#extending-the-due-date-for-a-specific-response)). To clear the due date and allow all responses, click the "Clear due date" link.
+If you need to extend the due date later, return to this page and set a new date. To clear the due date, click &ldquo;Clear due date&rdquo; below the date and time pickers.
 
-### Adding a grace period
+You can also [extend the due date for a specific response](../responses/providing_support_to_respondents.html#extending-the-due-date-for-a-specific-response).
 
-To add a grace period, click "Add grace period" and select a date from the date/time picker. After the response due date has passed but before the grace period ends, respondents will be able to submit their pre-existing drafts but will not be able to create new responses. 
+### Setting a grace period
 
-![grace period](../images/grace_period.png)
+If you want to give some extra time for people who started a response before the deadline to finish it after it has passed, you can add a grace period. Click the &ldquo;Add grace period&rdquo; link below &ldquo;Clear due date&rdquo;, and select a date and time.
+
+![Adding a grace period.](../images/deadline2.png)
 
 ---
 
 ## F.A.Q.
 
-### What time zone will the response due date be set in?
-The response due date will be set in your current local time zone. The date/time will automatically be presented to users based on their own local time zone. For example, if you set the due date to 4:00pm and you are in the Pacific Time Zone, users on the East Coast will see the due date as 7:00pm.
+### What time zone will the deadline be set in?
+The deadline for responses will be set in your current local time zone, but the date and time will be automatically be presented to users based on their own local time zone.
+
+For example, if you set the due date to August 15 at 4:00pm and you are on Pacific Time, users on the East Coast will see the due date as August 15 at 7:00pm.
