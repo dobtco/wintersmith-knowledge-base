@@ -1,5 +1,6 @@
 ---
 title: Your Account
+redirect_from: /articles/dashboard/
 ---
 
 Use the account dashboard to manage [DOBT applications](applications/managing_applications.html), manage [users](accounts/managing_users.html), change your [organization settings](accounts/organization_settings.html), and more.
