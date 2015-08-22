@@ -33,7 +33,7 @@ Screendoor allows you to configure your evaluations with a variety of rating fie
 
 ## Segmented review
 
-If you'd like to only show a rating field to a specific team (you'll have to [configure teams](/articles/screendoor/collaborators/teams.html) for your project first), click the "Only show to..." link for that rating field and select the appropriate team from the dropdown. Any collaborators who aren't on that team won't be able to see that rating field or evaluate based on it.
+If you'd like to only show a rating field to a specific team (you'll have to [configure teams](/articles/screendoor/collaboration/teams.html) for your project first), click the "Only show to..." link for that rating field and select the appropriate team from the dropdown. Any collaborators who aren't on that team won't be able to see that rating field or evaluate based on it.
 
 ![segmented rating field](../images/rating_field_segmented.png)
 

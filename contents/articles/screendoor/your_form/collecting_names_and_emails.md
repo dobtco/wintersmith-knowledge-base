@@ -34,7 +34,7 @@ Screendoor needs respondent names and email addresses in order to:
 
 ### Can I make responses anonymous?
 
-Sure, just [set the identification level](#don-t-collect-names-and-email-addresses) for your project to "Keep responses anonymous" and Screendoor will not collect names or email addresses from respondents. However, bear in mind that **keeping responses anonymous is appropriate only if you *never* want to identify or follow up with respondents**. If, on the other hand, you just don't want your reviewers to see respondent names or email addresses, you should [treat respondents names as "blind fields"](#hiding-respondent-names) instead.
+Sure, just set the identification level for your project to "Keep responses anonymous" and Screendoor will not collect names or email addresses from respondents. However, bear in mind that **keeping responses anonymous is appropriate only if you *never* want to identify or follow up with respondents**. If, on the other hand, you just don't want your reviewers to see respondent names or email addresses, you should treat respondents names as "blind fields" instead.
 
 ### What are blind fields?
 
@@ -46,7 +46,7 @@ Blind fields are fields that only admins can see. Because reviewers will not be 
 
 Yes, though overriding Screendoor's default identification fields is only recommended for advanced users. To collect name and email address information in a different format:
 
-1. [Set the identification level](#don-t-collect-names-and-email-addresses) for your project to "Keep responses anonymous." This will disable Screendoor's default collection of names and email addresses.
+1. Set the identification level for your project to "Keep responses anonymous." This will disable Screendoor's default collection of names and email addresses.
 
 2. Add your custom identification fields.
 
