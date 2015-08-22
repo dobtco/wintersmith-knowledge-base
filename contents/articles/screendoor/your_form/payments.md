@@ -57,7 +57,7 @@ Nope, all they'll need is a valid credit card. This is what the payment form wil
 ![payment form](../images/payment_form.png)
 
 ### Can I waive payment for specific respondents?
-Yes, you can waive payment for a specific response from the [unsubmitted responses](../responses/viewing_unsubmitted_responses.html#waiving-payment-for-a-specific-response) page.
+Yes, you can waive payment for a specific response from the [unsubmitted responses](../responses/providing_support_to_respondents.html#waiving-payment-for-a-specific-response) page.
 
 ### Are there processing fees?
 Yes. Stripe [charges](https://stripe.com/us/pricing) 2.9% + 30&cent; and Screendoor charges 2.1%.

@@ -14,7 +14,7 @@ Set a deadline for responses by selecting a date (and time) from the date/time p
 
 ![set due date](../images/response_due_date.png)
 
-If you need to extend the due date, simply return to this page and select a new date (You can also [extend the due date for a specific response](../responses/viewing_unsubmitted_responses.html#extending-the-due-date-for-a-specific-response)). To clear the due date and allow all responses, click the "Clear due date" link.
+If you need to extend the due date, simply return to this page and select a new date (You can also [extend the due date for a specific response](../responses/providing_support_to_respondents.html#extending-the-due-date-for-a-specific-response)). To clear the due date and allow all responses, click the "Clear due date" link.
 
 ### Adding a grace period
 

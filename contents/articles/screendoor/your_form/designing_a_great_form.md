@@ -53,7 +53,7 @@ If you need to write more than a paragraph, put it in a "Block of text" rather t
 
 ### Only ask once
 
-Avoid asking for information more than once. For example, if Screendoor is [already collecting names and email addresses](/articles/screendoor/your_form/response_preferences.html#respondent-identification) from respondents, you don't need to ask for that information again. If you ask respondents for their address in one section of the form, you shouldn't need to ask for it again in another section.
+Avoid asking for information more than once. For example, if Screendoor is [already collecting names and email addresses](/articles/screendoor/your_form/collecting_names_and_emails.html) from respondents, you don't need to ask for that information again. If you ask respondents for their address in one section of the form, you shouldn't need to ask for it again in another section.
 
 ### Don't repeat yourself
 
