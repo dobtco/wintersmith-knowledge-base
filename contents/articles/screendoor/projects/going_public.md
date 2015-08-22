@@ -23,7 +23,7 @@ Screendoor also lets you publish your project in a semi-private context. You can
 
 ![Changing a project's visibility status.](../images/public2.png)
 
-### Project statuses
+#### Project statuses
 
 - **Draft:** All projects are drafts by default when they are created. Only your [collaborators](/articles/screendoor/collaboration/collaborators.html) can see it.
 - **Internal:** If you only want a project to be visible inside your organization, you can make projects internal.

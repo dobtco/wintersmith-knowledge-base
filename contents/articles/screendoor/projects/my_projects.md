@@ -1,5 +1,5 @@
 ---
-title: Viewing projects
+title: Viewing your projects
 order: 2
 app_pages:
   - account-projects

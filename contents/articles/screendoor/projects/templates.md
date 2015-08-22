@@ -1,5 +1,5 @@
 ---
-title: Project templates
+title: Using templates
 order: 5
 app_pages:
   - projecttemplates-index
