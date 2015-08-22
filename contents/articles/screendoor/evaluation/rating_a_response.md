@@ -1,9 +1,10 @@
 ---
-title: Reviewing and rating responses
-order: 2
+title: Rating a response
+order: 5
 app_pages:
   - projectadmin-responses-index
   - projectadmin-responses-show
+redirect_from: /articles/screendoor/responses/reviewing_and_rating_responses.html
 ---
 
 To view an individual response page, click on the appropriate response from the "Responses" page. From an individual response page, you can review, rate, and comment on that response.

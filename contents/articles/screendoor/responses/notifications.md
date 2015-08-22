@@ -1,9 +1,10 @@
 ---
 title: Notification settings
-order: 9
+order: 7
 app_pages:
   - projectadmin-settings-settings
   - projectadmin-responses-show
+redirect_from: /articles/screendoor/projects/notifications.md
 ---
 
 ### Project-wide notifications

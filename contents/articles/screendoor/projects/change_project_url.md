@@ -1,6 +1,6 @@
 ---
 title: Changing a project's URL
-order: 10
+order: 6
 app_pages:
   - frontend-sites-show
   - home-index

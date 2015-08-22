@@ -1,6 +1,6 @@
 ---
 title: Advanced evaluation settings
-order: 2
+order: 6
 app_pages:
   - projectadmin-wizard-evaluation
   - projectadmin-wizard-advancedevaluation

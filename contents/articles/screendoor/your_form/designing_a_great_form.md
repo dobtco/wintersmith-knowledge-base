@@ -1,9 +1,10 @@
 ---
-title: Form building tips
-order: 2
+title: Designing a great form
+order: 3
 include_formrenderer: true
 app_pages:
   - projectadmin-wizard-responseform
+redirect_from: /articles/screendoor/response_form/form_building_tips.html
 ---
 
 Your form is the core of your Screendoor project. To ensure that you provide a smooth experience for your respondents and collect accurate and relevant information, we want to help you make your forms:

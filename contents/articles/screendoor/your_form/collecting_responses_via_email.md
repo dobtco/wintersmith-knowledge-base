@@ -1,8 +1,9 @@
 ---
-title: Receiving responses via email
-order: 4
+title: Collecting responses via email
+order: 9
 app_pages:
   - projectadmin-settings-emailresponses
+redirect_from: /articles/screendoor/responses/receiving_responses_via_email.html
 ---
 
 ## Receiving responses via email

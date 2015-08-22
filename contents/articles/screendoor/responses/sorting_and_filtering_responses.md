@@ -1,6 +1,6 @@
 ---
 title: Sorting and filtering responses
-order: 1
+order: 3
 app_pages:
   - projectadmin-responses-index
 ---

@@ -1,10 +1,11 @@
 ---
 title: Using statuses
-order: 3
+order: 1
 app_pages:
   - projectadmin-wizard-statuses
   - projectadmin-responses-index
   - projectadmin-responses-show
+redirect_from: /articles/screendoor/projects/using_statuses.html
 ---
 
 Statuses are a helpful way to organize responses and keep track of their current state. You can configure your project-specific statuses according to the needs of your project. For example, the "Apps Contest" demo project uses three statuses ("Open," "Lost," or "Won") to designate the current state of each contest entry.

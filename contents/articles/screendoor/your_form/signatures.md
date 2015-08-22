@@ -1,8 +1,9 @@
 ---
-title: Signatures
+title: Adding e-signatures
 order: 5
 app_pages:
   - projectadmin-wizard-signaturefees
+redirect_from: /articles/screendoor/response_form/signatures.html
 ---
 
 > **Note**: In order to use electronic signatures, you'll need to sign up for a Plus plan or higher.

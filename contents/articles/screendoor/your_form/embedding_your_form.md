@@ -1,9 +1,10 @@
 ---
-title: Embedding the response form
+title: Embedding your form
 order: 7
 app_pages:
   - projectadmin-settings-embedcode
 include_formrenderer: true
+redirect_from: /articles/screendoor/response_form/embedding_a_response_form.html
 ---
 
 ## Embedding the response form

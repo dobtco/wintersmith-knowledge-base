@@ -1,9 +1,10 @@
 ---
 title: Using labels
-order: 4
+order: 2
 app_pages:
   - projectadmin-responses-index
   - projectadmin-responses-show
+redirect_from: /articles/screendoor/projects/using_labels.html
 ---
 
 Labels (also known as "tags") are another helpful way to organize responses. Responses can have multiple labels, and labels can be applied to any number of responses.

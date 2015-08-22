@@ -1,6 +1,6 @@
 ---
 title: Manually add a response
-order: 8
+order: 6
 app_pages:
   - projectadmin-responses-new
 ---

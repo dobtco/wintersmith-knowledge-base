@@ -1,6 +1,6 @@
 ---
 title: Project templates
-order: 7
+order: 5
 app_pages:
   - projecttemplates-index
   - projectadmin-settings-settings

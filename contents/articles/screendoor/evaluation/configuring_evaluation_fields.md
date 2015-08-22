@@ -1,6 +1,6 @@
 ---
-title: Configuring evaluation fields
-order: 1
+title: Setting up ratings
+order: 3
 app_pages:
   - projectadmin-wizard-evaluation
   - projectadmin-responses-ratings

@@ -1,9 +1,10 @@
 ---
-title: Payments
+title: Adding a submission fee
 order: 4
 app_pages:
   - projectadmin-wizard-signaturefees
   - payments-index
+redirect_from: /articles/screendoor/response_form/payments.html
 ---
 
 ## Enabling payments

@@ -1,5 +1,5 @@
 ---
-title: Socrata data sync
+title: Socrata
 order: 1
 app_pages:
   - projectadmin-socratasyncs-show
