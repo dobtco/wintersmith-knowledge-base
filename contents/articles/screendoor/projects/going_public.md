@@ -13,7 +13,6 @@ app_pages:
   - projectadmin-wizard-statuses
   - projectadmin-wizard-evaluation
   - projectadmin-wizard-advancedevaluation
-redirect_from: /articles/screendoor/response_form/response_preferences.html
 ---
 
 When you're finished setting up your project, it's time to show it to the world. To make your project publicly accessible, press the &ldquo;Go public&rdquo; button in the alert at the top of the page.
