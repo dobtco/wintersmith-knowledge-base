@@ -26,7 +26,7 @@ If the person doesn't have an account with your organization, you will be asked 
 
 ![Inviting a new collaborator to Screendoor.](../images/collabs_4.png)
 
-Note that each new collaborator you add will count against your [plan limits](../plans_and_billing/ limitations.html).
+Note that each new collaborator you add will count against your [plan limits](../plans_and_billing/limitations.html).
 
 ### Adding collaborators in bulk
 
