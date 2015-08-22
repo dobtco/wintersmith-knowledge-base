@@ -14,8 +14,6 @@ If you'd like to require your respondents to create a Screendoor account before 
 
 If you don't want to collect names and email addresses from your respondents (or if you want to collect them via your own custom fields) select "Keep responses anonymous" under "Identification level."
 
-To learn more about respondent identification, see the [Identification fields FAQ](identification_fields.html).
-
 ![identification](../images/identification.png)
 
 ![data collection](../images/data_collection.png)
