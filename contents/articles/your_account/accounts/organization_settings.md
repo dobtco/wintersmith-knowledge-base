@@ -1,6 +1,7 @@
 ---
 title: Organization settings
 order: 3
+redirect_from: /articles/dashboard/accounts/organization_settings.html
 ---
 
 ## Your organization details

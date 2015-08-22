@@ -1,6 +1,7 @@
 ---
 title: Signup and login
 order: 1
+redirect_from: /articles/dashboard/accounts/signup_and_login.html
 ---
 
 ## Signing up

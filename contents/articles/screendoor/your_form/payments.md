@@ -9,7 +9,7 @@ redirect_from: /articles/screendoor/response_form/payments.html
 
 ## Enabling payments
 
-> **Note**: You must have the appropriate [permissions](/articles/dashboard/accounts/managing_users.html#managing-user-permissions) in order to manage payments for your organization.
+> **Note**: You must have the appropriate [permissions](/articles/your_account/accounts/managing_users.html#managing-user-permissions) in order to manage payments for your organization.
 
 Screendoor lets you easily receive credit card payments from your respondents via [Stripe](https://stripe.com/). After enabling payments and setting a charge amount, your respondents will be charged when submitting their response. Note that you will need to create a Stripe account in order to accept payments via Screendoor.
 

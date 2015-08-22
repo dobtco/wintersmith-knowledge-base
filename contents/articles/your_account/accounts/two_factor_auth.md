@@ -1,6 +1,7 @@
 ---
 title: Two-factor authentication
 order: 5
+redirect_from: /articles/dashboard/accounts/two_factor_auth.html
 ---
 
 Make your account more secure by requiring an extra step for authentication. If you have a smartphone, you'll need either the [Authy](https://www.authy.com/) or [Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=en) mobile app. If you don't have a smartphone, you can use the [Authy Chrome app](https://chrome.google.com/webstore/detail/authy/gaedmjdfmmahhbjefcbgaolhhanlaolb).

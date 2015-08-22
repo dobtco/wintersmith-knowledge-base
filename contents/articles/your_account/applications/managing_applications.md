@@ -1,6 +1,7 @@
 ---
 title: Managing applications
 order: 1
+redirect_from: /articles/dashboard/applications/managing_applications.md
 ---
 
 ## Installing an app
