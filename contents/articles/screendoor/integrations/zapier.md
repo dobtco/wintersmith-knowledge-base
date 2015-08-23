@@ -5,13 +5,17 @@ app_pages:
   - apikeys-index
 ---
 
-**Please note that Screendoor is currently "invite-only" on Zapier, which means that you will have to [accept our invitation](https://zapier.com/developer/invite/11164/f7c39187582faf14fb803d66cc8500b7/) first.**
+<div class='alert'>
+    **Note:** Screendoor is currently "invite-only" on Zapier. You will have to [accept our invitation](https://zapier.com/developer/invite/11164/f7c39187582faf14fb803d66cc8500b7/) before connecting your account.
+</div>
 
 Zapier is a service that allows you to define automated integrations between a variety of apps and services. Using Zapier, you can automate your workflow and integrate Screendoor triggers with many of the [apps](https://zapier.com/zapbook/) registered with Zapier.
 
 ## Getting started with Screendoor on Zapier
 
-> **Note**: In order to use Zapier with Screendoor, you must have [permission](/articles/your_account/accounts/managing_users.html#managing-user-permissions) to manage API keys for your Organization.
+<div class='alert'>
+    **Note**: In order to use Zapier with Screendoor, you must have [permission](/articles/your_account/accounts/managing_users.html#managing-user-permissions) to manage API keys for your Organization.
+</div>
 
 To get Screendoor working with Zapier, the first thing you'll need to do is connect your Screendoor account. Select "Connected Accounts" from the Zapier menu to get started.
 

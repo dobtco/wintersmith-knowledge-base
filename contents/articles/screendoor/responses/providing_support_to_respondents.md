@@ -17,7 +17,9 @@ If you'd like your respondents to be able to edit their responses after they hav
 
 Then, select "No," "Yes," or "Once" and click the "Update responses" button. "Yes" will enable multiple edits, while "Once" will allow the respondent to edit their response only one time.
 
-> **Note**: You can always go back and disable response editing by selecting "No" from the "Released for edits" dropdown.
+<div class='alert'>
+    **Note**: You can always go back and disable response editing by selecting "No" from the "Released for edits" dropdown.
+</div>
 
 ![allow edits popup](../images/allow_edits_modal.png)
 

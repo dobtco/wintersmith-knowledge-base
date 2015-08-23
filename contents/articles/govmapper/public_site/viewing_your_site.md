@@ -31,4 +31,6 @@ To view details for a place, click its place marker on the map.
 
 To edit a place, click its place marker on the map. Then, click the "Edit place" link from the sidebar. Make your edits and click "Submit edits" to save them.
 
-> **Note**: This link will only appear if you're logged in and have the appropriate permissions.
+<div class='alert'>
+    **Note**: This link will only appear if you're logged in and have the appropriate permissions.
+</div>

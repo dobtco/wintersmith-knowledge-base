@@ -15,7 +15,9 @@ Click the "Edit site" link to configure how your Adopta site will appear to the 
 
 From the "Basic info" tab, make sure to set a "Site name" and "Singular thing name" (e.g. "hydrant"). You can also set a "Help email" (which will be publicly visible on your site), some "Welcome info," and a "Topic message."
 
-> **Note**: Make sure to click the "Update Site" button after making changes to your site.
+<div class='alert'>
+    **Note:** Make sure to click the "Update Site" button after making changes to your site.
+</div>
 
 ![edit site](../images/basic_info.png)
 

@@ -3,7 +3,9 @@ title: Adding adoptable things
 order: 2
 ---
 
-> **Note**: We'll be using "hydrant" as the example "thing," but replace this with whatever "Singular thing name" you set up when you [configured your site](configuring_your_site.html#basic-info).
+<div class='alert'>
+    **Note**: We'll be using "hydrant" as the example "thing," but replace this with whatever "Singular thing name" you set up when you [configured your site](configuring_your_site.html#basic-info).
+</div>
 
 To add some adoptable hydrants, click the "Hydrants" link.
 

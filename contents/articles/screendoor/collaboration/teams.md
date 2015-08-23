@@ -7,7 +7,9 @@ app_pages:
 redirect_from: /articles/screendoor/projects/teams.html
 ---
 
-> **Note:** Project teams are only available to customers with a Plus plan or higher.
+<div class='alert'>
+    **Note:** Project teams are only available to customers with a Plus plan or higher.
+</div>
 
 If you're a large organization using Screendoor, chances are you're delegating dozens of people from different departments to help evaluate your incoming responses. Screendoor's teams help you organize your collaborators and delegate work more efficiently.
 

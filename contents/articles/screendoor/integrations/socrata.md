@@ -5,7 +5,9 @@ app_pages:
   - projectadmin-socratasyncs-show
 ---
 
-> **Note**: In order to use Socrata data sync, you'll need to sign up for an Enterprise plan.
+<div class='alert'>
+    **Note**: In order to use Socrata data sync, you'll need to sign up for an Enterprise plan.
+</div>
 
 Screendoor makes it easy to passively sync responses to a Socrata dataset.
 

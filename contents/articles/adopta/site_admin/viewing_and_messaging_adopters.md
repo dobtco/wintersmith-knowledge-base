@@ -15,6 +15,8 @@ To send a remainder message to all your adopters, click the "Send reminders" but
 
 ![reminders](../images/reminders.png)
 
-> **Note**: You can use `:name` for the adopter's name and `:list_addresses` for a list of the names and addresses of their adopted things.
+<div class='alert'>
+    **Note**: You can use `:name` for the adopter's name and `:list_addresses` for a list of the names and addresses of their adopted things.
+</div>
 
 Click "Send!" and confirm to send your message to all your adopters.

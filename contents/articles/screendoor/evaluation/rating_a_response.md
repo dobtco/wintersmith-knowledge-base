@@ -23,6 +23,8 @@ To comment on a response, enter your comment and click the "Submit" button.
 
 To bring a response to the attention of another collaborator in your project, you can @mention them in a comment. Simply type the '@' symbol and select the appropriate collaborator from the pop-up list. Unless the collaborator you @mentioned is ignoring that response, they will be notified of your comment.
 
-> **Note**: You will only be able to mention collaborators who have the appropriate permissions.
+<div class='alert'>
+    **Note**: You will only be able to mention collaborators who have the appropriate permissions.
+</div>
 
 ![mention](../images/mention.png)

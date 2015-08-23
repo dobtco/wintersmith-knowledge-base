@@ -5,7 +5,9 @@ order: 4
 
 GovMapper retrieves the places (location points) for your map from responses to its associated Screendoor project, so you can manage these places in the same way you'd manage any Screendoor responses.
 
-> **Note**: Each "map" on GovMapper corresponds to a separate Screendoor project
+<div class='alert'>
+    **Note**: Each "map" on GovMapper corresponds to a separate Screendoor project
+</div>
 
 ## Viewing and managing submitted places
 

@@ -19,4 +19,6 @@ This will create both a GovMapper map and an associated Screendoor project. Whil
 
 Now that you've created your map, you can [configure it](configuring_your_map.html) or [manage its places](managing_places.html).
 
-> **Note**: You can have multiple maps for one GovMapper site. Each will appear as a separate "map layer" on your site.
+<div class='alert'>
+    **Note**: You can have multiple maps for one GovMapper site. Each will appear as a separate "map layer" on your site.
+</div>

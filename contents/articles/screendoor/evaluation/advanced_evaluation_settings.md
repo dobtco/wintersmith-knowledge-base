@@ -18,7 +18,9 @@ Once you check this box, a new "Advanced evaluation" section will show up under 
 
 You can decide what percentage of the total rating will come from each rating field. For example, if you want to weigh "Excellence" more heavily than "Originality," you can give it a higher weight. Click "Edit weights" to edit your rating field weights, set them up how you want, and click "Save weights" to save your changes.
 
-> **Note**: The total weight must always add up to 100.
+<div class='alert'>
+    **Note**: The total weight must always add up to 100.
+</div>
 
 ![field weight](../images/field_weight.png)
 
