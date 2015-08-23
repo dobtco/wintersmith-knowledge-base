@@ -99,7 +99,7 @@ When someone encounters a huge form, it can feel overwhelming, and deter them fr
 
 #### 10. Instead of asking your respondents to skip sections, use rules instead.
 
-If you need your respondents to skip sections of your form depending on their previous answers, you should consider using [rules](/articles/screendoor/your_form/building_your_form.html#adding-rules) instead of explaining it in writing. Rules allow you conditionally hide or show any field on your form, making complex forms much more usable.
+If you need your respondents to skip sections of your form depending on their previous answers, you should consider using [rules](/articles/screendoor/your_form/building_your_form.html#adding-rules-for-complex-logic) instead of explaining it in writing. Rules allow you conditionally hide or show any field on your form, making complex forms much more usable.
 
 ### Improving your copywriting skills
 
