@@ -7,15 +7,19 @@ include_formrenderer: true
 redirect_from: /articles/screendoor/response_form/embedding_a_response_form.html
 ---
 
-## Embedding the response form
+Screendoor comes with beautiful, customizable forms with your own custom color scheme, logo, and subdomain. But you might want your form to be more integrated with your existing website. Screendoor's embed code lets you place your form inside any webpage, and match that page's look and feel.
 
-Screendoor allows you to embed the response form for your project on your own website, making it even easier for respondents to fill out your form. To embed the response form, click "Settings" from your project page and select "Embed code" from the navigation boxes on the left-hand side of the page. Then, copy the HTML code onto your own website.
+### Getting started
 
-![embed code](../images/embed_code.png)
+From your project's Settings page, and select &ldquo;Embed code&rdquo; in the sidebar. Copy the embed code you seeinto your own website or CMS to embed your form.
 
- Here is an example of a simple embedded response form for a live Screendoor project (from the "Apps Contest" example):
+![The Embed code page.](../images/embed_1.png)
 
-<form data-formrenderer></form>
+### Example
+
+Here is an example of a simple embedded form, from a live Screendoor project.
+
+<form class="embed_example" data-formrenderer></form>
 
 <script>
   FormRenderer.BUTTON_CLASS = 'button info'
@@ -29,13 +33,18 @@ Screendoor allows you to embed the response form for your project on your own we
   });
 </script>
 
-## Customizing the embedded form
+### Customizing your embedded form
 
-Screendoor's embed code is highly customizable. Take a look at the open-source repository for all of the available options: [https://github.com/dobtco/formrenderer-base](https://github.com/dobtco/formrenderer-base).
+Developers can customize our embed form in a few different ways. [Check out our Github repository](https://github.com/dobtco/formrenderer-base) to learn more.
 
 ---
 
 ## F.A.Q.
 
-### Why does my embed code not work?
-If you are seeing the "project not found" error when you try to embed your code, it's probably because your project is not live. To make your project live, click the "Go live" button from your project page. Also, projects with [payments](payments.html) or [signatures](signatures.html) enabled cannot be embedded.
+### Why can't I embed projects with signatures or fees?
+
+Unfortunately, [fees](payments.html) and [signatures](signatures.html) are not supported in embedded forms at this time.
+
+### I see a "Project not found" error when I try to embed my form. Help!
+
+This error usually occurs when your [project is not yet public](/articles/screendoor/projects/going_public.html). Only projects with a status of &ldquo;Unlisted&rdquo; or &ldquo;Public&rdquo; can be embedded.

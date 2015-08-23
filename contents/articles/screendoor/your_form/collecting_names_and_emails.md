@@ -18,13 +18,13 @@ Screendoor lets you use &ldquo;blind fields&rdquo; hide personally identifying i
 
 ### Removing the name and email address fields
 
-If you don't want to collect names or email addresses in your form, select the &ldquo;Edit project&rdquo; link on the right side of the project header, and select &ldquo;Responses&rdquo; from the Progress menu. Under &ldquo;Identification level&rdquo;, select &ldquo;Keep responses anonymous&rdquo;.
+If you don't want to collect names or email addresses in your form, select the &ldquo;Edit project&rdquo; link on the right side of the project header, and choose &ldquo;Responses&rdquo; from the Progress menu. Under &ldquo;Identification level&rdquo;, select &ldquo;Keep responses anonymous&rdquo;.
 
 ![Making your project anonymous.](../images/name_email_2.png)
 
 Note that this setting will disable Screendoor features that require names and email addresses to work, such as [messages](/articles/screendoor/messages/sending_messages.html) and [e-signatures](/articles/screendoor/your_form/signatures.html). You can always add the name and email fields back to your form by changing this setting to &ldquo;Require a name and email address&rdqup;.
 
-### Overriding the default name and email fields
+### Overriding the default fields for names and email addresses
 
 If you want to change the labels of the name and email address fields, or don't want them to be at the top of your form, Screendoor lets you replace the default name and email fields with other fields in your form.
 

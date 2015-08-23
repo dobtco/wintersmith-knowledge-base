@@ -2,31 +2,36 @@
 title: Collecting responses via email
 order: 9
 app_pages:
-  - projectadmin-settings-emailresponses
+  - projectadmin-wizard-responses
 redirect_from: /articles/screendoor/responses/receiving_responses_via_email.html
 ---
 
-## Receiving responses via email
+For simple projects, you might want to let respondents submit to your project through email. Think of it like a shared inbox for your team, with Screendoor's great evaluation features built right in.
 
-To receive responses via email, select the "Response via email" box on the "Settings" page for your project. Then, select the appropriate option from the "Email responses" dropdown.
+### Getting started
 
-![email responses](../images/email_responses.png)
+Select the &ldquo;Edit project&rdquo; link on the right side of the project header, and choose &ldquo;Responses&rdquo; from the Progress menu. Under &ldquo;Collect responses with&hellip;&rdquo;, you can choose &ldquo;both an online form and email&rdquo; to add email responses, or &ldquo;email&rdquo; to remove the form from your project altogether.
 
-That's it! You can now use Screendoor to organize, manage, and evaluate incoming email responses to your project. This is what a response submitted via email will look like:
+![Enabling email responses.](../images/email_responses_1.png)
 
-![response submitted via email](../images/emailed_response.png)
+<div class='alert'>
+    **Note:** If you choose to only accept email responses, you will not be able to add a submission fee or e-signatures to your project.
+</div>
 
-## Receiving responses with a custom address
+### Using a custom email address
 
-If you would like to use a custom email address for incoming responses (instead of the default address, which is unique to your project and will look something like this: "sdp-response-UMtlSKkU@in.dobt.co"), you can set it up by clicking the "use a custom address" link on the "Respond via email" page. Follow the instructions listed on the "Use an email alias" popup, which include setting up email forwarding from your custom address to the anonymized Screendoor address (and possibly confirming your custom email address).
+By default, Screendoor gives your project an <code>@in.dobt.co</code> address to collect submissions. If you want to use a different email address, click the &ldquo;use a custom address&rdquo; link on the Responses page.
 
-![custom email address](../images/email_response_alias.png)
+![Entering a custom email address.](../images/email_responses_2.png)
 
----
+Enter your custom email address in the modal dialog that appears.
 
-## F.A.Q.
+<div class='alert'>
+    **Note:** Don't use your personal email address to collect responses. Instead, set up a [email alias](https://en.wikipedia.org/wiki/Email_alias) that forwards all responses to your <code>@in.dobt.co</code> address.
+</div>
 
-### This all seems too complicated. Is there an easier way to receive email inside of Screendoor?
-Yes, there is a simpler way. All you need to do is select the "Shared Inbox" project template when you create your project. This way, your project is pre-configured to receive responses via email.
+### Using the Shared Inbox template
 
-![email only](../images/email_only.png)
+You can skip these initial setup steps by using our built-in Shared Inbox template. When you [create a project](/articles/screendoor/projects/creating_a_project.html), select &ldquo;Shared Inbox&rdquo; when you are asked to choose a project type.
+
+![The Shared Inbox template.](../images/email_responses_3.png)

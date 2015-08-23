@@ -7,108 +7,111 @@ app_pages:
 redirect_from: /articles/screendoor/response_form/form_building_tips.html
 ---
 
-Your form is the core of your Screendoor project. To ensure that you provide a smooth experience for your respondents and collect accurate and relevant information, we want to help you make your forms:
+As you create your Screendoor form, it's worth taking some time to think about how to provide a smooth experience for respondents. When you ensure your forms are usable and easy to complete, it helps your respondents save time, and helps you collect the most accurate and relevant information.
+
+Your form should try to be:
 
 - **User-friendly**. Your form should be as easy as possible for respondents to fill out. No surprises, no headaches.
 
 - **Clear**. Respondents should understand which information they are being asked to enter and why you need it.
 
-- **Succinct**. A good form is focused and to the point, omitting unnecessary complexity.
+- **Concise**. A good form is focused and to the point, omitting unnecessary complexity.
 
-## Quick tips
+### Ten ways to design a better form
 
 Here are some quick tips that can help you make your forms better.
 
-### Choose the appropriate field for your question
+#### 1. Choose the appropriate field for your question.
 
-With each field you add to your form, think about the type of answer you want to receive and choose the type of field accordingly.
+When you add a field to your form, think about the type of answer you want to receive. This will influence the type of field you choose.
 
-For example, if you're asking a yes–no question, two checkboxes wouldn't make sense because the user could select both options.
+For example, if you want an answer of &ldquo;Yes&rdquo; or &ldquo;No&rdquo;, two checkboxes wouldn't make sense, because the user could select both options.
 
 <div class='example_fr fr_no' id='example_fr_1'></div>
 
-Instead, use radio buttons or the "Multiple choice" field in Screendoor.
+Instead, Screendoor's &ldquo;multiple choice&rdquo; field, which only lets you select one option, would be a better fit.
 
 <div class='example_fr fr_yes' id='example_fr_2'></div>
 
-Here's another example: if you want to collect numeric data, you can use a "Numeric" field rather than a "Text" field. Screendoor will display an error if the user tries to enter anything in this field that isn't a number.
+Here's another example: if you want the answer to be in the form of a number,  use a &ldquo;Numeric&rdquo; field. Screendoor will display an error if the user tries to enter anything in this field that isn't a number.
 
 <div class='example_fr fr_yes' id='example_fr_9'></div>
 
-### If your form is long, separate it out into multiple pages
+#### 2. Avoid using too much emphasis.
 
-The prospect of filling out a huge form can be overwhelming and deter respondents from even starting. You can make your form more approachable by separating out related fields into sections, and placing each step on a separate page.
-
-### Organize your form into sections
-
-Use section headers ("Section breaks" with labels in Screendoor) to organize your form. Use large section headers to separate out major parts of your form. Use medium and small section headers to identify sub-sections.
-
-<div class='example_fr fr_yes' id='example_fr_11'></div>
-
-### Use blocks of text for long or important instructions
-
-If you need to write more than a paragraph, put it in a "Block of text" rather than the description of a section header. Use large or medium blocks of text for instructions that require special emphasis rather than "\*emphasizing with asterisks\*" or "ALL CAPS."
-
-<div class='example_fr fr_yes' id='example_fr_12'></div>
-
-### Only ask once
-
-Avoid asking for information more than once. For example, if Screendoor is [already collecting names and email addresses](/articles/screendoor/your_form/collecting_names_and_emails.html) from respondents, you don't need to ask for that information again. If you ask respondents for their address in one section of the form, you shouldn't need to ask for it again in another section.
-
-### Don't repeat yourself
-
-If you want to give your respondents information about multiple fields, try to avoid repeating yourself. Redundant information makes the form longer and harder to read.
-
-<div class='example_fr fr_no' id='example_fr_7'></div>
-
-Instead, use section headers and descriptions to tell them once.
-
-<div class='example_fr fr_yes' id='example_fr_8'></div>
-
-### Keep your labels and descriptions concise
-
-Avoid overloading your form with redundant descriptions.
-
-<div class='example_fr fr_no' id='example_fr_3'></div>
-
-Be concise, but give your respondents the information they need to complete your form.
-
-<div class='example_fr fr_yes' id='example_fr_4'></div>
-
-### Always provide clear labels for inputs
-
-Try not to assume that respondents will know the question you're asking just from looking at the field.
-
-<div class='example_fr fr_no' id='example_fr_5'></div>
-
-One great way to keep your forms concise is to have your label and the respondent's answer form a complete sentence, like this:
-
-<div class='example_fr fr_yes' id='example_fr_6'></div>
-
-### Instead of complicated instructions, try using rules
-
-If you need to ask your respondents to skip certain fields of your form depending on their answers to some of your questions, consider using [rules](/articles/screendoor/your_form/building_your_form.html#adding-rules). With rules, Screendoor lets you conditionally hide or show any field on your form. This will make complex forms much more usable.
-
-### Keep your copy clear and consistent
+If you use too much emphasis (**bold**, *italics*, or <u>underlining</u>), the user will ignore it. Emphasize text only when you absolutely need to.
 
 Never use all caps for labels.
 
 <div class='example_fr fr_no' id='example_fr_10'></div>
 
-Use emphasis only when you need to. If you use too much emphasis (**bold**, *italics*, or <u>underlining</u>), the user will ignore it.
+#### 3. Only ask once.
 
-## Copy-writing resources
+Try not to ask for the same information twice. For example, Screendoor [already collects names and email addresses for you](/articles/screendoor/your_form/collecting_names_and_emails.html), so you don't need to ask for that information again. If you ask respondents for their address in one section of the form, you shouldn't need to ask for it again in another section.
 
-In order to make your project accessible to everyone, we recommend keeping your language as clear and plain as possible. Here are some resources we've found helpful:
+#### 4. Avoid repetitive descriptions.
+
+If you need to give respondents the same instructions for multiple fields, format your form so that you only need to tell them once.
+
+Redundant information makes the form longer and harder to read.
+
+<div class='example_fr fr_no' id='example_fr_7'></div>
+
+Instead, use section headers and descriptions to properly organize your instructions..
+
+<div class='example_fr fr_yes' id='example_fr_8'></div>
+
+#### 5. Use blocks of text for long or important instructions.
+
+If it's necessary to write descriptive text that is longer than a paragraph, place it in a &ldquo;Block of text&rdquo; field, instead of the description of a section header. For instructions that require special emphasis, use large or medium blocks of text instead of emphasizing with \**asterisks*\* or *ALL CAPS*.
+
+<div class='example_fr fr_yes' id='example_fr_12'></div>
+
+#### 6. Always provide clear labels for inputs.
+
+Try not to assume that respondents will understand the information you need from them just from the answer options. That might not be the case.
+
+<div class='example_fr fr_no' id='example_fr_5'></div>
+
+You can maintain clear labels while keeping them concise, by having the label and answer form a complete sentence.
+
+<div class='example_fr fr_yes' id='example_fr_6'></div>
+
+#### 7. Avoid redundant labels.
+
+Using the same label for multiple inputs makes it harder to distinguish the difference between them.
+
+<div class='example_fr fr_no' id='example_fr_3'></div>
+
+Try to stay concise, while still giving your respondents the information they need to complete your form.
+
+<div class='example_fr fr_yes' id='example_fr_4'></div>
+
+#### 8. Organize your form with sections.
+
+Use section breaks to organize your form and provide clear hierarchy. Use large section headers to indicate the major sections of your form. Use medium and small section headers to identify sub-sections.
+
+<div class='example_fr fr_yes' id='example_fr_11'></div>
+
+#### 9. For long forms, use page breaks.
+
+When someone encounters a huge form, it can feel overwhelming, and deter them from even starting. Make your form more approachable by grouping related fields into sections, and devoting a single page to each section.
+
+#### 10. Instead of asking your respondents to skip sections, use rules instead.
+
+If you need your respondents to skip sections of your form depending on their previous answers, you should consider using [rules](/articles/screendoor/your_form/building_your_form.html#adding-rules) instead of explaining it in writing. Rules allow you conditionally hide or show any field on your form, making complex forms much more usable.
+
+### Improving your copywriting skills
+
+Plain and clear language helps make your form more accessible to everyone. Learning effective copywriting takes practice, but it's an invaluable skill to learn, and your audience won't be able to thank you enough. Here are some resources we've found helpful.
 
 - [GovLoop Academy Course on Plain Language](http://academy.govloop.com/courses/plain-language/)
 - [Clout: The Art and Science of Influential Web Content](http://www.amazon.com/Clout-Science-Influential-Content-Voices/dp/0321733010) by Colleen Jones
 - [Nicely Said: Writing for the Web with Style and Purpose](http://www.amazon.com/Nicely-Said-Writing-Purpose-Voices/dp/0321988191) by Nicole Fenton
-- [The Elements of Content Strategy](http://abookapart.com/products/the-elements-of-content-strategy) by Erin Kissane
 
-## Need more help?
+### Receive a form design consultation
 
-Let us help you make your form awesome. We're available for consultation on an hourly basis: [Send us an email](mailto:support@dobt.co) to get in touch.
+If you want hands-on training for how to make your forms even better, the Screendoor team is available for consultation on an hourly basis. Send us an email at [support@dobt.co](mailto:support@dobt.co) to get in touch.
 
 <script>
   function ExampleFR(target, response_fields) {
@@ -158,9 +161,16 @@ Let us help you make your form awesome. We're available for consultation on an h
     [
       {
         field_type: 'file',
-        label: 'File upload',
+        label: 'Upload a work sample',
         field_options: {
-          description: 'File #4'
+          description: 'Work Sample #1'
+        }
+      },
+      {
+        field_type: 'file',
+        label: 'Upload a work sample',
+        field_options: {
+          description: 'Work Sample #2'
         }
       }
     ]
@@ -170,8 +180,19 @@ Let us help you make your form awesome. We're available for consultation on an h
     '#example_fr_4',
     [
       {
+        field_type: 'block_of_text',
+        field_options: {
+          size: 'medium',
+          description: "Please upload samples of your work below."
+        }
+      },
+      {
         field_type: 'file',
-        label: 'Work sample #4'
+        label: 'Work Sample #1'
+      },
+      {
+        field_type: 'file',
+        label: 'Work Sample #2'
       }
     ]
   )
@@ -213,16 +234,16 @@ Let us help you make your form awesome. We're available for consultation on an h
     [
       {
         field_type: 'file',
-        label: 'Resume',
+        label: 'Project #1',
         field_options: {
-          description: "Click Choose File button above to upload your file. Note: The file must be under 1 mb. Please do not use spaces or the following characters in your file name: ? ! \" / < > * , ; : $ % # &"
+          description: "Please upload a project that you either took a leadership role in, or heavily contributed to. Projects should showcase your primary skill set."
         }
       },
       {
         field_type: 'file',
-        label: 'CV',
+        label: 'Project #2',
         field_options: {
-          description: "Click Choose File button above to upload your file. Note: The file must be under 1 mb. Please do not use spaces or the following characters in your file name: ? ! \" / < > * , ; : $ % # &"
+          description: "Please upload a project that you either took a leadership role in, or heavily contributed to. Projects should showcase your primary skill set."
         }
       }
     ]
@@ -233,18 +254,18 @@ Let us help you make your form awesome. We're available for consultation on an h
     [
       {
         field_type: 'section_break',
-        label: 'Attachments',
+        label: 'Projects',
         field_options: {
-          description: "Click \"Choose File\" to upload your attachments. Note: Attachments must be under 1 MB. Please do not use spaces or the following characters in your file name: ? ! \" / < > * , ; : $ % # &"
+          description: "Please upload two projects that you either took a leadership role in, or heavily contributed to. Projects should showcase your primary skill set."
         }
       },
       {
         field_type: 'file',
-        label: 'Resume',
+        label: 'Project #1',
       },
       {
         field_type: 'file',
-        label: 'CV',
+        label: 'Project #2',
       }
     ]
   )
@@ -254,7 +275,7 @@ Let us help you make your form awesome. We're available for consultation on an h
     [
       {
         field_type: 'number',
-        label: '# of pools cleaned'
+        label: 'How many pools did the Parks Department clean this week?'
       }
     ]
   )
@@ -280,10 +301,31 @@ Let us help you make your form awesome. We're available for consultation on an h
         }
       },
       {
+        field_type: 'block_of_text',
+        label: 'Tell us about yourself.',
+        field_options: {
+          size: 'medium'
+        }
+      },
+      {
         field_type: 'section_break',
         label: 'Employment',
         field_options: {
           size: 'medium'
+        }
+      },
+      {
+        field_type: 'text',
+        label: 'Employer Name',
+        field_options: {
+          size: 'large'
+        }
+      },
+      {
+        field_type: 'address',
+        label: 'Employer Address',
+        field_options: {
+          size: 'large'
         }
       },
       {
@@ -292,7 +334,11 @@ Let us help you make your form awesome. We're available for consultation on an h
         field_options: {
           size: 'small'
         }
-      }
+      },
+      {
+        field_type: 'price',
+        label: 'What is your annual gross income?',
+      },
     ]
   )
 
@@ -303,12 +349,12 @@ Let us help you make your form awesome. We're available for consultation on an h
         field_type: 'block_of_text',
         field_options: {
           size: 'medium',
-          description: "Please enter only your own income, even if you're married:"
+          description: "Please enter only your own personal income, even if you're married."
         }
       },
       {
         field_type: 'number',
-        label: 'Income'
+        label: 'Personal Income'
       }
     ]
   )

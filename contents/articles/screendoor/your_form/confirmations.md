@@ -6,14 +6,22 @@ app_pages:
 redirect_from: /articles/screendoor/response_form/after_submission.html
 ---
 
-## Displaying a custom "after submission" page
+### Customizing your confirmation page
 
-To display a custom page to respondents after they submit their response, check the "Display a custom page" box and write your custom page.
+By default, Screendoor displays a nice confirmation page when their response has been successfully submitted:
 
-![after response page](../images/after_response_page.png)
+![The default confirmation page.](../images/confirmations_1.png)
 
-## Sending a confirmation email
+If you'd like, you can customize the text of this page. Select the &ldquo;Edit project&rdquo; link on the right side of the project header, and choose &ldquo;After submission&rdquo; from the Progress menu. Under &ldquo;After submission&hellip;&rdquo;, check the box &ldquo;Display a custom page&rdquo;.
 
-To send a confirmation email to respondents after they submit their response, check the "Send a confirmation email" box and then write your custom confirmation email.
+![Writing a custom confirmation page.](../images/confirmations_2.png)
 
-![after response email](../images/after_response_email.png)
+Write up your custom confirmation page in the text box that appears.
+
+### Sending a confirmation email
+
+To send a confirmation email to respondents after they submit their response, check the box &ldquo;Send a confirmation email&rdquo; box on the &ldquo;After submission&rdquo; page.
+
+![Drafting a confirmation email.](../images/confirmations_3.png)
+
+Write your confirmation email inside the form that appears.

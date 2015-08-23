@@ -7,58 +7,62 @@ app_pages:
 redirect_from: /articles/screendoor/response_form/payments.html
 ---
 
-## Enabling payments
+Screendoor lets you charge submission fees for your projects by allowing you to easily receive credit card payments via [Stripe](https://stripe.com/). After you create a Stripe account, connect it to Screendoor, and set the fee amount for your project, respondents will be asked for payment before submitting their response.
 
-> **Note**: You must have the appropriate [permissions](/articles/your_account/accounts/managing_users.html#managing-user-permissions) in order to manage payments for your organization.
+![Screendoor asking for payment when requesting a submission fee.](../images/payment_form.png)
 
-Screendoor lets you easily receive credit card payments from your respondents via [Stripe](https://stripe.com/). After enabling payments and setting a charge amount, your respondents will be charged when submitting their response. Note that you will need to create a Stripe account in order to accept payments via Screendoor.
+<div class='alert'>
+    **Note:** You must be an administrator, or have the appropriate [permissions](/articles/your_account/accounts/managing_users.html#managing-user-permissions), to manage payments for your organization.
+</div>
 
-To enable payments, click "Edit project" and select "Signature and fees" from the "Progress" menu. Check the "Charge a submission fee" box.
+### Getting started
 
-> **Note**: Screendoor will only require a payment from respondents if you have a valid payment profile set up and define a charge amount.
+To accept credit card payments, you will first need to [create a Stripe account](https://dashboard.stripe.com/register).
 
-![require payment](../images/require_payment.png)
+When you have a Stripe account, select the &ldquo;Edit project&rdquo; link on the right side of the project header, and choose &ldquo;Signature and fees&rdquo; from the Progress menu. Check the box &ldquo;Charge a submission fee&rdquo;.
 
-Click the "Connect with Stripe" button to connect to your Stripe account. You'll be redirected to the "Stripe: Connect with Screendoor" page, where you'll see the message "Screendoor would like you to start accepting payments with Stripe." Fill out the form and click the "Authorize access to this account" button to go back to Screendoor.
+![The Signature and Fees settings page.](../images/require_payment.png)
 
-> **Note**: Payment profiles are shared across all the projects in your organization: if you have multiple projects, you won't have to set up a payment profile for each one separately. 
+Press the &ldquo;Connect with Stripe&rdquo; button to connect to your Stripe account. You will be redirected to Stripe's website. Complete the form and press the &ldquo;Authorize access to this account&rdquo; button to return to Screendoor.
 
-Next, enter the charge amount for your project.
+<div class='alert'>
+    **Note:** Payment profiles are shared across all projects in your organization, so you will only need to complete this process once.
+</div>
 
-![charge amount](../images/charge_amount.png)
+Once you have connected to Stripe, enter the amount you would like the respondent to pay.
 
-That's it! Respondents will now be required to pay before submitting their response.
+![Entering the charge amount.](../images/charge_amount.png)
 
-## Switching payment profiles
+Under the fee amount, Screendoor shows you the percentage you will receive after Stripe's and Screendoor's transaction fees.
 
-To disconnect your current payment profile, click the "Change profile" link from the "Signature and fees" page.
+### Switching Stripe accounts
 
-![change profile](../images/change_profile.png)
+To use a different Stripe account, click the &ldquo;Change profile&rdquo; link from the "Signature and fees" page.
 
-Then, click the "Connect with Stripe" button to connect to a different Stripe account.
+![Changing your Stripe payment profile.](../images/change_profile.png)
 
-## Viewing completed charges
+You can then press the &ldquo;Connect with Stripe&rdquo; button to connect to a different Stripe account.
 
-To view completed charges, click "Organization settings" from the "User" menu and select "Payment profile" from the navigation box on the left-hand side of the page. You can also manage the payment profile for your organization from this page.
+### Viewing completed charges
 
-![organization settings](../images/completed_charges.png)
+To view completed payments, click your avatar in the navigation bar, select &ldquo;Settings&rdquo; in the dropdown, and then select &ldquo;Payment profile&rdquo; in the sidebar.
 
-From the "Payment profile" page, you'll see a list of completed charges for your organization.
+![Viewing a list of completed charges.](../images/completed_charges.png)
 
-Click the "View on Stripe" button for a charge to view it in your Stripe dashboard.
+You can also switch Stripe accounts for your organization from this page.
+
+To view a completed charge inside of Stripe, press the &ldquo;View on Stripe&rdquo; button.
 
 ---
 
 ## F.A.Q.
 
 ### Will respondents need a Stripe account in order to pay?
-Nope, all they'll need is a valid credit card. This is what the payment form will look like to respondents:
-
-![payment form](../images/payment_form.png)
+All they'll need is a valid credit card. No account necessary!
 
 ### Can I waive payment for specific respondents?
 Yes, you can waive payment for a specific response from the [unsubmitted responses](../responses/providing_support_to_respondents.html#waiving-payment-for-a-specific-response) page.
 
 ### Are there processing fees?
-Yes. Stripe [charges](https://stripe.com/us/pricing) 2.9% + 30&cent; and Screendoor charges 2.1%.
+Yes: 5% + 30&cent; per transaction. Stripe [charges](https://stripe.com/us/pricing) 2.9% plus 30&cent;, and Screendoor charges an additional 2.1%.
 

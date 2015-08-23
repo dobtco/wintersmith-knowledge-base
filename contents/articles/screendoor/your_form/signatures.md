@@ -6,40 +6,50 @@ app_pages:
 redirect_from: /articles/screendoor/response_form/signatures.html
 ---
 
-> **Note**: In order to use electronic signatures, you'll need to sign up for a Plus plan or higher.
+If you need your forms to be signed before they are submitted, Screendoor lets you add electronic signatures to any form.
 
-## Enabling electronic signatures
+<div class='alert'>
+    **Note**: In order to use electronic signatures, you'll need to sign up for a Plus plan or higher.
+</div>
 
-To enable electronic signatures for your project, click "Edit project" and select "Signature and fees" from the "Progress" menu. Then, check the "Ask users to sign the form before submitting" box.
+### Getting started
 
-![require signatures](../images/require_signatures.png)
+Select the &ldquo;Edit project&rdquo; link on the right side of the project header, and choose &ldquo;Signature and fees&rdquo; from the Progress menu.  
+
+To add electronic signatures to your project, check the box &ldquo;Ask users to sign the form before submitting&rdquo;.
+
+![Signatures and fees page.](../images/signatures_1.png)
+
+When respondents fill out your form, they will now be asked to sign their response before submitting it.
+
+![Asking a respondent to sign their submission.](../images/signatures_2.png)
 
 That's it! Respondents will now be required to sign their response before submitting it.
 
-![signature](../images/signature.png)
+### Viewing a signature
 
-## Viewing signatures
+When a response is signed, you can view their signature from that response's page. Go to your project's Responses page, and click on a response in the table. The signature should be displayed in the sidebar on the right-hand side.
 
-Once a response is signed, you'll be able to view the signature from the individual response page.
+![Viewing a signature in Screendoor.](../images/signatures_3.png)
 
-![signed response](../images/signed_response.png)
+### Requesting a new signature
 
-You can also view whether or not a response has been signed from the "Responses" table for your project.
+Screendoor binds each signature to a single revision of a response. If you, the respondent, or a collaborator edits a response, it will need to be signed again.
 
-![signed column](../images/signed_column.png)
+When a response is edited, the signature status in the sidebar changes accordingly.
 
-Also, when you export a response as a PDF, the signature will appear in that PDF.
+![An edited response that was previously signed.](../images/signatures_4.png)
 
----
+To send an email asking the respondent to sign the new revision, click the &ldquo;Request new signature&rdquo; link.
 
-## F.A.Q.
+![Requesting a new signature.](../images/signatures_5.png)
 
-### What happens if a respondent makes changes to their response after signing?
-Any time a respondent makes changes to a response that requires their signature, they'll have to re-sign it. This way, every change will be "signed."
+After they sign the response, the new signature will display in the sidebar. You can still view their old signatures by viewing a previous revision of the response.
 
-### What happens if I make changes to a response after it's been signed?
-If you (or another admin) make changes to a response after the respondent has signed and submitted it, you'll have to request that they sign it again if you want the new version to be signed.
+![Viewing signatures in a previous revision.](../images/signatures_6.png)
 
-![request new signature](../images/request_new_signature.png)
+To quickly view which responses in your project still need signature, press the &ldquo;Edit columns&rdquo; button on the Responses page, and display the &ldquo;Signed?&ldquo; column.
 
-To request a new signature, click the "Request new signature" button from the individual response page. The respondent will then be notified that you have requested them to sign the updated response. Once they sign off on your changes, the response will appear again as "signed."
+![The Signed column on the Responses page.](../images/signatures_7.png)
+
+Click on the column's header to sort unsigned responses at the top of the table.

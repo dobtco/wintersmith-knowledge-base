@@ -3,6 +3,7 @@ $navHeight: 4.5rem;
 $footerBackground: darken($navBackground, 7%);
 
 @import 'vendor/assets/stylesheets/dvl/core';
+@import 'vendor/assets/stylesheets/dvl/components/alerts';
 @import 'vendor/assets/stylesheets/dvl/components/navbar';
 @import 'vendor/assets/stylesheets/dvl/components/splash_footer';
 
@@ -100,6 +101,9 @@ input[type="search"] {
 
 .toc_section {
   text-align: left;
+  li a {
+    font-size: $fontSmall;
+  }
 }
 
 .toc_section h4 {
@@ -465,18 +469,26 @@ td {
 
 // Formrenderer
 
+.embed_example {
+  margin-bottom: $lineHeight;
+  padding: $rhythm * 2;
+  border: 1px solid $gray;
+  border-radius: $radius;
+}
+
 .example_fr {
   border-left-style: solid;
-  border-left-width: 6px;
-  padding: 1rem;
+  border-left-width: $rhythm * 2;
+  border-radius: $radius;
+  padding: $rhythm * 2;
   background-color: #efefef;
-  margin-bottom: 0.5rem;
+  margin-bottom: $lineHeight;
   position: relative;
-
-  .fr_response_field h3 {
-    font-weight: 600; // fix article override...
+  .fr_response_field_section_break {
+    h2, h3, h4 {
+      margin-bottom: $rhythm;
+    }
   }
-
   .fr_response_field:last-child {
     margin-bottom: 0;
   }
@@ -484,13 +496,16 @@ td {
   &:after {
     display: none;
     position: absolute;
-    top: 50%;
-    right: 1rem;
+    top: $rhythm * 2.5;
+    right: $rhythm * 2;
     color: $darkerGray;
-    font-size: 0.9rem;
+    font-size: $fontSmall;
     text-transform: uppercase;
-    font-weight: 600;
-    margin-top: - ($lineHeight / 2);
+    letter-spacing: $letterspaceSmall;
+    line-height: 1;
+    background: rgba(#fff,0.8);
+    border-radius: $rhythm * 2;
+    padding: $rhythm / 2 $rhythm;
   }
 }
 
