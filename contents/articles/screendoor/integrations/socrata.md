@@ -25,7 +25,7 @@ Fill in the web address of your Socrata data portal and click "Connect your Socr
 
 ## Choosing responses to sync
 
-Click the "Choose responses" button to choose which responses you'd like to sync to Socrata. Then, enter a search query and/or add custom filters. For example, if you only want to sync responses with a specific status or label, click "Add filter" and select the appropriate options from the dropdowns. If you're not sure how to filter the responses you want, see the [Advanced Search](/articles/screendoor/responses/sorting_and_filtering_responses.html#advanced-search) section.
+Click the "Choose responses" button to choose which responses you'd like to sync to Socrata. Then, enter a search query and/or add custom filters. For example, if you only want to sync responses with a specific status or label, click "Add filter" and select the appropriate options from the dropdowns. If you're not sure how to filter the responses you want, [read more about searching for responses here](/articles/screendoor/responses//searching_for_responses.html).
 
 To sync all responses, just leave everything blank.
 
