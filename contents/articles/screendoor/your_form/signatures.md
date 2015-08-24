@@ -9,7 +9,7 @@ redirect_from: /articles/screendoor/response_form/signatures.html
 If you need your forms to be signed before they are submitted, Screendoor lets you add electronic signatures to any form.
 
 <div class='alert'>
-    **Note**: In order to use electronic signatures, you'll need to sign up for a Plus plan or higher.
+    **Note**: In order to use electronic signatures, you'll need to sign up for a Standard plan or higher.
 </div>
 
 ### Getting started
