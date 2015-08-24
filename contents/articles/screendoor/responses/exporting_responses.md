@@ -1,36 +1,41 @@
 ---
 title: Exporting responses
-order: 5
+order: 10
 app_pages:
   - projectadmin-responses-index
   - projectadmin-settings-settings
 ---
 
-## Exporting responses
+### Exporting responses
 
-To export responses, navigate to the "Responses" page for you project. Check the boxes next to the responses you'd like to export. Then, click "More" on the toolbar and select "Export responses" from the dropdown.
+When you sign up for a Screendoor account, you can have peace of mind in knowing that you own your data. We let you export all of your Screendoor data at any time, in open formats.
 
-![export responses](../images/export_responses.png)
+To export responses, visit your project's Responses page, and using the checkboxes on the left side of the table, select the responses you wish to export. Press the &ldquo;More&rdquo; button above the table, and choose &ldquo;Export responses&rdquo; from the dropdown.
 
-From the "Export responses" popup, select a format and optionally include blind fields and ratings (if you have the appropriate permissions). Then, click "Download" to begin the export process.
+![The Export Responses option on the responses page.](../images/export_1.png)
 
-![export responses...](../images/export_responses_modal.png)
+A modal dialog will appear. Under Format, choose how you would like to receive your export: Excel, CSV, or PDF. If you have the appropriate permissions, you can also choose whether to include [blind fields](/articles/screendoor/evaluation/removing_bias.html) or [ratings](/articles/screendoor/evaluation/configuring_evaluation_fields.html) in your export.
 
-Depending on the format you've selected, Screendoor may email you a link to download your exported responses. If it does, just click the link in the email to download your responses.
+![The Export Responses modal.](../images/export_2.png)
 
-## Exporting all responses
+By default, exports do not contain uploaded attachments. If you want to export files uploaded from your respondents, select &ldquo;Attachments&rdquo; from the Format dropdown.
 
-To export all responses, check the topmost box and click the "Select all results" link if you have more than one page of responses.
+Once you have configured your export, press the &ldquo;Download&rdquo; button to begin the export process.
 
-![select all responses](../images/select_all_responses.png)
+### Exporting all responses
 
-Then, click "More" and select "Export responses" from the dropdown (see above).
+You can export all of your responses in a single click. On your project's Responses page, click the &ldquo;Export all responses&rdquo; link in the lower left-hand corner.
+
+![Exporting all responses.](../images/export_3.png)
 
 ---
 
 ## F.A.Q.
 
-### Can I export my entire project?
-If you'd like to export a *complete* set of data for your project (as JSON files), you can do so from the "Settings" page. Just click the "Export project as JSON" link and then click the "Generate export" button from the popup. Note that Screendoor will process your export request and then send you an email with the download link once it's done.
+### Can I export all the data from my project?
 
-![export project](../images/export_project.png)
+You can export all data for your project, including forms, ratings and project settings, as JSON files. To do so, visit your project's Settings page and click the &ldquo;Export project link as JSON&rdquo; link in the lower left-hand corner.
+
+![Exporting your entire project.](../images/export_4.png)
+
+A modal dialog will appear asking you to confirm your action. Press the &ldquo;Generate export&rdquo; button to begin the process. Once the JSON files have been generated, Screendoor will send you an email with the download link.

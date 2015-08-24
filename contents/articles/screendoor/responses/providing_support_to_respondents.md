@@ -1,56 +1,93 @@
 ---
 title: Providing support to respondents
-order: 5
+order: 7
 app_pages:
   - projectadmin-responses-index
   - projectadmin-responses-show
+  - projectadmin-unsubmittedresponses-index
+  - projectadmin-pendingedits-index
 redirect_from:
-    - /articles/screendoor/responses/allowing_edits_to_responses.html
-    - /articles/screendoor/responses/viewing_unsubmitted_responses.html
+  - /articles/screendoor/responses/allowing_edits_to_responses.html
+  - /articles/screendoor/responses/viewing_unsubmitted_responses.html
 ---
+
+Screendoor provides you with a few tools to help out your respondents during the submission process. Learn more below.
 
 ### Allowing respondents to edit their submission
 
-If you'd like your respondents to be able to edit their responses after they have submitted them, select some responses and click "Allow edits" from the "More" dropdown above the "Responses" table.
+If a respondent submitted a form that contains a mistake, or outdated information, you might receive a notification from Screendoor which says they have requested permission to edit their response. Click on the notification to view that response, and press the &ldquo;Allow edits&rdquo; button in the alert at the top of the page.
 
-![allow edits](../images/allow_edits.png)
+![Allowing edits to a response.](../images/edits_1.png)
 
-Then, select "No," "Yes," or "Once" and click the "Update responses" button. "Yes" will enable multiple edits, while "Once" will allow the respondent to edit their response only one time.
+You can choose whether they should only be able to make changes once, or as many times as they'd like, up until the [deadline](/articles/screendoor/projects/deadline.html) (if you have set one).
 
-<div class='alert'>
-    **Note**: You can always go back and disable response editing by selecting "No" from the "Released for edits" dropdown.
-</div>
+You can easily view everyone who has requested edit status on your project's Responses page. Press the [&ldquo;Edit columns&rdquo;](/articles/screendoor/responses/viewing_a_list_of_responses.html#configuring-the-responses-table) button just above the table and select &ldquo;Edit status&rdquo; from the dropdown.
 
-![allow edits popup](../images/allow_edits_modal.png)
+![Viewing all responses that have been released for edits.](../images/edits_2.png)
 
-If you just want to allow edits to one response, you can also do so from the individual response page (click the response from the "Responses" table to get to this page). Click the "Allow respondent to edit" link (just below the sidebar) and select the appropriate option from the dropdown.
+Sorting this column lets you easily see everyone who has requested permission to edit. To grant permission to all of them at once, select these responses using the checkboxes on the left side of the table. Press the &ldquo;More&rdquo; button above the table, and choose &ldquo;Allow edits&rdquo; from the dropdown.
 
-![allow edits](../images/allow_edits_individual.png)
+![Releasing responses to edit in bulk.](../images/edits_3.png)
 
-Once you allow edits, you can copy the edit URL and send it to respondents if necessary. Click "Show edit URL" from the sidebar and copy the edit URL from the modal.
+If you want to revoke a respondent's permission to edit, simply select &ldquo;Allow edits&rdquo; from the dropdown and set it to &ldquo;No&rdquo;.
 
-![show edit URL](../images/show_edit_url.png)
+Screendoor will automatically notify respondents via email that their response is ready to edit. But if the email gets lost in their inbox, you can always send them the link to edit again, if necessary. On any response's page, click the &ldquo;Show edit URL&rdquo; link in the lower right corner.
 
+![Displaying the edit URL for a response.](../images/edits_4.png)
 
-### Viewing unsubmitted drafts
+Copy the link that appears to your clipboard.
 
-To view all unsubmitted responses for your project, navigate to the "Responses" page and click the "View unsubmitted responses" link underneath the statuses and labels section. Note that in order to preserve the privacy of your respondents, you will only be able to view the validation status, respondent name, and last four digits of the response ID for these unsubmitted responses (not their actual contents). However, you can see how many validation errors have occurred so far and how many fields have been completed.
+### Approving edits made by respondents
 
-![unsubmitted responses](../images/unsubmitted_responses.png)
+After a respondent edits their submission, you will receive a notification that you must approve the changes before they are incorporated into your project.
 
-The goal of this page is to help you deal with any problems, issues, or questions that your respondents may encounter while filling out your response form. If a respondent needs help submitting their form, the "View unsubmitted responses" page will enable you to see what point they're at in the form and what they may need help with.
+![Notification of edits pending approval.](../images/edits_5.png)
 
-#### Extending the due date for a specific response
+Click on the notification to visit that response's page.
 
-To extend the due date for a specific response from the "View unsubmitted responses" page, click the "Extend" link next to the appropriate response and select an extended due date from the date/time picker.
+![Response with edits pending approval.](../images/edits_6.png)
 
-![extend due date](../images/extend_due_date.png)
+Press the &ldquo;View pending edits&rdquo; button to review the changes the respondent has made.
 
-Click "Submit" to extend the due date for that response. Note that this will not affect any other responses.
+![Overview of edits made to a response.](../images/edits_7.png)
 
-#### Waiving payment for a specific response
+The fields that respondents have edited are highlighted in blue. Press the Commit button to approve the changes and create a new revision of the response, or the Reject button to discard their changes.
 
-To waive payment for a specific response, click the "Waive" link next to the appropriate response.
+### Automatically approving edits
 
-![waive payment](../images/waive_payment.png)
+If you don't want to have to go through a manual approval process every time a respondent wants to edit their submission, Screendoor lets you automatically approve any changes the respondent makes.
+
+Go to your project's Settings page. Under &ldquo;General settings&rdquo;, check &ldquo;Allow edits automatically&rdquo; to automatically grant respondents permission to edit, and &ldquo;Approve edits automatically&rdquo; to automatically approve any changes your respondents make.
+
+![Automatically approving edits made by respondents.](../images/edits_8.png)
+
+### Troubleshooting unsubmitted responses
+
+If your respondents are having problems filling out your form, Screendoor gives you some basic tools to troubleshoot their draft in progress. On your project's Responses page, click the &ldquo;View unsubmitted responses&rdquo; link.
+
+![The unsubmitted responses link.](../images/unsubmitted_1.png)
+
+To preserve the privacy of your respondents, you can't view the contents of their draft on this page. But Screendoor gives you enough information for you to figure out what's stopping them from completing your form. Press the &ldquo;View details&rdquo; button next to any submitted response to take a look.
+
+![The View Details button on the unsubmitted responses page.](../images/unsubmitted_2.png)
+
+A modal dialog will appear, showing you the respondent's name and email, the progress they've made, any validation errors in the form, and the time they last edited their draft.
+
+![The details modal for unsubmitted responses.](../images/unsubmitted_3.png)
+
+If you find that respondents are repeatedly getting stuck on a specific section of your form, it might be worth taking a look at [our tips to improve your form's usability](/articles/screendoor/your_form/designing_a_great_form.html).
+
+#### Extending the deadline for a draft
+
+If someone can't complete your form by the [deadline](/articles/screendoor/projects/deadline.html) you have set and needs more time, you can extend the deadline for only that response. On the &ldquo;Unsubmitted responses&rdquo; page, press &ldquo;Extend&rdquo; next to their response in progress, and specify a new date and time.
+
+![Extending a deadline.](../images/unsubmitted_4.png)
+
+This extended deadline won't affect any other responses, only the one you choose.
+
+#### Waiving payment for a draft
+
+If your project has a [submission fee](/articles/screendoor/your_form/payments.html), and you want to waive the fee for a specific response, click the &ldquo;Waive&rdquo; link next to that response.
+
+![Waiving payment for a response.](../images/unsubmitted_5.png)
 
