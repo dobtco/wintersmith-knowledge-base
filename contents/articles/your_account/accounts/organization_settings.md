@@ -4,8 +4,8 @@ order: 3
 redirect_from: /articles/dashboard/accounts/organization_settings.html
 ---
 
-To configure or update your organization details, navigate to the "Settings" section of the Dashboard. If you are an administrator in your organization, you'll be able to edit your organization's name, logo, and timezone from this page.
+To configure or update your organization details, navigate to the "Settings" section of the ["Your organization" page](https://dashboard.dobt.co/organization/). If you are an administrator in your organization, you can edit your organization's name and logo here.
 
 ![organization settings](../images/organization_settings.png)
 
-To configure your organization's name, simply edit the text field. To configure the logo, click the "Select image" button and choose a logo from you computer to upload. To change the timezone for your organization, select the appropriate timezone from the "Timezone" dropdown. Click the "Update Organization" button to save your changes.
+To configure your organization's name, edit the text field. To upload a logo, click the "Choose file" button and select a logo from your computer to upload. (To change your logo, click the "Remove" button to first remove your current logo. Then choose a new logo to upload.) Click the "Save changes" button to save your new settings.

@@ -8,7 +8,7 @@ If you already have a dobt.co account, you can sign in from the [sign in page](h
 
 ## Forgot password
 
-If you forgot your password, simply click the "Forgot your password?" link. Then, follow the prompts to reset your password.
+If you forgot your password, click the "Forgot?" button. This will take you to the ["Forgot your password?" page](https://dashboard.dobt.co/users/password/new), where you can enter your email address to start the password reset process.
 
 ![screenshot](../images/forgot_password.png)
 
@@ -24,8 +24,8 @@ See the [Two-factor authentication](two_factor_auth.html) article for details.
 
 ### My password isn't working
 
-If your password isn't working, make sure that you're signing in with the correct email address and double check that caps lock is off. If it still isn't working, click the "Forgot your password" link to reset your password.
+If your password isn't working, make sure that you're signing in with the correct email address and confirm that your Caps Lock key is off. If it still isn't working, click the "Forgot?" button to the right of the password field to reset your password.
 
 ### I'm having trouble resetting my password
 
-If you tried to reset your password but still have not received the reset email, confirm that you sent it to the correct email address and that it didn't get caught in a spam filter. If you still haven't received the reset email after some time has passed, try contacting an administrator from your organization. If you still can't sign in and cannot resolve the issue, [contact us](mailto:support@dobt.co).
+If you tried to reset your password but still have not received the reset email, confirm that you submitted the correct email address. Also, check your spam folder for the reset email. If it's been a while and you still haven't received an email, contact us at [support@dobt.co](mailto:support@dobt.co).

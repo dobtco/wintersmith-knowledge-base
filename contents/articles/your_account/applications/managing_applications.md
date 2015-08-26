@@ -4,26 +4,22 @@ order: 1
 redirect_from: /articles/dashboard/applications/managing_applications.md
 ---
 
-## Installing an app
+## Launching an application
 
-To install an app, navigate to the "App store" section of the dashboard. Select the app you would like to install and then click the "Launch" button at the bottom of the app page. You will then be prompted to install the app you selected.
-
-![install app](../images/install_app.png)
-
-## Launching an app
-
-To launch an app, just click the app name from the Dashboard.
+Go to the ["Your organization" page](https://dashboard.dobt.co/organization/) and click the name of the application you would like to launch.
 
 ![launch app](../images/launch_app.png)
 
-## Changing an app's URL or slug
+## Changing the URL or slug of an application
 
-To change an app's URL (slug), click the "Admin" link to the right of the app listing on the "Dashboard" page. Then, click the "Change" button next to the URL. Enter a new slug, and then click the "Save" button. Note that your slug must be unique, and that if it is already taken you will have to find another one.
+To change an application's URL (slug), click the "Edit" button to the right of the application on the ["Your organization" page](https://dashboard.dobt.co/organization/). Enter a new slug, and then click the "Save changes" button. Note that your slug must be unique. If your slug is already taken by another organization, we'll ask you to choose another.
 
 ## Adding or changing your plan
 
-From the "Dashboard" section, select the app you would like to configure. Then, click "Change plan" under "Plan" to add or change a plan. See the [Billing](../accounts/billing.html) article for more information on billing and subscription.
+On the ["Your organization" page](https://dashboard.dobt.co/organization/), click the "Edit" button to the right of the application. Under "Plan," select a plan from the dropdown and click the "Save changes" button. (If you don't have a credit card on file with us, you will see an "Enter payment information" button instead.) See the [Billing](../accounts/billing.html) article for more information on billing and subscription.
 
-## Removing an app
+If you're on a custom plan and would like to change it, please contact us at [hello@dobt.co](mailto:hello@dobt.co).
 
-To remove an app, click the "Disable" link to the right of the app on the "Dashboard" page.
+## Removing an application
+
+From the "Your organization" page, click the "Edit" button to the right of application's name. Click the "Uninstall app" link to remove the application.
