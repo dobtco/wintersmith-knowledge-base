@@ -107,7 +107,7 @@ Plain and clear language helps make your form more accessible to everyone. Learn
 
 - [GovLoop Academy Course on Plain Language](http://academy.govloop.com/courses/plain-language/)
 - [Clout: The Art and Science of Influential Web Content](http://www.amazon.com/Clout-Science-Influential-Content-Voices/dp/0321733010) by Colleen Jones
-- [Nicely Said: Writing for the Web with Style and Purpose](http://www.amazon.com/Nicely-Said-Writing-Purpose-Voices/dp/0321988191) by Nicole Fenton
+- [Nicely Said: Writing for the Web with Style and Purpose](http://www.amazon.com/Nicely-Said-Writing-Purpose-Voices/dp/0321988191) by Nicole Fenton and Kate Kiefer Lee
 
 ### Receive a form design consultation
 
