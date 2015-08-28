@@ -3,7 +3,7 @@ title: Configuring your site
 order: 1
 ---
 
-To get started with Adopta, [launch the app](/articles/your_account/applications/managing_applications.html#launching-an-app) from your DOBT Dashboard. Then, click "Site admin" button to set up and configure your Adopta site.
+To get started with Adopta, [launch the app](/articles/your_account/applications/managing_applications.html#launching-an-application) from your DOBT Dashboard. Then, click "Site admin" button to set up and configure your Adopta site.
 
 ![site admin](../images/site_admin.png)
 
