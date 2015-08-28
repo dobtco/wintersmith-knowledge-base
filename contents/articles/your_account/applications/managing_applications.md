@@ -23,3 +23,6 @@ If you're on a custom plan and would like to change it, please contact us at [he
 ## Removing an application
 
 From the "Your organization" page, click the "Edit" button next to the application's name. Click the "Uninstall app" link to remove the application.
+
+![app settings](../images/app_settings.png)
+

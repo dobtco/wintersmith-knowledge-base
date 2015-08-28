@@ -6,9 +6,13 @@ redirect_from: /articles/dashboard/accounts/managing_users.html
 
 ## Inviting new users
 
-If you are an administrator in your organization, you can add users from the ["Your organization" page](https://dashboard.dobt.co/organization/). Scroll down to the "Users" section, and click the ![add user](../images/add_user.png) button. Fill out the form, click the "Invite user" button, and we'll send them an invitation link.
+If you are an administrator in your organization, you can add users from the ["Your organization" page](https://dashboard.dobt.co/organization/). Scroll down to the "Users" section, and click the "Add user" button. 
 
-![users](../images/users.png)
+![add user](../images/add_user.png)
+
+Fill out the form, click the "Invite user" button, and we'll send them an invitation link.
+
+![invite users](../images/invite_user.png)
 
 ## Managing user permissions
 

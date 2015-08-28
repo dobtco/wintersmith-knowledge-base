@@ -12,6 +12,10 @@ Under the "Billing" section of the ["Your organization" page](https://dashboard.
 
 On the ["Your organization" page](https://dashboard.dobt.co/organization/), click the "Edit" button next to the application's name. Under "Plan," select a plan from the dropdown and click the "Save changes" button. (If you don't have a credit card on file with us, you will see an "Enter payment information" button instead.)
 
+![app settings](../images/app_settings.png)
+
 ## Viewing recent charges
 
 Your recent charges will be listed under "Invoice history" in the "Billing" section of the ["Your organization" page](https://dashboard.dobt.co/organization/).
+
+![billing details](../images/billing.png)
