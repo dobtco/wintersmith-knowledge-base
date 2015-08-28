@@ -9,7 +9,7 @@ redirect_from: /articles/screendoor/response_form/payments.html
 
 Screendoor lets you charge submission fees for your projects by allowing you to easily receive credit card payments via [Stripe](https://stripe.com/). After you create a Stripe account, connect it to Screendoor, and set the fee amount for your project, respondents will be asked for payment before submitting their response.
 
-![Screendoor asking for payment when requesting a submission fee.](../images/payment_form.png)
+![Screendoor asking for payment when requesting a submission fee.](../images/payments_1.png)
 
 <div class='alert'>
     **Note:** You must be an administrator, or have the appropriate [permissions](/articles/your_account/accounts/managing_users.html#managing-user-permissions), to manage payments for your organization.
@@ -21,7 +21,7 @@ To accept credit card payments, you will first need to [create a Stripe account]
 
 When you have a Stripe account, select the &ldquo;Edit project&rdquo; link on the right side of the project header, and choose &ldquo;Signature and fees&rdquo; from the Progress menu. Check the box &ldquo;Charge a submission fee&rdquo;.
 
-![The Signature and Fees settings page.](../images/require_payment.png)
+![The Signature and Fees settings page.](../images/payments_2.png)
 
 Press the &ldquo;Connect with Stripe&rdquo; button to connect to your Stripe account. You will be redirected to Stripe's website. Complete the form and press the &ldquo;Authorize access to this account&rdquo; button to return to Screendoor.
 
@@ -31,7 +31,7 @@ Press the &ldquo;Connect with Stripe&rdquo; button to connect to your Stripe acc
 
 Once you have connected to Stripe, enter the amount you would like the respondent to pay.
 
-![Entering the charge amount.](../images/charge_amount.png)
+![Entering the charge amount.](../images/payments_3.png)
 
 Under the fee amount, Screendoor shows you the percentage you will receive after Stripe's and Screendoor's transaction fees.
 
@@ -39,7 +39,7 @@ Under the fee amount, Screendoor shows you the percentage you will receive after
 
 To use a different Stripe account, click the &ldquo;Change profile&rdquo; link from the "Signature and fees" page.
 
-![Changing your Stripe payment profile.](../images/change_profile.png)
+![Changing your Stripe payment profile.](../images/payments_4.png)
 
 You can then press the &ldquo;Connect with Stripe&rdquo; button to connect to a different Stripe account.
 
@@ -47,7 +47,7 @@ You can then press the &ldquo;Connect with Stripe&rdquo; button to connect to a 
 
 To view completed payments, click your avatar in the navigation bar, select &ldquo;Settings&rdquo; in the dropdown, and then select &ldquo;Payment profile&rdquo; in the sidebar.
 
-![Viewing a list of completed charges.](../images/completed_charges.png)
+![Viewing a list of completed charges.](../images/payments_5.png)
 
 You can also switch Stripe accounts for your organization from this page.
 

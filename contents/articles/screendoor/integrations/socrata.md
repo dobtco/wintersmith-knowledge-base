@@ -6,20 +6,14 @@ app_pages:
 ---
 
 <div class='alert'>
-    **Note**: In order to use Socrata data sync, you'll need to sign up for an Enterprise plan.
+    **Note**: Socrata data sync is only available for Enterprise plans.
 </div>
 
-Screendoor makes it easy to passively sync responses to a Socrata dataset.
+Instead of manually releasing open data to your Socrata portal, Screendoor can sync responses to your forms with a Socrata data set automatically. If you have Socrata sync enabled, revisions to responses will even be reflected in Socrata in real time. It helps your team become more transparent, without the administrative overhead.
 
-<div class='embedded_video_wrapper'>
-  <iframe width="640" height="360" src="https://www.youtube.com/embed/gRVwX2q6i2w?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
+### Connecting to Socrata
 
-## Connecting to Socrata
-
-To sync with Socrata, first you'll need to make sure you have a Socrata account. Then, click "Socrata sync" from the "Settings" page for your project.
-
-![connect to socrata](../images/socrata_connect.png)
+If you have a Socrata account, visit your project's Settings page, and select &ldquo;Socrata sync&rdquo; from the sidebar.
 
 Fill in the web address of your Socrata data portal and click "Connect your Socrata account." You'll be redirected to the Socrata sign-in page (unless you're already signed in). Sign in to Socrata and click the "Allow" button to finish connecting to Socrata and go back to Screendoor.
 

@@ -5,54 +5,47 @@ app_pages:
   - apikeys-index
 ---
 
-<div class='alert'>
-    **Note:** Screendoor is currently "invite-only" on Zapier. You will have to [accept our invitation](https://zapier.com/developer/invite/11164/f7c39187582faf14fb803d66cc8500b7/) before connecting your account.
-</div>
+Zapier is a product that allows you to automate your workflow by providing a connecting bridge between a variety of apps and service. If you have a Zapier account, you can use Screendoor's triggers to add great integrations with the [apps](https://zapier.com/zapbook/) your team uses regularly.
 
-Zapier is a service that allows you to define automated integrations between a variety of apps and services. Using Zapier, you can automate your workflow and integrate Screendoor triggers with many of the [apps](https://zapier.com/zapbook/) registered with Zapier.
+For example, the DOBT team onboards new employees with a Screendoor form. Once they have submitted their form, we use Zapier to post a welcome mesage to [Slack](http://www.slack.com):
 
-## Getting started with Screendoor on Zapier
+![Welcome message via Zapier.](../images/zapier_1.png)
 
-<div class='alert'>
-    **Note**: In order to use Zapier with Screendoor, you must have [permission](/articles/your_account/accounts/managing_users.html#managing-user-permissions) to manage API keys for your Organization.
-</div>
+### Connecting Screendoor to Zapier
 
-To get Screendoor working with Zapier, the first thing you'll need to do is connect your Screendoor account. Select "Connected Accounts" from the Zapier menu to get started.
+Before you get started, make sure you have [permission](/articles/your_account/accounts/managing_users.html#managing-user-permissions) to manage Screendoor's API keys. Click on your avatar in the navigation bar, and select &ldquo;Settings&rdquo; from the dropdown.
 
-![connected accounts](../images/connected_accounts.png)
+If you can see &ldquo;API keys&rdquo; as an option in the sidebar, your first step is to create an API key that Zapier can connect to screendoor with. Create an API key with a name of &ldquo;Zapier&rdquo;, and copy it.
 
-Click "Connect new account" and select "Screendoor."
+![Creating an API key for Zapier.](../images/zapier_2.png)
 
-![connect account](../images/connect_account.png)
+If you can't find an API keys page on Screendoor, ask your account administrator to give you the proper permissions.
 
-Next, enter a name for your Screendoor account (this is just for your own reference, so call it whatever you want).
+Because Screendoor is not publicly listed as a Zapier application, you'll need to accept our invitation. Press the button below to do so.
 
-To connect your Screendoor account, you'll need to [create an API key from Screendoor](https://screendoor.dobt.co/settings/api_keys). Enter "zapier" for the API key name, and click "Submit" to create your Screendoor API key.
+<a class="button info" href="https://zapier.com/developer/invite/11164/f7c39187582faf14fb803d66cc8500b7/">Get invited to use Screendoor on Zapier</a>
 
-![create api key](../images/create_api_key.png)
+In Zapier, click on your avatar in the upper right corner, and select &ldquo;Connected Accounts&rdquo;.
 
-After you create your key, copy it by clicking the "Copy to clipboard" icon.
+![Connecting your Zapier account.](../images/zapier_3.png)
 
-![copy api key](../images/copy_api_key.png)
+Click on the &ldquo;Connect new account&rdquo; dropdown and search for Screendoor. Click on the icon in your search results.
 
-Paste this API key into Zapier and click "Continue."
+![Adding Screendoor to Zapier.](../images/zapier_4.png)
 
-![paste api key](../images/paste_api_key.png)
+Enter a name for your own reference (this could just be &ldquo;Screendoor&rdquo;). Under &ldquo;API key&rdquo;, paste in the key you generated earlier.
 
-Zapier will test your API key to make sure it's working. If you get an authorization error at this point, make sure you've entered your API key correctly.
+![Adding a name and API key.](../images/zapier_5.png)
 
-That's it! Your Screendoor account is now connected to Zapier, which means you can use Screendoor triggers in your zaps.
+Zapier will test your API key to make sure it's working. If you receive an authorization error, make sure you entered the API key correctly.
 
----
 
-## F.A.Q.
+### Using Zapier with Screendoor
 
-### Why do I have to enter a project ID when I create a zap?
+Any Screendoor zap you create needs to be connected to a specific project. In the process of creating a zap, Zapier will ask you for your Screendoor project's ID.
 
-When creating a zap, you'll have to enter the Screendoor project ID for the project you'd like to integrate with. This is so Zapier knows which Screendoor project to interact with. Note that each zap has its own associated Screendoor project.
+![Zapier asking for a Screendoor project ID.](../images/zapier_6.png)
 
-![zapier project id](../images/zapier_project_id.png)
+You can find your project ID on its Settings page, under &ldquo;General settings&rdquo;. Click the &ldquo;Show advanced settings&rdquo; link, and scroll to the bottom.
 
-You can find your project ID on your project's settings page. Click "Show advanced settings" to show your project ID.
-
-![screendoor project id](../images/project_id.png)
+![Finding a project ID in Screendoor.](../images/zapier_7.png)

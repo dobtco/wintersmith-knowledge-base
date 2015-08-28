@@ -14,7 +14,7 @@ To export responses, visit your project's Responses page, and using the checkbox
 
 ![The Export Responses option on the responses page.](../images/export_1.png)
 
-A modal dialog will appear. Under Format, choose how you would like to receive your export: Excel, CSV, or PDF. If you have the appropriate permissions, you can also choose whether to include [blind fields](/articles/screendoor/evaluation/removing_bias.html) or [ratings](/articles/screendoor/evaluation/configuring_evaluation_fields.html) in your export.
+A modal dialog will appear. Under Format, choose how you would like to receive your export: Excel, CSV, or PDF. If you have the appropriate permissions, you can also choose whether to include [blind fields](/articles/screendoor/evaluation/removing_bias.html) or [ratings](/articles/screendoor/evaluation/setting_up_ratings.html) in your export.
 
 ![The Export Responses modal.](../images/export_2.png)
 

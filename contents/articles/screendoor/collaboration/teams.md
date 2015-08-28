@@ -38,3 +38,7 @@ Screendoor lets you assign responses to teams you have created. Let's say you ha
 ![Assigning work to another team.](../images/teams_3.png)
 
 If you place someone in a team accidentally, and then assign responses to that team, it's still an easy mistake to fix. When you change the team someone is a part of, the responses they're assigned change as well.
+
+You can also [add rating fields](/articles/screendoor/evaluation/setting_up_ratings.html) that can only be seen by a single team. When adding a rating, click the &ldquo;Show to&hellip;&rdquo; link, and select a team under the dropdown that appears.
+
+![Assigning a rating to a team.](../images/teams_4.png)
