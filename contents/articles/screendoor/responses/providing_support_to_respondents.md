@@ -57,7 +57,7 @@ The fields that respondents have edited are highlighted in blue. Press the Commi
 
 If you don't want to have to go through a manual approval process every time a respondent wants to edit their submission, Screendoor lets you automatically approve any changes the respondent makes.
 
-Go to your project's Settings page. Under &ldquo;General settings&rdquo;, check &ldquo;Allow edits automatically&rdquo; to automatically grant respondents permission to edit, and &ldquo;Approve edits automatically&rdquo; to automatically approve any changes your respondents make.
+Go to your project's Settings page. Under &ldquo;General settings&rdquo;, you can automatically grant respondents the permission to edit, as well as automatically approve a respondent's changes.
 
 ![Automatically approving edits made by respondents.](../images/edits_8.png)
 
