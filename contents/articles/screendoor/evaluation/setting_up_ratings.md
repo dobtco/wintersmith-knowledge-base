@@ -47,7 +47,7 @@ You can change the maximum rating when you set up the rating field.
 
 ![Free text ratings.](../images/rating_setup_text.png)
 
-**Free text ratings** allow your teams to provide subjective feedback on a response. Because free text ratings don't translate to a percentage, they won't be included in the response's [average rating](making_decisions_informed_by_data.html).
+**Free text ratings** allow your teams to provide subjective feedback on a response. Because free text ratings don't translate to a percentage, they won't be included in the response's [average rating](making_data_informed_decisions.html).
 
 ### Rating a specific form field
 

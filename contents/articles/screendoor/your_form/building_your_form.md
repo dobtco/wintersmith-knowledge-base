@@ -1,5 +1,5 @@
 ---
-title: Creating a form
+title: Building your form
 order: 1
 app_pages:
   - projectadmin-wizard-responseform
