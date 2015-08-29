@@ -2,8 +2,8 @@
 title: Managing questions
 order: 2
 app_pages:
+  - projectadmin-wizard-questionandanswer
   - projectadmin-questions-index
-  - frontend-projects-show
   - projectadmin-questions-show
 ---
 

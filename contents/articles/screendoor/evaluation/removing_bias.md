@@ -4,6 +4,8 @@ order: 5
 app_pages:
   - projectadmin-wizard-responses
   - projectadmin-wizard-responseform
+  - projectadmin-responses-index
+  - projectadmin-responses-show
 ---
 
 For applications, RFPs and other types of forms, you might want to ensure that you are judging candidates solely on their merits, rather than their demographics or financial background. With blind fields, Screendoor lets you anonymize anything in your form during the evaluation process, eliminating potential bias.

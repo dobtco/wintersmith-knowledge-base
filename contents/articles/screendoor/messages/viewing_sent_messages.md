@@ -6,7 +6,7 @@ app_pages:
   - projectadmin-messages-preview
   - projectadmin-messages-index
   - projectadmin-responses-index
-  - projectadmin-responses-view
+  - projectadmin-responses-show
 ---
 
 ### Viewing messages sent to a response

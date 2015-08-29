@@ -2,7 +2,7 @@
 title: Setting a deadline
 order: 4
 app_pages:
-  - projectadmin-wizard-responses
+  - projectadmin-wizard-details
 redirect_from: /articles/screendoor/response_form/response_preferences.html
 ---
 

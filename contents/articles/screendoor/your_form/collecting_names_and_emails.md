@@ -2,7 +2,8 @@
 title: Collecting names and email addresses
 order: 2
 app_pages:
-  - projectwizard-responses
+  - projectadmin-wizard-responses
+  - projectadmin-wizard-responseform
 redirect_from: /articles/screendoor/response_form/identification_fields.html
 ---
 

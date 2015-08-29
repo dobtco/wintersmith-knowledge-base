@@ -3,6 +3,7 @@ title: Collecting responses via email
 order: 9
 app_pages:
   - projectadmin-wizard-responses
+  - projectadmin-wizard-responseform
 redirect_from: /articles/screendoor/responses/receiving_responses_via_email.html
 ---
 

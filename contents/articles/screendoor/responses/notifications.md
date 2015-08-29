@@ -4,6 +4,7 @@ order: 11
 app_pages:
   - projectadmin-settings-settings
   - projectadmin-responses-show
+  - account-settings
 redirect_from: /articles/screendoor/projects/notifications.md
 ---
 

@@ -3,6 +3,7 @@ title: Collaborating with colleagues
 order: 1
 app_pages:
   - projectadmin-collaborators-index
+  - projectadmin-teams-index
 redirect_from: /articles/screendoor/projects/collaborators.html
 ---
 

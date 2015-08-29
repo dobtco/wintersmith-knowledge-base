@@ -3,7 +3,6 @@ title: Archiving a project
 order: 8
 app_pages:
   - projectadmin-settings-settings
-  - frontend-projects-show
 ---
 
 If you exceed the number of projects your plan allows, you can archive an inactive project to keep your data safe. Archived projects are read-only, so they don't count towards your plan's limits: you can't change an archived project's settings, add ratings and comments, or accept new submissions.

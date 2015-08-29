@@ -3,6 +3,7 @@ title: Setting permissions
 order: 2
 app_pages:
   - projectadmin-collaborators-index
+  - projectadmin-teams-index
 ---
 
 Permissions allow administrators to control which functionality collaborators can access in a Screendoor project.

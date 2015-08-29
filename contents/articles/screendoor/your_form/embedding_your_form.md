@@ -2,6 +2,7 @@
 title: Embedding your form
 order: 7
 app_pages:
+  - projectadmin-wizard-responseform
   - projectadmin-settings-embedcode
 include_formrenderer: true
 redirect_from: /articles/screendoor/response_form/embedding_a_response_form.html

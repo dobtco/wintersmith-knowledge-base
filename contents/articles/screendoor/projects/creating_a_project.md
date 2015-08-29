@@ -2,7 +2,6 @@
 title: Creating a project
 order: 1
 app_pages:
-  - frontend-sites-show
   - home-index
   - projects-new
 ---

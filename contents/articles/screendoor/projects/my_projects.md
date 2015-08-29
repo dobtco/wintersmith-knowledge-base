@@ -3,6 +3,7 @@ title: Viewing your projects
 order: 2
 app_pages:
   - account-projects
+  - home-index
 ---
 
 Screendoor displays your organization's most recently updated projects on the dashboard when you log in. To see all of your projects, select the "All your projects" link on the dashboard.

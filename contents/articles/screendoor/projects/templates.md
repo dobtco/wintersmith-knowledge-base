@@ -2,6 +2,7 @@
 title: Using templates
 order: 5
 app_pages:
+  - projects-new
   - projecttemplates-index
   - projectadmin-settings-settings
   - templatepreviews-show
