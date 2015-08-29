@@ -7,7 +7,7 @@ To configure your map, click its name from the "Maps" section of GovMapper.
 
 ![map](../images/map.png)
 
-## Configuring your response form
+### Configuring your response form
 
 To configure your response form (the form that users will fill out when adding a place), click the "Build your form" link from the "On Screendoor..." sidebar. This will take you to Screendoor's form builder, where you can [build your response form](/articles/screendoor/your_form/building_your_form.html) as you would for any Screendoor project.
 
@@ -15,7 +15,7 @@ To configure your response form (the form that users will fill out when adding a
 
 > **Note**: Data for any response field not marked as "admin only" will be displayed publicly on your map.
 
-## Editing your map's settings
+### Editing your map's settings
 
 ![map settings](../images/map_settings.png)
 
@@ -25,7 +25,7 @@ You can also choose whether your map is displayed by default, which means that n
 
 If "Show revision history on the public site" if checked, users to your site will be able to see the same response history that is available to admins on Screendoor.
 
-## Managing permissions
+### Managing permissions
 
 To manage permissions for your map, select a permission level next to the appropriate user group.
 
@@ -33,7 +33,7 @@ To manage permissions for your map, select a permission level next to the approp
 
 You can also set a permission level for individual users after you've added them.
 
-## Adding users
+### Adding users
 
 To add a user to your map, start typing their name or email address in the search box under "Add users."
 
@@ -47,7 +47,7 @@ You can also add users who are not yet registered with your organization. Just e
 
 ![add new user](../images/add_new_user.png)
 
-## Configuring map markers
+### Configuring map markers
 
 Choose whether to display a solid color (of your choice) or a custom image as the place marker for your map by selecting either "Solid color" or "Custom image" from the "Marker type" dropdown.
 

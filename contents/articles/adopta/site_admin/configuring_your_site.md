@@ -11,7 +11,7 @@ Click the "Edit site" link to configure how your Adopta site will appear to the 
 
 ![edit site link](../images/edit_site_link.png)
 
-## Basic info
+### Basic info
 
 From the "Basic info" tab, make sure to set a "Site name" and "Singular thing name" (e.g. "hydrant"). You can also set a "Help email" (which will be publicly visible on your site), some "Welcome info," and a "Topic message."
 
@@ -21,19 +21,19 @@ From the "Basic info" tab, make sure to set a "Site name" and "Singular thing na
 
 ![edit site](../images/basic_info.png)
 
-## Customization
+### Customization
 
 From the "Customization" tab, you can set a logo image that will be displayed on the upper right side of your map. You can also set a background color for the sidebar on your map.
 
 ![customization](../images/customization.png)
 
-## Map
+### Map
 
 From the "Map" tab, you can set a "thing" image (e.g. an image of a hydrant) that will appear on your map markers. You can also set a default starting point for your map.
 
 ![map](../images/map.png)
 
-## Advanced
+### Advanced
 
 Under the "Advanced" tab, you can set a "Report email." This will allow users to report problems with specific "things" (e.g. hydrants). These reports will be sent to this email address.
 
