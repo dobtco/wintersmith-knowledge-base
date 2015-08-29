@@ -15,22 +15,20 @@ Instead of manually releasing open data to your Socrata portal, Screendoor can s
 
 If you have a Socrata account, visit your project's Settings page, and select &ldquo;Socrata sync&rdquo; from the sidebar.
 
-Fill in the web address of your Socrata data portal and click "Connect your Socrata account." You'll be redirected to the Socrata sign-in page (unless you're already signed in). Sign in to Socrata and click the "Allow" button to finish connecting to Socrata and go back to Screendoor.
+![The Socrata sync page.](../images/socrata_1.png)
 
-## Choosing responses to sync
+Fill in the web address of your Socrata data portal and press the &ldquo;Connect to Socrata&rdquo; button.If you're already signed in, you will be asked whether you want to connect to Screendoor. Press the &ldquo;Allow&rdquo; button to complete the process.
 
-Click the "Choose responses" button to choose which responses you'd like to sync to Socrata. Then, enter a search query and/or add custom filters. For example, if you only want to sync responses with a specific status or label, click "Add filter" and select the appropriate options from the dropdowns. If you're not sure how to filter the responses you want, [read more about searching for responses here](/articles/screendoor/responses//searching_for_responses.html).
+![Socrata's authorization page.](../images/socrata_2.png)
 
-To sync all responses, just leave everything blank.
+### Choosing responses to sync
 
-![choose responses](../images/socrata_choose_responses.png)
+Once you have connected to Socrata, press the &ldquo;Add filters&rdquo; button. A modal will appear that allows you to filter the responses that will be sent to Socrata. For example, you can choose to only sync responses with a specific status or label. To sync all responses to your project, leave everything in the modal blank.
 
-Click "Filter responses" and you'll see how many responses match your filters.
+![The filtering modal.](../images/socrata_3.png)
 
-## Enabling Socrata sync
+Press the &ldquo;Filter responses&rdquo; button to save your filters. The page will update, telling you how many responses will be synced.
 
-If everything looks good, click "Start syncing" to enable Socrata sync
+![The sync page will inform you of the number of matching responses.](../images/socrata_4.png)
 
-![enable sync](../images/socrata_enable_sync.png)
-
-That's all there is to it: the responses you selected will be automatically synced to Socrata! If any new responses are submitted that match your filters, they'll be added to your Socrata dataset. If you edit or delete responses, they'll get modified or deleted in Socrata as well.
+To start syncing to Socrata, press the &ldquo;Start syncing&rdquo; button.
