@@ -24,5 +24,4 @@ Under the description in the left pane, select the &ldquo;Blind&rdquo; checkbox 
 
 ### Reviewing a project with blind fields
 
-[fill this in]
-
+Reviewers you invite to your project will see that the answers to blind fields have been redacted.
