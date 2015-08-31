@@ -4,7 +4,6 @@ order: 2
 app_pages:
   - projectadmin-responses-index
   - projectadmin-responses-show
-redirect_from: /articles/screendoor/responses/reviewing_and_rating_responses.html
 ---
 
 After you have [added rating fields to your project](setting_up_ratings.html), you and your [collaborators](/articles/screendoor/collaboration/collaborators.md) can start rating responses. To get started, visit your project's Responses page, and click on a response in the table to view it.

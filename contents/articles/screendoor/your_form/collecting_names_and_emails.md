@@ -4,7 +4,6 @@ order: 2
 app_pages:
   - projectadmin-wizard-responses
   - projectadmin-wizard-responseform
-redirect_from: /articles/screendoor/response_form/identification_fields.html
 ---
 
 By default, Screendoor forms automatically collect names and email adddresses from respondents, so you don't have to add those fields to the form yourself.

@@ -4,7 +4,6 @@ order: 4
 app_pages:
   - projectadmin-wizard-signaturefees
   - payments-index
-redirect_from: /articles/screendoor/response_form/payments.html
 ---
 
 Screendoor lets you charge submission fees for your projects by allowing you to easily receive credit card payments via [Stripe](https://stripe.com/). After you create a Stripe account, connect it to Screendoor, and set the fee amount for your project, respondents will be asked for payment before submitting their response.

@@ -1,7 +1,6 @@
 ---
 title: Signing in
 order: 1
-redirect_from: /articles/dashboard/accounts/signup_and_login.html
 ---
 
 If you already have a dobt.co account, you can sign in from the [sign in page](https://dashboard.dobt.co/sign_in). You'll need the email address you signed up with, as well as the password you created.

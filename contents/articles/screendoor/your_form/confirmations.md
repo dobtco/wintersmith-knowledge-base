@@ -3,7 +3,6 @@ title: Confirmations
 order: 6
 app_pages:
   - projectadmin-wizard-afterresponse
-redirect_from: /articles/screendoor/response_form/after_submission.html
 ---
 
 ### Customizing your confirmation page

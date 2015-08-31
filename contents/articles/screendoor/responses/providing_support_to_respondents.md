@@ -6,9 +6,6 @@ app_pages:
   - projectadmin-responses-show
   - projectadmin-unsubmittedresponses-index
   - projectadmin-pendingedits-index
-redirect_from:
-  - /articles/screendoor/responses/allowing_edits_to_responses.html
-  - /articles/screendoor/responses/viewing_unsubmitted_responses.html
 ---
 
 Screendoor provides you with a few tools to help out your respondents during the submission process. Learn more below.

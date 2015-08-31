@@ -4,7 +4,6 @@ order: 3
 app_pages:
   - projectadmin-collaborators-index
   - projectadmin-teams-index
-redirect_from: /articles/screendoor/projects/teams.html
 ---
 
 <div class='alert'>

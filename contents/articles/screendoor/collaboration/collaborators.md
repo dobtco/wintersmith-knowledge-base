@@ -4,7 +4,6 @@ order: 1
 app_pages:
   - projectadmin-collaborators-index
   - projectadmin-teams-index
-redirect_from: /articles/screendoor/projects/collaborators.html
 ---
 
 Screendoor really shines when you invite others to your projects. When everyone can see the newest submissions to your project, and the activity around them, your entire organization can stay in the loop, eliminating back-and-forth emails and generally making your team more efficient.

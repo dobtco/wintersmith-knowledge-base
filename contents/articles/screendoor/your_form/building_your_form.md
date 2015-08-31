@@ -3,7 +3,6 @@ title: Building your form
 order: 1
 app_pages:
   - projectadmin-wizard-responseform
-redirect_from: /articles/screendoor/response_form/building_your_form.md
 ---
 
 At the heart of every Screendoor project lies a form. Here's how to build your own.

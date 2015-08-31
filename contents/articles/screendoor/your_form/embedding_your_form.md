@@ -5,7 +5,6 @@ app_pages:
   - projectadmin-wizard-responseform
   - projectadmin-settings-embedcode
 include_formrenderer: true
-redirect_from: /articles/screendoor/response_form/embedding_a_response_form.html
 ---
 
 Screendoor comes with beautiful, customizable forms with your own custom color scheme, logo, and subdomain. But you might want your form to be more integrated with your existing website. Screendoor's embed code lets you place your form inside any webpage, and match that page's look and feel.

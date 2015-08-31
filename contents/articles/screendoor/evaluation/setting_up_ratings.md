@@ -6,9 +6,6 @@ app_pages:
   - projectadmin-wizard-advancedevaluation
   - projectadmin-responses-ratings
   - projectadmin-responses-show
-redirect_from:
-  - /articles/screendoor/evaluation/configuring_evaluation_fields.html
-  - /articles/screendoor/evaluation/advanced_evaluation_settings.html
 ---
 
 Screendoor really shines when it comes time to evaluate the responses you've received to your forms. Whether you're trying to review a job application, scrutinize an RFP, or approve an open data set, ratings (along with [statuses](/articles/screendoor/responses/using_statuses.html) and [labels](/articles/screendoor/responses/using_labels.html)) help you stay organized and surface the best submissions.

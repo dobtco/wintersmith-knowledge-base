@@ -4,7 +4,6 @@ order: 9
 app_pages:
   - projectadmin-wizard-responses
   - projectadmin-wizard-responseform
-redirect_from: /articles/screendoor/responses/receiving_responses_via_email.html
 ---
 
 For simple projects, you might want to let respondents submit to your project through email. Think of it like a shared inbox for your team, with Screendoor's great evaluation features built right in.

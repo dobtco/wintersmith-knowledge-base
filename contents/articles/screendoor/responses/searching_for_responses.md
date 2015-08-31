@@ -3,7 +3,6 @@ title: Searching for a response
 order: 2
 app_pages:
   - projectadmin-responses-index
-redirect_from: /articles/screendoor/responses/sorting_and_filtering_responses.html
 ---
 
 Screendoor offers powerful search tools to find the exact response you're looking for.

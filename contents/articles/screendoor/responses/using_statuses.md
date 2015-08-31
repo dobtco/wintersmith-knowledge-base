@@ -5,7 +5,6 @@ app_pages:
   - projectadmin-wizard-statuses
   - projectadmin-responses-index
   - projectadmin-responses-show
-redirect_from: /articles/screendoor/projects/using_statuses.html
 ---
 
 Statuses are a helpful way to organize responses and keep track of their current state. For example, a job application on Screendoor might have an &ldquo;Incoming&rdquo; status for newly received applications, an &ldquo;Interview&rdquo; status for those worth following up on, and a &ldquo;Rejected&rdquo; status for applications which didn't make the cut.

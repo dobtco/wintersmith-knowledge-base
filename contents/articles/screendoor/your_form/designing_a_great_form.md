@@ -4,7 +4,6 @@ order: 3
 include_formrenderer: true
 app_pages:
   - projectadmin-wizard-responseform
-redirect_from: /articles/screendoor/response_form/form_building_tips.html
 ---
 
 As you create your Screendoor form, it's worth taking some time to think about how to provide a smooth experience for respondents. When you ensure your forms are usable and easy to complete, it helps your respondents save time, and helps you collect the most accurate and relevant information.

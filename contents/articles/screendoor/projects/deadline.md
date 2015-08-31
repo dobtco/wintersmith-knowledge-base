@@ -3,7 +3,6 @@ title: Setting a deadline
 order: 4
 app_pages:
   - projectadmin-wizard-details
-redirect_from: /articles/screendoor/response_form/response_preferences.html
 ---
 
 To set a deadline for responses, press the &ldquo;Edit project&rdquo; button on the right side of the project header. In the Progress menu, select &ldquo;Responses&rdquo;.

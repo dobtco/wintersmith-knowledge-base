@@ -4,7 +4,6 @@ order: 5
 app_pages:
   - projectadmin-wizard-signaturefees
   - projectadmin-responses-show
-redirect_from: /articles/screendoor/response_form/signatures.html
 ---
 
 If you need your forms to be signed before they are submitted, Screendoor lets you add electronic signatures to any form.
