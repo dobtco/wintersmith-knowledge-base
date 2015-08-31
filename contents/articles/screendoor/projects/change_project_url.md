@@ -2,7 +2,6 @@
 title: Changing a project's URL
 order: 6
 app_pages:
-  - home-index
   - projectadmin-responses-index
   - projectadmin-settings-settings
 ---
