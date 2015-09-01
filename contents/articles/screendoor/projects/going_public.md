@@ -19,13 +19,13 @@ When you're finished setting up your project, it's time to show it to the world.
 
 ![Going public with your amazing Screendoor project.](../images/public1.png)
 
-Screendoor also lets you publish your project in a semi-private context. You can change your project's visibility on its Settings page, under &ldquo;Status&rdquo;.
+Screendoor also lets you publish your project in a semi-private context. You can change your project's visibility on its Settings page under &ldquo;Status&rdquo;.
 
 ![Changing a project's visibility status.](../images/public2.png)
 
 #### Project statuses
 
-- **Draft:** All projects are drafts by default when they are created. Only your [collaborators](/articles/screendoor/collaboration/collaborators.html) can see it.
-- **Internal:** If you only want a project to be visible inside your organization, you can make projects internal.
+- **Draft:** Only your [collaborators](/articles/screendoor/collaboration/collaborators.html) can see your project. (All projects are drafts by default when they are created.)
+- **Internal:** If you want a project to be visible only inside your organization, you can make projects internal.
 - **Unlisted:** Anyone with the link will be able to view your project.
 - **Public:** Your project will be publicly visible, and linked to from your organization's public page.

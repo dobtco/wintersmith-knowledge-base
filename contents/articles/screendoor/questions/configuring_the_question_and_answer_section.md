@@ -5,10 +5,10 @@ app_pages:
   - projectadmin-wizard-questionandanswer
 ---
 
-Setting up a public question and answer page for your project helps make communication more efficient for everyone involved. It's a great way to reduce support email by allowing respondents to see the questions other people have asked. Hosting a questions section on Screendoor also helps keep your team coordinated: all project admins can see a shared inbox of questions at the same time, so they never need to give two different answers to similar questions.
+Setting up a public question-and-answer page for your project makes communication more efficient for everyone involved. It's a great way to reduce support email by allowing respondents to see the questions other people have asked. Hosting a questions section on Screendoor also helps keep your team coordinated: all project admins can see a shared inbox of questions at the same time, so they never need to give two different answers to similar questions.
 
-To set up questions for your project, press &ldquo;Edit project&rdquo; in the header, and select &ldquo;Questions&rdquo; on the right-hand side. Check the box &ldquo;Allow respondents to submit questions about the project&rdquo;.
+To set up questions for your project, press &ldquo;Edit project&rdquo; in the header, and select &ldquo;Questions&rdquo; on the right-hand side. Check the box &ldquo;Allow respondents to submit questions about the project.&rdquo;
 
 ![Questions page in the project wizard.](../images/questions_1.png)
 
-When you enable questions for a project, Screendoor gives you an option to set a deadline for questions to be submitted. For some forms, it might be crucial to set a deadline for questions that occurs before submissions close (when creating an RFP, for example.) If this doesn't apply to you, you don't need to worry about this setting.
+When you enable questions for a project, Screendoor gives you an option to set a deadline for questions to be submitted. For some forms, it might be crucial to set a deadline for questions that occurs before submissions close (when creating an RFP, for example). If this doesn't apply to you, you don't need to worry about this setting.

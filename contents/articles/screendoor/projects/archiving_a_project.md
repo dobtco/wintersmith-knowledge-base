@@ -11,14 +11,14 @@ To archive a project, visit your project's Settings page, and select "Archive pr
 
 ![Archiving a project.](../images/archive_project_1.png)
 
-Archived projects have a tag next to their title, to remind you of its status. If you want to restore an archived project, just press the "Restore project" button on the alert at the top of the page.
+An archived project has a tag next to its title, to remind you of its status. If you want to restore an archived project, just press the "Restore project" button on the alert at the top of the page.
 
 ![Restoring an archived project.](../images/archive_project_2.png)
 
 ---
 
-### F.A.Q.
+## F.A.Q.
 
-#### Will my archived project's page still be publicly available?
+### Will my archived project's page still be publicly available?
 
 If someone still has the link to your project page, they will be able to view it, but they won't be able to submit to your form. Archived projects are not linked to from your organization's project listings.

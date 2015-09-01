@@ -17,7 +17,7 @@ If you have a Socrata account, visit your project's Settings page, and select &l
 
 ![The Socrata sync page.](../images/socrata_1.png)
 
-Fill in the web address of your Socrata data portal and press the &ldquo;Connect to Socrata&rdquo; button.If you're already signed in, you will be asked whether you want to connect to Screendoor. Press the &ldquo;Allow&rdquo; button to complete the process.
+Fill in the web address of your Socrata data portal and press the &ldquo;Connect to Socrata&rdquo; button. If you're already signed in, you will be asked whether you want to connect to Screendoor. Press the &ldquo;Allow&rdquo; button to complete the process.
 
 ![Socrata's authorization page.](../images/socrata_2.png)
 

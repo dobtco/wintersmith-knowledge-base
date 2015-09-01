@@ -24,7 +24,7 @@ If you don't like the settings a template comes with, you can always change them
 
 ### Example projects
 
-Example projects help you get a sense for how Screendoor projects work, by letting you see one in action. Choose "check out an example project" under the "Choose a template" label to view a list of examples you can create.
+Example projects can give you sense for how Screendoor projects work, by letting you see one in action. Choose "check out an example project" under the "Choose a template" label to view a list of examples you can create.
 
 Example projects are automatically deleted from your account after 30 days.
 

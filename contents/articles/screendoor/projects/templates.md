@@ -16,7 +16,7 @@ You must be an account administrator in order to create or manage templates.
 
 ### Creating a template
 
-To save an existing project as a template, visit the project's Settings page and select &ldquo;Save this project as a template&rdquo;.
+To save an existing project as a template, visit the project's Settings page and select &ldquo;Save this project as a template.&rdquo;
 
 ![Saving a project as a template.](../images/templates_1.png)
 
@@ -34,19 +34,19 @@ All Screendoor accounts come with a few pre-installed templates for job applicat
 
 ### Previewing a template
 
-If you want to see what a template looks like before using it, click on its name on the &ldquo;Project templates&rdquo;
+If you want to see what a template looks like before using it, click on its name on the &ldquo;Project templates&rdquo; page.
 
 ![Previewing a template.](../images/templates_3.png)
 
-Use the tabs at the top of the Preview page to view the template's project description, questions, form, and other settings. If you decide you want to use it, press &ldquo;Create a project with this template&rdquo;.
+Use the tabs at the top of the Preview page to view the template's project description, questions, form, and other settings. If you decide to use it, press &ldquo;Create a project with this template.&rdquo;
 
 ### Updating a template
 
-If you want to make changes to a template, simply create a new project with it, make some changes, and save it as a new template. You can always go back and delete the original template if you don't need it anymore.
+If you want to edit a template, simply create a new project with it, make some changes, and save it as a new template. You can always go back and delete the original template if you don't need it anymore.
 
 ### Importing templates
 
-Screendoor lets you import templates that other customers have exported. To import a template, visit the &ldquo;Your templates&rdquo; page, select &ldquo;Import a template&rdquo;, and choose the template you want to import.
+Screendoor lets you import templates that other customers have exported. To import a template, visit the &ldquo;Your templates&rdquo; page, select &ldquo;Import a template,&rdquo; and choose the template you want to import.
 
 ![Importing a template.](../images/templates_4.png)
 

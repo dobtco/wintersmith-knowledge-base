@@ -69,7 +69,7 @@ To start adding rules, select the field you wish to hide, and press the &ldquo;A
 
 ![Adding a rule to a field.](../images/formbuilder_9.png)
 
-Under &ldquo;Only show this field if&hellip;&rdquo;, select the appropriate options. In this example, we only want to show this question if they live in the right city.
+Under &ldquo;Only show this field if&hellip;&rdquo; select the appropriate options. In this example, we want to show this question only if they live in the right city.
 
 ![Setting conditions for a rule.](../images/formbuilder_10.png)
 

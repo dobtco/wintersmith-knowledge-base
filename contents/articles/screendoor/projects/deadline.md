@@ -5,11 +5,11 @@ app_pages:
   - projectadmin-wizard-details
 ---
 
-To set a deadline for responses, press the &ldquo;Edit project&rdquo; button on the right side of the project header. In the Progress menu, select &ldquo;Responses&rdquo;.
+To set a deadline for responses, press the &ldquo;Edit project&rdquo; button on the right side of the project header. In the Progress menu, select &ldquo;Responses.&rdquo;
 
 ### Adding a deadline to a project
 
-Under &ldquo;Responses due at&rdquo;, select a date and time to set a deadline for responses.
+Under &ldquo;Responses due at,&rdquo; select a date and time to set a deadline for responses.
 
 ![Setting a deadline.](../images/deadline1.png)
 
@@ -27,7 +27,7 @@ If you want to give some extra time for people who started a response before the
 
 ## F.A.Q.
 
-### What time zone will the deadline be set in?
+### In what time zone will the deadline be set?
 The deadline for responses will be set in your current local time zone, but the date and time will be automatically be presented to users based on their own local time zone.
 
-For example, if you set the due date to August 15 at 4:00pm and you are on Pacific Time, users on the East Coast will see the due date as August 15 at 7:00pm.
+For example, if you set the due date to August 15 at 4:00 p.m. and you are on Pacific Time, users on the East Coast will see the due date as August 15 at 7:00 p.m.

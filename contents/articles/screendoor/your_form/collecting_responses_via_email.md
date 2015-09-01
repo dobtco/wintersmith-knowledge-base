@@ -10,12 +10,12 @@ For simple projects, you might want to let respondents submit to your project th
 
 ### Getting started
 
-Select the &ldquo;Edit project&rdquo; link on the right side of the project header, and choose &ldquo;Responses&rdquo; from the Progress menu. Under &ldquo;Collect responses with&hellip;&rdquo;, you can choose &ldquo;both an online form and email&rdquo; to add email responses, or &ldquo;email&rdquo; to remove the form from your project altogether.
+Select the &ldquo;Edit project&rdquo; link on the right side of the project header, and choose &ldquo;Responses&rdquo; from the Progress menu. Under &ldquo;Collect responses with&hellip;&rdquo; you can choose &ldquo;both an online form and email&rdquo; to add email responses, or &ldquo;email&rdquo; to remove the form from your project altogether.
 
 ![Enabling email responses.](../images/email_responses_1.png)
 
 <div class='alert'>
-    **Note:** If you choose to only accept email responses, you will not be able to add a submission fee or e-signatures to your project.
+    **Note:** If you choose to accept only email responses, you will not be able to add a submission fee or e-signatures to your project.
 </div>
 
 ### Using a custom email address

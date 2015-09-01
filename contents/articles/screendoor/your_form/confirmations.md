@@ -7,7 +7,7 @@ app_pages:
 
 ### Customizing your confirmation page
 
-By default, Screendoor displays a nice confirmation page when their response has been successfully submitted:
+By default, Screendoor displays a nice confirmation page when a response has been successfully submitted:
 
 ![The default confirmation page.](../images/confirmations_1.png)
 

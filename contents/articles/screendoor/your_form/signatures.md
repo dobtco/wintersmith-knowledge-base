@@ -16,15 +16,13 @@ If you need your forms to be signed before they are submitted, Screendoor lets y
 
 Select the &ldquo;Edit project&rdquo; link on the right side of the project header, and choose &ldquo;Signature and fees&rdquo; from the Progress menu.  
 
-To add electronic signatures to your project, check the box &ldquo;Ask users to sign the form before submitting&rdquo;.
+To add electronic signatures to your project, check the box &ldquo;Ask users to sign the form before submitting.&rdquo;
 
 ![Signatures and fees page.](../images/signatures_1.png)
 
-When respondents fill out your form, they will now be asked to sign their response before submitting it.
+Now when respondents fill out your form, they will now be required to sign their response before submitting it.
 
 ![Asking a respondent to sign their submission.](../images/signatures_2.png)
-
-That's it! Respondents will now be required to sign their response before submitting it.
 
 ### Viewing a signature
 
@@ -52,4 +50,4 @@ To quickly view which responses in your project still need signature, press the 
 
 ![The Signed column on the Responses page.](../images/signatures_7.png)
 
-Click on the column's header to sort unsigned responses at the top of the table.
+Click on the column's header to sort unsigned responses to the top of the table.

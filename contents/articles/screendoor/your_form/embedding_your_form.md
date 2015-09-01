@@ -7,17 +7,17 @@ app_pages:
 include_formrenderer: true
 ---
 
-Screendoor comes with beautiful, customizable forms with your own custom color scheme, logo, and subdomain. But you might want your form to be more integrated with your existing website. Screendoor's embed code lets you place your form inside any webpage, and match that page's look and feel.
+Screendoor comes with beautiful, customizable forms with your own custom color scheme, logo, and subdomain. But you might want your form to be more integrated with your existing website. Screendoor's embed code lets you place your form inside any webpage and match that page's look and feel.
 
 ### Getting started
 
-From your project's Settings page, and select &ldquo;Embed code&rdquo; in the sidebar. Copy the embed code you seeinto your own website or CMS to embed your form.
+From your project's Settings page, and select &ldquo;Embed code&rdquo; in the sidebar. Copy the embed code into your own website or CMS to embed your form.
 
 ![The Embed code page.](../images/embed_1.png)
 
 ### Example
 
-Here is an example of a simple embedded form, from a live Screendoor project.
+Here is an example of a simple embedded form from a live Screendoor project.
 
 <form class="embed_example" data-formrenderer></form>
 

@@ -6,29 +6,29 @@ app_pages:
   - projectadmin-wizard-responseform
 ---
 
-As you create your Screendoor form, it's worth taking some time to think about how to provide a smooth experience for respondents. When you ensure your forms are usable and easy to complete, it helps your respondents save time, and helps you collect the most accurate and relevant information.
+As you create your Screendoor form, it's worth taking some time to think about how to provide a smooth experience for respondents. When you ensure your forms are usable and easy to complete, it saves your respondents time and helps you collect the most accurate and relevant information.
 
 Your form should try to be:
 
 - **User-friendly**. Your form should be as easy as possible for respondents to fill out. No surprises, no headaches.
 
-- **Clear**. Respondents should understand which information they are being asked to enter and why you need it.
+- **Clear**. Respondents should understand what information they are being asked to enter and why you need it.
 
 - **Concise**. A good form is focused and to the point, omitting unnecessary complexity.
 
 ### Ten ways to design a better form
 
-Here are some quick tips that can help you make your forms better.
+Here are some quick tips that can help you improve your forms:
 
 #### 1. Choose the appropriate field for your question.
 
 When you add a field to your form, think about the type of answer you want to receive. This will influence the type of field you choose.
 
-For example, if you want an answer of &ldquo;Yes&rdquo; or &ldquo;No&rdquo;, two checkboxes wouldn't make sense, because the user could select both options.
+For example, if you want an answer of &ldquo;Yes&rdquo; or &ldquo;No,&rdquo; two checkboxes wouldn't make sense, because the user could select both options.
 
 <div class='example_fr fr_no' id='example_fr_1'></div>
 
-Instead, Screendoor's &ldquo;multiple choice&rdquo; field, which only lets you select one option, would be a better fit.
+Instead, Screendoor's &ldquo;multiple choice&rdquo; field, which lets you select only one option, would be a better fit.
 
 <div class='example_fr fr_yes' id='example_fr_2'></div>
 
@@ -56,7 +56,7 @@ Redundant information makes the form longer and harder to read.
 
 <div class='example_fr fr_no' id='example_fr_7'></div>
 
-Instead, use section headers and descriptions to properly organize your instructions..
+Instead, use section headers and descriptions to properly organize your instructions.
 
 <div class='example_fr fr_yes' id='example_fr_8'></div>
 
@@ -68,11 +68,11 @@ If it's necessary to write descriptive text that is longer than a paragraph, pla
 
 #### 6. Always provide clear labels for inputs.
 
-Try not to assume that respondents will understand the information you need from them just from the answer options. That might not be the case.
+Try not to assume that respondents will understand the information you need from them based on the given answer options. That might not be the case.
 
 <div class='example_fr fr_no' id='example_fr_5'></div>
 
-You can maintain clear labels while keeping them concise, by having the label and answer form a complete sentence.
+You can maintain clear and concise labels by having the label and answer form a complete sentence.
 
 <div class='example_fr fr_yes' id='example_fr_6'></div>
 
@@ -82,7 +82,7 @@ Using the same label for multiple inputs makes it harder to distinguish the diff
 
 <div class='example_fr fr_no' id='example_fr_3'></div>
 
-Try to stay concise, while still giving your respondents the information they need to complete your form.
+Try to stay concise while still giving your respondents the information they need to complete your form.
 
 <div class='example_fr fr_yes' id='example_fr_4'></div>
 
@@ -94,7 +94,7 @@ Use section breaks to organize your form and provide clear hierarchy. Use large 
 
 #### 9. For long forms, use page breaks.
 
-When someone encounters a huge form, it can feel overwhelming, and deter them from even starting. Make your form more approachable by grouping related fields into sections, and devoting a single page to each section.
+When someone encounters a huge form, it can feel overwhelming and deter them from even starting. Make your form more approachable by grouping related fields into sections, and devoting a single page to each section.
 
 #### 10. Instead of asking your respondents to skip sections, use rules instead.
 
@@ -102,7 +102,7 @@ If you need your respondents to skip sections of your form depending on their pr
 
 ### Improving your copywriting skills
 
-Plain and clear language helps make your form more accessible to everyone. Learning effective copywriting takes practice, but it's an invaluable skill to learn, and your audience won't be able to thank you enough. Here are some resources we've found helpful.
+Plain and clear language helps make your form more accessible to everyone. Learning effective copywriting takes practice, but it's an invaluable skill to learn, and your audience won't be able to thank you enough. Here are some resources we've found helpful:
 
 - [GovLoop Academy Course on Plain Language](http://academy.govloop.com/courses/plain-language/)
 - [Clout: The Art and Science of Influential Web Content](http://www.amazon.com/Clout-Science-Influential-Content-Voices/dp/0321733010) by Colleen Jones
@@ -110,7 +110,7 @@ Plain and clear language helps make your form more accessible to everyone. Learn
 
 ### Receive a form design consultation
 
-If you want hands-on training for how to make your forms even better, the Screendoor team is available for consultation on an hourly basis. Send us an email at [support@dobt.co](mailto:support@dobt.co) to get in touch.
+If you want hands-on training on how to make your forms even better, the Screendoor team is available for consultation on an hourly basis. Send us an email at [support@dobt.co](mailto:support@dobt.co) to get in touch.
 
 <script>
   function ExampleFR(target, response_fields) {
