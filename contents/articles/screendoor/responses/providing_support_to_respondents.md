@@ -12,23 +12,23 @@ Screendoor provides you with a few tools to help out your respondents during the
 
 ### Allowing respondents to edit their submission
 
-If a respondent submitted a form that contains a mistake, or outdated information, you might receive a notification from Screendoor which says they have requested permission to edit their response. Click on the notification to view that response, and press the &ldquo;Allow edits&rdquo; button in the alert at the top of the page.
+If a respondent submits a form that contains a mistake or outdated information, you might receive a notification from Screendoor that says they have requested permission to edit their response. Click on the notification to view that response, and press the &ldquo;Allow edits&rdquo; button in the alert at the top of the page.
 
 ![Allowing edits to a response.](../images/edits_1.png)
 
-You can choose whether they should only be able to make changes once, or as many times as they'd like, up until the [deadline](/articles/screendoor/projects/deadline.html) (if you have set one).
+You can allow them to make changes only once or as many times as they'd like, up until the [deadline](/articles/screendoor/projects/deadline.html) (if you have set one).
 
 You can easily view everyone who has requested edit status on your project's Responses page. Press the [&ldquo;Edit columns&rdquo;](/articles/screendoor/responses/viewing_a_list_of_responses.html#configuring-the-responses-table) button just above the table and select &ldquo;Edit status&rdquo; from the dropdown.
 
 ![Viewing all responses that have been released for edits.](../images/edits_2.png)
 
-Sorting this column lets you easily see everyone who has requested permission to edit. To grant permission to all of them at once, select these responses using the checkboxes on the left side of the table. Press the &ldquo;More&rdquo; button above the table, and choose &ldquo;Allow edits&rdquo; from the dropdown.
+Sorting this column lets you see everyone who has requested permission to edit. To grant permission to all of them at once, select these responses using the checkboxes on the left side of the table. Press the &ldquo;More&rdquo; button above the table, and choose &ldquo;Allow edits&rdquo; from the dropdown.
 
 ![Releasing responses to edit in bulk.](../images/edits_3.png)
 
-If you want to revoke a respondent's permission to edit, simply select &ldquo;Allow edits&rdquo; from the dropdown and set it to &ldquo;No&rdquo;.
+If you want to revoke a respondent's permission to edit, select &ldquo;Allow edits&rdquo; from the dropdown and set it to &ldquo;No.&rdquo;
 
-Screendoor will automatically notify respondents via email that their response is ready to edit. But if the email gets lost in their inbox, you can always send them the link to edit again, if necessary. On any response's page, click the &ldquo;Show edit URL&rdquo; link in the lower right corner.
+Respondents will be notified automatically via email that their response is ready to edit. But if the email gets lost in their inbox, you can always send them the link to edit again, if necessary. On any response's page, click the &ldquo;Show edit URL&rdquo; link in the lower right corner.
 
 ![Displaying the edit URL for a response.](../images/edits_4.png)
 
@@ -48,13 +48,13 @@ Press the &ldquo;View pending edits&rdquo; button to review the changes the resp
 
 ![Overview of edits made to a response.](../images/edits_7.png)
 
-The fields that respondents have edited are highlighted in blue. Press the Commit button to approve the changes and create a new revision of the response, or the Reject button to discard their changes.
+Highlighted in blue are the fields that respondents have edited. Press the Commit button to approve the changes and create a new revision of the response, or press the Reject button to discard their changes.
 
 ### Automatically approving edits
 
-If you don't want to have to go through a manual approval process every time a respondent wants to edit their submission, Screendoor lets you automatically approve any changes the respondent makes.
+If you don't want to go through a manual approval process every time a respondent wants to edit their submission, Screendoor lets you automatically approve any change a respondent makes.
 
-Go to your project's Settings page. Under &ldquo;General settings&rdquo;, you can automatically grant respondents the permission to edit, as well as automatically approve a respondent's changes.
+Go to your project's Settings page. Under &ldquo;General settings,&rdquo; you can automatically grant respondents the permission to edit, as well as automatically approve a respondent's changes.
 
 ![Automatically approving edits made by respondents.](../images/edits_8.png)
 
@@ -64,7 +64,7 @@ If your respondents are having problems filling out your form, Screendoor gives 
 
 ![The unsubmitted responses link.](../images/unsubmitted_1.png)
 
-To preserve the privacy of your respondents, you can't view the contents of their draft on this page. But Screendoor gives you enough information for you to figure out what's stopping them from completing your form. Press the &ldquo;View details&rdquo; button next to any submitted response to take a look.
+To preserve the privacy of your respondents, you can't view the contents of their draft on this page. But Screendoor gives you enough information to figure out what's stopping them from completing your form. Press the &ldquo;View details&rdquo; button next to any submitted response to take a look.
 
 ![The View Details button on the unsubmitted responses page.](../images/unsubmitted_2.png)
 

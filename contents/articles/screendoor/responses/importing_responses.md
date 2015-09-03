@@ -7,7 +7,7 @@ app_pages:
   - projectadmin-responseimports-edit
 ---
 
-If you are switching to Screendoor from a third-party service, or need to migrate your data to another Screendoor account, importing responses into your project allows you to keep all of your data in the same place.
+If you are switching to Screendoor from a third-party service or you need to migrate your data to another Screendoor account, you can import responses into your project to keep all of your data in the same place.
 
 ### Getting Started
 
@@ -25,13 +25,13 @@ Once you have your CSV, go to your project's Responses page and click &ldquo;Imp
 
 ![Link to the Import responses page.](../images/import_1.png)
 
-Under &ldquo;File&rdquo;, select the CSV you would like to import, and press &ldquo;Preview your import&rdquo;. If you want to distinguish imported responses from those collected through Screendoor, specify a label on this screen as well. If the label does not yet exist, we'll create it for you.
+Under &ldquo;File,&rdquo; select the CSV you would like to import, and press &ldquo;Preview your import.&rdquo; If you want to distinguish imported responses from those collected through Screendoor, specify a label on this screen as well. If the label does not yet exist, we'll create it for you.
 
 ![The Import responses page.](../images/import_2.png)
 
 ### Previewing your imported CSV
 
-Once your file has been uploaded, you will be taken to the Preview page. Screendoor makes an educated guess about which columns in your CSV correspond to your existing form fields, and attempt to match them up. The Preview page gives you the chance to confirm or fix those guesses.
+Once your file has been uploaded, you will be taken to the Preview page. Screendoor makes an educated guess about which columns in your CSV correspond to your existing form fields and attempts to match them up. The Preview page gives you the chance to confirm or fix those guesses.
 
 ![Previewing your import.](../images/import_3.png)
 
@@ -39,29 +39,29 @@ Columns can be categorized as either <span class='label label_info'>Existing</sp
 
 ![Existing columns and Screendoor fields.](../images/import_existing.png)
 
-<span class='label label_info'>Existing</span> columns match a field that is already in your form, and will be imported as an answer to that field. <span class='label'>Screendoor fields</span> match a special, Screendoor-specific piece of information: for example, if your CSV has a column named &ldquo;Status&rdquo;, the contents of that field will be added as the response's status in Screendoor.
+An <span class='label label_info'>Existing</span> column matches a field that is already in your form and will be imported as an answer to that field. <span class='label'>Screendoor fields</span> match a special, Screendoor-specific piece of information: for example, if your CSV has a column named &ldquo;Status,&rdquo; the contents of that field will be added as the response's status in Screendoor.
 
 ![Importing new fields.](../images/import_new.png)
 
-<span class='label label_success'>New</span> columns don't match any fields in your form, and will be added as a new field at the bottom of your form. In this example, a text field with the label &ldquo;Are you eligible to work in the United States?&rdquo; will be added to the bottom of the form.
+A <span class='label label_success'>New</span> column doesn't match any of the existing fields in your form and will be added as a new field at the bottom of your form. In this example, a text field with the label &ldquo;Previous Work&rdquo; will be added to your form.
 
 ![Skipping imported fields.](../images/import_skipped.png)
 
-<span class="label label_error">Skipped</span> fields will not be imported into your project. Screendoor usually decides to skip fields automatically only if the column is blank.
+A <span class="label label_error">Skipped</span> field will not be imported into your project. Screendoor usually decides to skip fields automatically only if the column is blank.
 
-If you're importing data from another Screendoor project, columns might also be skipped because they contain a Screendoor-specific field that shouldn't be imported (like &ldquo;Response ID&rdquo; or &ldquo;Response Number&rdquo;.)
+If you're importing data from another Screendoor project, columns might also be skipped because they contain a Screendoor-specific field that shouldn't be imported (like &ldquo;Response ID&rdquo; or &ldquo;Response Number&rdquo;).
 
 ### Editing your imported columns
 
 You can manually edit any column on the preview page to link to a form field of your choice.
 
-To remove any column from your final import, click the Skip link in the upper right corner of the column.
+To remove any column from your final import, click the Skip link in the upper-right corner of the column.
 
 ![Skipping imported fields.](../images/import_preview_1.png)
 
 To make any other changes, click the Edit link.
 
-When editing an <span class='label label_info'>Existing</span> column, you can choose an existing form field with the Field dropdown to map that column to, or click the &ldquo;Add as New Field&rdquo; link to convert it to a <span class='label label_success'>New</span> field.
+When editing an <span class='label label_info'>Existing</span> column, you can choose to map it to an existing form field with the Field dropdown, or click the &ldquo;Add as New Field&rdquo; link to convert it to a <span class='label label_success'>New</span> field.
 
 ![Editing an existing form field.](../images/import_preview_2.png)
 
@@ -73,6 +73,6 @@ Finally, you can click the Restore link on any skipped column to include it in t
 
 ![Restoring a skipped form field.](../images/import_preview_4.png)
 
-Once everything looks good, press the &ldquo;Finish import&rdquo; button at the bottom of the page. If your import is successful, you will be redirected to the Responses page, and should see a success notification.
+Once everything looks good, press the &ldquo;Finish import&rdquo; button at the bottom of the page. If your import is successful, you will be redirected to the Responses page, where you will see a success notification.
 
-We import your responses in the background, and so it might take a few minutes for you to see them. Don't worry: they should show up in your Responses page within a few minutes.
+We import your responses in the background, so it might take a few minutes for you to see them. Don't worry: they should show up in your Responses page within a few minutes.

@@ -8,9 +8,9 @@ app_pages:
 
 ### Exporting responses
 
-When you sign up for a Screendoor account, you can have peace of mind in knowing that you own your data. We let you export all of your Screendoor data at any time, in open formats.
+From the moment you sign up for a Screendoor account, you own your data. We let you export all of your Screendoor data at any time, in open formats.
 
-To export responses, visit your project's Responses page, and using the checkboxes on the left side of the table, select the responses you wish to export. Press the &ldquo;More&rdquo; button above the table, and choose &ldquo;Export responses&rdquo; from the dropdown.
+To export responses, visit your project's Responses page and, using the checkboxes on the left side of the table, select the responses you wish to export. Press the &ldquo;More&rdquo; button above the table, and choose &ldquo;Export responses&rdquo; from the dropdown.
 
 ![The Export Responses option on the responses page.](../images/export_1.png)
 
@@ -34,7 +34,7 @@ You can export all of your responses in a single click. On your project's Respon
 
 ### Can I export all the data from my project?
 
-You can export all data for your project, including forms, ratings and project settings, as JSON files. To do so, visit your project's Settings page and click the &ldquo;Export project link as JSON&rdquo; link in the lower left-hand corner.
+You can export all data for your project, including forms, ratings and project settings, as JSON files. To do so, visit your project's Settings page and click the &ldquo;Export project as JSON&rdquo; link in the lower left-hand corner.
 
 ![Exporting your entire project.](../images/export_4.png)
 

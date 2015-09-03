@@ -6,7 +6,7 @@ app_pages:
   - projectadmin-responses-show
 ---
 
-Labels are another great way to organize responses. You might feel more comfortable thinking about them as &ldquo;tags&rdquo;. Responses can have multiple labels, and labels can be shared across responses.
+Labels are a great way to organize responses. You might feel more comfortable thinking about them as &ldquo;tags.&rdquo; Responses can have multiple labels, and labels can be shared across responses.
 
 ### Adding and editing labels
 

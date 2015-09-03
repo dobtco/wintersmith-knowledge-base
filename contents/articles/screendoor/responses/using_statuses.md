@@ -7,9 +7,9 @@ app_pages:
   - projectadmin-responses-show
 ---
 
-Statuses are a helpful way to organize responses and keep track of their current state. For example, a job application on Screendoor might have an &ldquo;Incoming&rdquo; status for newly received applications, an &ldquo;Interview&rdquo; status for those worth following up on, and a &ldquo;Rejected&rdquo; status for applications which didn't make the cut.
+Statuses are a helpful way to organize responses and keep track of their current state. For example, a job application on Screendoor might have an &ldquo;Incoming&rdquo; status for newly received applications, an &ldquo;Interview&rdquo; status for those worth following up on, and a &ldquo;Rejected&rdquo; status for applications that didn't make the cut.
 
-Most projects come with built-in statuses to give you a head start, but they are completely customizable for your specific needs.
+Most projects come with built-in statuses to give you a head start, but they can be customized for your specific needs.
 
 ### Adding and editing statuses
 
@@ -23,7 +23,7 @@ This takes you to a page where you can manage your project's statuses. You can a
 
 Click the &ldquo;Add Status&rdquo; link below the list of statuses to create a new one.
 
-Drag the icon on the left side of a status to reorder the list. The first status in the list will be treated as the default, and will be automatically applied to new responses.
+Drag the icon on the left side of a status to reorder the list. The first status in the list will be treated as the default. It will be automatically applied to new responses.
 
 Press the Delete button to the right of a status to remove it. Any responses which had that status will be reassigned to the first status in the list.
 
@@ -37,7 +37,7 @@ To speed up this process a bit, you can use the search bar at the top of the dro
 
 ![Searching for a status.](../images/search_status.gif)
 
-You can also change a response's status while you are reading it. First, click on a response in the table to view it. Then, in the sidebar, under &ldquo;Status&rdquo;, select a new status from the dropdown.
+You can also change a response's status while you are reading it. First, click on a response in the table to view it. Then, in the sidebar, under &ldquo;Status,&rdquo; select a new status from the dropdown.
 
 ![Changing the status of one response.](../images/status_4.png)
 
@@ -49,4 +49,4 @@ You can also change a response's status while you are reading it. First, click o
 All projects need to have at least one status that serves as the default. Feel free to rename your default status to whatever you would like.
 
 ### What's the difference between statuses and labels?
-Responses can have multiple labels, but they can only have one status. For example, a response's _status_ could be either &ldquo;Open&rdquo; or &ldquo;Closed&rdquo;, but it could be _labeled_ as both &ldquo;Interesting&rdquo; and &ldquo;Practical&rdquo;.
+Responses can have multiple labels, but they can only have one status. For example, a response's _status_ could be either &ldquo;Open&rdquo; or &ldquo;Closed,&rdquo; but it could be _labeled_ as both &ldquo;Interesting&rdquo; and &ldquo;Practical.&rdquo;
