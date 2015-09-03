@@ -3,15 +3,15 @@ title: Viewing and messaging adopters
 order: 3
 ---
 
-View all the adopters (people who have adopted things) for your site by clicking on the "Adopters" navigation link.
+View all the adopters (i.e., people who have adopted things) on your site by clicking on the &ldquo;Adopters&rdquo; link in the menu bar.
 
 ![adopters link](../images/adopters_link.png)
 
-You should see a list of all the adopters for your site (if there are any).
+You should see a list of all the adopters on your site.
 
 ![adopters](../images/adopters.png)
 
-To send a remainder message to all your adopters, click the "Send reminders" button. You can modify the default message, or write your own from scratch.
+To send a reminder message to all your adopters, click the &ldquo;Send reminders&rdquo; button. You can modify the default message or write your own from scratch.
 
 ![reminders](../images/reminders.png)
 
@@ -19,4 +19,4 @@ To send a remainder message to all your adopters, click the "Send reminders" but
     **Note**: You can use `:name` for the adopter's name and `:list_addresses` for a list of the names and addresses of their adopted things.
 </div>
 
-Click "Send!" and confirm to send your message to all your adopters.
+Click &ldquo;Send!&rdquo; and confirm to send your message.
