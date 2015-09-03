@@ -28,15 +28,15 @@ If you want to delete or rename a team you have created, click the &ldquo;Edit t
 
 ### Moving collaborators between teams
 
-To move a collaborator to a different team, visit the Collaborators page, select the collaborator, and press the &ldquo;Team&rdquo; button, just like you would when adding a team. In the dropdown, choose the team you would like to reassign them to.
+To move a collaborator to a different team, visit the Collaborators page, select the collaborator, and press the &ldquo;Team&rdquo; button, just as you would when adding a team. In the dropdown, choose the team you would like to reassign them to.
 
 ### Assigning work to teams
 
-Screendoor lets you assign responses to teams you have created. Let's say you have 60 colleagues collaborating on a civic hackathon: 20 engineers who serve as technical experts, 20 project administrators, and 20 additional support staff. When it's time for an entry to undergo a technical review, you can assign the entire team to that entry, instead of manually assigning all 20 tech experts.
+You can assign responses to teams you have created. Let's say you have 60 colleagues collaborating on a civic hackathon: 20 engineers who serve as technical experts, 20 project administrators, and 20 additional support staff. When it's time for an entry to undergo a technical review, you can assign the entire team of technical experts to that entry, instead of manually assigning all 20 engineers.
 
 ![Assigning work to another team.](../images/teams_3.png)
 
-If you place someone in a team accidentally, and then assign responses to that team, it's still an easy mistake to fix. When you change the team someone is a part of, the responses they're assigned change as well.
+If you place someone in a team accidentally and then assign responses to that team, it's still an easy mistake to fix. When you change the team someone is a part of, the responses they're assigned to change as well.
 
 You can also [add rating fields](/articles/screendoor/evaluation/setting_up_ratings.html) that can only be seen by a single team. When adding a rating, click the &ldquo;Show to&hellip;&rdquo; link, and select a team under the dropdown that appears.
 

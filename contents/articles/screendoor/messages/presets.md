@@ -7,7 +7,7 @@ app_pages:
   - projectadmin-messages-index
 ---
 
-If you send the same types of messages repeatedly for a project, message presets let you create canned messages to reuse later.
+If you send the same types of messages repeatedly for a project, you can create canned messages or &ldquo;message presets&rdquo; to reuse later.
 
 ### Creating a message preset
 

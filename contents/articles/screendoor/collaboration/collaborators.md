@@ -18,11 +18,11 @@ Press the &ldquo;Invite others&rdquo; button on the Collaborators page, and star
 
 ![Modal dialog for inviting a collaborator.](../images/collabs_2.png)
 
-By default, Screendoor assumes you're inviting someone who already has an account with your organization. If we find them, we'll show their name and avatar for you to add easily. Just select the [permissions](permissions.html) you want them to have, and press the &ldquo;Add&rdquo; button.
+By default, Screendoor assumes you're inviting someone who already has an account with your organization. If we find them, we'll show you their name and avatar. Just select the [permissions](permissions.html) you want them to have, and press the &ldquo;Add&rdquo; button.
 
 ![Adding a collaborator inside your organization.](../images/collabs_3.png)
 
-If the person doesn't have an account with your organization, you will be asked to add their full name and email to invite them to Screendoor. You can also add them to your organization, which allows them to create and view other projects on your account.
+If the person doesn't have an account with your organization, you will be asked to enter their full name and email address to invite them to Screendoor. You can also add them to your organization, which allows them to create and view other projects on your account.
 
 ![Inviting a new collaborator to Screendoor.](../images/collabs_4.png)
 

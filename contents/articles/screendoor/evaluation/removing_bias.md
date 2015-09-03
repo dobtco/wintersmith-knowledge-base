@@ -8,11 +8,11 @@ app_pages:
   - projectadmin-responses-show
 ---
 
-For applications, RFPs and other types of forms, you might want to ensure that you are judging candidates solely on their merits, rather than their demographics or financial background. With blind fields, Screendoor lets you anonymize anything in your form during the evaluation process, eliminating potential bias.
+For applications, RFPs, and other types of forms, you might want to ensure that you are judging candidates solely on their merits, rather than on their demographics or financial background. With blind fields, you can anonymize anything in your form during the evaluation process, eliminating potential bias.
 
 ### Anonymizing names and email addresses
 
-Click the &ldquo;Edit project&rdquo; link on the right side of the project header, and choose &ldquo;Responses&rdquo; from the Progress menu. Under &ldquo;Data collection&rdquo;, check the box &ldquo;Treat respondent names as blind fields&rdquo;.
+Click the &ldquo;Edit project&rdquo; link on the right side of the project header, and choose &ldquo;Responses&rdquo; from the Progress menu. Under &ldquo;Data collection,&rdquo; check the box &ldquo;Treat respondent names as blind fields.&rdquo;
 
 ![Turning names and emails into blind fields.](../images/bias_1.png)
 

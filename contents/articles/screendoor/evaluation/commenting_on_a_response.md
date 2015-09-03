@@ -6,7 +6,7 @@ app_pages:
   - projectadmin-responses-show
 ---
 
-If you want to ask your colleagues' feedback on a response, or give your own feedback that doesn't quite fit inside of a rating, comments are a great way to do that.
+Comments are a great way to ask your colleagues for their feedback on a response or give your own feedback that doesn't quite fit inside of a rating.
 
 ![Comments on a response.](../images/comments_1.png)
 
@@ -14,7 +14,7 @@ To comment on a response, visit your project's Responses page, and click on a re
 
 ![Adding a comment.](../images/comments_2.png)
 
-You can also mention your fellow [collaborators](/articles/screendoor/collaboration/collaborators.html) in a comment. Type the `@` symbol, and then start typing their name. Select the appropriate collaborator from the dropdown. Unless that person has chosen to ignore the response you're commenting on, they will be notified of your comment.
+You can also mention your fellow [collaborators](/articles/screendoor/collaboration/collaborators.html) in a comment. Type the `@` symbol, and then start typing their name. Select the appropriate collaborator from the dropdown. Unless that person has chosen to [ignore the response you're commenting on](/articles/screendoor/responses/notifications.html#ignoring-a-response), they will be notified of your comment.
 
 ![Mentioning other collaborators in comments.](../images/comments_3.png)
 

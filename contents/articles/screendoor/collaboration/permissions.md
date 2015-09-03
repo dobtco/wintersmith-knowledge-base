@@ -10,7 +10,7 @@ Permissions allow administrators to control which functionality collaborators ca
 
 ### Permission levels in Screendoor
 
-- **Owner**: The creator of a project is labeled as the project owner, which has the same privileges as an administrator. The permissions of the project owner cannot be changed or removed.
+- **Owner**: The creator of a project is labeled as the project owner, who has the same privileges as an administrator. The permissions of the project owner cannot be changed or removed.
 
 - **Administrator**: Administrators have all permissions, including the ability to invite new collaborators.
 
@@ -18,7 +18,7 @@ Permissions allow administrators to control which functionality collaborators ca
 
 - **Can review, label, assign all responses**: Users can view, comment on, and rate responses. They can also change the status, add labels, and assign users to a response.
 
-- **Can view responses**: Users can view responses, but can't rate or manage them, or edit the project.
+- **Can view responses**: Users can view responses, but they can neither rate nor manage them. They also cannot edit the project.
 
 ### Assigning permissions to collaborators
 

@@ -10,7 +10,7 @@ After you have [added rating fields to your project](setting_up_ratings.html), y
 
 ![A response in Screendoor with ratings.](../images/rating_1.png)
 
-If you haven't yet rated a response, you can press the &ldquo;Start rating&rdquo; button in the page's header to take you to the first blank rating.
+If you have yet to rate the response, you can press the &ldquo;Start rating&rdquo; button in the page's header to take you to the first blank rating.
 
 ![The Start Rating button.](../images/rating_2.png)
 

@@ -23,7 +23,7 @@ To answer, edit, or delete a question, select it from the table on the Questions
 
 ![Answering a question.](../images/questions_3.png)
 
-After you answer a question, you can always return to this page to edit your answer later, or remove your answer entirely.
+After you answer a question, you can always return to this page to edit your answer or remove your answer entirely.
 
 ---
 

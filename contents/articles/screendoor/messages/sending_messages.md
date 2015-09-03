@@ -10,7 +10,7 @@ app_pages:
 
 ### Sending messages in bulk
 
-Screendoor lets you send bulk messages to your respondents. You can use messages to follow up on promising responses for more information, send rejection letters in bulk, and so much more.
+Screendoor lets you send bulk messages to your respondents. You can use messages to follow up on promising responses for more information, send rejection letters in bulk, and more.
 
 To start, visit the Responses page for your project and check the responses you would like to send messages to. Press the &ldquo;More&rdquo; button and select &ldquo;Send message&rdquo; from the dropdown.
 
@@ -22,13 +22,13 @@ Enter a reply-to address, a subject line, and your message in the modal that app
 
 Message variables allow you to customize each message for the person you're sending it to, providing specific and valuable information.
 
-As an example, let's insert the respondent's name into the subject line for a customized greeting, and inform them of the current status of their response in the message body.
+As an example, let's insert the respondent's name into the subject line for a customized greeting and inform them of the current status of their response in the message body.
 
 Press the blue brackets link on the right side of the subject line input to insert a variable. We'll select &ldquo;Respondent name&rdquo; from the dropdown.
 
 ![Inserting a name variable into the subject line.](../images/messages_2.png)
 
-Then, we'll write our message as we normally would. When it's time to insert the status, we'll select the same brackets icon at the top of the text editor, and select &ldquo;Response status&rdquo;.
+Then, we'll write our message as we normally would. When it's time to insert the status, we'll select the same brackets icon at the top of the text editor, and select &ldquo;Response status.&rdquo;
 
 ![Inserting a status variable into the message body.](../images/messages_3.png)
 
