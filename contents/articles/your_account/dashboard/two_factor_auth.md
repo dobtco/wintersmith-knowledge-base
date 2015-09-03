@@ -9,7 +9,7 @@ Make your account more secure by requiring an extra step for authentication. If 
 
 To enable two-factor authentication on your DOBT account, visit the ["Your profile" page](https://dashboard.dobt.co/account/). Under "Two-factor authentication," click the "Enable" link.
 
-![enable 2fa](../images/enable_2fa.png)
+![Enabling 2-factor authentication.](../images/enable_2fa.png)
 
 #### Using the Google Authenticator app
 
@@ -29,7 +29,7 @@ The easiest way to use two-factor authentication without a smartphone is with th
 
 Next, set up a master password for Authy under the "Account" tab.
 
-Now that your Authy account is set up, click "Add Authenticator Account" and enter the code displayed on the ["Enable two-factor authentication" page](https://dashboard.dobt.co/account/two_factor/). (It will be something like `xrijdtj44fdc26tdopxpg6yt`.) Click "Add Account," select a logo, and enter "DOBT" for the account name. You should now see a "DOBT" account under "External Accounts" in Authy.
+Now that your Authy account is set up, click "Add Authenticator Account" and enter the code displayed on the ["Enable two-factor authentication" page](https://dashboard.dobt.co/account/two_factor/). (It will be something like `xrijdtj44fdc52tdopxpg6yt`.) Click "Add Account," select a logo, and enter "DOBT" for the account name. You should now see a "DOBT" account under "External Accounts" in Authy.
 
 To finish setting up two-factor authentication for your DOBT account, close the main Authy window. You should then see a smaller Authy window. Click "DOBT" and then "Copy" to copy your validation code. Enter that code on the ["Enable two-factor authentication" page](https://dashboard.dobt.co/account/two_factor/) and click "Verify device." You should now see the "You've enabled two-factor authentication!" page. Make sure you write down your backup codes so you can access your account if you lose your phone.
 
@@ -41,15 +41,18 @@ If you don't have access to your cell phone, **you won't be able to sign in to y
 
 To sign in to your DOBT account with two-factor authentication enabled, enter your email and password as you normally would.
 
-- *If you're using the Google Authenticator app*:  
+#### If you're using the Google Authenticator app&hellip;
+
 Open Google Authenticator on your smartphone and note the DOBT verification code.
 
-- *If you're using the Authy smartphone app*:  
-Open Authy on your smartphone, press "DOBT," and note your verification code.
+#### If you're using the Authy smartphone app&hellip; 
 
-- *If you're using the Authy Chrome app*:  
-Open Authy, enter your master password, click "DOBT," and copy your verification code.
+Open Authy on your smartphone, press &ldquo;DOBT,&rdquo; and note your verification code.
 
-Enter your verification code and click "Sign in."
+#### If you're using the Authy Chrome app&hellip;
 
-![login with 2fa](../images/2fa_login_verify.png)
+Open Authy, enter your master password, press &ldquo;DOBT,&rdquo; and copy your verification code.
+
+Enter your verification code and click &ldquo;Sign in.&rdquo;
+
+![Logging in with 2-factor authentication enabled.](../images/2fa_login_verify.png)

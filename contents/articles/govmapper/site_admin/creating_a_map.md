@@ -3,7 +3,7 @@ title: Creating a map
 order: 1
 ---
 
-To get started with GovMapper, [launch the app](/articles/your_account/applications/managing_applications.html#launching-an-application) from your DOBT Dashboard. Then, click &ldquo;Admin&rdquo; in the user menu to configure GovMapper.
+To get started with GovMapper, [launch the app](/articles/your_account/dashboard/managing_applications.html#launching-an-application) from your DOBT Dashboard. Then, click &ldquo;Admin&rdquo; in the user menu to configure GovMapper.
 
 ![admin](../images/admin.png)
 

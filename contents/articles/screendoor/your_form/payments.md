@@ -11,7 +11,7 @@ Screendoor lets you charge submission fees for your projects by allowing you to 
 ![Screendoor asking for payment when requesting a submission fee.](../images/payments_1.png)
 
 <div class='alert'>
-    **Note:** You must be an administrator, or have the appropriate [permissions](/articles/your_account/accounts/managing_users.html#managing-user-permissions), to manage payments for your organization.
+    **Note:** You must be an administrator, or have the appropriate [permissions](/articles/your_account/dashboard/managing_users.html#managing-user-permissions), to manage payments for your organization.
 </div>
 
 ### Getting started

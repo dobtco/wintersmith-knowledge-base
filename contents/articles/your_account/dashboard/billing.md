@@ -1,5 +1,5 @@
 ---
-title: Viewing your billing details
+title: Editing your payment details
 order: 4
 ---
 

@@ -13,7 +13,7 @@ For example, the DOBT team onboards new employees with a Screendoor form. Once t
 
 ### Connecting Screendoor to Zapier
 
-Before you get started, make sure you have [permission](/articles/your_account/accounts/managing_users.html#managing-user-permissions) to manage Screendoor's API keys. Click on your avatar in the navigation bar, and select &ldquo;Settings&rdquo; from the dropdown.
+Before you get started, make sure you have [permission](/articles/your_account/dashboard/managing_users.html#managing-user-permissions) to manage Screendoor's API keys. Click on your avatar in the navigation bar, and select &ldquo;Settings&rdquo; from the dropdown.
 
 If you can see &ldquo;API keys&rdquo; as an option in the sidebar, your first step is to create an API key with which Zapier can connect to Screendoor. Create an API key with a name of &ldquo;Zapier,&rdquo; and copy it.
 
