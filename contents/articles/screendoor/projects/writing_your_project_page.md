@@ -11,17 +11,17 @@ Screendoor's project pages tell your audience why they should fill out your form
 
 ### Making a first impression with project summaries
 
-When someone tries to find your Screendoor project in a Web search, or someone links to it on social media, they will see your project's summary alongside its name and your logo.
+When someone tries to find your Screendoor project in a web search, or someone links to it on social media, they will see your project's summary alongside its name and your logo.
 
 ![Adding a project summary.](../images/project_page_1.png)
 
-After creating a project, you can add a summary to your project, right below the Description field. Try to describe your project in a sentence. Try to make it compelling to your audience, so that they're compelled to click through and view your project.
+After creating a project, you can add a summary to your project, right below the Description field. Try to describe your project in a sentence. The ideal summary compels your audience to click through and view your project.
 
 You can always edit your summary later. Just click the &ldquo;Edit project&rdquo; link on the right side of the project header.
 
 ### Adding a description
 
-Every Screendoor project comes with a gorgeous Forms.fm landing page, [with your own logo and color scheme](/articles/screendoor/projects/branding_your_forms.html). When someone visits your project, the description is the first thing they'll see. 
+Every Screendoor project comes with a gorgeous Forms.fm landing page, [with your own logo and color scheme](/articles/screendoor/projects/branding_your_forms.html). When someone visits your project, the description is the first thing they'll see.
 
 ![An example of a project description.](../images/project_page_2.png)
 
@@ -31,7 +31,7 @@ The description is a chance for you to go into detail about your project, convin
 
 ### Uploading attachments
 
-If your respondents need additional documentation to complete your form, beyond a text description, you can upload files as attachments to your form. At the bottom of the &ldquo;About this project&rdquo; page, upload a file within the &ldquo;Attachments&rdquo; section. To upload more than one attachment, click the &ldquo;Add an attachment&rdquo; link.
+If your respondents need additional documentation to complete your form, you can upload files as attachments to your form. At the bottom of the &ldquo;About this project&rdquo; page, upload a file within the &ldquo;Attachments&rdquo; section. To upload more than one attachment, click the &ldquo;Add an attachment&rdquo; link.
 
 ### Highlighting important information
 
@@ -41,4 +41,4 @@ To get started, click the &ldquo;Details&rdquo; link in the righthand menu, and 
 
 ![Adding details.](../images/project_page_3.png)
 
-From this page, you can add, reorder and remove items from the sidebar. Details are a good place to add information like salary
+From this page, you can add, reorder, and remove items from the sidebar.
