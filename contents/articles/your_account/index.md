@@ -2,7 +2,7 @@
 title: Your Account
 ---
 
-Use the account dashboard to manage [DOBT applications](dashboard/managing_applications.html), manage [users](dashboard/managing_users.html), change your [organization settings](dashboard/organization_settings.html), and more.
+Use the Dashboard to manage [DOBT applications](dashboard/managing_applications.html), administer [users](dashboard/managing_users.html), change your [organization settings](dashboard/organization_settings.html), and more.
 
 [Manage your DOBT account.](https://dashboard.dobt.co/)
 
