@@ -5,18 +5,17 @@
     "section_sort_order": {
       "screendoor": [
         "projects",
-        "response_form",
+        "your_form",
         "responses",
-        "messages",
-        "question_and_answer",
         "evaluation",
+        "messages",
+        "questions",
+        "collaboration",
         "plans_and_billing",
         "integrations"
       ],
-      "dashboard": [
-        "accounts",
-        "applications",
-        "access"
+      "your_account": [
+        "dashboard"
       ],
       "adopta": [
         "site_admin"
@@ -34,7 +33,8 @@
     "./plugins/sass.coffee",
     "wintersmith-coffee",
     "./plugins/nap.coffee",
-    "./plugins/markdown-helper.coffee"
+    "./plugins/markdown-helper.coffee",
+    "./plugins/redirects.coffee"
   ],
   "ignore": [
     "styles/includes/*",
@@ -61,5 +61,39 @@
         ]
       }
     }
+  },
+  "redirects" : {
+    "articles/screendoor/projects/collaborators.html": "articles/screendoor/collaboration/collaborators.html",
+    "articles/screendoor/projects/teams.html": "articles/screendoor/collaboration/teams.html",
+    "articles/screendoor/question_and_answer/managing_questions.html":
+    "articles/screendoor/questions/managing_questions.html",
+    "articles/screendoor/responses/reviewing_and_rating_responses.html": "articles/screendoor/evaluation/rating_a_response.html",
+    "articles/screendoor/evaluation/configuring_evaluation_fields.html": "articles/screendoor/evaluation/setting_up_ratings.html",
+    "articles/screendoor/evaluation/advanced_evaluation_settings.html": "articles/screendoor/evaluation/setting_up_ratings.html",
+    "articles/screendoor/response_form/response_preferences.html": "articles/screendoor/projects/deadline.html",
+    "articles/screendoor/projects/notifications.html": "articles/screendoor/responses/notifications.html",
+    "articles/screendoor/responses/allowing_edits_to_responses.html": "articles/screendoor/responses/providing_support_to_respondents.html",
+    "articles/screendoor/responses/viewing_unsubmitted_responses.html": "articles/screendoor/responses/providing_support_to_respondents.html",
+    "articles/screendoor/responses/sorting_and_filtering_responses.html": "articles/screendoor/responses/searching_for_responses.html",
+    "articles/screendoor/projects/using_labels.html": "articles/screendoor/responses/using_labels.html",
+    "articles/screendoor/projects/using_statuses.html": "articles/screendoor/responses/using_statuses.html",
+    "articles/screendoor/response_form/building_your_form.html": "articles/screendoor/your_form/building_your_form.html",
+    "articles/screendoor/response_form/identification_fields.html": "articles/screendoor/your_form/collecting_names_and_emails.html",
+    "articles/screendoor/responses/receiving_responses_via_email.html": "articles/screendoor/your_form/collecting_responses_via_email.html",
+    "articles/screendoor/response_form/after_submission.html": "articles/screendoor/your_form/confirmations.html",
+    "articles/screendoor/response_form/form_building_tips.html": "articles/screendoor/your_form/designing_a_great_form.html",
+    "articles/screendoor/response_form/embedding_a_response_form.html": "articles/screendoor/your_form/embedding_your_form.html",
+    "articles/screendoor/response_form/payments.html": "articles/screendoor/your_form/payments.html",
+    "articles/screendoor/response_form/signatures.html": "articles/screendoor/your_form/signatures.html",
+    "articles/screendoor/response_form/embedding_the_response_form.html":
+    "articles/screendoor/your_form/embedding_your_form.html",
+    "articles/dashboard/index.html": "articles/your_account/index.html",
+    "articles/dashboard/access/supported_browsers.html": "articles/your_account/dashboard/supported_browsers.html",
+    "articles/dashboard/accounts/billing.html": "articles/your_account/dashboard/billing.html",
+    "articles/dashboard/accounts/managing_users.html": "articles/your_account/dashboard/managing_users.html",
+    "articles/dashboard/accounts/organization_settings.html": "articles/your_account/dashboard/organization_settings.html",
+    "articles/dashboard/accounts/signup_and_login.html": "articles/your_account/dashboard/signup_and_login.html",
+    "articles/dashboard/accounts/two_factor_auth.html": "articles/your_account/dashboard/two_factor_auth.html",
+    "articles/dashboard/applications/managing_applications.html": "articles/your_account/dashboard/managing_applications.html"
   }
 }

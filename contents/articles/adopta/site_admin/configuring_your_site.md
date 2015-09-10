@@ -3,36 +3,38 @@ title: Configuring your site
 order: 1
 ---
 
-To get started with Adopta, [launch the app](/articles/dashboard/applications/managing_applications.html#launching-an-app) from your DOBT Dashboard. Then, click "Site admin" button to set up and configure your Adopta site.
+To get started with Adopta, [launch the app](/articles/your_account/dashboard/managing_applications.html#launching-an-application) from your DOBT Dashboard. Then, click the &ldquo;Site admin&rdquo; button to configure your Adopta site.
 
 ![site admin](../images/site_admin.png)
 
-Click the "Edit site" link to configure how your Adopta site will appear to the public.
+Click the &ldquo;Edit site&rdquo; link to set up how your Adopta site will appear to the public.
 
 ![edit site link](../images/edit_site_link.png)
 
-## Basic info
+### Basic info
 
-From the "Basic info" tab, make sure to set a "Site name" and "Singular thing name" (e.g. "hydrant"). You can also set a "Help email" (which will be publicly visible on your site), some "Welcome info," and a "Topic message."
+From the &ldquo;Basic info&rdquo; tab, make sure to set a &ldquo;Site name&rdquo; and &ldquo;Singular thing name&rdquo; (e.g., &lquo;hydrant&rdquo;). You can also set a &ldquo;Help email&rdquo; (which will be publicly visible on your site), some &ldquo;Welcome info,&rdquo; and a &ldquo;Topic message.&rdquo;
 
-> **Note**: Make sure to click the "Update Site" button after making changes to your site.
+<div class='alert'>
+    **Note:** Make sure to click the &ldquo;Update Site&rdquo; button after making changes to your site.
+</div>
 
 ![edit site](../images/basic_info.png)
 
-## Customization
+### Customization
 
-From the "Customization" tab, you can set a logo image that will be displayed on the upper right side of your map. You can also set a background color for the sidebar on your map.
+From the &ldquo;Customization&rdquo; tab, you can set a logo image that will be displayed on the upper right side of your map. You can also set a background color for the sidebar on your map.
 
 ![customization](../images/customization.png)
 
-## Map
+### Map
 
-From the "Map" tab, you can set a "thing" image (e.g. an image of a hydrant) that will appear on your map markers. You can also set a default starting point for your map.
+From the &ldquo;Map&rdquo; tab, you can set a &ldquo;thing&rdquo; image (e.g., an image of a hydrant) that will appear on your map markers. You can also set a default starting point for your map.
 
 ![map](../images/map.png)
 
-## Advanced
+### Advanced
 
-Under the "Advanced" tab, you can set a "Report email." This will allow users to report problems with specific "things" (e.g. hydrants). These reports will be sent to this email address.
+Under the &ldquo;Advanced&rdquo; tab, you can set a &ldquo;Report email.&rdquo; This will allow users to report problems with specific &ldquo;things&rdquo; (e.g., hydrants). These reports will be sent to this email address.
 
 ![advanced](../images/advanced.png)

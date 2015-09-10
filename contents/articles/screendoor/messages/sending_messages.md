@@ -1,5 +1,5 @@
 ---
-title: Sending messages
+title: Composing messages
 order: 1
 app_pages:
   - projectadmin-messages-edit
@@ -8,30 +8,30 @@ app_pages:
   - projectadmin-responses-index
 ---
 
-## Sending messages to all your respondents
+### Sending messages in bulk
 
-If you'd like to send a message to all your respondents, check the topmost checkbox in the "Responses" table. If you have more than one full page of responses, click the "Select all results" link to select all of your responses.
+Screendoor lets you send bulk messages to your respondents. You can use messages to follow up on promising responses for more information, send rejection letters in bulk, and more.
 
-![select all responses](../images/select_all_responses.png)
+To start, visit the Responses page for your project and check the responses you would like to send messages to. Press the &ldquo;More&rdquo; button and select &ldquo;Send message&rdquo; from the dropdown.
 
-Select "Write message" from the "More" dropdown.
+![Sending a message.](../images/messages_1.png)
 
-![write message](../images/write_message.png)
+Enter a reply-to address, a subject line, and your message in the modal that appears.
 
-Enter a reply-to email, a subject, and write your message!
+### Using variables
 
-> **Note**: You can also insert a variety of useful respondent-specific variables (for example, the respondent's name) by clicking the curly braces icon and selecting the variable you would like to insert.
+Message variables allow you to customize each message for the person you're sending it to, providing specific and valuable information.
 
-Then, click "Preview" to make sure everything looks good. Click "Send messages" to send your message to all your respondents.
+As an example, let's insert the respondent's name into the subject line for a customized greeting and inform them of the current status of their response in the message body.
 
-## Sending messages to specific respondents
+Press the blue brackets link on the right side of the subject line input to insert a variable. We'll select &ldquo;Respondent name&rdquo; from the dropdown.
 
-If you'd prefer to send a message only to specific respondents, just check the box next to those respondents from the "Responses" table and select "Write message" from the "More" dropdown.
+![Inserting a name variable into the subject line.](../images/messages_2.png)
 
-## Reviewing sent messages
+Then, we'll write our message as we normally would. When it's time to insert the status, we'll select the same brackets icon at the top of the text editor, and select &ldquo;Response status.&rdquo;
 
-You can review all the messages you've sent by clicking the "Messages" link for your project. Click the "View sent message" button to review a previously sent message. Note that this is a new feature, and that there may not be records for older messages.
+![Inserting a status variable into the message body.](../images/messages_3.png)
 
-## Message presets
+Once your message is finished, you can preview how each message will look before you send it, giving you a chance to confirm that the variables are formatted correctly.
 
-To use message presets, which allow you to quickly send canned replies to your respondents, check out the [Message presets](presets.html) article.
+![Previewing messages with variables.](../images/messages_4.png)
