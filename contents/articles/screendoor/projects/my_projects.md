@@ -1,18 +1,23 @@
 ---
-title: Your projects
+title: Viewing your projects
 order: 2
 app_pages:
   - account-projects
+  - home-index
 ---
 
-## View all your projects
+Screendoor displays your organization's most recently updated projects on the dashboard when you log in. To see all of your projects, select the &ldquo;View all projects&rdquo; link on the dashboard.
 
-To view all of your projects, click the "All your projects" link from the dashboard. From the "Your projects" page, you'll see a table listing all of your projects along with their current status.
+![Dashboard 'View all projects' link.](../images/view_projects_1.png)
 
-![all my projects](../images/all_my_projects.png)
+You can also access this page at any time from the navigation bar. Choose the Projects icon in the righthand corner, and select &ldquo;All projects.&rdquo;
 
-## Filtering projects
+![All projects option in the navigation bar](../images/view_projects_2.png)
 
-You can search your projects by typing a query into the search box above the "Your projects" table, on the right-hand side. Hit "Search" to search.
+The easiest way to search for a specific project is to press the Search icon in the navigation bar and start typing that project's name.
 
-![my projects](../images/my_projects.png)
+![Using sitewide search to find a project.](../images/view_projects_3.png)
+
+If the sitewide search returns too many results, you can narrow your search to only projects. Select the &ldquo;View all projects&rdquo; link from the dashboard, and use the search bar in the upper right corner of the page.
+
+![Using the search bar on the Your projects page to find a project.](../images/view_projects_4.png)

@@ -41,6 +41,10 @@ You'll need [node and npm](http://nodejs.org) installed.
 2. Run the preview server: `wintersmith preview`
 3. If you need to run the express-based search indexer: `npm start` or `nodemon search/index.coffee` (the latter will monitor for file changes and reload the server automatically)
 
+## Testing
+
+Run `grunt link-checker:dev` to check the knowledge base for broken links.
+
 ## Deployment
 
 Pushing to the master branch will run the tests *and* deploy if passing. Changes should always be made in a feature branch and reviewed prior to being merged into master.

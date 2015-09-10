@@ -22,7 +22,7 @@ module.exports = (env, callback) ->
           heading[0].slice(0,1) != '#'
 
       [section1, section2] = @markdown.split("---")
-      @metadata.onThisPage = parseOut(section1 || '', 2) || []
+      @metadata.onThisPage = parseOut(section1 || '', 3) || []
       @metadata.FAQs = parseOut(section2 || '', 3) || []
 
     getTemplate: ->

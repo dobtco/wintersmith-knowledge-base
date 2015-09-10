@@ -25,7 +25,7 @@ mixin toc()
       - continue
     - section = contents.articles[cur_app][section_name]
     .toc_section(class!=attributes.class)
-      if section.filename == route.slice(0,-1).join('/') || route[route.length-1] == "index.html"
+      if section.filename == route[route.length - 2] || route[route.length-1] == "index.html"
         - button_class = "fa-chevron-down"
         - display = "block"
         - activeClass = "active"
