@@ -65,6 +65,8 @@
   "redirects" : {
     "articles/screendoor/projects/collaborators.html": "articles/screendoor/collaboration/collaborators.html",
     "articles/screendoor/projects/teams.html": "articles/screendoor/collaboration/teams.html",
+    "articles/screendoor/question_and_answer/managing_questions.html":
+    "articles/screendoor/questions/managing_questions.html",
     "articles/screendoor/responses/reviewing_and_rating_responses.html": "articles/screendoor/evaluation/rating_a_response.html",
     "articles/screendoor/evaluation/configuring_evaluation_fields.html": "articles/screendoor/evaluation/setting_up_ratings.html",
     "articles/screendoor/evaluation/advanced_evaluation_settings.html": "articles/screendoor/evaluation/setting_up_ratings.html",
@@ -83,6 +85,8 @@
     "articles/screendoor/response_form/embedding_a_response_form.html": "articles/screendoor/your_form/embedding_your_form.html",
     "articles/screendoor/response_form/payments.html": "articles/screendoor/your_form/payments.html",
     "articles/screendoor/response_form/signatures.html": "articles/screendoor/your_form/signatures.html",
+    "articles/screendoor/response_form/embedding_the_response_form.html":
+    "articles/screendoor/your_form/embedding_your_form.html",
     "articles/dashboard/index.html": "articles/your_account/index.html",
     "articles/dashboard/access/supported_browsers.html": "articles/your_account/dashboard/supported_browsers.html",
     "articles/dashboard/accounts/billing.html": "articles/your_account/dashboard/billing.html",
