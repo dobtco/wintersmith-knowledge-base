@@ -15,13 +15,12 @@ To change an application's URL, press the &ldquo;Edit&rdquo; button next to its 
 
 ### Adding or changing a plan
 
-On the [&ldquo;Your organization&rdquo; page](https://dashboard.dobt.co/organization/), click the "Edit" button next to an application's name. Under &ldquo;Plan,&rdquo; select a plan from the dropdown and click the &ldquo;Save changes&rdquo; button. (If you don't have a credit card on file with us, you will see an &ldquo;Enter payment information&rdquo; button instead.)
+On the [&ldquo;Your organization&rdquo; page](https://dashboard.dobt.co/organization/), click the &ldquo;Edit&rdquo; button next to an application's name. Under &ldquo;Plan,&rdquo; select a plan from the dropdown and click the &ldquo;Save changes&rdquo; button. (If you don't have a credit card on file with us, you will see an &ldquo;Enter payment information&rdquo; button instead.)
 
 See the [Billing](billing.html) article for more information. If you're on a custom plan and would like to change it, please contact us at [hello@dobt.co](mailto:hello@dobt.co).
 
 ### Removing an application
 
-From the "Your organization" page, click the "Edit" button next to the application's name. Click the "Uninstall app" link to remove the application.
+From the &ldquo;Your organization&rdquo; page, click the &ldquo;Edit&rdquo; button next to the application's name. Click the &ldquo;Uninstall app&rdquo; link to remove the application.
 
 ![app settings](../images/app_settings.png)
-

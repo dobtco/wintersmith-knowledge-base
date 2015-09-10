@@ -6,7 +6,7 @@ app_pages:
   - projectadmin-settings-settings
 ---
 
-To change your project's web address, go to your project's settings, and press the "Change?" link under its URL.
+To change your project's web address, go to your project's settings, and press the &ldquo;Change?&rdquo; link under its URL.
 
 ![URL setting for projects.](../images/change_url.png)
 

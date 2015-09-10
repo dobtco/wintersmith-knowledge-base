@@ -30,7 +30,7 @@ After you answer a question, you can always return to this page to edit your ans
 ## F.A.Q.
 
 ### Can I answer a question privately?
-Yes. Just uncheck the "Display this question publicly?" box when you answer the question.
+Yes. Just uncheck the &ldquo;Display this question publicly?&rdquo; box when you answer the question.
 
 ### Can I add a question to my own project?
 Yes. Click the &ldquo;View project&rdquo; button, and press the &ldquo;Ask a question&rdquo; link in the project page header.

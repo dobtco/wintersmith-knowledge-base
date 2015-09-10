@@ -36,7 +36,7 @@ Under the fee amount, Screendoor shows you the percentage you will receive after
 
 ### Switching Stripe accounts
 
-To use a different Stripe account, click the &ldquo;Change profile&rdquo; link from the "Signature and fees" page.
+To use a different Stripe account, click the &ldquo;Change profile&rdquo; link from the &ldquo;Signature and fees&ldquo; page.
 
 ![Changing your Stripe payment profile.](../images/payments_4.png)
 
@@ -64,4 +64,3 @@ Yes, you can waive payment for a specific response from the [unsubmitted respons
 
 ### Are there processing fees?
 Yes: 5% + 30&cent; per transaction. Stripe [charges](https://stripe.com/us/pricing) 2.9% plus 30&cent;, and Screendoor charges an additional 2.1%.
-
