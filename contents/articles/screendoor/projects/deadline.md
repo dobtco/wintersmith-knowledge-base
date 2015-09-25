@@ -5,7 +5,7 @@ app_pages:
   - projectadmin-wizard-details
 ---
 
-To set a deadline for responses, press the &ldquo;Edit project&rdquo; button on the right side of the project header. In the Progress menu, select &ldquo;Responses.&rdquo;
+To set a deadline for responses, press the &ldquo;Edit project&rdquo; button on the right side of the project header. In the Progress menu, select &ldquo;Details.&rdquo;
 
 ### Adding a deadline to a project
 
