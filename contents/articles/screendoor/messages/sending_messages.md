@@ -16,7 +16,7 @@ To start, visit the Responses page for your project and check the responses you 
 
 ![Sending a message.](../images/messages_1.png)
 
-Enter a reply-to address, a subject line, and your message in the modal that appears.
+Enter a reply-to address, a subject line, and your message on the page that appears.
 
 ### Using variables
 
