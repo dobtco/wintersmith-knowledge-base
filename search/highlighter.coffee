@@ -16,6 +16,7 @@ module.exports = (results, query) ->
       excerpt = body.match(/([^\.]+\.){0,3}/)[0] + '..'
 
     if query
-      excerpt = excerpt.replace(new RegExp(query, 'ig'), "<span class='highlight'>#{query}</span>")
+      excerpt = excerpt.replace new RegExp(query, 'ig'), (match) ->
+        "<span class='highlight'>#{match}</span>"
 
     _.extend(result, excerpt: excerpt)
