@@ -37,7 +37,7 @@ $ ->
 
 
   # Responsive embedded videos
-  $('.embedded_video_wrapper').fitVids()
+  $('.article_body').fitVids()
 
   $('#choose-app').on 'change', ->
     window.location.href = '/' + $(@).val()
