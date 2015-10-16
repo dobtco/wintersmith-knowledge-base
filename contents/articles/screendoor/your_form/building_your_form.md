@@ -63,13 +63,13 @@ Selecting &ldquo;Hide this field&rdquo; will make the field invisible to the pub
 
 Rules allow you to add powerful logic to your form, by conditionally showing and hiding fields depending on the respondent's previous answers.
 
-For example, if some questions in your form should be skipped unless the respondent lives in a certain city, you could hide those fields until the respondent indicates their location. Let's walk through that example below.
+For example, if some questions in your form should be skipped unless the implementation cost is over $1 million, you could hide those fields until the respondent indicates their implementation cost. Let's walk through that example below.
 
 To start adding rules, select the field you wish to hide, and press the &ldquo;Add a rule&rdquo; button in the left pane.
 
 ![Adding a rule to a field.](../images/formbuilder_9.png)
 
-Under &ldquo;Only show this field if&hellip;&rdquo; select the appropriate options. In this example, we want to show this question only if they live in the right city.
+Under &ldquo;Only show this field if&hellip;&rdquo; select the appropriate options. In this example, we want to show this question only if the cost is more than $1 million.
 
 ![Setting conditions for a rule.](../images/formbuilder_10.png)
 
