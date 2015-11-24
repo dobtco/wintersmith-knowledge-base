@@ -19,6 +19,10 @@ body {
   background: $lightestGray;
 }
 
+.fluid-width-video-wrapper {
+  margin-bottom: $lineHeight;
+}
+
 .container {
   width: 90%;
   max-width: $maxWidth;
