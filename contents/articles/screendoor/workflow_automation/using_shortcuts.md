@@ -7,8 +7,6 @@ app_pages:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E_uZAPVMsx4" frameborder="0" allowfullscreen></iframe>
 
-
-
 Shortcuts are a foolproof way to automate the existing workflow behind your form. By performing routine, mundane tasks for you, shortcuts can help your team focus on what matters—evaluating responses, following up with respondents, and making smarter decisions, backed by data.
 
 ### Creating a shortcut
