@@ -39,7 +39,7 @@ If you want to remove a saved search from your list, press the Delete icon on th
 
 ### Filtering by statuses and labels
 
-The sidebar of your project's Responses page provides a few handy shortcuts to narrow your search results to a single [status](/articles/screendoor/responses/using_statuses.html) or [label](/articles/screendoor/responses/using_labels.html).
+The sidebar of your project's Responses page provides a quick way to narrow your search results to a single [status](/articles/screendoor/responses/using_statuses.html) or [label](/articles/screendoor/responses/using_labels.html).
 
 ![Status and label sidebars on the Responses page.](../images/search_responses_6.png)
 
@@ -47,4 +47,4 @@ To filter responses by a status or label, click on its name in the sidebar.
 
 ![The Responses page, filtered by a label.](../images/search_responses_7.png)
 
-To clear the filter, click on it again. 
+To clear the filter, click on it again.
