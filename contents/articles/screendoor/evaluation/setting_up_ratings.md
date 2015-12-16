@@ -18,7 +18,7 @@ Rating criteria, at their core, represent a set of values for your project: they
 
 ### Adding a rating field
 
-Once you have a set of rating criteria, it's time to add them as rating fields into Screendoor. Select the &ldquo;Edit project&rdquo; link on the right side of the project header, and choose &ldquo;Rating fields&rdquo; from the Progress menu. Press the &ldquo;Add rating field&rdquo; button to get started.
+Once you have a set of rating criteria, it's time to add them as rating fields into Screendoor. Select the &ldquo;Edit&rdquo; link on the right side of the project header, and choose &ldquo;Rating fields&rdquo; from the Progress menu. Press the &ldquo;Add rating field&rdquo; button to get started.
 
 ![Adding your first rating field.](../images/rating_setup_1.png)
 
@@ -86,7 +86,7 @@ Under the &ldquo;Rating field settings&rdquo; section on the &ldquo;Rating field
 
 ![Adding a start date and deadline to ratings.](../images/rating_setup_8.png)
 
-If the rating period has yet to start, reviewers will be unable to add ratings. Similarly, if the deadline for rating has passed, reviewers will be able to see their previous ratings, they won't have the ability to edit them or add new ones.
+If the rating period has yet to start, reviewers will be unable to add ratings. Similarly, if the deadline for rating has passed, reviewers will be able to see their previous ratings, but they won't have the ability to edit them or add new ones.
 
 ![Viewing ratings that are closed for editing.](../images/rating_setup_9.png)
 
@@ -94,7 +94,7 @@ If the rating period has yet to start, reviewers will be unable to add ratings. 
 
 Screendoor lets you add descriptions to your numeric ratings, so you can explain what each number in the scale represents.
 
-If you have a numeric rating in your project, press the &ldquo;Add a custom scale &rdquo; button under the &ldquo;Rating fields settings &rdquo; section of the &ldquo;Rating fields&rdquo; page. Under &ldquo;Custom rating scale,&rdquo; add descriptions next to each number.
+If you have a numeric rating in your project, press the &ldquo;Add a custom scale&rdquo; button under the &ldquo;Rating fields settings&rdquo; section of the &ldquo;Rating fields&rdquo; page. Under &ldquo;Custom rating scale,&rdquo; add descriptions next to each number.
 
 ![Adding a numeric scale to each rating.](../images/rating_setup_10.png)
 
