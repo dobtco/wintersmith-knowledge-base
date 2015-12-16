@@ -32,7 +32,7 @@ Then, we'll write our message as we normally would. When it's time to insert the
 
 ![Inserting a status variable into the message body.](../images/messages_3.png)
 
-Once your message is finished, you can preview how each message will look before you send it, giving you a chance to confirm that the variables are formatted correctly.
+Once your message is finished, you can preview it before you send it, giving you a chance to confirm that the variables are formatted correctly.
 
 ![Previewing messages with variables.](../images/messages_4.png)
 
