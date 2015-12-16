@@ -18,7 +18,7 @@ Rating criteria, at their core, represent a set of values for your project: they
 
 ### Adding a rating field
 
-Once you have a set of rating criteria, it's time to add them as rating fields into Screendoor. Select the &ldquo;Edit project&rdquo; link on the right side of the project header, and choose &ldquo;Evaluation&rdquo; from the Progress menu. Press the &ldquo;Add rating field&rdquo; button to get started.
+Once you have a set of rating criteria, it's time to add them as rating fields into Screendoor. Select the &ldquo;Edit&rdquo; link on the right side of the project header, and choose &ldquo;Rating fields&rdquo; from the Progress menu. Press the &ldquo;Add rating field&rdquo; button to get started.
 
 ![Adding your first rating field.](../images/rating_setup_1.png)
 
@@ -64,7 +64,7 @@ Ratings tied to a form field will appear directly under that field.
 
 All rating criteria are treated as equals in Screendoor when you create them. But if your team prioritizes some criteria over others, Screendoor's rating weights let you assign relative importance to each rating field.
 
-To turn on weighted ratings, make sure you have added at least two rating fields to your project. Then, click on the checkbox under the &ldquo;Rating field settings&rdquo; section of the &ldquo;Rating fields&rdquo; page, and press the Continue button in the lower right corner.
+To turn on weighted ratings, make sure you have added at least two non-&ldquo;free text&ldquo; rating fields to your project. Then, press the &ldquo;Add weighed ratings&rdquo; button under the &ldquo;Rating field settings&rdquo; section of the &ldquo;Rating fields&rdquo; page.
 
 ![Turning on weighted ratings.](../images/rating_setup_5.png)
 
@@ -82,11 +82,11 @@ When you're done, you must press the &ldquo;Save weights&rdquo; button to save y
 
 If you want your reviewers to submit their ratings within a certain period of time, you can add a start date and deadline for your reviewers to submit ratings.
 
-On the Evaluation page, check the &ldquo;Use advanced evaluation settings&rdquo; box at the bottom, and press the Continue button in the lower right corner. Use the date and time pickers under the &ldquo;Rating deadlines&rdquo; section to choose your start date and deadline.
+Under the &ldquo;Rating field settings&rdquo; section on the &ldquo;Rating fields&rdquo; page, press the &ldquo;Add a deadline for ratings&rdquo; button. Use the date and time pickers to choose your start date and deadline.
 
 ![Adding a start date and deadline to ratings.](../images/rating_setup_8.png)
 
-If the rating period has yet to start, reviewers will be unable to add ratings. Similarly, if the deadline for rating has passed, reviewers will be able to see their previous ratings, they won't have the ability to edit them or add new ones.
+If the rating period has yet to start, reviewers will be unable to add ratings. Similarly, if the deadline for rating has passed, reviewers will be able to see their previous ratings, but they won't have the ability to edit them or add new ones.
 
 ![Viewing ratings that are closed for editing.](../images/rating_setup_9.png)
 
@@ -94,11 +94,10 @@ If the rating period has yet to start, reviewers will be unable to add ratings. 
 
 Screendoor lets you add descriptions to your numeric ratings, so you can explain what each number in the scale represents.
 
-If you have a numeric rating in your project, click on the checkbox under the &ldquo;Rating field settings&rdquo; section of the &ldquo;Rating fields&rdquo; page, and press the Continue button in the lower right corner. Under &ldquo;Custom rating scale,&rdquo; add descriptions next to each number.
+If you have a numeric rating in your project, press the &ldquo;Add a custom scale&rdquo; button under the &ldquo;Rating fields settings&rdquo; section of the &ldquo;Rating fields&rdquo; page. Under &ldquo;Custom rating scale,&rdquo; add descriptions next to each number.
 
 ![Adding a numeric scale to each rating.](../images/rating_setup_10.png)
 
 When reviewers reach your numeric rating, they will see your custom description next to each number.
 
 ![Viewing a rating with a custom scale.](../images/rating_setup_11.png)
-
