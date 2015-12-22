@@ -480,7 +480,7 @@ td {
   border-radius: $radius;
 }
 
-.example_fr {
+.example_content {
   border-left-style: solid;
   border-left-width: $rhythm * 2;
   border-radius: $radius;
@@ -510,16 +510,17 @@ td {
     background: rgba(#fff,0.8);
     border-radius: $rhythm * 2;
     padding: $rhythm / 2 $rhythm;
+    margin-top: - ($rhythm / 2);
   }
 }
 
 @media only screen and (min-width: $lapWidth) {
-  .example_fr:after {
+  .example_content:after {
     display: block;
   }
 }
 
-.fr_yes {
+.example_content_good {
   border-left-color: $successColor;
 
   &:after {
@@ -527,7 +528,7 @@ td {
   }
 }
 
-.fr_no {
+.example_content_bad {
   border-left-color: $errorColor;
 
   &:after {

@@ -26,15 +26,15 @@ When you add a field to your form, think about the type of answer you want to re
 
 For example, if you want an answer of &ldquo;Yes&rdquo; or &ldquo;No,&rdquo; two checkboxes wouldn't make sense, because the user could select both options.
 
-<div class='example_fr fr_no' id='example_fr_1'></div>
+<div class='example_content example_content_bad' id='example_fr_1'></div>
 
 Instead, Screendoor's &ldquo;multiple choice&rdquo; field, which lets you select only one option, would be a better fit.
 
-<div class='example_fr fr_yes' id='example_fr_2'></div>
+<div class='example_content example_content_good' id='example_fr_2'></div>
 
 Here's another example: if you want the answer to be in the form of a number,  use a &ldquo;Numeric&rdquo; field. Screendoor will display an error if the user tries to enter anything in this field that isn't a number.
 
-<div class='example_fr fr_yes' id='example_fr_9'></div>
+<div class='example_content example_content_good' id='example_fr_9'></div>
 
 #### 2. Avoid using too much emphasis.
 
@@ -42,7 +42,7 @@ If you use too much emphasis (**bold**, *italics*, or <u>underlining</u>), the u
 
 Never use all caps for labels.
 
-<div class='example_fr fr_no' id='example_fr_10'></div>
+<div class='example_content example_content_bad' id='example_fr_10'></div>
 
 #### 3. Only ask once.
 
@@ -54,43 +54,43 @@ If you need to give respondents the same instructions for multiple fields, forma
 
 Redundant information makes the form longer and harder to read.
 
-<div class='example_fr fr_no' id='example_fr_7'></div>
+<div class='example_content example_content_bad' id='example_fr_7'></div>
 
 Instead, use section headers and descriptions to properly organize your instructions.
 
-<div class='example_fr fr_yes' id='example_fr_8'></div>
+<div class='example_content example_content_good' id='example_fr_8'></div>
 
 #### 5. Use blocks of text for long or important instructions.
 
 If it's necessary to write descriptive text that is longer than a paragraph, place it in a &ldquo;Block of text&rdquo; field, instead of the description of a section header. For instructions that require special emphasis, use large or medium blocks of text instead of emphasizing with \**asterisks*\* or *ALL CAPS*.
 
-<div class='example_fr fr_yes' id='example_fr_12'></div>
+<div class='example_content example_content_good' id='example_fr_12'></div>
 
 #### 6. Always provide clear labels for inputs.
 
 Try not to assume that respondents will understand the information you need from them based on the given answer options. That might not be the case.
 
-<div class='example_fr fr_no' id='example_fr_5'></div>
+<div class='example_content example_content_bad' id='example_fr_5'></div>
 
 You can maintain clear and concise labels by having the label and answer form a complete sentence.
 
-<div class='example_fr fr_yes' id='example_fr_6'></div>
+<div class='example_content example_content_good' id='example_fr_6'></div>
 
 #### 7. Avoid redundant labels.
 
 Using the same label for multiple inputs makes it harder to distinguish the difference between them.
 
-<div class='example_fr fr_no' id='example_fr_3'></div>
+<div class='example_content example_content_bad' id='example_fr_3'></div>
 
 Try to stay concise while still giving your respondents the information they need to complete your form.
 
-<div class='example_fr fr_yes' id='example_fr_4'></div>
+<div class='example_content example_content_good' id='example_fr_4'></div>
 
 #### 8. Organize your form with sections.
 
 Use section breaks to organize your form and provide clear hierarchy. Use large section headers to indicate the major sections of your form. Use medium and small section headers to identify sub-sections.
 
-<div class='example_fr fr_yes' id='example_fr_11'></div>
+<div class='example_content example_content_good' id='example_fr_11'></div>
 
 #### 9. For long forms, use page breaks.
 
