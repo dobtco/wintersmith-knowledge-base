@@ -17,7 +17,7 @@ Keep the subject line brief and make sure it accurately describes the content of
 <div class='example_fr fr_yes' id='example_fr_2'></div>
 
 #### 2. Remind respondents why you're sending them a message.
-When a respondent opens your message, you have just a few seconds to hold their attention. If it's been a while since you've contacted them, they may not remember who you are. Use the first sentence of your message to remind them why you're contacting them.
+When a respondent opens your message, you have just a few seconds to hold their attention. If it's been a while since they have heard from you, they may not remember who you are. The first sentence of your message should explain why you're reaching out.
 
 #### 3. Keep your messages short and succinct.
 
@@ -39,7 +39,7 @@ We ask that you adhere to the following rules when you're sending bulk messages:
 - Do not send messages to non-specific addresses (e.g., webmaster@domain.com or info@domain.com).
 - Do not send messages that result in an unusually high number of spam complaints.
 
-If you neglect to comply with any of these rules, we may suspend or terminate your use of the bulk messaging feature.
+If you neglect to comply with any of these rules, we may suspend or terminate your use of bulk messaging.
 
 ### Reporting abuse
 
