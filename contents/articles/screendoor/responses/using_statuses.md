@@ -17,19 +17,17 @@ From your project's Responses page, press the Edit button just above the list of
 
 ![Button to edit statuses.](../images/status_1.png)
 
-This takes you to a page where you can manage your project's statuses. You can also access this page by clicking the &ldquo;Edit project&rdquo; link on the right side of the project header, and selecting Statuses from the Progress menu.
+To add a status, type its name in the &ldquo;Add a status&rdquo; field and press the Add button to save.
 
-![Statuses page when setting up a project.](../images/status_2.png)
+Press the Edit button to the right of a status to rename it. Be sure to press the Save button to save your changes.
 
-Click the &ldquo;Add Status&rdquo; link below the list of statuses to create a new one.
-
-Drag the icon on the left side of a status to reorder the list. The first status in the list will be treated as the default. It will be automatically applied to new responses.
+To reorder the list, drag the icon on the left side of a status. The first status in the list will be treated as the default. It will be automatically applied to new responses.
 
 Press the Delete button to the right of a status to remove it. Any responses which had that status will be reassigned to the first status in the list.
 
 ### Changing the status of a response
 
-From your project's Responses page, select some responses using the checkboxes on the left side of the table. Press the &ldquo;Status&rdquo; button above the table, and select the new status from the dropdown. Click anywhere outside the dropdown to apply your changes.
+From your project's Responses page, select some responses using the checkboxes on the left side of the table. Press the Status button above the table, and select the new status from the dropdown. Click anywhere outside the dropdown to apply your changes.
 
 ![Changing the status from the Responses page.](../images/status_3.png)
 
