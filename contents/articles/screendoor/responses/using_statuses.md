@@ -19,17 +19,25 @@ From your project's Responses page, press the Edit button just above the list of
 
 To add a status, type its name in the &ldquo;Add a status&rdquo; field and press the Add button to save.
 
+![Field to add a status.](../images/status_2.png)
+
 Press the Edit button to the right of a status to rename it. Be sure to press the Save button to save your changes.
+
+![Button to edit a status.](../images/status_3.png)
 
 To reorder the list, drag the icon on the left side of a status. The first status in the list will be treated as the default. It will be automatically applied to new responses.
 
+![Reordering a status.](../images/reorder_status.gif)
+
 Press the Delete button to the right of a status to remove it. Any responses which had that status will be reassigned to the first status in the list.
+
+![Button to delete a status.](../images/status_4.png)
 
 ### Changing the status of a response
 
 From your project's Responses page, select some responses using the checkboxes on the left side of the table. Press the Status button above the table, and select the new status from the dropdown. Click anywhere outside the dropdown to apply your changes.
 
-![Changing the status from the Responses page.](../images/status_3.png)
+![Changing the status from the Responses page.](../images/status_5.png)
 
 To speed up this process a bit, you can use the search bar at the top of the dropdown to find the exact status you're looking for.
 
@@ -37,7 +45,7 @@ To speed up this process a bit, you can use the search bar at the top of the dro
 
 You can also change a response's status while you are reading it. First, click on a response in the table to view it. Then, in the sidebar, under &ldquo;Status,&rdquo; select a new status from the dropdown.
 
-![Changing the status of one response.](../images/status_4.png)
+![Changing the status of one response.](../images/status_6.png)
 
 ---
 
