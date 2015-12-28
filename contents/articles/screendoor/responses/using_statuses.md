@@ -13,7 +13,7 @@ Most projects come with built-in statuses to give you a head start, but they can
 
 ### Adding and editing statuses
 
-From your project's Responses page, press the Edit button just above the list of statuses.
+From your project's Responses page, press the Edit button to the right of the &ldquo;Statuses&rdquo; header.
 
 ![Button to edit statuses.](../images/status_1.png)
 
