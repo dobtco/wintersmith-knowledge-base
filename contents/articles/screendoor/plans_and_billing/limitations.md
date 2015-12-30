@@ -12,4 +12,4 @@ Depending on your plan, Screendoor will limit the following items:
 
 Once you have reached the maximum amount of projects or collaborators, you won't be able to add more of them, until you upgrade your plan, [remove collaborators](/articles/screendoor/collaboration/collaborators.html#removing-collaborators), or [archive some projects](/articles/screendoor/projects/archiving_a_project.html). 
 
-In addition, [e-signatures](../your_form/signatures.html), [teams](../collaboration/teams.html) and [Socrata sync](../integrations/socrata.html) are only available for advanced plans. See our [pricing page](http://www.dobt.co/screendoor/pricing/) for more information.
+In addition, [e-signatures](../your_form/signatures.html), [teams](../collaboration/teams.html) and [Socrata sync](../integrations/socrata.html) are only available for advanced plans. See our [pricing page](https://www.dobt.co/screendoor/pricing/) for more information.
