@@ -44,6 +44,6 @@ You're all set! Now, when a respondent sends an email to the address that you cr
 
 ### Advanced parsing of incoming emails
 
-The [Parser by Zapier](https://parser.zapier.com/) service allows you to extract structured data from incoming emails. This can be an extremely powerful tool when used wisely!
+While the above instructions will copy the entire subject line and body from incoming emails, the [Parser by Zapier](https://parser.zapier.com/) service allows you to extract structured data from incoming emails. This can be an extremely powerful tool when used wisely!
 
 ![Parser by Zapier example](../images/parser_by_zapier.png)
