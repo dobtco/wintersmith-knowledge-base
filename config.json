@@ -12,7 +12,8 @@
         "questions",
         "collaboration",
         "plans_and_billing",
-        "integrations"
+        "integrations",
+        "advanced_usage"
       ],
       "your_account": [
         "dashboard"
