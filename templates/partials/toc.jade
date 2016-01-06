@@ -20,9 +20,7 @@ mixin toc_article(article)
     li: a(href='/'+article.filename, class!=current_article)= article.title
 
 mixin toc()
-  each section_name in _.keys(contents.articles[cur_app]).sort(section_sort_helper)
-    if _.contains(['images', 'index.md'], section_name)
-      - continue
+  each section_name in _.without(_.keys(contents.articles[cur_app]), 'images', 'index.md').sort(section_sort_helper)
     - section = contents.articles[cur_app][section_name]
     .toc_section(class!=attributes.class)
       if section.filename == route[route.length - 2] || route[route.length-1] == "index.html"
