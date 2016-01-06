@@ -7,31 +7,31 @@ In some cases, you might wish to let respondents submit to your project through 
 
 ### Getting started
 
-First, follow the instructions to [connect your Zapier account](/articles/screendoor/integrations/zapier.html).
+First, follow the instructions to [connect your Zapier account to Screendoor](/articles/screendoor/integrations/zapier.html).
 
-Ensure that your Screendoor project has at least two form fields, one for the email's subject and another for its body.
+Ensure that your Screendoor project has at least two form fields, one for the email's subject line and another for its body.
 
-Next, from Zapier's homepage, click the "Make a new zap" button. For the trigger app, select "Email by Zapier" and "New Inbound Email". For the action app, choose "Screendoor" and "Create Response":
+Next, from Zapier's homepage, click the &ldquo;Make a New Zap&rdquo; button. For the trigger, select the app &ldquo;Email by Zapier&rdquo; with the action &ldquo;New Inbound Email.&rdquo; For the action, choose the app &ldquo;Screendoor&rdquo; and the action &ldquo;Create Response&rdquo;:
 
 ![Zapier trigger and action](../images/zapier_email_1.png)
 
-Next, create an email address that will be used to forward emails into Screendoor:
+Then, create an email address that will be used to forward emails to Screendoor:
 
 ![Create an email address in Zapier](../images/zapier_email_2.png)
 
 Go ahead and send a test email to this address -- this will help us test the Zap in the next few steps.
 
-Next, you must enter your Screendoor Project ID and click the "Try again?" button, next to the message saying that Zapier had trouble loading fields. (Sometimes Zapier has trouble loading the fields from Screendoor. If this happens, refreshing the webpage usually fixes things.)
+Next, you must enter your Screendoor Project ID and press the &ldquo;Try again?&rdquo; button next to the message saying that Zapier had trouble loading fields. (Sometimes Zapier has trouble loading Screendoor form fields. If this happens, refreshing the webpage usually resolves the issue.)
 
 ![Load fields from Screendoor](../images/zapier_email_3.png)
 
-Finally, you must map the fields from an incoming email to your form fields in Screendoor. If your Screendoor form fields are called "Subject" and "Body", you'll want to configure the Zap to look like this:
+Finally, you must map the fields from an incoming email to the form fields in your Screendoor project. If your form fields are called &ldquo;Subject&rdquo; and &ldquo;Body,&rdquo; you'll want to configure the Zap to look like this:
 
 ![Configured Zapier fields](../images/zapier_email_4.png)
 
-You're all set! You may use the "Test this Zap" section to verify that your zap is working, and click the "Turn Zap on" button at the bottom of the page.
+You may use the &ldquo;Test this Zap&rdquo; section to verify that your Zap is working, and press the &ldquo;Turn Zap on&rdquo; button at the bottom of the page.
 
-Now, when you send an email to the address that you created, it will show up as a response inside of Screendoor.
+You're all set! Now, when a respondent sends an email to the address that you created, it will show up as a response inside of Screendoor.
 
 <div class='grid margin_bd'>
   <div class='item lap_six_columns'>
@@ -44,6 +44,6 @@ Now, when you send an email to the address that you created, it will show up as 
 
 ### Advanced parsing of incoming emails
 
-The [Parser by Zapier](https://parser.zapier.com/) service allows you to extract structured data from incoming emails. This can be an extremely powerful tool when used wisely! 
+The [Parser by Zapier](https://parser.zapier.com/) service allows you to extract structured data from incoming emails. This can be an extremely powerful tool when used wisely!
 
 ![Parser by Zapier example](../images/parser_by_zapier.png)
