@@ -12,7 +12,7 @@ For applications, RFPs, and other types of forms, you might want to ensure that 
 
 ### Anonymizing names and email addresses
 
-Click the &ldquo;Edit project&rdquo; link on the right side of the project header, and choose &ldquo;Responses&rdquo; from the Progress menu. Under &ldquo;Data collection,&rdquo; check the box &ldquo;Treat respondent names as blind fields.&rdquo;
+Click the &ldquo;Edit&rdquo; link on the right side of the project header, and select &ldquo;Form builder&rdquo; from the Progress menu. Select the Name and Email field. Then, in the left panel, check &ldquo;Blind.&rdquo;
 
 ![Turning names and emails into blind fields.](../images/bias_1.png)
 

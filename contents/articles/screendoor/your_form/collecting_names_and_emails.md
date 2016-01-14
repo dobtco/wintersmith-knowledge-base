@@ -6,7 +6,7 @@ app_pages:
   - projectadmin-wizard-responseform
 ---
 
-By default, Screendoor forms automatically collect names and email adddresses from respondents, so you don't have to add those fields to the form yourself.
+By default, Screendoor forms automatically collect names and email addresses from respondents, so you don't have to add those fields to the form yourself.
 
 ![Name and email fields in the form builder.](../images/name_email_1.png)
 
@@ -18,24 +18,26 @@ To remove bias, Screendoor lets you use &ldquo;blind fields&rdquo; to hide perso
 
 ### Removing the name and email address fields
 
-If you don't want to collect names or email addresses in your form, select the &ldquo;Edit project&rdquo; link on the right side of the project header, and choose &ldquo;Responses&rdquo; from the Progress menu. Under &ldquo;Identification level&rdquo;, select &ldquo;Keep responses anonymous&rdquo;.
+If you don't want to collect names or email addresses in your form, select the Name and Email fields in the form builder and click the &ldquo;Remove&rdquo; link.
 
 ![Making your project anonymous.](../images/name_email_2.png)
 
-Note that this setting will disable Screendoor features that require names and email addresses to work, such as [messages](/articles/screendoor/messages/sending_messages.html) and [e-signatures](/articles/screendoor/your_form/signatures.html). You can always add the name and email fields back to your form by changing this setting to &ldquo;Require a name and email address&rdqup;.
+Note that this setting will disable Screendoor features that require names and email addresses to work, such as [messages](/articles/screendoor/messages/sending_messages.html) and [e-signatures](/articles/screendoor/your_form/signatures.html). You can always add the name and email fields back to your form by clicking the &ldquo;Restore name and email fields&rdquo; link.
+
+![Restoring name and email fields.](../images/name_email_3.png)
 
 ### Overriding the default fields for names and email addresses
 
 If you want to change the labels of the name and email address fields, or you don't want them to be at the top of your form, Screendoor lets you replace the default name and email fields with other fields in your form.
 
-To start, visit the &ldquo;Edit project&rdquo; link on the right side of the project header, and select &ldquo;Responses&rdquo; from the Progress menu. Under &ldquo;Identification level,&rdquo; select &ldquo;Keep responses anonymous.&rdquo;
+To start, click the &ldquo;Edit&rdquo; link on the right side of the project header, and select &ldquo;Form builder&rdquo; from the Progress menu. Select the Name and Email fields and click the &ldquo;Remove&rdquo; link.
 
 ![Making your project anonymous.](../images/name_email_2.png)
 
-Select &ldquo;Form builder&rdquo; from the Progress menu, and add your custom name and email fields, with the labels you wish. Make sure to add a Text field for the name, and an Email field for the email address. We strongly suggest that you make these fields required.
+Then, add your custom name and email fields, with the labels you wish. Make sure to add a Text field for the name, and an Email field for the email address. We strongly suggest that you make these fields required.
 
-![Adding custom name and email fields.](../images/name_email_3.png)
+![Adding custom name and email fields.](../images/name_email_4.png)
 
 Navigate to your project's Settings page, and click &ldquo;Show advanced settings.&rdquo; Select your custom fields from the dropdowns that appear.
 
-![Replacing the default name and email fields.](../images/name_email_4.png)
+![Replacing the default name and email fields.](../images/name_email_5.png)
