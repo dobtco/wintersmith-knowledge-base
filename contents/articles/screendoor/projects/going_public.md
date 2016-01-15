@@ -19,7 +19,7 @@ When you're finished setting up your project, it's time to show it to the world.
 
 ![Going public with your amazing Screendoor project.](../images/public1.png)
 
-Screendoor also lets you publish your project in a semi-private context. You can change your project's visibility on its Settings page under &ldquo;Status&rdquo;.
+Screendoor also lets you publish your project in a semi-private context. You can change your project's visibility on its Settings page under &ldquo;Status.&rdquo;
 
 ![Changing a project's visibility status.](../images/public2.png)
 

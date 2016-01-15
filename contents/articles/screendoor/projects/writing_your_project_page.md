@@ -31,7 +31,7 @@ The description is a chance for you to go into detail about your project, convin
 
 ### Uploading attachments
 
-If your respondents need additional documentation to complete your form, you can upload files as attachments to your form. At the bottom of the &ldquo;About this project&rdquo; page, upload a file within the &ldquo;Attachments&rdquo; section. To upload more than one attachment, click the &ldquo;Add an attachment&rdquo; link.
+If your respondents need additional documentation to complete your form, you can upload files as attachments to your form. At the bottom of the &ldquo;About this project&rdquo; page, upload a file within the &ldquo;Attachments&rdquo; section. To upload more than one attachment, press the &ldquo;Upload new attachment&rdquo; button.
 
 ### Highlighting important information
 

@@ -11,7 +11,7 @@ By default, Screendoor displays a nice confirmation page when a response has bee
 
 ![The default confirmation page.](../images/confirmations_1.png)
 
-If you'd like, you can customize the text of this page. Select the &ldquo;Edit project&rdquo; link on the right side of the project header, and choose &ldquo;After submission&rdquo; from the Progress menu. Under &ldquo;After submission&hellip;&rdquo;, check the box &ldquo;Display a custom page&rdquo;.
+If you'd like, you can customize the text of this page. Select the &ldquo;Edit&rdquo; link on the right side of the project header, and choose &ldquo;After submission&rdquo; from the Progress menu. Under &ldquo;After submission&hellip;&rdquo;, check the box &ldquo;Display a custom page.&rdquo;
 
 ![Writing a custom confirmation page.](../images/confirmations_2.png)
 

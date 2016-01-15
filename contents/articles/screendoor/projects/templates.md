@@ -22,7 +22,7 @@ To save an existing project as a template, visit the project's Settings page and
 
 ### Managing templates
 
-To view your existing templates, press the &ldquo;Create Project&rdquo; button on the dashboard and select &ldquo;Edit templates&rdquo;.
+To view your existing templates, press the &ldquo;Create Project&rdquo; button on the dashboard and select &ldquo;Edit templates.&rdquo;
 
 ![Managing your templates.](../images/templates_2.png)
 
