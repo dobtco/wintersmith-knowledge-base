@@ -47,4 +47,4 @@ To filter responses by a status or label, click on its name in the sidebar.
 
 ![The Responses page, filtered by a label.](../images/search_responses_7.png)
 
-To clear the filter, click &ldquo;All responses&rdquo; in the sidebar.
+To clear the filter, click &ldquo;All responses&rdquo; at the top of the sidebar.
