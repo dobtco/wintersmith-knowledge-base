@@ -31,11 +31,11 @@ After conducting a search, press the &ldquo;Save search&rdquo; button. You'll be
 
 ![The Saved Searches modal.](../images/search_responses_4.png)
 
-When you want to conduct your search again, press the &ldquo;Saved searches&rdquo; button and select it in the dropdown.
+When you want to conduct your search again, select it from the sidebar under the &ldquo;Saved searches.&rdquo;
 
 ![The Saved Searches list.](../images/search_responses_5.png)
 
-If you want to remove a saved search from your list, press the Delete icon on the right side of the dropdown item.
+To delete a saved search, press the Edit button above your list of saved searches. Then, press the Delete button next to the saved search you would like to remove.
 
 ### Filtering by statuses and labels
 
@@ -47,4 +47,4 @@ To filter responses by a status or label, click on its name in the sidebar.
 
 ![The Responses page, filtered by a label.](../images/search_responses_7.png)
 
-To clear the filter, click on it again.
+To clear the filter, click &ldquo;All responses&rdquo; in the sidebar.
