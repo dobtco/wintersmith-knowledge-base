@@ -17,11 +17,11 @@ app_pages:
 
 When you're finished setting up your project, it's time to show it to the world. To make your project publicly accessible, press the &ldquo;Go public&rdquo; button in the alert at the top of the page.
 
-![Going public with your amazing Screendoor project.](../images/public1.png)
+![Going public with your amazing Screendoor project.](../images/public_1.png)
 
 Screendoor also lets you publish your project in a semi-private context. You can change your project's visibility on its Settings page under &ldquo;Status.&rdquo;
 
-![Changing a project's visibility status.](../images/public2.png)
+![Changing a project's visibility status.](../images/public_2.png)
 
 #### Project statuses
 

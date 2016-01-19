@@ -14,13 +14,13 @@ If you need your forms to be signed before they are submitted, Screendoor lets y
 
 ### Getting started
 
-Select the &ldquo;Edit&rdquo; link on the right side of the project header, and choose &ldquo;Details&rdquo; from the Progress menu.  
+Select the &ldquo;Edit&rdquo; link on the right side of the project header, and select the &ldquo;Details&rdquo; tab from the project wizard.  
 
 To add electronic signatures to your project, check the box &ldquo;Require an e-signature to submit&rdquo; under &ldquo;E signatures.&rdquo;
 
 ![E-signature setting on Details page.](../images/signatures_1.png)
 
-Now when respondents fill out your form, they will now be required to sign their response before submitting it.
+Now when respondents fill out your form, they will be required to sign their response before submitting it.
 
 ![Asking a respondent to sign their submission.](../images/signatures_2.png)
 

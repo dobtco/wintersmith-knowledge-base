@@ -13,7 +13,7 @@ At the heart of every Screendoor project lies a form. Here's how to build your o
 
 ### Getting started
 
-Select the &ldquo;Edit&rdquo; link on the right side of your project's header, and choose &ldquo;Form builder&rdquo; from the Progress menu.
+Select the &ldquo;Edit&rdquo; link on the right side of your project's header, and click &ldquo;The Form&rdquo; in the project wizard.
 
 ![Screendoor's form builder.](../images/formbuilder_1.png)
 

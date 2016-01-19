@@ -18,7 +18,7 @@ Screendoor lets you charge submission fees for your projects by allowing you to 
 
 To accept credit card payments, you will first need to [create a Stripe account](https://dashboard.stripe.com/register).
 
-When you have a Stripe account, select the &ldquo;Edit&rdquo; link on the right side of the project header, and choose &ldquo;Details&rdquo; from the Progress menu. Under &ldquo;Payments&rdquo; check the box &ldquo;Charge a submission fee.&rdquo;
+When you have a Stripe account, select the &ldquo;Edit&rdquo; link on the right side of the project header, and click the &ldquo;Details&rdquo; tab in the project wizard. Under &ldquo;Payments&rdquo; check the box &ldquo;Charge a submission fee.&rdquo;
 
 ![Payment setting on Details page.](../images/payments_2.png)
 
