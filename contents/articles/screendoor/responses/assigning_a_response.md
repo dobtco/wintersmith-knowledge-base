@@ -17,7 +17,7 @@ You can simultaneously assign responses to as many people as you want. For examp
 
 To speed up this process a bit, you can use the search bar at the top of the dropdown to find exactly who you're looking for.
 
-You can also assign a response while you are reading it. First, click on a response in the table to view it. Then, in the sidebar, under &ldquo;Assigned to&rdquo;, click the &ldquo;Change?&rdquo; link and select your assignee(s) from the dropdown.
+You can also assign a response while you are reading it. First, click on a response in the table to view it. Then, in the sidebar, under &ldquo;Assigned to,&rdquo; click the &ldquo;Change?&rdquo; link and select your assignee(s) from the dropdown.
 
 ![Assigning a single response.](../images/assign_3.png)
 
