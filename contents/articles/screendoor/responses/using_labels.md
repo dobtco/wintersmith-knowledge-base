@@ -14,7 +14,7 @@ From your project's Responses page, press the Plus button just above the list of
 
 ![Button to add labels.](../images/label_1.png)
 
-Enter a name for your label, and choose a color if you'd like. Press the Create button to add your label.
+Enter a name for your label, and choose a color if you'd like. Press the Add button to add your label.
 
 ![Specifying a name and color for your label.](../images/label_2.png)
 
@@ -38,6 +38,6 @@ Click anywhere outside the dropdown to apply your changes. To speed up this proc
 
 ![Searching for a label.](../images/search_label.gif)
 
-You can also change a response's label while you are reading it. First, click on a response in the table to view it. Then, in the header, next to the respondent's name, press the Label button, and select the new labels from the dropdown.
+You can also change a response's label while you are reading it. First, click on a response in the table to view it. Then, in the sidebar under &ldquo;Labels,&rdquo; click &ldquo;Change?&rdquo; link and select the new labels from the dropdown.
 
 ![Changing the labels of one response.](../images/label_6.png)
