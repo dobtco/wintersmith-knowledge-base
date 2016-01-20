@@ -12,7 +12,7 @@ app_pages:
 
 Screendoor lets you send bulk messages to your respondents. You can use messages to follow up on promising responses for more information, send rejection letters in bulk, and more.
 
-To start, visit the Responses page for your project and check the responses you would like to send messages to. Press the &ldquo;More&rdquo; button and select &ldquo;Send message&rdquo; from the dropdown.
+To start, visit the Responses page for your project and check the responses you would like to send messages to. Press the &ldquo;More&rdquo; button and select &ldquo;Write message&rdquo; from the dropdown.
 
 ![Sending a message.](../images/messages_1.png)
 
