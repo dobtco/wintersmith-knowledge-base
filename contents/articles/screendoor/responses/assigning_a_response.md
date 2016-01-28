@@ -21,5 +21,4 @@ You can also assign a response while you are reading it. First, click on a respo
 
 ![Assigning a single response.](../images/assign_3.png)
 
-If your organization is on a Standard plan or above, you can also assign responses to [teams](/articles/screendoor/collaboration/teams.html).
-
+If your organization is on the &ldquo;50 users plan&rdquo; or above, you can also assign responses to [teams](/articles/screendoor/collaboration/teams.html).

@@ -7,7 +7,7 @@ app_pages:
 ---
 
 <div class='alert'>
-    **Note:** Project teams are only available to customers with a Standard plan or higher.
+    **Note:** Project teams are only available to customers with a &ldquo;50 users&rdquo; plan or higher.
 </div>
 
 If you're a large organization using Screendoor, chances are you're delegating dozens of people from different departments to help evaluate your incoming responses. Screendoor's teams help you organize your collaborators and delegate work more efficiently.
@@ -16,7 +16,7 @@ If you're a large organization using Screendoor, chances are you're delegating d
 
 To start organizing your collaborators into teams, visit the Collaborators page for a project, and start selecting collaborators using the checkboxes on the left side of the table.
 
-Select the "Team" button on the right, just above your list of collaborators, and start typing the name of the team you want to add them to. Select the &ldquo;Add&rdquo; option at the bottom of the dropdown to create a team with those collaborators. 
+Select the "Team" button on the right, just above your list of collaborators, and start typing the name of the team you want to add them to. Select the &ldquo;Add&rdquo; option at the bottom of the dropdown to create a team with those collaborators.
 
 ![Adding a team from the Collaborators page.](../images/teams_1.png)
 

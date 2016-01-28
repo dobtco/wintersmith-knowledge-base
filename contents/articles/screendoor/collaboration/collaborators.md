@@ -59,4 +59,4 @@ To remove a collaborator, check the box next to their name, and click the Remove
 ## F.A.Q.
 
 ### Can I organize collaborators into groups?
-If you have a Standard plan or above, yes! [Learn more about teams on Screendoor.](teams.html)
+If your team is on the &ldquo;50 users&rdquo; plan or has an enterprise license, yes! [Learn more about teams on Screendoor.](teams.html)
