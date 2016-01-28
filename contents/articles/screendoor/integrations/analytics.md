@@ -7,7 +7,7 @@ app_pages:
 
 ### Connecting Screendoor to Google Analytics
 
-Screendoor lets you use your Google Analytics account to track visits to your Screendoor project.
+You can connect your Google Analytics account to track visits to your Screendoor project.
 
 To integrate your Google Analytics account with Screendoor, sign into Google Analytics and select &ldquo;Admin&rdquo; in the top navigation bar. Select the property you want to track in the second column. Under the &ldquo;Tracking Info&rdquo; section, choose &ldquo;Tracking Code.&rdquo;
 
@@ -27,9 +27,13 @@ In Screendoor, click on your avatar in the navigation bar, select &ldquo;Setting
 
 ### What pages are tracked in Google Analytics?
 
-Screendoor tracks the following pages:
+Screendoor tracks events on the following pages:
 
-- All projects page
-- Project page
-- Questions page
-- Response confirmation page
+- [`Forms.fm` landing page for all your projects](../projects/branding_your_forms.html)
+- [Project page](../projects/writing_your_project_page.html)
+- [Questions page](../questions/configuring_the_question_and_answer_section.html)
+- [Response confirmation page](../your_form/confirmations.html)
+
+### The status of my Universal Tracking ID is "Tracking not installed." How do I know if the Google Analytics integration is working correctly?
+
+We use a custom script to send data to Google Analytics. If you have recently added the tracking ID to Screendoor, you will need to wait a few hours for the status to update and for the tracked events to appear in your dashboard.
