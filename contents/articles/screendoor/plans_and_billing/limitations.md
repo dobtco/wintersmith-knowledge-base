@@ -16,7 +16,7 @@ In addition, [e-signatures](../your_form/signatures.html), [teams](../collaborat
 
 ### Managing projects and collaborators
 
-To view the details of your plan and a list of active projects and collaborators in your organization, click your avatar in the navigation page. Then, select "Settings" from the dropdown and choose ["Your plan"](https://screendoor.dobt.co/settings/plan) from the sidebar.
+If you are an administrator in your organization, you can view the details of your plan and a list of active projects and collaborators. Click your avatar in the navigation page, select "Settings" from the dropdown, and choose ["Your plan"](https://screendoor.dobt.co/settings/plan) from the sidebar.
 
 ![The "Your plan" page](../images/plan_limits_1.png)
 
