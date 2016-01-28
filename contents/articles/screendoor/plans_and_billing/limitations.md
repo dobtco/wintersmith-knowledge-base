@@ -18,16 +18,16 @@ In addition, [e-signatures](../your_form/signatures.html), [teams](../collaborat
 
 To view the details of your plan and a list of active projects and collaborators in your organization, click your avatar in the navigation page. Then, select "Settings" from the dropdown and choose ["Your plan"](https://screendoor.dobt.co/settings/plan) from the sidebar.
 
-![The "Your plan" page]()
+![The "Your plan" page](../images/plan_limits_1.png)
 
 You can archive projects directly from this page by pressing the "Archive" button next to a project's name.
 
-![Archiving a project]()
+![Archiving a project](../images/plan_limits_2.png)
 
 To remove a collaborator from your plan, press the "Remove" button next to their name. Doing so will remove them from the projects they are a collaborator on. If they were the owner of a project, ownership of that project will be transferred to the owner of your organization.
 
-![Removing a collaborator]()
+![Removing a collaborator](../images/plan_limits_3.png)
 
 If you want to upgrade your plan, press the "Change" button on the upper right-hand corner of the page.
 
-![Change button to the "Your organization" page]()
+![Change button to the "Your organization" page](../images/plan_limits_4.png)
