@@ -13,9 +13,9 @@ Under &ldquo;Deadline&rdquo; select a date and time to set a deadline for respon
 
 ![Setting a deadline.](../images/deadline_1.png)
 
-If you need to extend the due date later, return to this page and set a new date. To clear the due date, click &ldquo;Clear deadline&rdquo; below the date and time pickers.
+If you need to extend the due date later, return to this page and set a new date. Respondents who haven't yet submitted to your project will be notified of the updated due date. You can also [extend the deadline for a specific response](../responses/providing_support_to_respondents.html#extending-the-deadline-for-a-draft).
 
-You can also [extend the deadline for a specific response](../responses/providing_support_to_respondents.html#extending-the-deadline-for-a-draft).
+To clear the due date, click &ldquo;Clear deadline&rdquo; below the date and time pickers.
 
 ### Setting a grace period
 

@@ -76,7 +76,7 @@ If you find that respondents are repeatedly getting stuck on a specific section 
 
 #### Extending the deadline for a draft
 
-If someone can't complete your form by the [deadline](/articles/screendoor/projects/deadline.html) you have set and needs more time, you can extend the deadline for only that response. On the &ldquo;Unsubmitted responses&rdquo; page, press &ldquo;Extend&rdquo; next to their response in progress, and specify a new date and time.
+If someone can't complete your form by the [deadline](/articles/screendoor/projects/deadline.html) you have set and needs more time, you can extend the deadline for only that response. On the &ldquo;Unsubmitted responses&rdquo; page, press &ldquo;Extend&rdquo; next to their response in progress, and specify a new date and time. They will be notified via email of the new deadline.
 
 ![Extending a deadline.](../images/unsubmitted_4.png)
 
@@ -87,4 +87,3 @@ This extended deadline won't affect any other responses, only the one you choose
 If your project has a [submission fee](/articles/screendoor/your_form/payments.html), and you want to waive the fee for a specific response, click the &ldquo;Waive&rdquo; link next to that response.
 
 ![Waiving payment for a response.](../images/unsubmitted_5.png)
-
