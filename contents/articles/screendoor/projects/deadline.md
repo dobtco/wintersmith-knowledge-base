@@ -19,7 +19,7 @@ You can also [extend the deadline for a specific response](../responses/providin
 
 ### Setting a grace period
 
-If you want to give some extra time for people who started a response before the deadline to finish it after it has passed, you can add a grace period. Click the &ldquo;Add grace period for drafts&rdquo; link below &ldquo;Clear deadline,&rdquo; and select a date and time.
+If you want to give some extra time for people who started a response before the deadline to finish it after it has passed, you can add a grace period. Press the &ldquo;Add grace period for drafts&rdquo; button below &ldquo;Clear deadline,&rdquo; and select a date and time.
 
 ![Adding a grace period.](../images/deadline_2.png)
 
