@@ -41,7 +41,7 @@ Press the Delete button to remove a shortcut.
 
 ### Reversing a shortcut
 
-Whenever you trigger a shortcut, a notification appears on the lower right-hand corner of the page. If you are a project admin or have permission to manage shortcuts, click the Undo link inside the notification.
+Whenever you trigger a shortcut, a notification appears on the lower right-hand corner of the page. If you have permission to manage shortcuts, click the Undo link inside the notification.
 
 ![Screenshot of shortcut notification.](../images/shortcuts_6.png)
 
@@ -51,6 +51,6 @@ All actions related to shortcuts, even those that have been undone, are recorded
 
 ### Understanding a shortcut
 
-It's possible to trigger a shortcut when you aren't expecting it, but if you're a project admin or have permission to review responses, you can find out how it's been configured. Press the View Shortcut link in the shortcut notification, and you will be taken straight to that shortcut in the editor.
+It's possible to trigger a shortcut when you aren't expecting it, but if have permission to rate responses or view shortcuts, you can find out how it's been configured. Press the View Shortcut link in the shortcut notification, and you will be taken straight to that shortcut in the editor.
 
 ![Screenshot of shortcut notification.](../images/shortcuts_6.png)
