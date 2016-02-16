@@ -58,25 +58,25 @@ Go to your project's Settings page. Under &ldquo;General settings,&rdquo; you ca
 
 ![Automatically approving edits made by respondents.](../images/edits_8.png)
 
-### Troubleshooting unsubmitted responses
+### Troubleshooting draft responses
 
-If your respondents are having problems filling out your form, Screendoor gives you some basic tools to troubleshoot their draft in progress. On your project's Responses page, click the &ldquo;View unsubmitted responses&rdquo; link.
+If your respondents are having problems filling out your form, Screendoor gives you some basic tools to troubleshoot their draft in progress. On your project's Responses page, click the &ldquo;View drafts&rdquo; link.
 
-![The unsubmitted responses link.](../images/unsubmitted_1.png)
+![The View Drafts link.](../images/unsubmitted_1.png)
 
-To preserve the privacy of your respondents, you can't view the contents of their draft on this page. But Screendoor gives you enough information to figure out what's stopping them from completing your form. Press the &ldquo;View details&rdquo; button next to any submitted response to take a look.
+To preserve the privacy of your respondents, you can't view the contents of their draft on this page. But Screendoor gives you enough information to figure out what's stopping them from completing your form. Press the &ldquo;View details&rdquo; button next to any draft to take a look.
 
-![The View Details button on the unsubmitted responses page.](../images/unsubmitted_2.png)
+![The View Details button on the Drafts page.](../images/unsubmitted_2.png)
 
 A modal dialog will appear, showing you the respondent's name and email, the progress they've made, any validation errors in the form, and the time they last edited their draft.
 
-![The details modal for unsubmitted responses.](../images/unsubmitted_3.png)
+![The details modal for drafts.](../images/unsubmitted_3.png)
 
 If you find that respondents are repeatedly getting stuck on a specific section of your form, it might be worth taking a look at [our tips to improve your form's usability](/articles/screendoor/your_form/designing_a_great_form.html).
 
 #### Extending the deadline for a draft
 
-If someone can't complete your form by the [deadline](/articles/screendoor/projects/deadline.html) you have set and needs more time, you can extend the deadline for only that response. On the &ldquo;Unsubmitted responses&rdquo; page, press &ldquo;Extend&rdquo; next to their response in progress, and specify a new date and time.
+If someone can't complete your form by the [deadline](/articles/screendoor/projects/deadline.html) you have set and needs more time, you can extend the deadline for only that response. On the Drafts page, press &ldquo;Extend&rdquo; next to their response in progress, and specify a new date and time.
 
 ![Extending a deadline.](../images/unsubmitted_4.png)
 
@@ -87,4 +87,3 @@ This extended deadline won't affect any other responses, only the one you choose
 If your project has a [submission fee](/articles/screendoor/your_form/payments.html), and you want to waive the fee for a specific response, click the &ldquo;Waive&rdquo; link next to that response.
 
 ![Waiving payment for a response.](../images/unsubmitted_5.png)
-
