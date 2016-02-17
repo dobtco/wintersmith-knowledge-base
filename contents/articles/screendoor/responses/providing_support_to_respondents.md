@@ -26,11 +26,13 @@ Sorting this column lets you see everyone who has requested permission to edit. 
 
 ![Releasing responses to edit in bulk.](../images/edits_3.png)
 
-If you want to revoke a respondent's permission to edit, select &ldquo;Allow edits&rdquo; from the dropdown and set it to &ldquo;No.&rdquo;
+If you want to revoke a respondent's permission to edit, select &ldquo;Allow edits&rdquo; from the dropdown. In the modal dialog that appears, select the option, &ldquo;Cannot edit their response.&rdquo;
+
+![Revoking permission to edit.](../images/edits_4.png)
 
 Respondents will be notified automatically via email that their response is ready to edit. But if the email gets lost in their inbox, you can always send them the link to edit again, if necessary. On any response's page, click the &ldquo;Show edit URL&rdquo; link in the lower right corner.
 
-![Displaying the edit URL for a response.](../images/edits_4.png)
+![Displaying the edit URL for a response.](../images/edits_5.png)
 
 Copy the link that appears to your clipboard.
 
@@ -38,15 +40,15 @@ Copy the link that appears to your clipboard.
 
 After a respondent edits their submission, you will receive a notification that you must approve the changes before they are incorporated into your project.
 
-![Notification of edits pending approval.](../images/edits_5.png)
+![Notification of edits pending approval.](../images/edits_6.png)
 
 Click on the notification to visit that response's page.
 
-![Response with edits pending approval.](../images/edits_6.png)
+![Response with edits pending approval.](../images/edits_7.png)
 
 Press the &ldquo;View pending edits&rdquo; button to review the changes the respondent has made.
 
-![Overview of edits made to a response.](../images/edits_7.png)
+![Overview of edits made to a response.](../images/edits_8.png)
 
 Highlighted in blue are the fields that respondents have edited. Press the Commit button to approve the changes and create a new revision of the response, or press the Reject button to discard their changes.
 
@@ -56,21 +58,21 @@ If you don't want to go through a manual approval process every time a responden
 
 Go to your project's Settings page. Under &ldquo;General settings,&rdquo; you can automatically grant respondents the permission to edit, as well as automatically approve a respondent's changes.
 
-![Automatically approving edits made by respondents.](../images/edits_8.png)
+![Automatically approving edits made by respondents.](../images/edits_9.png)
 
 ### Troubleshooting draft responses
 
 If your respondents are having problems filling out your form, Screendoor gives you some basic tools to troubleshoot their draft in progress. On your project's Responses page, click the &ldquo;View drafts&rdquo; link.
 
-![The View Drafts link.](../images/unsubmitted_1.png)
+![The View Drafts link.](../images/draft_1.png)
 
 To preserve the privacy of your respondents, you can't view the contents of their draft on this page. But Screendoor gives you enough information to figure out what's stopping them from completing your form. Press the &ldquo;View details&rdquo; button next to any draft to take a look.
 
-![The View Details button on the Drafts page.](../images/unsubmitted_2.png)
+![The View Details button on the Drafts page.](../images/draft_2.png)
 
 A modal dialog will appear, showing you the respondent's name and email, the progress they've made, any validation errors in the form, and the time they last edited their draft.
 
-![The details modal for drafts.](../images/unsubmitted_3.png)
+![The details modal for drafts.](../images/draft_3.png)
 
 If you find that respondents are repeatedly getting stuck on a specific section of your form, it might be worth taking a look at [our tips to improve your form's usability](/articles/screendoor/your_form/designing_a_great_form.html).
 
@@ -78,7 +80,7 @@ If you find that respondents are repeatedly getting stuck on a specific section 
 
 If someone can't complete your form by the [deadline](/articles/screendoor/projects/deadline.html) you have set and needs more time, you can extend the deadline for only that response. On the Drafts page, press &ldquo;Extend&rdquo; next to their response in progress, and specify a new date and time.
 
-![Extending a deadline.](../images/unsubmitted_4.png)
+![Extending a deadline.](../images/draft_4.png)
 
 This extended deadline won't affect any other responses, only the one you choose.
 
@@ -86,4 +88,4 @@ This extended deadline won't affect any other responses, only the one you choose
 
 If your project has a [submission fee](/articles/screendoor/your_form/payments.html), and you want to waive the fee for a specific response, click the &ldquo;Waive&rdquo; link next to that response.
 
-![Waiving payment for a response.](../images/unsubmitted_5.png)
+![Waiving payment for a response.](../images/draft_5.png)
