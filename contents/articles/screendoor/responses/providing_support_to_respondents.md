@@ -12,7 +12,7 @@ Screendoor provides you with a few tools to help out your respondents during the
 
 ### Allowing respondents to edit their submission
 
-If a respondent submits a form that contains a mistake or outdated information, you might receive a notification from Screendoor that says they have requested permission to edit their response. Click on the notification to view that response, and press the &ldquo;Allow edits&rdquo; button in the alert at the top of the page.
+If a respondent submits a form that contains a mistake or outdated information, you might receive a notification from Screendoor that says they have requested permission to edit their response. Click on the notification to view that response, and press the &ldquo;Actions&rdquo; button in the alert at the top of the page.
 
 ![Allowing edits to a response.](../images/edits_1.png)
 
