@@ -60,7 +60,7 @@ To view a completed charge inside of Stripe, press the &ldquo;View on Stripe&rdq
 All they'll need is a valid credit card. No account necessary!
 
 ### Can I waive payment for specific respondents?
-Yes, you can waive payment for a specific response from the [unsubmitted responses](../responses/providing_support_to_respondents.html#waiving-payment-for-a-draft) page.
+Yes, you can waive payment for a specific response from the [Drafts](../responses/providing_support_to_respondents.html#waiving-payment-for-a-draft) page.
 
 ### Are there processing fees?
 Yes: 5% + 30&cent; per transaction. Stripe [charges](https://stripe.com/us/pricing) 2.9% plus 30&cent;, and Screendoor charges an additional 2.1%.
