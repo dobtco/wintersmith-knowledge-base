@@ -5,7 +5,7 @@ app_pages:
   - projectadmin-wizard-questionandanswer
 ---
 
-Setting up a public question-and-answer page for your project makes communication more efficient for everyone involved. It's a great way to reduce support email by allowing respondents to see the questions other people have asked. Hosting a questions section on Screendoor also helps keep your team coordinated: all project admins have access to a shared inbox of questions at the same time, so they never need to give two different answers to similar questions.
+Setting up a public question-and-answer page for your project makes communication more efficient for everyone involved. It's a great way to reduce support email by allowing respondents to see the questions other people have asked. Hosting a section for questions on Screendoor keeps your team coordinated, too: all project admins have access to a shared inbox of questions, so they never need to give two different answers to similar questions.
 
 To set up questions for your project, press &ldquo;Edit&rdquo; in the header, and select the &ldquo;Details&rdquo; tab in the project wizard. Under &ldquo;Questions&rdquo; check the box &ldquo;Add a questions page.&rdquo;
 
