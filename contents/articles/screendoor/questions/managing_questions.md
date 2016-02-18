@@ -33,6 +33,6 @@ After you answer a question, you can always return to this page to edit your ans
 Yes. Just uncheck the &ldquo;Display this question publicly&rdquo; box when you answer the question.
 
 ### Can I add a question to my own project?
-Yes. First, press the &ldquo;View&rdquo; button on the right-hand side of the project page header to visit your project's description page. Then, click the &ldquo;Ask a question&rdquo; link in the page header.
+Yes. First, press the &ldquo;View&rdquo; button to visit your project's landing page. Then, click the &ldquo;Ask a question&rdquo; link in the page header.
 
 ![Asking a question](../images/questions_4.png)
