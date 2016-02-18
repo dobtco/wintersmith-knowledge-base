@@ -78,7 +78,7 @@ If you find that respondents are repeatedly getting stuck on a specific section 
 
 #### Extending the deadline for a draft
 
-If someone can't complete your form by the [deadline](/articles/screendoor/projects/deadline.html) you have set and needs more time, you can extend the deadline for only that response. On the Drafts page, press &ldquo;Extend&rdquo; next to their response in progress, and specify a new date and time.
+If someone can't complete your form by the [deadline](/articles/screendoor/projects/deadline.html) you have set and needs more time, you can extend the deadline for only that response. On the Drafts page, press &ldquo;Extend&rdquo; next to their response in progress, and specify a new date and time. They will be notified via email of the new deadline.
 
 ![Extending a deadline.](../images/draft_4.png)
 
