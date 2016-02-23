@@ -15,17 +15,32 @@ app_pages:
   - projectadmin-wizard-advancedevaluation
 ---
 
-When you're finished setting up your project, it's time to show it to the world. To make your project publicly accessible, press the &ldquo;Go public&rdquo; button in the alert at the top of the page.
+Your project is private by default: only you can see it. When you're ready to start accepting responses, press the &ldquo;Share your project&rdquo; button in the alert at the top of the page.
 
-![Going public with your amazing Screendoor project.](../images/public_1.png)
+![The Share your project button.](../images/share_1.png)
 
-Screendoor also lets you publish your project in a semi-private context. You can change your project's visibility on its Settings page under &ldquo;Status.&rdquo;
+You can also click the &ldquo;Edit&rdquo; link in the page header, and select &ldquo;Share&rdquo; from the project wizard.
 
-![Changing a project's visibility status.](../images/public_2.png)
+![The Share page in the project wizard](../images/share_2.png)
 
-#### Project statuses
+There are a few ways to take your project live:
 
-- **Draft:** Only your [collaborators](/articles/screendoor/collaboration/collaborators.html) can see your project. (All projects are drafts by default when they are created.)
-- **Internal:** If you want a project to be visible only inside your organization, you can make projects internal.
-- **Unlisted:** Anyone with the link will be able to view your project.
-- **Public:** Your project will be publicly visible, and linked to from your organization's public page.
+**Make this project private.** This is the default setting where only you can see your project. Press the &ldquo;Preview your landing page&rdquo; to see it on `forms.fm`.
+
+![Make this project private setting.](../images/share_3.png)
+
+**Embed on your own site.** When you choose this option, your form will not be available to respondents on Screendoor. Instead, you can copy the embed code and paste it into the code for your website.
+
+![Project embed code](../images/share_4.png)
+
+**Publish on Screendoor.** When you publish your project on `forms.fm`, you can decide whom to share it&nbsp;with.
+
+![Choosing among Publish on Screendoor options.](../images/share_5.png)
+
+- _Your organization._ All the users within your Screendoor organization can see your form. (They won't, however, have permission to view and rate responses [unless you explicitly invite them](/articles/screendoor/collaboration/collaborators.html).)
+- _Anyone with the link._ Only people with the link can see your form.
+- _The world._ Anyone can access your form. It will also be accessible from your organization's `forms.fm` landing page.
+
+Once you've shared your project, whether on Screendoor or your own site, you can [invite your team to review responses with&nbsp;you](/articles/screendoor/collaboration/collaborators.html). To do so, press the &ldquo;What's next?&rdquo; banner at the bottom of the page.
+
+![Inviting your team from the Share page.](../images/share_6.png)
