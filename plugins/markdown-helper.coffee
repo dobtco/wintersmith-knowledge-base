@@ -21,7 +21,7 @@ module.exports = (env, callback) ->
         .filter (heading) ->
           heading[0].slice(0,1) != '#'
 
-      [section1, section2] = @markdown.split("---")
+      [section1, section2] = @markdown.split("---\n")
       @metadata.onThisPage = parseOut(section1 || '', 3) || []
       @metadata.FAQs = parseOut(section2 || '', 3) || []
 
