@@ -79,12 +79,12 @@ We import your responses in the background, so it might take a few minutes for y
 
 ### Importing to Screendoor fields
 
-When mapping columns to <span class='label'>Screendoor fields</span>, it's important to format them correctly. Here's how Screendoor parses these columns:
+When mapping a column to a <span class='label'>Screendoor field</span>, it's important to format its values correctly. Here's how you should format Screendoor-specific information:
 
 | Screendoor field | Format | Example | Notes |
 | --- | --- | --- | --- |
 | Respondent name | String | `"Max Ophuls"` | |
 | Respondent email | String | `"max@ophuls.biz"` | |
-| Status | String | `"Open"` | A matching status must already exist inside of the project. |
-| Labels | Comma-separated | `"A+, Missing info"`| If a matching label does not exist, it will be created for you. |
+| Status | String | `"Open"` | The status must already exist inside of the project. |
+| Labels | Comma-separated | `"A+, Missing info"`| If a label does not exist, it will be created for you. |
 | Assigned to | Comma-separated | `"Barack Obama, HR"` | The list can contain names of individual collaborators, as well as names of [project teams](/articles/screendoor/collaboration/teams.html). |
