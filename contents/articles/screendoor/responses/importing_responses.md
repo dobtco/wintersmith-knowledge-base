@@ -76,3 +76,15 @@ Finally, you can click the Restore link on any skipped column to include it in t
 Once everything looks good, press the &ldquo;Finish import&rdquo; button at the bottom of the page. If your import is successful, you will be redirected to the Responses page, where you will see a success notification.
 
 We import your responses in the background, so it might take a few minutes for you to see them. Don't worry: they should show up in your Responses page within a few minutes.
+
+### Importing to Screendoor fields
+
+When mapping a column to a <span class='label'>Screendoor field</span>, it's important to format its values correctly. Here's how you should format Screendoor-specific information:
+
+| Screendoor field | Format | Example | Notes |
+| --- | --- | --- | --- |
+| Respondent name | String | `"Max Ophuls"` | |
+| Respondent email | String | `"max@ophuls.biz"` | |
+| Status | String | `"Open"` | The status must already exist inside of the project. |
+| Labels | Comma-separated | `"A+, Missing info"`| If a label does not exist, it will be created for you. |
+| Assigned to | Comma-separated | `"Barack Obama, HR"` | The list can contain names of individual collaborators, as well as names of [project teams](/articles/screendoor/collaboration/teams.html). |
