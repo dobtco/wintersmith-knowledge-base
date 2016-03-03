@@ -93,7 +93,7 @@ You can make any field in your form _hidden_, which will make it visible only to
 
 ### How do I change a field's type?
 
-Currently, you cannot convert a field from one type to another. You can, however, replicate a field to change its Type setting. Here's how:
+Because field type specifies what kind of data fields can store, it's not possible to change a field's type after you create it. You can, however, create a duplicate field with a different type:
 
 First, duplicate the field by clicking the Copy link below it.
 
