@@ -3,15 +3,15 @@ title: Creating a map
 order: 1
 ---
 
-To get started with GovMapper, [launch the app](/articles/your_account/dashboard/managing_applications.html#launching-an-application) from your DOBT Dashboard. Then, click &ldquo;Admin&rdquo; in the user menu to configure GovMapper.
+To get started with GovMapper, [launch the app](/articles/your_account/dashboard/managing_applications.html#launching-an-application) from your DOBT Dashboard. Then, click "Admin" in the user menu to configure GovMapper.
 
 ![admin](../images/admin.png)
 
-Click the &ldquo;New map&rdquo; button.
+Click the "New map" button.
 
 ![new map](../images/new_map.png)
 
-Choose a name for your map and click &ldquo;Create map&rdquo; to create your map.
+Choose a name for your map and click "Create map" to create your map.
 
 ![create map](../images/create_map.png)
 

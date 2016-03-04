@@ -8,7 +8,7 @@ app_pages:
 
 ### Editing a response yourself
 
-If you need to edit a response, Screendoor makes it easy to do so. On your project's Responses page, click on a response in the table to view it. In the lower right-hand side of the page, click the &ldquo;Edit response&rdquo; link.
+If you need to edit a response, Screendoor makes it easy to do so. On your project's Responses page, click on a response in the table to view it. In the lower right-hand side of the page, click the "Edit response" link.
 
 ![The Edit response link.](../images/edit_self_1.png)
 
@@ -24,10 +24,10 @@ Make your changes inside the form. When you're done, press the Save button in th
 
 When you edit a response, Screendoor maintains a _revision history_, archiving the old version so you can maintain an audit trail.
 
-To view an old revision, click on the dropdown under &ldquo;Revision history&rdquo; in the response's sidebar, and select the revision you would like to view.
+To view an old revision, click on the dropdown under "Revision history" in the response's sidebar, and select the revision you would like to view.
 
 ![Selecting an old revision.](../images/edit_self_3.png)
 
-When you are viewing an old revision, you have the option to make it the current version. Press the &ldquo;Restore this version&rdquo; button at the top of the response.
+When you are viewing an old revision, you have the option to make it the current version. Press the "Restore this version" button at the top of the response.
 
 ![Restoring an old revision.](../images/edit_self_4.png)

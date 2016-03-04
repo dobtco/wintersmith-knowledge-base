@@ -6,7 +6,7 @@ app_pages:
   - projectadmin-responses-show
 ---
 
-Labels are a great way to organize responses. You might feel more comfortable thinking about them as &ldquo;tags.&rdquo; Responses can have multiple labels, and labels can be shared across responses.
+Labels are a great way to organize responses. You might feel more comfortable thinking about them as "tags." Responses can have multiple labels, and labels can be shared across responses.
 
 ### Adding and editing labels
 
@@ -28,7 +28,7 @@ Edit and Delete buttons will appear next to each label. Press the Edit button to
 
 ### Changing a response's labels
 
-From your project's Responses page, select some responses using the checkboxes on the left side of the table. Press the &ldquo;Label&rdquo; button above the table, and select the labels you would like to add from the dropdown. You can assign as many labels as you want to a response.
+From your project's Responses page, select some responses using the checkboxes on the left side of the table. Press the "Label" button above the table, and select the labels you would like to add from the dropdown. You can assign as many labels as you want to a response.
 
 ![Changing labels from the Responses page.](../images/label_5.png)
 
@@ -38,6 +38,6 @@ Click anywhere outside the dropdown to apply your changes. To speed up this proc
 
 ![Searching for a label.](../images/search_label.gif)
 
-You can also change a response's label while you are reading it. First, click on a response in the table to view it. Then, in the sidebar under &ldquo;Labels,&rdquo; click &ldquo;Change?&rdquo; link and select the new labels from the dropdown.
+You can also change a response's label while you are reading it. First, click on a response in the table to view it. Then, in the sidebar under "Labels," click "Change?" link and select the new labels from the dropdown.
 
 ![Changing the labels of one response.](../images/label_6.png)

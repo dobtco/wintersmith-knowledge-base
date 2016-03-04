@@ -15,7 +15,7 @@ To see all messages that have been sent to a response, click on that response in
 
 ![Viewing a message in a response's discussion feed.](../images/messages_view_1.png)
 
-If a message is long, Screendoor will truncate it. Click the &ldquo;View full message&rdquo; link in the lower right-hand corner to view the entire message.
+If a message is long, Screendoor will truncate it. Click the "View full message" link in the lower right-hand corner to view the entire message.
 
 ### Viewing all sent messages in a project
 
@@ -23,4 +23,4 @@ You can also see a log of all messages sent in a project. Visit the Messages pag
 
 ![Viewing all messages sent in a project.](../images/messages_view_2.png)
 
-Press the &ldquo;View full message&rdquo; on the right side of the table to view the contents of the message.
+Press the "View full message" on the right side of the table to view the contents of the message.

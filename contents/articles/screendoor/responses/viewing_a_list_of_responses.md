@@ -21,7 +21,7 @@ To reverse the sort order, click on the header again.
 
 You can configure the table on the Responses page to display and sort by all kinds of information, including the response's status, assignee, labels, ratings, and answers to specific fields.
 
-To configure the Responses table, press the &ldquo;Edit columns&rdquo; button above it. Select the information you would like to see in the table. Click anywhere outside the dropdown to apply your changes.
+To configure the Responses table, press the "Edit columns" button above it. Select the information you would like to see in the table. Click anywhere outside the dropdown to apply your changes.
 
 ![Configuring the Responses table.](../images/responses_3.png)
 

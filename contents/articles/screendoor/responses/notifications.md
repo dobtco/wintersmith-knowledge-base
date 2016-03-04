@@ -11,7 +11,7 @@ app_pages:
 
 By default, creators of a project get notified for everything that happens on that project. If you are collaborating on a project that you did not create, you are notified only if you are mentioned in a comment or assigned to a response.
 
-You can change your notification settings for any project on its Settings page, under &ldquo;General settings.&rdquo;
+You can change your notification settings for any project on its Settings page, under "General settings."
 
 ![Changing project-wide notification settings.](../images/notifications_1.png)
 
@@ -25,8 +25,8 @@ To ignore a response, go to the project's Responses page, and click on a respons
 
 ### Turning off email notifications
 
-To disable all email notifications from Screendoor, click on your avatar in the upper right-hand corner of the window, and select &ldquo;Settings.&rdquo; 
+To disable all email notifications from Screendoor, click on your avatar in the upper right-hand corner of the window, and select "Settings." 
 
-Under &ldquo;Send notifications,&rdquo; select &ldquo;Through Screendoor only.&rdquo;
+Under "Send notifications," select "Through Screendoor only."
 
 ![Disabling all email notifications.](../images/notifications_3.png)

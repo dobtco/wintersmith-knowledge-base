@@ -11,15 +11,15 @@ For applications, RFPs, and other types of forms, you might want to ensure that 
 
 ### Anonymizing names and email addresses
 
-Click the &ldquo;Edit&rdquo; link on the right side of the project header, and select &ldquo;Form builder&rdquo; from the Progress menu. Select the Name and Email field. Then, in the left panel, check &ldquo;Blind.&rdquo;
+Click the "Edit" link on the right side of the project header, and select "Form builder" from the Progress menu. Select the Name and Email field. Then, in the left panel, check "Blind."
 
 ![Turning names and emails into blind fields.](../images/bias_1.png)
 
 ### Anonymizing other form fields
 
-Select &ldquo;Form builder&rdquo; from the Progress menu, and click on a field in the [preview pane](/articles/screendoor/your_form/building_your_form.html#getting-started) to edit it.
+Select "Form builder" from the Progress menu, and click on a field in the [preview pane](/articles/screendoor/your_form/building_your_form.html#getting-started) to edit it.
 
-Under the description in the left pane, select the &ldquo;Blind&rdquo; checkbox to anonymize that field.
+Under the description in the left pane, select the "Blind" checkbox to anonymize that field.
 
 ![Making a form field blind.](../images/bias_2.png)
 

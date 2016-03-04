@@ -17,7 +17,7 @@ When someone tries to find your Screendoor project in a web search, or someone l
 
 After creating a project, you can add a summary to your project, right below the Description field. Try to describe your project in a sentence. The ideal summary compels your audience to click through and view your project.
 
-You can always edit your summary later. Just click the &ldquo;Edit&rdquo; link on the right side of the project header.
+You can always edit your summary later. Just click the "Edit" link on the right side of the project header.
 
 ### Adding a description
 
@@ -25,7 +25,7 @@ Every Screendoor project comes with a gorgeous Forms.fm landing page, [with your
 
 ![An example of a project description.](../images/project_page_2.png)
 
-Right after creating a project, you can add a project description on the &ldquo;Description&rdquo; page.
+Right after creating a project, you can add a project description on the "Description" page.
 
 ![The Description page of the project wizard.](../images/project_page_3.png)
 
@@ -33,13 +33,13 @@ The description is a chance for you to go into detail about your project, convin
 
 ### Uploading attachments
 
-If your respondents need additional documentation to complete your form, you can upload files as attachments to your form. At the bottom of the &ldquo;Description&rdquo; page, press the &ldquo;Upload a new attachment&rdquo; button. Once your file has been uploaded successfully, you can upload another file by pressing the "Upload a new attachment button" again.
+If your respondents need additional documentation to complete your form, you can upload files as attachments to your form. At the bottom of the "Description" page, press the "Upload a new attachment" button. Once your file has been uploaded successfully, you can upload another file by pressing the "Upload a new attachment button" again.
 
 ### Highlighting important information
 
 On large screens (like desktops and laptops), your project page is displayed in two columns: your description, and a sidebar on the right. If you want to call out concise, relevant information near the top of your project page, you can add information to the sidebar. For example, if you're creating a job application, you may want to add salary information and the location of your office.
 
-To get started, click the &ldquo;Details&rdquo; tab in the project wizard, and scroll down to the &ldquo;Sidebar text&rdquo; section.
+To get started, click the "Details" tab in the project wizard, and scroll down to the "Sidebar text" section.
 
 ![Adding details.](../images/project_page_4.png)
 

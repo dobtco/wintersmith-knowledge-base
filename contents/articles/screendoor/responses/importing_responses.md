@@ -21,11 +21,11 @@ Here's an example of what your spreadsheet should look like:
 | Debra Granik    |                     | (Answer)    | (Answer)    |
 
 
-Once you have your CSV, go to your project's Responses page and click &ldquo;Import responses&rdquo; in the lower left-hand corner.
+Once you have your CSV, go to your project's Responses page and click "Import responses" in the lower left-hand corner.
 
 ![Link to the Import responses page.](../images/import_1.png)
 
-Under &ldquo;File,&rdquo; select the CSV you would like to import, and press &ldquo;Preview your import.&rdquo; If you want to distinguish imported responses from those collected through Screendoor, specify a label on this screen as well. If the label does not yet exist, we'll create it for you.
+Under "File," select the CSV you would like to import, and press "Preview your import." If you want to distinguish imported responses from those collected through Screendoor, specify a label on this screen as well. If the label does not yet exist, we'll create it for you.
 
 ![The Import responses page.](../images/import_2.png)
 
@@ -39,17 +39,17 @@ Columns can be categorized as either <span class='label label_info'>Existing</sp
 
 ![Existing columns and Screendoor fields.](../images/import_existing.png)
 
-An <span class='label label_info'>Existing</span> column matches a field that is already in your form and will be imported as an answer to that field. <span class='label'>Screendoor fields</span> match a special, Screendoor-specific piece of information: for example, if your CSV has a column named &ldquo;Status,&rdquo; the contents of that field will be added as the response's status in Screendoor.
+An <span class='label label_info'>Existing</span> column matches a field that is already in your form and will be imported as an answer to that field. <span class='label'>Screendoor fields</span> match a special, Screendoor-specific piece of information: for example, if your CSV has a column named "Status," the contents of that field will be added as the response's status in Screendoor.
 
 ![Importing new fields.](../images/import_new.png)
 
-A <span class='label label_success'>New</span> column doesn't match any of the existing fields in your form and will be added as a new field at the bottom of your form. In this example, a text field with the label &ldquo;Previous Work&rdquo; will be added to your form.
+A <span class='label label_success'>New</span> column doesn't match any of the existing fields in your form and will be added as a new field at the bottom of your form. In this example, a text field with the label "Previous Work" will be added to your form.
 
 ![Skipping imported fields.](../images/import_skipped.png)
 
 A <span class="label label_error">Skipped</span> field will not be imported into your project. Screendoor usually decides to skip fields automatically only if the column is blank.
 
-If you're importing data from another Screendoor project, columns might also be skipped because they contain a Screendoor-specific field that shouldn't be imported (like &ldquo;Response ID&rdquo; or &ldquo;Response Number&rdquo;).
+If you're importing data from another Screendoor project, columns might also be skipped because they contain a Screendoor-specific field that shouldn't be imported (like "Response ID" or "Response Number").
 
 ### Editing your imported columns
 
@@ -61,11 +61,11 @@ To remove any column from your final import, click the Skip link in the upper-ri
 
 To make any other changes, click the Edit link.
 
-When editing an <span class='label label_info'>Existing</span> column, you can choose to map it to an existing form field with the Field dropdown, or click the &ldquo;Add as New Field&rdquo; link to convert it to a <span class='label label_success'>New</span> field.
+When editing an <span class='label label_info'>Existing</span> column, you can choose to map it to an existing form field with the Field dropdown, or click the "Add as New Field" link to convert it to a <span class='label label_success'>New</span> field.
 
 ![Editing an existing form field.](../images/import_preview_2.png)
 
-When you are editing a <span class='label label_success'>New</span> field, you can edit both the label and the field type, or click the &ldquo;Import to Existing Field&rdquo; link to convert it to an <span class='label label_info'>Existing</span> field.
+When you are editing a <span class='label label_success'>New</span> field, you can edit both the label and the field type, or click the "Import to Existing Field" link to convert it to an <span class='label label_info'>Existing</span> field.
 
 ![Editing a new form field.](../images/import_preview_3.png)
 
@@ -73,7 +73,7 @@ Finally, you can click the Restore link on any skipped column to include it in t
 
 ![Restoring a skipped form field.](../images/import_preview_4.png)
 
-Once everything looks good, press the &ldquo;Finish import&rdquo; button at the bottom of the page. If your import is successful, you will be redirected to the Responses page, where you will see a success notification.
+Once everything looks good, press the "Finish import" button at the bottom of the page. If your import is successful, you will be redirected to the Responses page, where you will see a success notification.
 
 We import your responses in the background, so it might take a few minutes for you to see them. Don't worry: they should show up in your Responses page within a few minutes.
 

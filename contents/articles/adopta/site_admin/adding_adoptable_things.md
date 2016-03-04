@@ -4,16 +4,16 @@ order: 2
 ---
 
 <div class='alert'>
-    **Note**: We'll be using &ldquo;hydrant&rdquo; as the example &ldquo;thing,&rdquo; but replace this with whatever &ldquo;Singular thing name&rdquo; you set up when you [configured your site](configuring_your_site.html#basic-info).
+    **Note**: We'll be using "hydrant" as the example "thing," but replace this with whatever "Singular thing name" you set up when you [configured your site](configuring_your_site.html#basic-info).
 </div>
 
-To add some adoptable hydrants, click the &ldquo;Hydrants&rdquo; link.
+To add some adoptable hydrants, click the "Hydrants" link.
 
 ![thing](../images/thing.png)
 
 ### Adding hydrants manually
 
-To manually add a hydrant, click the &ldquo;New hydrant&rdquo; link from the &ldquo;Hydrants&rdquo; page.
+To manually add a hydrant, click the "New hydrant" link from the "Hydrants" page.
 
 ![add manually](../images/add_manually.png)
 
@@ -21,11 +21,11 @@ Then, fill in the latitude and longitude of your hydrant's location and an optio
 
 ![new hydrant](../images/new_hydrant.png)
 
-Click &ldquo;Create Thing&rdquo; to add your hydrant to the map.
+Click "Create Thing" to add your hydrant to the map.
 
 ### Importing hydrants from a CSV file
 
-To import your hydrants from a CSV file, click the &ldquo;Import hydrants from file&rdquo; button. Then, click the &ldquo;Choose File&rdquo; button and select your CSV file. Click &ldquo;Import&rdquo; to import your CSV file into Adopta.
+To import your hydrants from a CSV file, click the "Import hydrants from file" button. Then, click the "Choose File" button and select your CSV file. Click "Import" to import your CSV file into Adopta.
 
 ![choose file](../images/choose_file.png)
 
@@ -46,6 +46,6 @@ You can also include the `name` header:
 
 ### Viewing your added hydrants
 
-Once you've added some hydrants, view them on your Adopta site by clicking the &ldquo;View site&rdquo; link.
+Once you've added some hydrants, view them on your Adopta site by clicking the "View site" link.
 
 ![view site](../images/view_site.png)

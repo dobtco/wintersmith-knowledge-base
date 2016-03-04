@@ -10,7 +10,7 @@ Sometimes your respondents might not have access to your form: they'll need to s
 
 ### Manually adding a response to a Screendoor project
 
-On your project's Responses page, click the &ldquo;Manually add response&rdquo; link in the lower left-hand corner.
+On your project's Responses page, click the "Manually add response" link in the lower left-hand corner.
 
 ![Link to manually add a response.](../images/manual.png)
 

@@ -10,7 +10,7 @@ To view and edit your DOBT account, visit the [Sign In page](https://dashboard.d
 
 ### Resetting your password
 
-If you forgot your password, click the &ldquo;Forgot?&rdquo; button on the Sign In page. This will take you to the [&ldquo;Forgot your password?&rdquo; page](https://dashboard.dobt.co/users/password/new), where you can enter your email address to start the password reset process.
+If you forgot your password, click the "Forgot?" button on the Sign In page. This will take you to the ["Forgot your password?" page](https://dashboard.dobt.co/users/password/new), where you can enter your email address to start the password reset process.
 
 ![Resetting your password.](../images/forgot_password.png)
 
@@ -20,7 +20,7 @@ If you forgot your password, click the &ldquo;Forgot?&rdquo; button on the Sign 
 
 ### My password isn't working. Help!
 
-If your password isn't working, make sure that you're signing in with the correct email address and confirm that your Caps Lock key is off. If it still isn't working, click the &ldquo;Forgot?&rdquo; button to the right of the password field to reset your password.
+If your password isn't working, make sure that you're signing in with the correct email address and confirm that your Caps Lock key is off. If it still isn't working, click the "Forgot?" button to the right of the password field to reset your password.
 
 ### What should I do if I've tried to reset my password, but have not received the email?
 

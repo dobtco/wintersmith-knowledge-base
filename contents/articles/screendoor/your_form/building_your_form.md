@@ -13,7 +13,7 @@ At the heart of every Screendoor project lies a form. Here's how to build your o
 
 ### Getting started
 
-Select the &ldquo;Edit&rdquo; link on the right side of your project's header, and click &ldquo;The Form&rdquo; in the project wizard.
+Select the "Edit" link on the right side of your project's header, and click "The Form" in the project wizard.
 
 ![Screendoor's form builder.](../images/formbuilder_1.png)
 
@@ -25,7 +25,7 @@ Click on a button in the left pane to add that field to your form. If you want t
 
 The left pane will change to Edit mode, where you can fill out the details for that field.
 
-To add another field, press the &ldquo;Add a new field&rdquo; button on the upper right-hand side of the Edit pane.
+To add another field, press the "Add a new field" button on the upper right-hand side of the Edit pane.
 
 ![The Add button in the form builder's Edit mode.](../images/formbuilder_3.png)
 
@@ -33,7 +33,7 @@ If you want to add a field that's similar to an existing field in your form, you
 
 ![Copying a field.](../images/formbuilder_4.png)
 
-In addition to form fields, Screendoor lets you add blocks of text, section breaks, and page breaks. Press or drag a button in the &ldquo;Non-Input&rdquo; section of the left pane to add formatting.
+In addition to form fields, Screendoor lets you add blocks of text, section breaks, and page breaks. Press or drag a button in the "Non-Input" section of the left pane to add formatting.
 
 ![Adding formatting.](../images/formbuilder_5.png)
 
@@ -51,13 +51,13 @@ To reorder a field in your form, drag that field in the preview pane to its desi
 
 ### Deleting a field
 
-To delete a field in your form, hover over the field you want to delete, and click the &ldquo;Delete&rdquo; link in the lower right corner.
+To delete a field in your form, hover over the field you want to delete, and click the "Delete" link in the lower right corner.
 
-If responses have been submitted to your project, we assume that those responses might contain answers to that field. In this case, clicking the &ldquo;Delete&rdquo; link will show a dropdown with two options: &ldquo;Hide this field&rdquo; or &ldquo;Delete this field and its answers.&rdquo;
+If responses have been submitted to your project, we assume that those responses might contain answers to that field. In this case, clicking the "Delete" link will show a dropdown with two options: "Hide this field" or "Delete this field and its answers."
 
 ![Delete confirmation when a Screendoor project contains responses.](../images/formbuilder_8.png)
 
-Selecting &ldquo;Hide this field&rdquo; will make the field invisible to the public, move it to the bottom of the form, and leave your responses intact. If you select &ldquo;Delete this field and its answers,&rdquo; it will delete the field and remove all previous answers to it within your responses.
+Selecting "Hide this field" will make the field invisible to the public, move it to the bottom of the form, and leave your responses intact. If you select "Delete this field and its answers," it will delete the field and remove all previous answers to it within your responses.
 
 ### Adding rules for complex logic
 
@@ -65,15 +65,15 @@ Rules allow you to add powerful logic to your form, by conditionally showing and
 
 For example, if some questions in your form should be skipped unless the implementation cost is over $1 million, you could hide those fields until the respondent indicates their implementation cost. Let's walk through that example below.
 
-To start adding rules, select the field you wish to hide, and press the &ldquo;Add a rule&rdquo; button in the left pane.
+To start adding rules, select the field you wish to hide, and press the "Add a rule" button in the left pane.
 
 ![Adding a rule to a field.](../images/formbuilder_9.png)
 
-Under &ldquo;Only show this field if&hellip;&rdquo; select the appropriate options. In this example, we want to show this question only if the cost is more than $1 million.
+Under "Only show this field if&hellip;" select the appropriate options. In this example, we want to show this question only if the cost is more than $1 million.
 
 ![Setting conditions for a rule.](../images/formbuilder_10.png)
 
-Once you have set up your rule, you will see the label &ldquo;Hidden until rules are met&rdquo; next to the field in the preview pane. When the respondent fills out the form, they won't see this field unless they meet the rule.
+Once you have set up your rule, you will see the label "Hidden until rules are met" next to the field in the preview pane. When the respondent fills out the form, they won't see this field unless they meet the rule.
 
 ![What a respondent sees when filling out a form with rules.](../images/formbuilder_11.gif)
 
@@ -99,14 +99,14 @@ First, duplicate the field by clicking the Copy link below it.
 
 ![Copying a field.](../images/formbuilder_12.png)
 
-Remove &ldquo;(1)&rdquo; from the label of the new field.
+Remove "(1)" from the label of the new field.
 
 ![Renaming a copied field.](../images/formbuilder_13.png)
 
-Then, in the &ldquo;Edit field&rdquo; pane, select your desired field type.
+Then, in the "Edit field" pane, select your desired field type.
 
 ![Selecting a field type.](../images/formbuilder_14.png)
 
-Click on the original field. Under the description in the left pane, select the &ldquo;Hidden&rdquo; checkbox to hide that field from respondents. (Deleting a field entails deleting answers previously submitted to it, so setting the field to &ldquo;Hidden&rdquo; allows you to preserve existing data.)
+Click on the original field. Under the description in the left pane, select the "Hidden" checkbox to hide that field from respondents. (Deleting a field entails deleting answers previously submitted to it, so setting the field to "Hidden" allows you to preserve existing data.)
 
 ![Marking original field as "Hidden".](../images/formbuilder_15.png)

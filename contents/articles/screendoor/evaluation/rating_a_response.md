@@ -10,13 +10,13 @@ After you have [added rating fields to your project](setting_up_ratings.html), y
 
 ![A response in Screendoor with ratings.](../images/rating_1.png)
 
-If you have yet to rate the response, you can press the &ldquo;Start rating&rdquo; button in the page's header to take you to the first blank rating.
+If you have yet to rate the response, you can press the "Start rating" button in the page's header to take you to the first blank rating.
 
 ![The Start Rating button.](../images/rating_2.png)
 
 After you finish your first rating, keep scrolling down, filling out each rating as you arrive at them. For each rating field, choose a rating that best reflects your assessment of that response.
 
-When you have completed all ratings for a response, the button in the header should change to read &ldquo;Rated&rdquo;.
+When you have completed all ratings for a response, the button in the header should change to read "Rated".
 
 ![Rated indicator.](../images/rating_3.png)
 

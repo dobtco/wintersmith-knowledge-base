@@ -5,18 +5,18 @@ order: 2
 
 ### Inviting new users
 
-If you are an administrator in your organization, you can add users from the [&ldquo;Your organization&rdquo; page](https://dashboard.dobt.co/organization/). Scroll down to the Users section, and press the &ldquo;Add user&rdquo; button. 
+If you are an administrator in your organization, you can add users from the ["Your organization" page](https://dashboard.dobt.co/organization/). Scroll down to the Users section, and press the "Add user" button. 
 ![Adding a user.](../images/add_user.png)
 
-Fill out the form, press the &ldquo;Invite user&rdquo; button. The invited user will receive a link to sign up for a DOBT account, after which they will be added to your organization.
+Fill out the form, press the "Invite user" button. The invited user will receive a link to sign up for a DOBT account, after which they will be added to your organization.
 
 ![Inviting users.](../images/invite_user.png)
 
 ### Managing user permissions
 
-When you add a user, you can choose the appropriate permission level for that user from the &ldquo;Permission level&rdquo; dropdown on the &ldquo;Add User&rdquo; page.
+When you add a user, you can choose the appropriate permission level for that user from the "Permission level" dropdown on the "Add User" page.
 
-To manage permissions for an existing user, select the user from the [&ldquo;Your organization&rdquo; page](https://dashboard.dobt.co/organization/). Then, choose a permission level from the &ldquo;Permission level&rdquo; dropdown. For app-specific permissions, select the appropriate permissions under &ldquo;App permissions.&rdquo;
+To manage permissions for an existing user, select the user from the ["Your organization" page](https://dashboard.dobt.co/organization/). Then, choose a permission level from the "Permission level" dropdown. For app-specific permissions, select the appropriate permissions under "App permissions."
 
 ### Resetting a user's password
 
@@ -24,4 +24,4 @@ Point the user to the [Signing in](signup_and_login.html) article, or have them 
 
 ### Removing users
 
-On the &ldquo;Your organiztion&rdquo; page, click on the user you'd like to remove. On the bottom of that user's page, click the &ldquo;Remove from staff&rdquo; link, and confirm you want to delete that user in the modal dialog that appears.
+On the "Your organiztion" page, click on the user you'd like to remove. On the bottom of that user's page, click the "Remove from staff" link, and confirm you want to delete that user in the modal dialog that appears.

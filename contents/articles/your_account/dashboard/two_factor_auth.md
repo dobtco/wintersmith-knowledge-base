@@ -47,12 +47,12 @@ Open Google Authenticator on your smartphone and note the DOBT verification code
 
 #### If you're using the Authy smartphone app&hellip; 
 
-Open Authy on your smartphone, press &ldquo;DOBT,&rdquo; and note your verification code.
+Open Authy on your smartphone, press "DOBT," and note your verification code.
 
 #### If you're using the Authy Chrome app&hellip;
 
-Open Authy, enter your master password, press &ldquo;DOBT,&rdquo; and copy your verification code.
+Open Authy, enter your master password, press "DOBT," and copy your verification code.
 
-Enter your verification code and click &ldquo;Sign in.&rdquo;
+Enter your verification code and click "Sign in."
 
 ![Logging in with 2-factor authentication enabled.](../images/2fa_login_verify.png)

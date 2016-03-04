@@ -15,7 +15,7 @@ On your project's Questions page, you can see all of the questions asked by the 
 
 ![Viewing questions asked for a project.](../images/questions_2.png)
 
-By default, Screendoor only shows you questions that have not yet been answered. Select &ldquo;All questions&rdquo; in the sidebar to view those that have already received answers.
+By default, Screendoor only shows you questions that have not yet been answered. Select "All questions" in the sidebar to view those that have already received answers.
 
 ### Answering and editing questions
 
@@ -30,9 +30,9 @@ After you answer a question, you can always return to this page to edit your ans
 ## F.A.Q.
 
 ### Can I answer a question privately?
-Yes. Just uncheck the &ldquo;Display this question publicly&rdquo; box when you answer the question.
+Yes. Just uncheck the "Display this question publicly" box when you answer the question.
 
 ### Can I add a question to my own project?
-Yes. First, press the &ldquo;View&rdquo; button to visit your project's landing page. Then, click the &ldquo;Ask a question&rdquo; link in the page header.
+Yes. First, press the "View" button to visit your project's landing page. Then, click the "Ask a question" link in the page header.
 
 ![Asking a question](../images/questions_4.png)

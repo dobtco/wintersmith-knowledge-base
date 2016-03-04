@@ -11,7 +11,7 @@ Screendoor comes with beautiful, customizable forms with your own custom color s
 
 ### Getting started
 
-From your project's Settings page, and select &ldquo;Embed code&rdquo; in the sidebar. Copy the embed code into your own website or CMS to embed your form.
+From your project's Settings page, and select "Embed code" in the sidebar. Copy the embed code into your own website or CMS to embed your form.
 
 ![The Embed code page.](../images/embed_1.png)
 
@@ -47,4 +47,4 @@ Unfortunately, [fees](payments.html) and [signatures](signatures.html) are not s
 
 ### I see a "Project not found" error when I try to embed my form. Help!
 
-This error usually occurs when your [project is not yet public](/articles/screendoor/projects/going_public.html). Only projects with a status of &ldquo;Unlisted&rdquo; or &ldquo;Public&rdquo; can be embedded.
+This error usually occurs when your [project is not yet public](/articles/screendoor/projects/going_public.html). Only projects with a status of "Unlisted" or "Public" can be embedded.

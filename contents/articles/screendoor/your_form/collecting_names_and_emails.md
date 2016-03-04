@@ -13,15 +13,15 @@ If you are creating a project where respondents might use your form frequently (
 
 ### Hiding names and email addresses from reviewers
 
-To remove bias, Screendoor lets you use &ldquo;blind fields&rdquo; to hide personally identifying information from reviewers. [Read more about blind fields here.](/articles/screendoor/evaluation/removing_bias.html)
+To remove bias, Screendoor lets you use "blind fields" to hide personally identifying information from reviewers. [Read more about blind fields here.](/articles/screendoor/evaluation/removing_bias.html)
 
 ### Removing the name and email address fields
 
-If you don't want to collect names or email addresses in your form, select the Name and Email fields in the form builder and click the &ldquo;Remove&rdquo; link.
+If you don't want to collect names or email addresses in your form, select the Name and Email fields in the form builder and click the "Remove" link.
 
 ![Making your project anonymous.](../images/name_email_2.png)
 
-Note that this setting will disable Screendoor features that require names and email addresses to work, such as [messages](/articles/screendoor/messages/sending_messages.html) and [e-signatures](/articles/screendoor/your_form/signatures.html). You can always add the name and email fields back to your form by clicking the &ldquo;Restore name and email fields&rdquo; link.
+Note that this setting will disable Screendoor features that require names and email addresses to work, such as [messages](/articles/screendoor/messages/sending_messages.html) and [e-signatures](/articles/screendoor/your_form/signatures.html). You can always add the name and email fields back to your form by clicking the "Restore name and email fields" link.
 
 ![Restoring name and email fields.](../images/name_email_3.png)
 
@@ -29,7 +29,7 @@ Note that this setting will disable Screendoor features that require names and e
 
 If you want to change the labels of the name and email address fields, or you don't want them to be at the top of your form, Screendoor lets you replace the default name and email fields with other fields in your form.
 
-To start, click the &ldquo;Edit&rdquo; link on the right side of the project header, and select &ldquo;Form builder&rdquo; from the Progress menu. Select the Name and Email fields and click the &ldquo;Remove&rdquo; link.
+To start, click the "Edit" link on the right side of the project header, and select "Form builder" from the Progress menu. Select the Name and Email fields and click the "Remove" link.
 
 ![Making your project anonymous.](../images/name_email_2.png)
 
@@ -37,6 +37,6 @@ Then, add your custom name and email fields, with the labels you wish. Make sure
 
 ![Adding custom name and email fields.](../images/name_email_4.png)
 
-Navigate to your project's Settings page, and click &ldquo;Show advanced settings.&rdquo; Select your custom fields from the dropdowns that appear.
+Navigate to your project's Settings page, and click "Show advanced settings." Select your custom fields from the dropdowns that appear.
 
 ![Replacing the default name and email fields.](../images/name_email_5.png)

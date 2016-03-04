@@ -14,9 +14,9 @@ If you need your forms to be signed before they are submitted, Screendoor lets y
 
 ### Getting started
 
-Select the &ldquo;Edit&rdquo; link on the right side of the project header, and select the &ldquo;Details&rdquo; tab from the project wizard.  
+Select the "Edit" link on the right side of the project header, and select the "Details" tab from the project wizard.  
 
-To add electronic signatures to your project, check the box &ldquo;Require an e-signature to submit&rdquo; under &ldquo;E signatures.&rdquo;
+To add electronic signatures to your project, check the box "Require an e-signature to submit" under "E signatures."
 
 ![E-signature setting on Details page.](../images/signatures_1.png)
 
@@ -38,7 +38,7 @@ When a response is edited, the signature status in the sidebar changes according
 
 ![An edited response that was previously signed.](../images/signatures_4.png)
 
-To send an email asking the respondent to sign the new revision, click the &ldquo;Request new signature&rdquo; link.
+To send an email asking the respondent to sign the new revision, click the "Request new signature" link.
 
 ![Requesting a new signature.](../images/signatures_5.png)
 
@@ -46,7 +46,7 @@ After they sign the response, the new signature will display in the sidebar. You
 
 ![Viewing signatures in a previous revision.](../images/signatures_6.png)
 
-To quickly view which responses in your project still need signature, press the &ldquo;Edit columns&rdquo; button on the Responses page, and display the &ldquo;Signed?&ldquo; column.
+To quickly view which responses in your project still need signature, press the "Edit columns" button on the Responses page, and display the "Signed?" column.
 
 ![The Signed column on the Responses page.](../images/signatures_7.png)
 

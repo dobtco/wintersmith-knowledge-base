@@ -24,15 +24,15 @@ Here are some quick tips that can help you improve your forms:
 
 When you add a field to your form, think about the type of answer you want to receive. This will influence the type of field you choose.
 
-For example, if you want an answer of &ldquo;Yes&rdquo; or &ldquo;No,&rdquo; two checkboxes wouldn't make sense, because the user could select both options.
+For example, if you want an answer of "Yes" or "No," two checkboxes wouldn't make sense, because the user could select both options.
 
 <div class='example_content example_content_bad' id='example_fr_1'></div>
 
-Instead, Screendoor's &ldquo;multiple choice&rdquo; field, which lets you select only one option, would be a better fit.
+Instead, Screendoor's "multiple choice" field, which lets you select only one option, would be a better fit.
 
 <div class='example_content example_content_good' id='example_fr_2'></div>
 
-Here's another example: if you want the answer to be in the form of a number,  use a &ldquo;Numeric&rdquo; field. Screendoor will display an error if the user tries to enter anything in this field that isn't a number.
+Here's another example: if you want the answer to be in the form of a number,  use a "Numeric" field. Screendoor will display an error if the user tries to enter anything in this field that isn't a number.
 
 <div class='example_content example_content_good' id='example_fr_9'></div>
 
@@ -62,7 +62,7 @@ Instead, use section headers and descriptions to properly organize your instruct
 
 #### 5. Use blocks of text for long or important instructions.
 
-If it's necessary to write descriptive text that is longer than a paragraph, place it in a &ldquo;Block of text&rdquo; field, instead of the description of a section header. For instructions that require special emphasis, use large or medium blocks of text instead of emphasizing with \**asterisks*\* or *ALL CAPS*.
+If it's necessary to write descriptive text that is longer than a paragraph, place it in a "Block of text" field, instead of the description of a section header. For instructions that require special emphasis, use large or medium blocks of text instead of emphasizing with \**asterisks*\* or *ALL CAPS*.
 
 <div class='example_content example_content_good' id='example_fr_12'></div>
 

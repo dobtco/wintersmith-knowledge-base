@@ -18,11 +18,11 @@ Screendoor lets you charge submission fees for your projects by allowing you to 
 
 To accept credit card payments, you will first need to [create a Stripe account](https://dashboard.stripe.com/register).
 
-When you have a Stripe account, select the &ldquo;Edit&rdquo; link on the right side of the project header, and click the &ldquo;Details&rdquo; tab in the project wizard. Under &ldquo;Payments&rdquo; check the box &ldquo;Charge a submission fee.&rdquo;
+When you have a Stripe account, select the "Edit" link on the right side of the project header, and click the "Details" tab in the project wizard. Under "Payments" check the box "Charge a submission fee."
 
 ![Payment setting on Details page.](../images/payments_2.png)
 
-Press the &ldquo;Connect with Stripe&rdquo; button to connect to your Stripe account. You will be redirected to Stripe's website. Complete the form and press the &ldquo;Authorize access to this account&rdquo; button to return to Screendoor.
+Press the "Connect with Stripe" button to connect to your Stripe account. You will be redirected to Stripe's website. Complete the form and press the "Authorize access to this account" button to return to Screendoor.
 
 <div class='alert'>
     **Note:** Payment profiles are shared across all projects in your organization, so you will only need to complete this process once.
@@ -36,21 +36,21 @@ Under the fee amount, Screendoor shows you the percentage you will receive after
 
 ### Switching Stripe accounts
 
-To use a different Stripe account, click the &ldquo;Change profile&rdquo; link from the &ldquo;Signature and fees&ldquo; page.
+To use a different Stripe account, click the "Change profile" link from the "Signature and fees" page.
 
 ![Changing your Stripe payment profile.](../images/payments_4.png)
 
-You can then press the &ldquo;Connect with Stripe&rdquo; button to connect to a different Stripe account.
+You can then press the "Connect with Stripe" button to connect to a different Stripe account.
 
 ### Viewing completed charges
 
-To view completed payments, click your avatar in the navigation bar, select &ldquo;Settings&rdquo; in the dropdown, and then select &ldquo;Payment profile&rdquo; in the sidebar.
+To view completed payments, click your avatar in the navigation bar, select "Settings" in the dropdown, and then select "Payment profile" in the sidebar.
 
 ![Viewing a list of completed charges.](../images/payments_5.png)
 
 You can also switch Stripe accounts for your organization from this page.
 
-To view a completed charge inside of Stripe, press the &ldquo;View on Stripe&rdquo; button.
+To view a completed charge inside of Stripe, press the "View on Stripe" button.
 
 ---
 

@@ -17,7 +17,7 @@ Rating criteria, at their core, represent a set of values for your project: they
 
 ### Adding a rating field
 
-Once you have a set of rating criteria, it's time to add them as rating fields into Screendoor. Select the &ldquo;Edit&rdquo; link on the right side of the project header, and choose &ldquo;Rating fields&rdquo; from the Progress menu. Press the &ldquo;Add rating field&rdquo; button to get started.
+Once you have a set of rating criteria, it's time to add them as rating fields into Screendoor. Select the "Edit" link on the right side of the project header, and choose "Rating fields" from the Progress menu. Press the "Add rating field" button to get started.
 
 ![Adding your first rating field.](../images/rating_setup_1.png)
 
@@ -31,7 +31,7 @@ There are four types of ratings you can add.
 
 ![Yes / No ratings.](../images/rating_setup_yesno.png)
 
-**Yes / No ratings** let you answer a rating with a simple &ldquo;Yes,&rdquo; &ldquo;No,&rdquo; or &ldquo;Maybe.&rdquo;
+**Yes / No ratings** let you answer a rating with a simple "Yes," "No," or "Maybe."
 
 ![Numeric ratings.](../images/rating_setup_numeric.png)
 
@@ -51,7 +51,7 @@ Screendoor usually assumes your rating criteria apply to the entire response. Un
 
 ![Ratings on the Responses page.](../images/rating_setup_2.png)
 
-You can also tie a rating criterion to a single form field. When adding a rating,  click on the dropdown under &ldquo;Rating for&hellip;&rdquo; and select the label of the form field you want to rate.
+You can also tie a rating criterion to a single form field. When adding a rating,  click on the dropdown under "Rating for&hellip;" and select the label of the form field you want to rate.
 
 ![Rating a specific form field.](../images/rating_setup_3.png)
 
@@ -63,11 +63,11 @@ Ratings tied to a form field will appear directly under that field.
 
 All rating criteria are treated as equals in Screendoor when you create them. But if your team prioritizes some criteria over others, Screendoor's rating weights let you assign relative importance to each rating field.
 
-To turn on weighted ratings, make sure you have added at least two non-&ldquo;free text&ldquo; rating fields to your project. Then, press the &ldquo;Add weighed ratings&rdquo; button under the &ldquo;Rating field settings&rdquo; section of the &ldquo;Rating fields&rdquo; page.
+To turn on weighted ratings, make sure you have added at least two non-"free text" rating fields to your project. Then, press the "Add weighed ratings" button under the "Rating field settings" section of the "Rating fields" page.
 
 ![Turning on weighted ratings.](../images/rating_setup_5.png)
 
-Press the &ldquo;Edit weights&rdquo; button to adjust the relative weights of each rating. For example, let's say we want &ldquo;Originality&rdquo; to have a slightly higher weight than &ldquo;Technical Ability.&rdquo; We can adjust the slider on &ldquo;Originality&rdquo; until it has a weight of 25%.
+Press the "Edit weights" button to adjust the relative weights of each rating. For example, let's say we want "Originality" to have a slightly higher weight than "Technical Ability." We can adjust the slider on "Originality" until it has a weight of 25%.
 
 ![Adjusting weighted ratings.](../images/rating_setup_6.png)
 
@@ -75,13 +75,13 @@ Before you can save your rating weights, they must all add up to 100%. Adjust th
 
 ![All weighted ratings should add up to 100%.](../images/rating_setup_7.png)
 
-When you're done, you must press the &ldquo;Save weights&rdquo; button to save your changes.
+When you're done, you must press the "Save weights" button to save your changes.
 
 ### Adding a start date and deadline for ratings
 
 If you want your reviewers to submit their ratings within a certain period of time, you can add a start date and deadline for your reviewers to submit ratings.
 
-Under the &ldquo;Rating field settings&rdquo; section on the &ldquo;Rating fields&rdquo; page, press the &ldquo;Add a deadline for ratings&rdquo; button. Use the date and time pickers to choose your start date and deadline.
+Under the "Rating field settings" section on the "Rating fields" page, press the "Add a deadline for ratings" button. Use the date and time pickers to choose your start date and deadline.
 
 ![Adding a start date and deadline to ratings.](../images/rating_setup_8.png)
 
@@ -93,7 +93,7 @@ If the rating period has yet to start, reviewers will be unable to add ratings. 
 
 Screendoor lets you add descriptions to your numeric ratings, so you can explain what each number in the scale represents.
 
-If you have a numeric rating in your project, press the &ldquo;Add a custom scale&rdquo; button under the &ldquo;Rating fields settings&rdquo; section of the &ldquo;Rating fields&rdquo; page. Under &ldquo;Custom rating scale,&rdquo; add descriptions next to each number.
+If you have a numeric rating in your project, press the "Add a custom scale" button under the "Rating fields settings" section of the "Rating fields" page. Under "Custom rating scale," add descriptions next to each number.
 
 ![Adding a numeric scale to each rating.](../images/rating_setup_10.png)
 
