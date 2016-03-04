@@ -1,6 +1,8 @@
 ---
 title: Plan limits
 order: 1
+app_pages:
+  - plans-show
 ---
 
 Depending on your plan, Screendoor will limit the following items:

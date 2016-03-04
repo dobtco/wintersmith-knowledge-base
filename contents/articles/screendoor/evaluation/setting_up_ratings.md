@@ -3,7 +3,6 @@ title: Setting up ratings
 order: 1
 app_pages:
   - projectadmin-wizard-evaluation
-  - projectadmin-wizard-advancedevaluation
   - projectadmin-responses-ratings
   - projectadmin-responses-show
 ---

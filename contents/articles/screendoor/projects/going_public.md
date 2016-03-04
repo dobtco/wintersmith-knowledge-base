@@ -5,14 +5,10 @@ app_pages:
   - projectadmin-responses-index
   - projectadmin-wizard-description
   - projectadmin-wizard-details
-  - projectadmin-wizard-questionandanswer
-  - projectadmin-wizard-responses
   - projectadmin-wizard-responseform
-  - projectadmin-wizard-signaturefees
   - projectadmin-wizard-afterresponse
-  - projectadmin-wizard-statuses
   - projectadmin-wizard-evaluation
-  - projectadmin-wizard-advancedevaluation
+  - projectadmin-wizard-share
 ---
 
 Your project is private by default: only you can see it. When you're ready to start accepting responses, press the &ldquo;Share your project&rdquo; button in the alert at the top of the page.

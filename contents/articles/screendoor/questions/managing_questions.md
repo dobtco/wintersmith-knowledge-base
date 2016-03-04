@@ -2,7 +2,7 @@
 title: Managing questions
 order: 2
 app_pages:
-  - projectadmin-wizard-questionandanswer
+  - projectadmin-wizard-details
   - projectadmin-questions-index
   - projectadmin-questions-show
 ---

@@ -3,7 +3,7 @@ title: Embedding your form
 order: 7
 app_pages:
   - projectadmin-wizard-responseform
-  - projectadmin-settings-embedcode
+  - projectadmin-settings-settings # if someone's looking for the embed code in the old location
 include_formrenderer: true
 ---
 

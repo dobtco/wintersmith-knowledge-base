@@ -2,7 +2,6 @@
 title: Collecting names and email addresses
 order: 2
 app_pages:
-  - projectadmin-wizard-responses
   - projectadmin-wizard-responseform
 ---
 
