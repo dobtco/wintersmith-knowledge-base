@@ -89,6 +89,7 @@
     "articles/screendoor/response_form/signatures.html": "articles/screendoor/your_form/signatures.html",
     "articles/screendoor/response_form/embedding_the_response_form.html":
     "articles/screendoor/your_form/embedding_your_form.html",
+    "articles/screendoor/integrations/stripe.html": "articles/screendoor/your_form/payments.html",
     "articles/dashboard/index.html": "articles/your_account/index.html",
     "articles/dashboard/access/supported_browsers.html": "articles/your_account/dashboard/supported_browsers.html",
     "articles/dashboard/accounts/billing.html": "articles/your_account/dashboard/billing.html",
