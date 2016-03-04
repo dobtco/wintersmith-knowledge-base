@@ -86,3 +86,27 @@ If you want to show more than one field based on a previous answer, you must add
 ### Hidden and blind fields
 
 You can make any field in your form _hidden_, which will make it visible only to your fellow reviewers, or _blind_, if you would like to hide personally identifying information during the evaluation process. [Learn more about hidden fields here](/articles/screendoor/evaluation/hidden_fields.html), or [read about blind fields here](/articles/screendoor/evaluation/removing_bias.html).
+
+---
+
+## F.A.Q.
+
+### How do I change a field's type?
+
+Because field type specifies what kind of data fields can store, it's not possible to change a field's type after you create it. You can, however, create a duplicate field with a different type:
+
+First, duplicate the field by clicking the Copy link below it.
+
+![Copying a field.](../images/formbuilder_12.png)
+
+Remove &ldquo;(1)&rdquo; from the label of the new field.
+
+![Renaming a copied field.](../images/formbuilder_13.png)
+
+Then, in the &ldquo;Edit field&rdquo; pane, select your desired field type.
+
+![Selecting a field type.](../images/formbuilder_14.png)
+
+Click on the original field. Under the description in the left pane, select the &ldquo;Hidden&rdquo; checkbox to hide that field from respondents. (Deleting a field entails deleting answers previously submitted to it, so setting the field to &ldquo;Hidden&rdquo; allows you to preserve existing data.)
+
+![Marking original field as "Hidden".](../images/formbuilder_15.png)
