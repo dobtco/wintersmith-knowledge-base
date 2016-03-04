@@ -18,7 +18,7 @@ In addition, [e-signatures](../your_form/signatures.html), [teams](../collaborat
 
 ### Managing projects and collaborators
 
-If you are an administrator in your organization, you can view the details of your plan and a list of active projects and collaborators. Click your avatar in the navigation page, select "Settings" from the dropdown, and choose ["Your plan"](https://screendoor.dobt.co/settings/plan) from the sidebar.
+If you're an administrator in your organization, you can view the details of your plan and a list of active projects and collaborators. Click your avatar in the navigation bar and select ["Users and billing"](https://screendoor.dobt.co/settings/plan) from the dropdown. (Alternatively, if you're already on [the "Settings" page](https://screendoor.dobt.co/account/settings), select "Your plan" from the sidebar.)
 
 ![The "Your plan" page](../images/plan_limits_1.png)
 
@@ -26,7 +26,7 @@ You can archive projects directly from this page by pressing the "Archive" butto
 
 ![Archiving a project](../images/plan_limits_2.png)
 
-To remove a collaborator from your plan, press the "Remove" button next to their name. Doing so will remove them from the projects they are a collaborator on. If they were the owner of a project, ownership of that project will be transferred to the owner of your organization.
+To remove a collaborator from your plan, press the "Remove" button next to their name. Doing so will remove them from the projects they're a collaborator on. If they were the owner of a project, ownership of that project will be transferred to the owner of your organization.
 
 ![Removing a collaborator](../images/plan_limits_3.png)
 
