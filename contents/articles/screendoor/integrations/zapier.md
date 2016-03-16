@@ -7,7 +7,7 @@ app_pages:
 
 Zapier is a product that allows you to automate your workflow by providing a connecting bridge between a variety of apps and services. If you have a Zapier account, you can use Screendoor's triggers to add great integrations with the [apps](https://zapier.com/zapbook/) your team uses regularly.
 
-For example, the DOBT team onboards new employees with a Screendoor form. Once they have submitted their form, we use Zapier to post a welcome mesage to [Slack](http://www.slack.com):
+For example, the DOBT team onboards new employees with a Screendoor form. Once they have submitted their form, we use Zapier to post a welcome message to [Slack](http://www.slack.com):
 
 ![Welcome message via Zapier.](../images/zapier_1.png)
 
@@ -25,27 +25,36 @@ Because Screendoor is not publicly listed as a Zapier application, you'll need t
 
 <a class="button info" href="https://zapier.com/developer/invite/11164/f7c39187582faf14fb803d66cc8500b7/">Get invited to use Screendoor on Zapier</a>
 
-In Zapier, click on your avatar in the upper right corner, and select "Connected Accounts".
+In Zapier, click on your avatar in the upper right corner, and select "Connected Accounts."
 
 ![Connecting your Zapier account.](../images/zapier_3.png)
 
-Click on the "Connect new account" dropdown and search for Screendoor. Click on the icon in your search results.
+Click on dropdown and search for Screendoor. Click on "Screendoor" in your search results.
 
 ![Adding Screendoor to Zapier.](../images/zapier_4.png)
 
-Enter a name for your own reference (this could just be "Screendoor"). Under "API key," paste in the key you generated earlier.
+Under "API key," paste in the key you generated earlier.
 
-![Adding a name and API key.](../images/zapier_5.png)
+![Adding an API key.](../images/zapier_5.png)
 
 Zapier will test your API key to make sure it's working. If you receive an authorization error, make sure you entered the API key correctly.
 
+Once your API key is authorized, Screendoor will appear in the list of connected accounts.
+
+![Screendoor on Zapier's Connected Accounts page.](../images/zapier_6.png)
 
 ### Using Zapier with Screendoor
 
-Any Screendoor zap you create needs to be connected to a specific project. In the process of creating a zap, Zapier will ask you for your Screendoor project's ID.
+A "Zap" is a link between the apps you've connected to your Zapier account. Any Zap that includes Screendoor needs to be connected to a specific project. In the process of creating a Zap, Zapier will ask you for your Screendoor project's ID.
 
-![Zapier asking for a Screendoor project ID.](../images/zapier_6.png)
+![Zapier asking for a Screendoor project ID.](../images/zapier_7.png)
 
 You can find your project ID on its Settings page, under "General settings." Click the "Show advanced settings" link, and scroll to the bottom.
 
-![Finding a project ID in Screendoor.](../images/zapier_7.png)
+![Finding a project ID in Screendoor.](../images/zapier_8.png)
+
+### Configuring Multi-step Zaps
+
+Zapier now lets you automate multiple actions with a single Screendoor trigger. You can, for example, configure a Zap to add a respondent as a subscriber to your Mailchimp mailing list *and* create a card for their response in your Trello board. [Read more about multi-step Zaps.](https://zapier.com/multi-step-zaps/)
+
+![Setting up a multi-step Zap.](../images/zapier_9.png)
