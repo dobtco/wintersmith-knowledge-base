@@ -9,7 +9,7 @@ app_pages:
     **Note**: CKAN data sync is only available for Enterprise plans.
 </div>
 
-Instead of manually releasing open data to your CKAN portal, Screendoor can sync responses to your forms with a CKAN data set automatically. Revisions to responses can even be reflected in your portal in real time.
+Instead of manually releasing open data to your CKAN portal, Screendoor can sync your responses with a CKAN dataset automatically. Revisions to responses can even be reflected in your portal in real time.
 
 ### Connecting to CKAN
 
@@ -29,7 +29,7 @@ Screendoor will sync all responses by default. To sync only a subset of your res
 
 In the modal that appears, you can choose to filter responses with a specific status or label or those that contain a certain word or phrase. Press the "Filter responses" button to save your filters.
 
-![The filtering modal.](../images/socrata_5.png)
+![The filtering modal.](../images/socrata_4.png)
 
 Finally, to start syncing the responses that match your filters, press the "Start syncing."
 
