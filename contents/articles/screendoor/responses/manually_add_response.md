@@ -22,6 +22,8 @@ Fill out the form, and make sure to enter that person's name and email! Press th
 
 ---
 
+## F.A.Q.
+
 ### Will respondents receive a confirmation email when I manually add their response?
 
 No. When manually adding a response, the respondent will not receive a [confirmation email](/articles/screendoor/your_form/confirmations.html#customizing-the-confirmation-email).
