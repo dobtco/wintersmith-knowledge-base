@@ -13,7 +13,7 @@ Instead of manually releasing open data to your Socrata portal, Screendoor can s
 
 ### Connecting to Socrata
 
-If you have a Socrata account, visit your project's Settings page, and select "Integrations" from the sidebar and click "Enable" next to Socrata.
+If you have a Socrata account, visit your project's Settings page and select "Integrations" from the sidebar. Click "Enable" next to Socrata.
 
 ![The Integrations page.](../images/socrata_1.png)
 
@@ -35,6 +35,6 @@ A modal will appear that allows you to filter the responses that will be sent to
 
 ![The filtering modal.](../images/socrata_5.png)
 
-Finally, to start syncing the responses that match your filters, press the "Start syncing" button.
+Finally, to start syncing the responses that match your filters, press "Start syncing."
 
-![The Connect to Socrata page will inform you of the number of responses that will be synced.](../images/socrata_6.png)
+![Start syncing responses to Socrata.](../images/socrata_6.png)
