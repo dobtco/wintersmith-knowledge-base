@@ -95,4 +95,4 @@ When mapping a column to a <span class='label'>Screendoor field</span>, it's imp
 
 ### Will imported respondents receive a confirmation email?
 
-No. If you import responses with an email column and map it to the Respondent email field, these respondents will not receive a [confirmation email](/articles/screendoor/your_form/confirmations.html#customizing-the-confirmation-email).
+No. Even if you import responses with an email column and map it to the Respondent email field, these respondents will not receive a [confirmation email](/articles/screendoor/your_form/confirmations.html#customizing-the-confirmation-email).
