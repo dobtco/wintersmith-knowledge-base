@@ -5,7 +5,7 @@ app_pages:
   - projectadmin-wizard-details
 ---
 
-To set a deadline for responses, press the "Edit" button on the right side of the project header. In the project wizard menu, select "Details" tab.
+To set a deadline for responses, press the "Edit" button on the right side of the project header. In the project wizard menu, select the "Project Page" tab.
 
 ### Adding a deadline to a project
 
@@ -19,7 +19,7 @@ To clear the due date, click "Clear deadline" below the date and time pickers.
 
 ### Setting a grace period
 
-If you want to give some extra time for people who started a response before the deadline to finish it after it has passed, you can add a grace period. Press the "Add grace period for drafts" button below "Clear deadline," and select a date and time.
+If you want to give some extra time for people who started a response before the deadline to finish it after it has passed, you can add a grace period. Press the "add a grace period" link and select a date and time.
 
 ![Adding a grace period.](../images/deadline_2.png)
 
