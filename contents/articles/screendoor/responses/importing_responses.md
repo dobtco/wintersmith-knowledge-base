@@ -88,3 +88,11 @@ When mapping a column to a <span class='label'>Screendoor field</span>, it's imp
 | Status | String | `"Open"` | The status must already exist inside of the project. |
 | Labels | Comma-separated | `"A+, Missing info"`| If a label does not exist, it will be created for you. |
 | Assigned to | Comma-separated | `"Barack Obama, HR"` | The list can contain names of individual collaborators, as well as names of [project teams](/articles/screendoor/collaboration/teams.html). |
+
+---
+
+## F.A.Q.
+
+### Will imported respondents receive a confirmation email?
+
+No. Even if you import responses with an email column and map it to the Respondent email field, these respondents will not receive a [confirmation email](/articles/screendoor/your_form/confirmations.html#customizing-the-confirmation-email).
