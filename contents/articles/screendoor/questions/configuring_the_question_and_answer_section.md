@@ -7,7 +7,7 @@ app_pages:
 
 Setting up a public question-and-answer page for your project makes communication more efficient for everyone involved. It's a great way to reduce support email by allowing respondents to see the questions other people have asked. Hosting a section for questions on Screendoor keeps your team coordinated, too: all project admins have access to a shared inbox of questions, so they never need to give two different answers to similar questions.
 
-To set up questions for your project, press "Edit" in the header, and select the "Details" tab in the project wizard. Under "Questions" check the box "Add a questions page."
+To set up questions for your project, press "Edit" in the header, and select the "Project Page" tab in the project wizard and check the box "Add a questions page."
 
 ![Questions page in the project wizard.](../images/questions_1.png)
 
