@@ -29,7 +29,7 @@ Note that this setting will disable Screendoor features that require names and e
 
 If you want to change the labels of the name and email address fields, or you don't want them to be at the top of your form, Screendoor lets you replace the default name and email fields with other fields in your form.
 
-To start, click the "Edit" link on the right side of the project header, and select "Form builder" from the Progress menu. Select the Name and Email fields and click the "Remove" link.
+To start, click the "Edit" link on the right side of the project header, and select "The Form" from the project wizard. Then, select the Name and Email fields and click "Remove."
 
 ![Making your project anonymous.](../images/name_email_2.png)
 
@@ -37,6 +37,18 @@ Then, add your custom name and email fields, with the labels you wish. Make sure
 
 ![Adding custom name and email fields.](../images/name_email_4.png)
 
-Navigate to your project's Settings page, and click "Show advanced settings." Select your custom fields from the dropdowns that appear.
+Navigate to your project's Settings page, and click "Show advanced settings." Then, select your custom fields from the dropdowns that appear.
 
 ![Replacing the default name and email fields.](../images/name_email_5.png)
+
+---
+
+## F.A.Q.
+
+### How do I prevent respondents from submitting more than one response?
+
+To limit submissions to one response per respondent, you must first require respondents to create or log in with an existing Screendoor account.
+
+In the project header, click "Edit" and select "The Form" in the project wizard. Then, select the Name and Email fields in the form builder. In the "Edit field" pane, check "Require a Screendoor account to submit," and under that option, check "Only allow one response per respondent."
+
+![Allowing only one response per account.](../images/name_email_6.png)
