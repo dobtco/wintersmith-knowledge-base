@@ -17,7 +17,7 @@ module.exports = (grunt) ->
 
     linkChecker:
       options:
-        maxConcurrency: 20
+        maxConcurrency: 5
       dev:
         site: 'localhost'
         options:
