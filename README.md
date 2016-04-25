@@ -43,7 +43,7 @@ You'll need [node and npm](http://nodejs.org) installed.
 
 ## Testing
 
-Run `grunt link-checker:dev` to check the knowledge base for broken links.
+Run `grunt linkChecker:dev` to check the knowledge base for broken links.
 
 ## Deployment
 

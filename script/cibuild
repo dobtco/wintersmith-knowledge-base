@@ -13,5 +13,5 @@ kill $PID1
 wintersmith preview &
 PID2=$!
 sleep 5
-grunt link-checker:dev
+grunt linkChecker:dev
 kill $PID2

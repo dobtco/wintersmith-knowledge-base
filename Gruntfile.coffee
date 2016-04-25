@@ -15,7 +15,7 @@ module.exports = (grunt) ->
   grunt.initConfig
     pkg: '<json:package.json>'
 
-    'link-checker':
+    linkChecker:
       options:
         maxConcurrency: 20
       dev:
