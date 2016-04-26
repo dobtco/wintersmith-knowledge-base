@@ -61,11 +61,11 @@ Selecting "Hide this field" will make the field invisible to the public, move it
 
 ### Adding conditional logic
 
-Screendoor allows you to add powerful logic (previously called "rules") to your form, by conditionally showing and hiding fields depending on the respondent's previous answers.
+Screendoor allows you to add powerful logic (previously called "rules") to your form, so you can show or hide fields depending on the respondent's previous answers.
 
 For example, if some questions in your form should be skipped unless the implementation cost is over $1 million, you could hide those fields until the respondent indicates their implementation cost. Let's walk through that example below.
 
-To start adding conditional logic, select the field you wish to hide, and press the "Add a condition" button in the left pane.
+To add conditional logic, first select the field you wish to hide, and press the "Add a condition" button in the left pane.
 
 ![Adding a condition to a field.](../images/formbuilder_9.png)
 
@@ -77,7 +77,7 @@ Once you have set up your condition, you will see the label "Conditional" next t
 
 ![What a respondent sees when filling out a form with conditional logic.](../images/formbuilder_11.gif)
 
-If you want to show more than one field based on a previous answer, you must add the condition manually to each affected field.
+If you want to show more than one field based on a previous answer, you must manually add the condition to each affected field.
 
 <div class='alert'>
     **Note:** Try to keep your form simple. If you find yourself creating complex conditional scenarios, or making forms with dozens of pages, consider breaking up your form into several smaller projects.
