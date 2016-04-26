@@ -59,25 +59,25 @@ If responses have been submitted to your project, we assume that those responses
 
 Selecting "Hide this field" will make the field invisible to the public, move it to the bottom of the form, and leave your responses intact. If you select "Delete this field and its answers," it will delete the field and remove all previous answers to it within your responses.
 
-### Adding rules for complex logic
+### Adding conditional logic
 
-Rules allow you to add powerful logic to your form, by conditionally showing and hiding fields depending on the respondent's previous answers.
+Screendoor allows you to add powerful logic (previously called "rules") to your form, by conditionally showing and hiding fields depending on the respondent's previous answers.
 
 For example, if some questions in your form should be skipped unless the implementation cost is over $1 million, you could hide those fields until the respondent indicates their implementation cost. Let's walk through that example below.
 
-To start adding rules, select the field you wish to hide, and press the "Add a rule" button in the left pane.
+To start adding conditional logic, select the field you wish to hide, and press the "Add a condition" button in the left pane.
 
-![Adding a rule to a field.](../images/formbuilder_9.png)
+![Adding a condition to a field.](../images/formbuilder_9.png)
 
 Under "Only show this field if&hellip;" select the appropriate options. In this example, we want to show this question only if the cost is more than $1 million.
 
-![Setting conditions for a rule.](../images/formbuilder_10.png)
+![Setting details for a condition.](../images/formbuilder_10.png)
 
-Once you have set up your rule, you will see the label "Hidden until rules are met" next to the field in the preview pane. When the respondent fills out the form, they won't see this field unless they meet the rule.
+Once you have set up your condition, you will see the label "Conditional" next to the field in the preview pane. When the respondent fills out the form, they won't see this field unless they meet the condition.
 
-![What a respondent sees when filling out a form with rules.](../images/formbuilder_11.gif)
+![What a respondent sees when filling out a form with conditional logic.](../images/formbuilder_11.gif)
 
-If you want to show more than one field based on a previous answer, you must add the rule manually to each affected field.
+If you want to show more than one field based on a previous answer, you must add the condition manually to each affected field.
 
 <div class='alert'>
     **Note:** Try to keep your form simple. If you find yourself creating complex conditional scenarios, or making forms with dozens of pages, consider breaking up your form into several smaller projects.

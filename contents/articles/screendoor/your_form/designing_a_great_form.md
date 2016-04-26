@@ -96,9 +96,9 @@ Use section breaks to organize your form and provide clear hierarchy. Use large 
 
 When someone encounters a huge form, it can feel overwhelming and deter them from even starting. Make your form more approachable by grouping related fields into sections, and devoting a single page to each section.
 
-#### 10. Instead of asking your respondents to skip sections, use rules instead.
+#### 10. Instead of asking your respondents to skip sections, use conditional logic instead.
 
-If you need your respondents to skip sections of your form depending on their previous answers, you should consider using [rules](/articles/screendoor/your_form/building_your_form.html#adding-rules-for-complex-logic) instead of explaining it in writing. Rules allow you conditionally hide or show any field on your form, making complex forms much more usable.
+If you need your respondents to skip sections of your form depending on their previous answers, you should consider using [conditional logic](/articles/screendoor/your_form/building_your_form.html#adding-conditional-logic) instead of explaining it in writing. Conditional logic allows you to hide or show any field on your form, making complex forms much more usable.
 
 ### Improving your copywriting skills
 
