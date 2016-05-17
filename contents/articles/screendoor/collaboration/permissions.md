@@ -14,11 +14,11 @@ Permissions allow administrators to control which functionality collaborators ca
 
 - **Administrator**: Administrators have all permissions, including the ability to invite new collaborators.
 
-- **Can review assigned responses**: Users can rate responses assigned to them and comment on all responses. They can't assign statuses or labels.
+- **Assigned reviewer**: Users can view, rate, and comment on *only* the responses assigned to them. They can't assign statuses or labels.
 
-- **Can review, label, assign all responses**: Users can view, comment on, and rate responses. They can also change the status, add labels, and assign users to a response.
+- **Full reviewer**: Users can view, comment on, and rate responses. They can also change the status, add labels, and assign users to a response.
 
-- **Can view responses**: Users can view responses, but they can neither rate nor manage them. They also cannot edit the project.
+- **Observer**: Users can view responses, but they can neither rate nor manage them. They also cannot edit the project.
 
 ### Assigning permissions to collaborators
 
