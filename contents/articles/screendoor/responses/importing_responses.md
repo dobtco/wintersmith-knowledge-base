@@ -9,7 +9,7 @@ app_pages:
 
 If you are switching to Screendoor from a third-party service or you need to migrate your data to another Screendoor account, you can import responses into your project to keep all of your data in the same place.
 
-### Getting Started
+### Getting started
 
 First, make sure your responses are formatted as a CSV file. Most third-party form services allow you to export to CSV, but you can also create a CSV from a spreadsheet program like Excel. Each form field should occupy a column of your spreadsheet, and each response should occupy a row.
 
