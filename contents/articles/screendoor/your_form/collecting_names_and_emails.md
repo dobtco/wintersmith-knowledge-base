@@ -47,8 +47,6 @@ Navigate to your project's Settings page, and click "Show advanced settings." Th
 
 ### How do I prevent respondents from submitting more than one response?
 
-To limit submissions to one response per respondent, you must first require respondents to create or log in with an existing Screendoor account.
-
-In the project header, click "Edit" and select "The Form" in the project wizard. Then, select the Name and Email fields in the form builder. In the "Edit field" pane, check "Require a Screendoor account to submit," and under that option, check "Only allow one response per respondent."
+In the project header, click "Edit" and select "The Form" in the project wizard. Then, select the Name and Email fields in the form builder. In the "Edit field" pane, check "Only allow one response per account."
 
 ![Allowing only one response per account.](../images/name_email_6.png)
