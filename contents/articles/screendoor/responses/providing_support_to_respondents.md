@@ -70,7 +70,7 @@ To preserve the privacy of your respondents, you can't view the contents of thei
 
 ![The View Details button on the Drafts page.](../images/draft_2.png)
 
-A modal dialog will appear, showing you the respondent's name and email, the progress they've made, any validation errors in the form, and the time they last edited their draft.
+A modal dialog will appear, showing you the respondent's name and email, the progress they've made, any validation errors in the form, and the time they last edited their draft. It also displays a permalink to the draft, which you can email to the respondent along with any guidance you may want to provide.
 
 ![The details modal for drafts.](../images/draft_3.png)
 
