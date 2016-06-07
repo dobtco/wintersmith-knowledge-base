@@ -20,6 +20,10 @@ Permissions allow administrators to control which functionality collaborators ca
 
 - **Observer**: Users can view responses, but they can neither rate nor manage them. They also cannot edit the project.
 
+<div class='alert'>
+  **Note**: Organization administrators have all permissions in all the projects in their organization—even if they have not been added as a collaborator.
+</div>
+
 ### Assigning permissions to collaborators
 
 When a project owner or administrator invites a new collaborator, they must set that person's permission level before inviting them.
