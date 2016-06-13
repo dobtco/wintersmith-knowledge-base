@@ -111,6 +111,6 @@ Click on the original field. Under the description in the left pane, select the 
 
 ![Marking original field as "Hidden".](../images/formbuilder_15.png)
 
-### What is the size limit for a file uploaded to a File field?
+### I want to add a File field to my form. What is the size limit for uploaded files?
 
 Files uploaded to Screendoor must be 50 MB or smaller.
