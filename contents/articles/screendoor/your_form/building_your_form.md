@@ -110,3 +110,7 @@ Then, in the "Edit field" pane, select your desired field type.
 Click on the original field. Under the description in the left pane, select the "Hidden" checkbox to hide that field from respondents. (Deleting a field entails deleting answers previously submitted to it, so setting the field to "Hidden" allows you to preserve existing data.)
 
 ![Marking original field as "Hidden".](../images/formbuilder_15.png)
+
+### What is the size limit for a file uploaded to a File field?
+
+Files uploaded to Screendoor must be 50 MB or smaller.
