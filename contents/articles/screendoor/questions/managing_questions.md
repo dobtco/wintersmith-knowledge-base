@@ -36,3 +36,6 @@ Yes. Just uncheck the "Display this question publicly" box when you answer the q
 Yes. First, press the "View" button to visit your project's landing page. Then, click the "Ask a question" link in the page header.
 
 ![Asking a question](../images/questions_4.png)
+
+### Can I edit an answer and notify the person who asked the question?
+Yes. First, select the question from the table on the Questions page. Press "Remove answer," edit the answer in the text box, and press "Post answer." The person who asked the question will be notified by email of your new or revised answer. 
