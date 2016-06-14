@@ -95,7 +95,7 @@ You can make any field in your form _hidden_, which will make it visible only to
 
 Because field type specifies what kind of data fields can store, it's not possible to change a field's type after you create it. You can, however, create a duplicate field with a different type:
 
-First, duplicate the field by clicking the Copy link below it.
+First, duplicate the field by clicking the "Copy" link below it.
 
 ![Copying a field.](../images/formbuilder_12.png)
 
