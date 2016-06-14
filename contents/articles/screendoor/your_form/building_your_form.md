@@ -25,7 +25,7 @@ Click on a button in the left pane to add that field to your form. If you want t
 
 The left pane will change to Edit mode, where you can fill out the details for that field.
 
-To add another field, press the "Add a new field" button on the upper right-hand side of the Edit pane.
+To add another field, press the "X" button at the top of left pane to view the "Add a new field" menu again.
 
 ![The Add button in the form builder's Edit mode.](../images/formbuilder_3.png)
 
@@ -69,7 +69,7 @@ To add logic to your form, first select the field you wish to hide, and press th
 
 ![Adding a condition to a field.](../images/formbuilder_9.png)
 
-Under "Only show this field if&hellip;" select the appropriate options. In this example, we want to show this question only if the cost is more than $1 million.
+Under "Show this field if&hellip;" select the appropriate options. In this example, we want to show this question only if the cost is more than $1 million.
 
 ![Setting details for a condition.](../images/formbuilder_10.png)
 
@@ -95,7 +95,7 @@ You can make any field in your form _hidden_, which will make it visible only to
 
 Because field type specifies what kind of data fields can store, it's not possible to change a field's type after you create it. You can, however, create a duplicate field with a different type:
 
-First, duplicate the field by clicking the Copy link below it.
+First, duplicate the field by clicking the "Copy" link below it.
 
 ![Copying a field.](../images/formbuilder_12.png)
 
