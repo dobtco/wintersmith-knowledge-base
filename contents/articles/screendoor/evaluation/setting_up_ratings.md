@@ -100,3 +100,11 @@ If you have a numeric rating in your project, press the "Add a custom scale" but
 When reviewers reach your numeric rating, they will see your custom description next to each number.
 
 ![Viewing a rating with a custom scale.](../images/rating_setup_11.png)
+
+---
+
+## F.A.Q.
+
+### Can I choose to show a rating field to only a subset of reviewers?
+
+If your organization is on the "20 users" plan or higher, yes! You can group these reviewers into a team, and create a rating field that can be seen only by them. [Learn more about teams on Screendoor.](/articles/screendoor/collaboration/teams.html)

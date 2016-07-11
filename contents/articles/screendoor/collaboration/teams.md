@@ -7,7 +7,7 @@ app_pages:
 ---
 
 <div class='alert'>
-    **Note:** Project teams are only available to customers with a "50 users" plan or higher.
+    **Note:** Project teams are only available to customers with a "20 users" plan or higher.
 </div>
 
 If you're a large organization using Screendoor, chances are you're delegating dozens of people from different departments to help evaluate your incoming responses. Screendoor's teams help you organize your collaborators and delegate work more efficiently.
@@ -38,6 +38,6 @@ You can assign responses to teams you have created. Let's say you have 60 collea
 
 If you place someone in a team accidentally and then assign responses to that team, it's still an easy mistake to fix. When you change the team someone is a part of, the responses they're assigned to change as well.
 
-You can also [add rating fields](/articles/screendoor/evaluation/setting_up_ratings.html) that can only be seen by a single team. When adding a rating, click the "Show to&hellip;" link, and select a team under the dropdown that appears.
+You can also [add rating fields](/articles/screendoor/evaluation/setting_up_ratings.html) that can only be seen by a single team. When adding a rating, click the "Only show to&hellip;" button, and select a team under the dropdown that appears.
 
-![Assigning a rating to a team.](../images/teams_4.png)
+![Assigning a rating field to a team.](../images/teams_4.png)
