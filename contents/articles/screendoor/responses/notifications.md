@@ -9,7 +9,7 @@ app_pages:
 
 ### Project-wide notifications
 
-By default, creators of a project get notified for everything that happens on that project. If you are collaborating on a project that you did not create, you are notified only if you are mentioned in a comment or assigned to a response.
+By default, [the owner and administrators of a project](../collaboration/permissions.html#permission-levels-in-screendoor) get notified for everything that happens on that project. If you are a project collaborator, but not the owner or an administrator, you are notified only if you are mentioned in a comment or assigned to a response.
 
 You can change your notification settings for any project on its Settings page, under "General settings."
 
