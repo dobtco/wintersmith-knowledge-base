@@ -23,6 +23,6 @@ Write your preset just like you would write a normal message. ([Learn more about
 
 ### Using your preset
 
-You can send message presets to respondents with just a few clicks. When composing a message, click the "Use a preset" button, and select your preset from the dropdown.
+Whether you want to get in touch with one respondent or several respondents at once, you can create a message from one of your presets.
 
 ![Selecting a preset.](../images/messages_preset_3.png)
