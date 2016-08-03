@@ -4,7 +4,9 @@ order: 1
 redirect_from: /articles/dashboard/accounts/signup_and_login.html
 ---
 
-All of our apps, including Screendoor, Adopta, and GovMapper, require a DOBT account. If you've signed up for any one of those apps individually, you already have a DOBT account.
+<div class='alert'>
+    **Note**: If you have a Screendoor account, sign in by [following the instructions here](../../screendoor/your_account/sign_in.html).
+</div>
 
 To view and edit your DOBT account, visit the [Sign In page](https://dashboard.dobt.co/sign_in). You'll need the email address you signed up with, as well as the password you created.
 

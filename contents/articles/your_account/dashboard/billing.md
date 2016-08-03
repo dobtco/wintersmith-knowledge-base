@@ -3,6 +3,10 @@ title: Editing your payment details
 order: 4
 ---
 
+<div class='alert'>
+    **Note**: If you have a Screendoor account, edit your credit card information by [following the instructions here](../../screendoor/your_account/billing.html#updating-your-credit-card).
+</div>
+
 ### Adding a credit card
 
 Under the "Billing" section of the ["Your organization" page](https://dashboard.dobt.co/organization/), click the "Add credit card" link. Enter your credit card details and click the "Save" button. (Or, if you are already a Stripe user, enter the verification code you received from Stripe via SMS.) You can always go back and change the credit card you have on file by clicking the "Update credit card" link.
