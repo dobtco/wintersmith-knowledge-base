@@ -8,7 +8,7 @@ app_pages:
 
 Screendoor really shines when you invite others to your projects. When everyone can see the newest submissions to your project, and the activity around them, your entire organization can stay in the loop, eliminating back-and-forth emails and generally making your team more efficient.
 
-To start inviting colleagues to collaborate on your project, click on the Collaborators link on the right side of the project header.
+To start inviting colleagues to collaborate on your project, click on the "Invite" link on the right side of the project header.
 
 ![The Collaborators link in the project header.](../images/collabs_1.png)
 
@@ -50,7 +50,7 @@ You can override these permissions on an individual basis. Just invite colleague
 
 ### Removing collaborators
 
-To remove a collaborator, check the box next to their name, and click the Remove link above the Collaborators table.
+To remove a collaborator, check the box next to their name, and click the "Remove" link above the Collaborators table.
 
 ![Removing collaborators.](../images/collabs_8.png)
 
