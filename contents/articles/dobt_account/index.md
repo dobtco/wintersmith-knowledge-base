@@ -1,5 +1,5 @@
 ---
-title: Your Account
+title: DOBT Account
 ---
 
 <div class='alert'>

@@ -1,6 +1,7 @@
 ---
 title: Adding users to your organization
 order: 2
+redirect_from: /articles/your_account/dashboard/managing_users.html
 ---
 
 <div class='alert'>

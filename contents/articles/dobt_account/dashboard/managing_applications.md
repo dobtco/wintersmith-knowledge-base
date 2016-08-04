@@ -1,6 +1,7 @@
 ---
 title: Managing DOBT apps
 order: 6
+redirect_from: /articles/your_account/dashboard/managing_applications.html
 ---
 
 ### Launching an application

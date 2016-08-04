@@ -2,6 +2,7 @@
 title: Signing in
 order: 1
 redirect_from: /articles/dashboard/accounts/signup_and_login.html
+redirect_from: /articles/your_account/dashboard/signup_and_login.html
 ---
 
 <div class='alert'>
