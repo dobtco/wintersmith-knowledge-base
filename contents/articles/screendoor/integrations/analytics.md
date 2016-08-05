@@ -17,7 +17,7 @@ Copy the tracking code that appears.
 
 ![Your Google Analytics tracking code.](../images/analytics_2.png)
 
-In Screendoor, click on your avatar in the navigation bar, select "Settings" from the dropdown, and choose "Analytics" from the sidebar. Under "Google Analytics ID," paste in your tracking code and press "Save."
+In Screendoor, click on your avatar in the navigation bar, select "Your organization" from the dropdown, and choose "Google Analytics" from the sidebar. Under "Google Analytics ID," paste in your tracking code and press "Save."
 
 ![Adding your Google Analytics tracking code to Screendoor.](../images/analytics_3.png)
 

@@ -1,7 +1,12 @@
 ---
 title: Editing your payment details
 order: 4
+redirect_from: /articles/your_account/dashboard/billing.html
 ---
+
+<div class='alert'>
+    **Note**: If you have a Screendoor account, edit your credit card information by [following the instructions here](../../screendoor/your_account/billing.html#updating-your-credit-card).
+</div>
 
 ### Adding a credit card
 

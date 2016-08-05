@@ -12,7 +12,9 @@ If you create the same type of Screendoor project frequently, you can save a pro
 
 ![Choosing a template.](../images/create_project_2.png)
 
-You must be an account administrator in order to create or manage templates.
+<div class='alert'>
+    **Note**: To create or manage templates, you must be a site administrator or a user with the appropriate permissions.
+</div>
 
 ### Creating a template
 
@@ -24,9 +26,11 @@ To save an existing project as a template, visit the project's Settings page and
 
 To view your existing templates, press the "Create Project" button on the dashboard and select "Edit templates."
 
-![Managing your templates.](../images/templates_2.png)
+![Clicking "Edit templates" from the "Create project" page.](../images/templates_2.png)
 
-You can also view this page by clicking your avatar in the navigation bar, selecting "Settings" in the dropdown, and then selecting "Project templates" in the sidebar.
+Alternatively, click your avatar in the navigation bar, select "Your organization" from the dropdown. Then, select "Templates" in the sidebar.
+
+![Managing your templates.](../images/templates_3.png)
 
 From this page, you can rename and delete the templates you have created. You can also export your templates if you want to share them with other Screendoor customers.
 
@@ -34,9 +38,9 @@ All Screendoor accounts come with a few pre-installed templates for job applicat
 
 ### Previewing a template
 
-If you want to see what a template looks like before using it, click on its name on the "Project templates" page.
+If you want to see what a template looks like before using it, click on its name on the "Templates" page.
 
-![Previewing a template.](../images/templates_3.png)
+![Previewing a template.](../images/templates_4.png)
 
 Use the tabs at the top of the Preview page to view the template's project description, questions, form, and other settings. If you decide to use it, press "Create a project with this template."
 
@@ -46,9 +50,9 @@ If you want to edit a template, simply create a new project with it, make some c
 
 ### Importing templates
 
-Screendoor lets you import templates that other customers have exported. To import a template, visit the "Your templates" page, select "Import a template," and choose the template you want to import.
+Screendoor lets you import templates that other customers have exported. To import a template, visit the "Templates" page, select "Import a template," and choose the template you want to import.
 
-![Importing a template.](../images/templates_4.png)
+![Importing a template.](../images/templates_5.png)
 
 You can also preview and import a variety of project templates from [our template library](https://github.com/dobtco/screendoor-project-templates).
 
@@ -57,4 +61,4 @@ You can also preview and import a variety of project templates from [our templat
 ## F.A.Q.
 
 ### I accidentally deleted one of the pre-installed templates. Can I recover it?
-Yes! Simply click the "Restore default templates?" link at the bottom of the "Project templates" page.
+Yes! Simply click "Restore default templates" at the bottom of the "Templates" page.
