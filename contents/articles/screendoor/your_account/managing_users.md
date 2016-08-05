@@ -5,40 +5,34 @@ order: 3
 
 ### Inviting new users
 
-If you are an administrator in your organization, you can add users from the ["Account" page](https://screendoor.dobt.co/account). Scroll down to the Users section, and press the "Invite a user" button.
+If you are an admin for your organization, you can add users from the ["Account" page](https://screendoor.dobt.co/account). Scroll down to the Users section, and press the "Invite a user" button.
 
 ![Adding a user.](../images/managing_users_1.png)
 
-Fill out the form on the next page and press the "Invite this user" button.
+On the next page, enter their name and email address, along with the permissions you would like them to have. The user you invited will receive a link to sign up for an account, after which they will be added to your organization.
 
 ![Inviting a user.](../images/managing_users_2.png)
 
-The invited user will receive a link to sign up for a Screendoor account, after which they will be added to your organization.
-
 ### Managing user permissions
 
-When you add a user, you can choose the appropriate permissions for that user from the "Invite a user" page.
-
-To manage permissions for an existing user, click on their name in the Users section of the ["Account" page](https://screendoor.dobt.co/account). This will take you to a page where you can change their permissions. Be sure to press "Save changes" when you're done.
+To edit the permissions of someone you have already invited, visit the ["Account" page](https://screendoor.dobt.co/account), and click on their name in the Users section. Once you change their permissions, press the "Save changes" button.
 
 ![Changing a user's permissions.](../images/managing_users_3.png)
 
 ### Resetting a user's password
 
-Point the user to the [Signing in](signup_and_login.html) article, or have them email us at [support@dobt.co](mailto:support@dobt.co?subject=Reset password request).
+If you need to reset a user's password, have them [reset it themselves](sign_in.html#resetting-your-password). If they are still having trouble, tell them to email us at [support@dobt.co](mailto:support@dobt.co?subject=Reset password request).
 
-### Removing users
+### Removing a user from your account
 
-<div class='alert'>
-    **Note:** When you take a user off your plan, you remove them from projects they're a collaborator on. If they were the owner of a project, ownership of that project will be transferred to the owner of your organization.
-</div>
-
-In the Users section of the ["Account" page](https://screendoor.dobt.co/account), click on the delete icon next to the name of the user you would like to remove.
+On the ["Account" page](https://screendoor.dobt.co/account), scroll to the Users section, and click the Remove icon next to that user's name. Then, confirm your choice in the modal dialog that appears.
 
 ![Removing a user from the Account page.](../images/managing_users_4.png)
 
-Then, confirm you want to delete this user in the modal dialog that appears.
+<div class='alert'>
+    **Note:** When you remove a user from your account, they will no longer have access to any projects they collaborate on, and the owner of your organization will administer any projects they owned.
+</div>
 
-Alternatively, click on the user's name in the Users list, and, on the next page, click "Take [this user] off your plan," and, in the modal dialog that appears, confirm you want to delete the user.
+You can also remove users while editing them. Click on the user's name, and then click "Take [this user] off your plan" at the bottom of the next page. Finally, confirm you want to delete the user in the modal dialog that appears.
 
 ![Taking a user off your plan.](../images/managing_users_5.png)

@@ -5,7 +5,7 @@ order: 6
 
 ### Upgrading to a paid plan
 
-At the top of the ["Account" page](https://screendoor.dobt.co/account/), you can find information about your current plan. To upgrade to paid plan, press "Change your plan."
+At the top of the ["Account" page](https://screendoor.dobt.co/account/), you can find information about your current plan. To upgrade to a paid plan, press "Change your plan."
 
 ![Changing your plan.](../images/billing_1.png)
 
@@ -23,7 +23,7 @@ Finally, enter your credit card information and press "Switch to the [new] plan.
 
 ![Entering your credit card information](../images/billing_4.png)
 
-### Switching plans
+### Switching to a different plan
 
 At any time, you can switch plans from the ["Change your plan" page](https://screendoor.dobt.co/billing).
 

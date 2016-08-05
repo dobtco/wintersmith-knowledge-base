@@ -1,5 +1,5 @@
 ---
-title: Adding users to your organization
+title: Adding users to your account
 order: 2
 redirect_from: /articles/your_account/dashboard/managing_users.html
 ---
@@ -10,7 +10,7 @@ redirect_from: /articles/your_account/dashboard/managing_users.html
 
 ### Inviting new users
 
-If you are an administrator in your organization, you can add users from the ["Your organization" page](https://dashboard.dobt.co/organization/). Scroll down to the Users section, and press the "Add user" button.
+If you are an admin for your organization, you can add users from the ["Your organization" page](https://dashboard.dobt.co/organization/). Scroll down to the Users section, and press the "Add user" button.
 
 ![Adding a user.](../images/add_user.png)
 
