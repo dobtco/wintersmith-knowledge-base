@@ -1,7 +1,6 @@
 ---
 title: Enabling 2FA for added security
 order: 5
-redirect_from: /articles/your_account/dashboard/supported_browsers.html
 ---
 
 Make your account more secure by requiring an extra step for authentication. If you have a smartphone, you'll need either the [Authy](https://www.authy.com/) or [Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=en) mobile app. If you don't have a smartphone, you can use the [Authy Chrome app](https://chrome.google.com/webstore/detail/authy/gaedmjdfmmahhbjefcbgaolhhanlaolb).

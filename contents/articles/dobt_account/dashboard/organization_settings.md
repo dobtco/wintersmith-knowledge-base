@@ -1,7 +1,6 @@
 ---
 title: Changing your organization's name
 order: 3
-redirect_from: /articles/your_account/dashboard/organization_settings.html
 ---
 
 <div class='alert'>

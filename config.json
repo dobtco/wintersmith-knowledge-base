@@ -90,13 +90,27 @@
     "articles/screendoor/response_form/embedding_the_response_form.html":
     "articles/screendoor/your_form/embedding_your_form.html",
     "articles/screendoor/integrations/stripe.html": "articles/screendoor/your_form/payments.html",
-    "articles/dashboard/index.html": "articles/your_account/index.html",
-    "articles/dashboard/access/supported_browsers.html": "articles/your_account/dashboard/supported_browsers.html",
-    "articles/dashboard/accounts/billing.html": "articles/your_account/dashboard/billing.html",
-    "articles/dashboard/accounts/managing_users.html": "articles/your_account/dashboard/managing_users.html",
-    "articles/dashboard/accounts/organization_settings.html": "articles/your_account/dashboard/organization_settings.html",
-    "articles/dashboard/accounts/signup_and_login.html": "articles/your_account/dashboard/signup_and_login.html",
-    "articles/dashboard/accounts/two_factor_auth.html": "articles/your_account/dashboard/two_factor_auth.html",
-    "articles/dashboard/applications/managing_applications.html": "articles/your_account/dashboard/managing_applications.html"
+    "articles/dashboard/index.html": "articles/dobt_account/index.html",
+    "articles/dashboard/access/supported_browsers.html": "articles/dobt_account/dashboard/supported_browsers.html",
+    "articles/dashboard/accounts/billing.html": "articles/dobt_account/dashboard/billing.html",
+    "articles/dashboard/accounts/managing_users.html": "articles/dobt_account/dashboard/managing_users.html",
+    "articles/dashboard/accounts/organization_settings.html": "articles/dobt_account/dashboard/organization_settings.html",
+    "articles/dashboard/accounts/signup_and_login.html": "articles/dobt_account/dashboard/signup_and_login.html",
+    "articles/dashboard/accounts/two_factor_auth.html": "articles/dobt_account/dashboard/two_factor_auth.html",
+    "articles/dashboard/applications/managing_applications.html": "articles/dobt_account/dashboard/managing_applications.html",
+    "/articles/your_account/dashboard/supported_browsers.html":
+    "/articles/dobt_account/dashboard/supported_browsers.html",
+    "/articles/your_account/dashboard/two_factor_auth.html":
+    "/articles/dobt_account/dashboard/supported_browsers.html",
+    "/articles/your_account/dashboard/organization_settings.html":
+    "/articles/dobt_account/dashboard/organization_settings.html",
+    "/articles/your_account/dashboard/billing.html":
+    "/articles/dobt_account/dashboard/billing.html",
+    "/articles/your_account/dashboard/managing_applications.html":
+    "/articles/dobt_account/dashboard/managing_applications.html",
+    "/articles/your_account/dashboard/managing_users.html":
+    "/articles/dobt_account/dashboard/managing_users.html",
+    "/articles/your_account/dashboard/signup_and_login.html":
+    "/articles/dobt_account/dashboard/signup_and_login.html"
   }
 }

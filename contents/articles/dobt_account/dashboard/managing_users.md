@@ -1,7 +1,6 @@
 ---
 title: Adding users to your account
 order: 2
-redirect_from: /articles/your_account/dashboard/managing_users.html
 ---
 
 <div class='alert'>
