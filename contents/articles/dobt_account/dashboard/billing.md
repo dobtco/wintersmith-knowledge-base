@@ -1,7 +1,6 @@
 ---
 title: Editing your payment details
 order: 4
-redirect_from: /articles/your_account/dashboard/billing.html
 ---
 
 <div class='alert'>
