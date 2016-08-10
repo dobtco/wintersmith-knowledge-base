@@ -40,9 +40,9 @@ Enter the email addresses of the collaborators you wish to invite, one collabora
 
 ### Inviting everyone in your organization
 
-By default, members of your organization can't access the projects you create, unless you invite them. You can allow everyone in your organization to view responses, rate, or even adminster your project with the alert at the top of the Collaborators page.
+By default, members of your organization can't access the projects you create unless you invite them. You can allow everyone in your organization to view responses, rate, or even administer your project with the alert at the bottom of the Collaborators page.
 
-On the right side of the "Unless listed below&hellip;" alert, above the table of collaborators, press the Change button. Select the permissions you want your organization to have by default, and press Save.
+Below the table of collaborators, select the permissions you want your organization to have by default.
 
 ![Changing permissions for your organization.](../images/collabs_7.png)
 
