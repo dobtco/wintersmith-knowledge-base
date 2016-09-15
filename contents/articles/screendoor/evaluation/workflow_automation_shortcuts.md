@@ -1,6 +1,6 @@
 ---
 title: Automating your workflow with shortcuts
-order: 6
+order: 7
 app_pages:
   - projectadmin-shortcuts-index
 ---
