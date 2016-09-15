@@ -1,6 +1,6 @@
 ---
 title: Adding notes with hidden fields
-order: 4
+order: 5
 app_pages:
   - projectadmin-wizard-responseform
 ---

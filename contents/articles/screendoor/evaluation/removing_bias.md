@@ -1,6 +1,6 @@
 ---
 title: Removing bias with blind fields
-order: 5
+order: 6
 app_pages:
   - projectadmin-wizard-responseform
   - projectadmin-responses-index
