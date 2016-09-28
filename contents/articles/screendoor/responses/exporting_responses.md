@@ -18,7 +18,7 @@ A modal dialog will appear. Under Format, choose how you would like to receive y
 
 ![The Export Responses modal.](../images/export_2.png)
 
-By default, exports do not contain uploaded attachments. If you want to export files uploaded from your respondents, select "Attachments" from the Format dropdown.
+By default, exports do not contain uploaded attachments. If you want to export files uploaded from your respondents, select "Attachments" from the list of options under "Include."
 
 Once you have configured your export, press the "Download" button to begin the export process.
 
