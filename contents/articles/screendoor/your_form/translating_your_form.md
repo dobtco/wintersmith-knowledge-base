@@ -2,7 +2,8 @@
 title: Translating your form
 order: 8
 app_pages:
-  - projectadmin-settings-settings
+  - projectadmin-wizard-responseform
+  - projectadmin-languages-index
 ---
 
 <div class='alert'>
@@ -17,42 +18,51 @@ If you did not build your form in English, choose the language you used from the
 
 ![Choosing a primary language.](../images/translate_1.png)
 
-Then, under "Add a new language to translate," select the language you would like to translate your form into and press “Add.”
+Under "Add a new language to translate," select the language you would like to translate your form into and press “Add.”
 
 ![Adding a new language.](../images/translate_2.png)
 
-A menu for your language will appear.
+A translation module for this language will appear.
 
 ![URL to translation page.](../images/translate_3.png)
 
-Press “Go&rarr;” to visit the page to add your translations. Alternatively, you could email the link to a translator. (They do not need to sign up for Screendoor to access this page.)
+Press “Go&rarr;” to visit the page to add your translation. Alternatively, you could email the URL to a translator. (They do not need to sign up for Screendoor to access this page.)
 
+Follow the steps on the translation page:
 
 ![The translation page.](../images/translate_4.png)
 
-Once you've followed the steps on the page, return to "Translations" settings page. You'll see that all of the translations for this language are now up to date.
+When the translated spreadsheet upload is complete, a success message will appear in the lower-right corner of the page.
 
-![Up to date translations](../images/translate_5.png)
+![Flash notification of updated keys.](../images/translate_5.png)
+
+You can also return to the "Translations" settings page to confirm that your translations for this language are now up to date.
+
+![Up to date translations](../images/translate_6.png)
 
 ### Updating translations
 
-If you modify your project page or form, Screendoor will let you know whether your translations are out of date. On the "Translations" settings page, you can find the number of missing translations next to each language you've added to your project. To update your translations, press “Go→” to visit the page to update your translations. You'll follow the same steps you took to [add your initial translations](#adding-a-translation).
+If you modify your project page or form, Screendoor will let you know whether your translations are out of date. On the "Translations" settings page, you can find the number of missing translations next to each language you've added to your project.
 
-![Missing translations](../images/translate_6.png)
+To update your translations, press “Go→” to visit the page to update your translations. You'll follow the same steps you took to [add your initial translations](#adding-a-translation).
+
+![Missing translations](../images/translate_7.png)
 
 ### Removing translations
 
-Press the delete icon next to the language you would like to remove from your project.
+On the “Translations” settings page, press the delete icon next to the language you would like to remove from your project.
 
-### Respondent view
+![Removing a language](../images/translate_8.png)
 
-When a respondent visits your Forms.fm URL, the form will appear in the language of their choice (as configured by their browser settings).
+### Viewing a translated form
 
-![Translated Forms.fm form]()
+When a respondent visits your form on Forms.fm, it will appear in the language of their choice (as determined by their browser's language preferences).
 
-Respondents can also manually change the language of a Forms.fm form by clicking the language dropdown in the lower-right corner of the page and choosing their desired language.
+![Translated Forms.fm form](../images/translate_9.png)
 
-![Language dropdown in Forms.fm]()
+Respondents can also manually change the language of a Forms.fm form by selecting their desired language from the dropdown at the bottom of the page.
+
+![Language dropdown in Forms.fm](../images/translate_10.png)
 
 ---
 
