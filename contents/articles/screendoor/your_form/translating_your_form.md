@@ -22,7 +22,7 @@ Under "Add a new language to translate," select the language you would like to t
 
 ![Adding a new language.](../images/translate_2.png)
 
-A translation module for this language will appear.
+An element for this language will appear.
 
 ![URL to translation page.](../images/translate_3.png)
 
@@ -72,9 +72,9 @@ Respondents can also manually change the language of a Forms.fm form by selectin
 
 Questions pages aren't available in translated projects.
 
-### Can I notify respondents of status changes in a translated project?
+### Can I automatically notify respondents of status changes in a translated project?
 
-Since status cannot be translated, we do not support automatic of status change notification in translated projects.
+Since statuses cannot be translated, we do not support status change notifications in translated projects.
 
 ### Can I embed a translated project?
 
