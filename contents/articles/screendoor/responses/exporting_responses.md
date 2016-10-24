@@ -20,6 +20,8 @@ A modal dialog will appear. Under Format, choose how you would like to receive y
 
 By default, exports do not contain uploaded attachments. If you want to export files uploaded from your respondents, select "Attachments" from the list of options under "Include."
 
+Other export options include "Overall ratings" and "All individual ratings." If you select "Overall ratings," your export will include the average overall rating, your overall rating, and—for each rating field—your rating and the average rating. If you choose "All individual ratings," your export will contain a separate file with every reviewer's ratings for each response.
+
 Once you have configured your export, press the "Download" button to begin the export process.
 
 ### Exporting all responses
