@@ -33,7 +33,7 @@ for example:
 
 ## Development
 
-You'll need [node and npm](http://nodejs.org) installed.
+You'll need [node](https://nodejs.org), [npm](https://npmjs.com) and [Bundler](https://bundler.io) installed.
 
 1. `script/bootstrap`
 2. Run the preview server: `wintersmith preview`
